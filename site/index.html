@@ -63,19 +63,11 @@
     </header>
 
     <figure class="media" id="video">
-      <video id="project-video" autoplay muted loop playsinline controls preload="auto" poster="assets/osu-lab_video_poster.jpg" width="1920" height="1080" aria-label="osu-lab project video" aria-describedby="video-caption video-scope">
+      <video id="project-video" autoplay muted loop playsinline controls preload="auto" poster="assets/osu-lab_video_poster.jpg" width="1920" height="1080" aria-label="osu-lab project video" aria-describedby="video-caption">
         <source src="assets/osu-lab_video.mp4" type="video/mp4">
         Your browser does not support inline video. <a href="assets/osu-lab_video.mp4">Watch the project video</a>.
       </video>
-      <figcaption>
-        <p id="video-caption"><span class="fig">Video.</span> Recorded simulator play redrawn in a custom skin, followed by the study design and results. The agent did not see this skin; the 1,024-game mosaic illustrates training with a final policy. The three-agent clip illustrates one development-set map, not the test-set comparison. Silent, 33 seconds.</p>
-        <p id="video-scope">Results concern one generator, one training budget and three replicate sets; more maps also mean fewer repetitions. The slope is 3/8 of the 16-versus-4,096 contrast, whose paired-replicate 95% interval includes zero, so uncertainty depends on the error model. No claim about human-made maps follows. Internal review exceeded the preregistered cap under owner-approved D1.</p>
-        <details class="video-description">
-          <summary>Video description</summary>
-          <p>A pixelated game view is followed by a blue aim-probability grid. A diagonal wave reveals the same recorded play at full resolution, with a small pixelated inset. The view pulls back into 1,024 simulated games using a final policy. Grids show the three practice-map pools; the three replicate-1 agents then play the same development-set map. Their failure counters reach 18, 2 and 0 during the shown eight seconds; this illustrative clip is separate from the aggregate study result. A chart summarizes failures per object on new generated maps and each agent's own practice maps. The Abstract below gives the preregistered estimate, uncertainty and scope. The video ends with the project title and James Liu's name.</p>
-        </details>
-        <span class="credit">Video: James Liu, osu-lab. CC BY 4.0. <a href="assets/osu-lab_video.mp4">Open video</a></span>
-      </figcaption>
+      <figcaption id="video-caption">Recorded simulator play in a custom skin, followed by a brief study overview.</figcaption>
     </figure>
 
     <section class="abstract" aria-labelledby="abstract-title">
@@ -474,8 +466,9 @@ python tools/verify_documents.py</code></pre>
           <li>Release-authored documentation: CC BY 4.0.</li>
         </ul>
         <p>These grants cover only rights James Liu holds. They grant nothing in osu! or ppy names, game textures, fonts or music, community maps or other third-party material, and adapted upstream code keeps its own notices.</p>
-        <h3>Figures on this page</h3>
+        <h3>Figures and video on this page</h3>
         <p>Figures 3 to 5 are the study&rsquo;s charts, shown unchanged; Figure 1 is the release&rsquo;s architecture diagram; Figure 2 is drawn for this site from the release&rsquo;s example maps. These five figures are not screenshots or recordings of play. The project video redraws recorded simulator play with its own custom skin; it does not show the agent’s original input frames. No game or community-skin artwork, font files, private recordings or checkpoints are distributed.</p>
+        <p>Video: James Liu, osu-lab. CC BY 4.0. The 1,024-game mosaic illustrates training with a final policy; the three-agent clip shows one development-set map, not the test-set comparison. <a href="assets/osu-lab_video.mp4">Open video</a>.</p>
         <h3>Citation</h3>
         <div class="code-block">
 <pre id="bibtex"><code>@misc{liu2026practice,

@@ -50,7 +50,7 @@
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
             "autoplayWithoutInteraction": true,
-            "firstPlayingMs": 362,
+            "firstPlayingMs": 171,
             "duration": 33,
             "muted": true,
             "defaultMuted": true,
@@ -67,10 +67,12 @@
             "videoAspectRatio": 1.778,
             "videoError": null,
             "captionQualified": true,
+            "descriptionRemoved": true,
+            "scopePreserved": true,
+            "oneSentence": true,
             "loopRestarted": true,
             "pausePersists": true,
             "resumeWorks": true,
-            "descriptionOpens": true,
             "posterStatus": 200
           },
           {
@@ -79,7 +81,7 @@
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
             "autoplayWithoutInteraction": true,
-            "firstPlayingMs": 177,
+            "firstPlayingMs": 162,
             "duration": 33,
             "muted": true,
             "defaultMuted": true,
@@ -96,68 +98,12 @@
             "videoAspectRatio": 1.778,
             "videoError": null,
             "captionQualified": true,
+            "descriptionRemoved": true,
+            "scopePreserved": true,
+            "oneSentence": true,
             "loopRestarted": true,
             "pausePersists": true,
             "resumeWorks": true,
-            "descriptionOpens": true,
-            "posterStatus": 200
-          },
-          {
-            "viewport": "768x1024",
-            "theme": "light",
-            "title": "osu-lab: practice diversity in a pixel-input osu! agent",
-            "meaningful": true,
-            "autoplayWithoutInteraction": true,
-            "firstPlayingMs": 200,
-            "duration": 33,
-            "muted": true,
-            "defaultMuted": true,
-            "loop": true,
-            "playsInline": true,
-            "controls": true,
-            "preload": "auto",
-            "width": 1920,
-            "height": 1080,
-            "sourceWithinBase": true,
-            "posterWithinBase": true,
-            "noHorizontalOverflow": true,
-            "videoWithinViewport": true,
-            "videoAspectRatio": 1.778,
-            "videoError": null,
-            "captionQualified": true,
-            "loopRestarted": true,
-            "pausePersists": true,
-            "resumeWorks": true,
-            "descriptionOpens": true,
-            "posterStatus": 200
-          },
-          {
-            "viewport": "768x1024",
-            "theme": "dark",
-            "title": "osu-lab: practice diversity in a pixel-input osu! agent",
-            "meaningful": true,
-            "autoplayWithoutInteraction": true,
-            "firstPlayingMs": 195,
-            "duration": 33,
-            "muted": true,
-            "defaultMuted": true,
-            "loop": true,
-            "playsInline": true,
-            "controls": true,
-            "preload": "auto",
-            "width": 1920,
-            "height": 1080,
-            "sourceWithinBase": true,
-            "posterWithinBase": true,
-            "noHorizontalOverflow": true,
-            "videoWithinViewport": true,
-            "videoAspectRatio": 1.778,
-            "videoError": null,
-            "captionQualified": true,
-            "loopRestarted": true,
-            "pausePersists": true,
-            "resumeWorks": true,
-            "descriptionOpens": true,
             "posterStatus": 200
           },
           {
@@ -166,7 +112,7 @@
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
             "autoplayWithoutInteraction": true,
-            "firstPlayingMs": 193,
+            "firstPlayingMs": 206,
             "duration": 33,
             "muted": true,
             "defaultMuted": true,
@@ -183,10 +129,12 @@
             "videoAspectRatio": 1.778,
             "videoError": null,
             "captionQualified": true,
+            "descriptionRemoved": true,
+            "scopePreserved": true,
+            "oneSentence": true,
             "loopRestarted": true,
             "pausePersists": true,
             "resumeWorks": true,
-            "descriptionOpens": true,
             "posterStatus": 200
           },
           {
@@ -195,7 +143,7 @@
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
             "autoplayWithoutInteraction": true,
-            "firstPlayingMs": 187,
+            "firstPlayingMs": 169,
             "duration": 33,
             "muted": true,
             "defaultMuted": true,
@@ -212,10 +160,12 @@
             "videoAspectRatio": 1.778,
             "videoError": null,
             "captionQualified": true,
+            "descriptionRemoved": true,
+            "scopePreserved": true,
+            "oneSentence": true,
             "loopRestarted": true,
             "pausePersists": true,
             "resumeWorks": true,
-            "descriptionOpens": true,
             "posterStatus": 200
           }
         ],
@@ -239,7 +189,7 @@
       "playsinline": true,
       "preload": "auto",
       "controls": true,
-      "scope": "Approved custom-skin redrawing of simulator states with adjacent limitations; separate from original agent input pixels"
+      "scope": "Approved custom-skin redrawing of simulator states; descriptive caption, video context in Credits and scientific limitations in main text"
     },
     "chart_bytes_preserved": true
   },
@@ -2311,8 +2261,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "9ff8f1c5ed0c8f07f464d9591c9eed754187245995c07832c8de33ca8fa5849b",
-      "bytes": 4796,
+      "sha256": "9e9f877d8de8cd684508a456bd317f02f5cd3341e05327698cf3fc7ce39ef0df",
+      "bytes": 4823,
       "role": "repository usage, rights or deployment file",
       "license_scope": "CC BY4.0 release-authored documentation",
       "provenance": {
@@ -2335,8 +2285,8 @@
     },
     {
       "path": "LICENSES.md",
-      "sha256": "036dda230810b34bde5707122f49c8edcfd2e051aa841fe4dd3159db8d51d2a1",
-      "bytes": 2225,
+      "sha256": "e73f2778d91ed5cf2476fbc7f01e3326c715b4a086dd4ac7ec2c1be868bc3f2a",
+      "bytes": 2240,
       "role": "repository usage, rights or deployment file",
       "license_scope": "CC BY4.0 release-authored documentation",
       "provenance": {
@@ -2531,14 +2481,14 @@
     },
     {
       "path": "site/assets/site.css",
-      "sha256": "aa623af4cac83fc78771c63bb554b97b7d02f81bb08844fb50e86eee1cf640fe",
-      "bytes": 18751,
+      "sha256": "48943568a3e1ac03d914696db681d5c5ca34e4d9d273d6c0c0c803a5ec1edd30",
+      "bytes": 18533,
       "role": "verified website file",
       "license_scope": "Release-authored website code: MIT release-utility scope (LICENSE).",
       "provenance": {
         "source": "verified website export",
         "relationship": "byte-identical to approved export",
-        "export_sha256": "aa623af4cac83fc78771c63bb554b97b7d02f81bb08844fb50e86eee1cf640fe"
+        "export_sha256": "48943568a3e1ac03d914696db681d5c5ca34e4d9d273d6c0c0c803a5ec1edd30"
       }
     },
     {
@@ -2555,14 +2505,14 @@
     },
     {
       "path": "site/index.html",
-      "sha256": "b5701ad873092394851da7b99da76eaee4b5a2144639880b802d257d3511bbeb",
-      "bytes": 58716,
+      "sha256": "c8d428dd1f4163d644aa4dae2968a0d8f307cde6cb08c989c411396dec0c50ef",
+      "bytes": 57319,
       "role": "verified website file",
       "license_scope": "Release-authored website text and markup: documentation scope, CC BY 4.0 (software/LICENSE-DOCS.md). Quotes James Liu's approved contribution statement verbatim. Figure 2 inside it is drawn from the three CC0-1.0 example maps.",
       "provenance": {
         "source": "verified website export",
         "relationship": "byte-identical to approved export",
-        "export_sha256": "b5701ad873092394851da7b99da76eaee4b5a2144639880b802d257d3511bbeb"
+        "export_sha256": "c8d428dd1f4163d644aa4dae2968a0d8f307cde6cb08c989c411396dec0c50ef"
       }
     }
   ],
@@ -2575,5 +2525,5 @@
     "uncleared game assets",
     "unverified website output"
   ],
-  "integration_revision": 7
+  "integration_revision": 8
 }
