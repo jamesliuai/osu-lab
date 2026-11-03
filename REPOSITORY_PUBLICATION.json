@@ -2293,8 +2293,8 @@
     },
     {
       "path": ".github/workflows/pages.yml",
-      "sha256": "44a6075b58d69c083490c50b4fa69cdff08222be4da18c9d42337db23d11a8fc",
-      "bytes": 1197,
+      "sha256": "ec4dec3c9d362d0bc1862d4b22c339f5653dad6a10c2fbdcaa4577904fcb4ccf",
+      "bytes": 1463,
       "role": "repository usage, rights or deployment file",
       "license_scope": "MIT release utility",
       "provenance": {
@@ -2305,8 +2305,8 @@
     },
     {
       "path": "deployment/README.md",
-      "sha256": "43e7d99d5e88e0d7037cffd18de25d3373b07f340016c195893d064b9d30cbd3",
-      "bytes": 2851,
+      "sha256": "b4a9f8de47250f47588cd5ab37b6d23778bd361b842177656b1c03b0ebd327d4",
+      "bytes": 3077,
       "role": "repository usage, rights or deployment file",
       "license_scope": "CC BY4.0 release-authored documentation",
       "provenance": {

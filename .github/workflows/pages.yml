@@ -19,10 +19,15 @@ jobs:
         run: python3 -I -S -B tools/verify_publication.py --site
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Archive the exact verified site including its empty marker
+        run: tar --directory site --create --file "$RUNNER_TEMP/artifact.tar" .
       - name: Upload only the verified static site
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
-          path: site
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
   deploy:
     needs: build
     runs-on: ubuntu-latest
