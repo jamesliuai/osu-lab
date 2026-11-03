@@ -1,0 +1,23 @@
+{
+  "schema": "generated_fixture_summary_v1",
+  "maps": 10,
+  "cases": 72,
+  "recorded_native_steps": 77323,
+  "recorded_mismatched_steps": 0,
+  "native_judgement_totals": {
+    "Great": 1553,
+    "LargeTickHit": 156,
+    "Meh": 9,
+    "Miss": 51,
+    "Ok": 268,
+    "SliderTailHit": 348,
+    "spin_hit": 162
+  },
+  "basis": "Aggregated from the individual immutable tests/data/cases JSON records listed in the public manifest.",
+  "interpretation": "Historical recorded comparison, not a new independent native per-step replay. Per-step events are absent.",
+  "coverage_gaps": [
+    "No slider-tick, slider-tail, or spinner misses",
+    "No generated early-press variant",
+    "Spinner grades, score, positions and pixels are not covered"
+  ]
+}

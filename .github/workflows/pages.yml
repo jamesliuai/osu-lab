@@ -1,0 +1,39 @@
+# Guarded manual deployment of the verified site. No automatic trigger.
+# Reference: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+name: Publish verified osu-lab site
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.repository == 'jamesliuai/osu-lab'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout allowlisted repository
+        uses: actions/checkout@v6
+      - name: Require verified website publication inventory
+        run: python3 -I -S -B tools/verify_publication.py --site
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload only the verified static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified Pages artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

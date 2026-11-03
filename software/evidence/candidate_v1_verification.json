@@ -1,0 +1,64 @@
+{
+  "schema": "release_verification_v1",
+  "candidate": "0.1.0rc2",
+  "date": "2026-11-01",
+  "study_results_included": false,
+  "tested_wheel_sha256": "1768e6f17be2a34b6f7784f7f584df6297d144d885437200f841aa4cf3839330",
+  "cpu_example": "PASS: generated-map creation, conversion and scripted simulation",
+  "tests": {
+    "generated_conformance": {
+      "passed": 107,
+      "failed": 0,
+      "skipped": 0
+    },
+    "release_interfaces": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0
+    },
+    "synthetic_analysis": {
+      "passed": 9,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "other_checks": [
+    "Generated recipe pools (small smoke sizes), pool disjointness and portable config construction passed",
+    "Standalone labelled synthetic analysis demonstration passed",
+    "Spawned generation worker imported installed release modules only",
+    "All module-origin reports exist and were independently checked after processes exited",
+    "Original selected source files and immutable fixture hashes checked without importing original modules"
+  ],
+  "isolation": {
+    "cuda_visible": false,
+    "cuda_initialized": false,
+    "cpu_threads": 1,
+    "private_source_imported": false,
+    "original_editable_pth_processed": false,
+    "dependencies": "Read-only reuse of existing binary dependencies from a separate local validation environment. Original environment unchanged.",
+    "source_access_guard": "Validation parent rejects reads under original src, datasets, runs, agent_v2 and game. Spawned generation worker origins checked separately."
+  },
+  "simulation_environment": {
+    "python": "3.12.10",
+    "platform": "Windows",
+    "numpy": "2.5.3",
+    "numba": "0.68.0",
+    "llvmlite": "0.50.0",
+    "torch": "2.10.0+cu126",
+    "pytest": "9.1.1"
+  },
+  "standalone_analysis_environment": {
+    "python": "3.13.5",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pytest": "9.0.3"
+  },
+  "not_validated": [
+    "Fresh network dependency installation",
+    "CPU-only PyTorch wheel",
+    "Other operating systems",
+    "Full calibrated renderer and uncleared assets",
+    "GPU training or study-sized pool generation",
+    "Actual final study analysis, final study outputs, and policy demos"
+  ]
+}

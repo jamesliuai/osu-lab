@@ -1,0 +1,62 @@
+{
+  "schema": "release_verification_v2",
+  "candidate": "0.1.0rc6",
+  "candidate_revision": 5,
+  "study_results_included": true,
+  "runtime_validation": {
+    "executed_candidate": "0.1.0rc2",
+    "runtime_tests_rerun": false,
+    "basis": "All retained simulation, training, generator, examples, tests and fixtures match the executed candidate_v1 bytes. Runtime checks are inherited. Added study evidence, metadata, docs and standard-library verification tooling are checked separately.",
+    "test_counts": {
+      "generated_conformance": {
+        "passed": 107,
+        "failed": 0,
+        "skipped": 0
+      },
+      "release_interfaces": {
+        "passed": 7,
+        "failed": 0,
+        "skipped": 0
+      },
+      "synthetic_analysis": {
+        "passed": 9,
+        "failed": 0,
+        "skipped": 0
+      }
+    },
+    "cpu_example": "historical PASS; verbatim stdout is included",
+    "public_evidence": [
+      {
+        "path": "evidence/candidate_v1_verification.json",
+        "sha256": "082c46514454767bb717900d68f3a4685e3270554e10624da7f58f76f4d33c99"
+      },
+      {
+        "path": "evidence/test_result_summary.json",
+        "sha256": "26d3cfd3eff686a1893cee190d25e0f65bb05ce553cdf7c207ae762ecc5616d8"
+      }
+    ]
+  },
+  "revision_validation": "New v5 exact105-file owner-license scope checks, branding/contribution metadata, document provenance/hash/link checks, public-only evidence/figures, source/ZIP/wheel agreement and prior-candidate preservation. All14 final PDF pages visually checked and303 text/cell checks passed. Runtime code/examples/fixtures/tests unchanged: priorv1 CPU and107+7+9 tests inherited; no training, study/audit or completed scientific review rerun.",
+  "not_validated": [
+    "Fresh network dependency installation",
+    "CPU-only PyTorch wheel",
+    "Other operating systems",
+    "Full calibrated renderer and uncleared assets",
+    "GPU training or study-sized pool generation",
+    "Independent authentication of omitted raw study inputs, checkpoint execution or full frozen-study reproduction"
+  ],
+  "documents": {
+    "report_pages": 13,
+    "summary_pages": 1,
+    "author": "James Liu",
+    "fonts": "Permitted Bitstream Vera subsets with exact license attached; no game-renderer assets",
+    "visual_inspection": "All final pages inspected; detailed private verification recorded separately.",
+    "project": "osu-lab",
+    "license": "CC-BY-4.0; owner-held rights only, exact applied scope",
+    "notice_attachments": [
+      "Bitstream-Vera.txt",
+      "LICENSE-STUDY.md",
+      "CC-BY-4.0.txt"
+    ]
+  }
+}

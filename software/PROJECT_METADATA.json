@@ -1,0 +1,49 @@
+{
+  "schema": "public_release_decisions_v1",
+  "author": "James Liu",
+  "public_project_name": "osu-lab",
+  "distribution_name": "osu-sim",
+  "import_name": "osu_sim",
+  "contribution_statement": "I developed and integrated a reinforcement-learning system for procedurally generated osu! maps, and designed and ran a study of how practice-map diversity affects generalization. The system adapts upstream osu! and osu-framework rules and uses established PPO and recurrent-network methods.",
+  "rights_boundary": "Only rights held by James Liu; no extension to third-party code, excluded assets or rights not held by the owner.",
+  "destinations": {
+    "repository": "https://github.com/jamesliuai/osu-lab",
+    "downloads": "https://github.com/jamesliuai/osu-lab/releases/tag/v0.1.0rc6",
+    "website": "https://jamesliuai.github.io/osu-lab/"
+  },
+  "D1": "approved retrospectively; internal review beyond preregistered cap remains disclosed",
+  "publication_authorized": false,
+  "candidate": "0.1.0rc6",
+  "candidate_revision": 5,
+  "decision_basis": "Explicit owner instruction; exact license approval basis is the included approved candidate_v4 ledger.",
+  "applied_license_counts": {
+    "CC0-1.0": 92,
+    "CC-BY-4.0": 13
+  },
+  "public_evidence": [
+    {
+      "path": "evidence/APPROVED_V4_LICENSE_SCOPE.json",
+      "sha256": "9cf6ae185e9b0ad13927a5d97e052b3c5ba4c96cec68a5aa6efe60a9a8c40adf",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    },
+    {
+      "path": "LICENSE-DATA.md",
+      "sha256": "812ef6827d5d547034e67dbf1a0c6a22de702fb396a78487dcca0b0872310964",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    },
+    {
+      "path": "LICENSE-STUDY.md",
+      "sha256": "01c751f00402825a59b8341f98c05d8bbc9720383d7ea387b0de924c77a7f519",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    },
+    {
+      "path": "docs/CONTRIBUTIONS.md",
+      "sha256": "85505c8753a55efc2a149d2e0b111ab6a07c45a4123c4018efa4616683367cbd",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    }
+  ]
+}

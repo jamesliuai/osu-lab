@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Procedural generator to simulation, observation, policy and action loop">
+<rect width="1200" height="300" fill="#f4f6f8"/>
+<g fill="#ffffff" stroke="#334155" stroke-width="2"><rect x="25" y="90" width="210" height="100" rx="12"/><rect x="290" y="90" width="210" height="100" rx="12"/><rect x="555" y="90" width="260" height="100" rx="12"/><rect x="870" y="90" width="300" height="100" rx="12"/></g>
+<g font-family="sans-serif" font-size="22" text-anchor="middle" fill="#162032"><text x="130" y="132">Procedural</text><text x="130" y="162">map generator</text><text x="395" y="132">Judgement</text><text x="395" y="162">simulation</text><text x="685" y="132">Rendered observation</text><text x="685" y="162">+ command history</text><text x="1020" y="132">Recurrent policy</text><text x="1020" y="162">cursor + held keys</text></g>
+<g fill="none" stroke="#2563eb" stroke-width="3"><path d="M235 140H280m-10-7 10 7-10 7M500 140H545m-10-7 10 7-10 7M815 140H860m-10-7 10 7-10 7M1020 190v55H395v-45m-7 10 7-10 7 10"/></g>
+<text x="705" y="279" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#334155">Absolute cursor control; generated content; diagram is not gameplay footage</text>
+</svg>

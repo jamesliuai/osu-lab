@@ -1,0 +1,2436 @@
+{
+  "schema": "public_artifact_manifest_v2",
+  "candidate": "0.1.0rc6",
+  "candidate_revision": 5,
+  "date": "2026-11-01",
+  "status": "local_candidate_owner_decisions_applied_publication_separate",
+  "publication_authorized": false,
+  "prior_candidate": "candidates_v1_v2_v3_v4 preserved byte-for-byte",
+  "selection": "Explicit inherited candidate_v4 allowlist plus eight individually reviewed owner-decision/license-notice/verifier additions; no website or original-repository copy.",
+  "scope": "osu-lab explicit software/generated-data/accepted-evidence/document export. Owner grants applied to exact approved scope; no game assets, weights, raw sealed inputs or website payload. Separate repository staging inventories site/deployment files.",
+  "license_scope": "MIT software; CC BY4.0 release documentation; exact approved92 CC0 and13 CC BY owner-held-rights grants applied. Third-party code/font notices retained; excluded assets not granted.",
+  "manifest_convention": "Payload only; SHA256SUMS covers payload plus this manifest and excludes itself. Registry and evidence never hash these wrappers.",
+  "date_timezone": "America/Los_Angeles",
+  "public_project_name": "osu-lab",
+  "distribution_name": "osu-sim",
+  "files": [
+    {
+      "path": "CLAIM_REGISTRY.json",
+      "bytes": 62741,
+      "sha256": "383f90b9eb35b4394d2b759117df92f331a934c41c1a2746317c196b4b534756",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "421b9e21e0b5f701d684fc7a41109af5c79b8f90f6a3b4bba380bf2a98e77b40"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1414,
+      "sha256": "e9b32091b469007b68d2e54b2e39d235e18b938a327ee5ae02338ab6f3abde89",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "e9b32091b469007b68d2e54b2e39d235e18b938a327ee5ae02338ab6f3abde89"
+    },
+    {
+      "path": "LICENSE-DATA.md",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "812ef6827d5d547034e67dbf1a0c6a22de702fb396a78487dcca0b0872310964",
+      "bytes": 1747
+    },
+    {
+      "path": "LICENSE-DOCS.md",
+      "bytes": 1094,
+      "sha256": "4e587a73470feb101bf20c5aa3d569e14685d218cc7a4c6c5163aa1a2d739127",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "27ecba18da129b0d9359308bd93a1fc5cb95b98a15db4fa709987adeae3977f8"
+    },
+    {
+      "path": "LICENSE-STUDY.md",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "01c751f00402825a59b8341f98c05d8bbc9720383d7ea387b0de924c77a7f519",
+      "bytes": 2066
+    },
+    {
+      "path": "PROJECT_METADATA.json",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "59acb35027672bd9b41d525023b6c6d6f756240b7f0cc59b1914e95a70dcc805",
+      "bytes": 2253
+    },
+    {
+      "path": "README.md",
+      "bytes": 5690,
+      "sha256": "ae991e25f47cef2030ecfefaddaa269327d3b2dc9cc039120be92c62db5a7f2b",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "155c0ed51cf9c88943ce9a3ca7bad6fb0283ae925103684886b6d0e013ef2e3f"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3327,
+      "sha256": "a6ba5b743bb8cf67a57ed7ed580efe4ec1072d05e5a0704b3deb6dcd167304f5",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "f41e5648e74d98feac427e6f96d93f017ec96c0a09d41d405aa6cf5a1d3c4e6a"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 2574,
+      "sha256": "8bf3fb70a99a772f9f85041f57928c4511d478190153060daac5c8ee9aae862f",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "01830ba4c213eadf21e1088225f4b6af958aa3989a80cddd395bf0a9d4b32a3e"
+    },
+    {
+      "path": "docs/ASSETS_AND_LICENSE_SCOPE.md",
+      "bytes": 4082,
+      "sha256": "cc636443ffd571c1a41841028a1bc8df791b07ad41cb4188380402ddc26e84fb",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "d2217fbb5a595e424199d0544b352b97aa9de7637a112dc1cae802e37fff840c"
+    },
+    {
+      "path": "docs/CLAIM_PROVENANCE.md",
+      "sha256": "a9d4c3946406a3b18184cba24c5861547823d771c1ce68e307562a6c57cec103",
+      "bytes": 2869,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New release metadata/evidence/tool; original archival records and candidate_v1 remain unchanged.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "a9d4c3946406a3b18184cba24c5861547823d771c1ce68e307562a6c57cec103"
+    },
+    {
+      "path": "docs/CONFORMANCE.md",
+      "bytes": 1607,
+      "sha256": "4400fa37682ed39edbca67fdb0a527b6c6e7d8248bbd818a575ddca3da36b129",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "4400fa37682ed39edbca67fdb0a527b6c6e7d8248bbd818a575ddca3da36b129"
+    },
+    {
+      "path": "docs/CONTRIBUTIONS.md",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "85505c8753a55efc2a149d2e0b111ab6a07c45a4123c4018efa4616683367cbd",
+      "bytes": 834
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "bytes": 2563,
+      "sha256": "04a3572e50ed10bcd38c741ba76fae76a9e939110204963d9eb3e9e811273b3d",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "04a3572e50ed10bcd38c741ba76fae76a9e939110204963d9eb3e9e811273b3d"
+    },
+    {
+      "path": "docs/FIXTURE_LICENSE_PROPOSAL.md",
+      "sha256": "69ee15d6fc4388a95958c1f986bfaa6204b72e200d7273d182d26fe5ba4cb44e",
+      "bytes": 1359,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New release metadata/evidence/tool; original archival records and candidate_v1 remain unchanged.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "3fb8d712603150001d5c907db9343afc6c2e0ad92a6df72b38096adbd24392bd"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "bytes": 1408,
+      "sha256": "254f56e542d82d6907c8b5fcceabc4ddff36d3341373fcfabaebdc420c67b46c",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "254f56e542d82d6907c8b5fcceabc4ddff36d3341373fcfabaebdc420c67b46c"
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "e88a1b69ea488b9edc80825741c51065b2495ed595f11d5a4baf67e4fb9f96c4",
+      "bytes": 3350,
+      "prior_candidate_sha256": "3ca389157562e3711d0e55a679285d95d7b7e7cef193be218f691e02a8fba31e"
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.pdf",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "7d257717a8ee1106ccd1b7b40f475f22a320ebf1b86941fa8df6a5222712ab3f",
+      "bytes": 174069,
+      "prior_candidate_sha256": "37f94e2b37de4e41099903e15d9fe27ede98cf114d2208a4b2ae56ef64cb558c"
+    },
+    {
+      "path": "docs/RELEASE_CHANGES.md",
+      "bytes": 4162,
+      "sha256": "dcdc361ca25ce0b7eb19fc9740ee14b7b4550a8bc824615130d37bd4030583cf",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "34e4859e2244020bf49cb70258eda8f472fbf31a34492b3aad281b94d7960627"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "587d56437a63c09610901b62c830252ecc58fdc6cb1ff4c5430725c1a9bb3e91",
+      "bytes": 40809,
+      "prior_candidate_sha256": "563a25ef51e9a1d7db15a0a52318733c035bab0f21bf2ea54a6e5adf70f50ab2"
+    },
+    {
+      "path": "docs/REPORT.pdf",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "de75466148c32973be749c263939ad88b06c40a0dd0f07543befc87d869f4358",
+      "bytes": 457093,
+      "prior_candidate_sha256": "81a08b83ed5319136cff30c8007bac5dc4c6ed1e197c8f18a3a675a75b088907"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 3741,
+      "sha256": "322c94d59354f702125365d80b16fbb9c01153e80fd6ebfce6cd7e70dc9fcf75",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "322c94d59354f702125365d80b16fbb9c01153e80fd6ebfce6cd7e70dc9fcf75"
+    },
+    {
+      "path": "docs/STUDY_RESULTS.md",
+      "role": "new release-authored scoped study documentation/provenance",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "New release material derived from the existing accepted outputs; frozen originals are not rewritten.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "cb7941fec37a6e7e2c1008b81e67c8a2414152acde9c97f66f515716b3ba4626",
+      "bytes": 6437,
+      "prior_candidate_sha256": "5bb0c87142fcf05889f8ab8c5e72beb93bb505b2136c22f5c8b348d89d96bc90"
+    },
+    {
+      "path": "docs/TRAINING.md",
+      "bytes": 2806,
+      "sha256": "97270c464ed89be9ebf2ce88b6561e6809620a4e4f4836853f1b1e8f6f5c956e",
+      "role": "new result-independent release documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "97270c464ed89be9ebf2ce88b6561e6809620a4e4f4836853f1b1e8f6f5c956e"
+    },
+    {
+      "path": "docs/generated_fixture_summary.json",
+      "bytes": 746,
+      "sha256": "f8eb2873f5e55349eaf961e12e0be14198c7333c4072ca839131b709e62509fc",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "f8eb2873f5e55349eaf961e12e0be14198c7333c4072ca839131b709e62509fc"
+    },
+    {
+      "path": "docs/references.bib",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/references.bib",
+      "source_sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5",
+      "bytes": 7659,
+      "prior_candidate_sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5"
+    },
+    {
+      "path": "evidence/APPROVED_V4_LICENSE_SCOPE.json",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "9cf6ae185e9b0ad13927a5d97e052b3c5ba4c96cec68a5aa6efe60a9a8c40adf",
+      "bytes": 32998
+    },
+    {
+      "path": "evidence/FIXTURE_LICENSE_SCOPE.json",
+      "sha256": "6ea67d37937839333aa8011e98c8bbc0693879ff9bfdd454820322cda25e7dde",
+      "bytes": 198622,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New release metadata/evidence/tool; original archival records and candidate_v1 remain unchanged.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "e9c5d12e5250c9f51318ad4a5d751b26c55663c0e5199d92b87122321e94f320"
+    },
+    {
+      "path": "evidence/candidate_v1_cpu_example.log",
+      "sha256": "8bae3a08290b35155f9e9128d03f6dff4ec2cd0a46faeea4f96cdf60d5de04f0",
+      "bytes": 2406,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": "release_work/handoff/private/validation_run/final_cpu_example.log",
+      "source_sha256": "8bae3a08290b35155f9e9128d03f6dff4ec2cd0a46faeea4f96cdf60d5de04f0",
+      "transformations": [
+        "Byte-identical selected historical record; explicitly labelled as candidate_v1 evidence."
+      ],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "8bae3a08290b35155f9e9128d03f6dff4ec2cd0a46faeea4f96cdf60d5de04f0"
+    },
+    {
+      "path": "evidence/candidate_v1_verification.json",
+      "sha256": "082c46514454767bb717900d68f3a4685e3270554e10624da7f58f76f4d33c99",
+      "bytes": 2238,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": "release_work/package/osu_sim_release/VERIFICATION.json",
+      "source_sha256": "082c46514454767bb717900d68f3a4685e3270554e10624da7f58f76f4d33c99",
+      "transformations": [
+        "Byte-identical selected historical record; explicitly labelled as candidate_v1 evidence."
+      ],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "082c46514454767bb717900d68f3a4685e3270554e10624da7f58f76f4d33c99"
+    },
+    {
+      "path": "evidence/documents/DOCUMENT_PROVENANCE.json",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "c3019ac9313f75e127ff7f96066987cb24ad1d287997b5af1320dce111612f13",
+      "bytes": 106682,
+      "prior_candidate_sha256": "61ffe9e7668c697c868899f7eec63d69ae16de0721526be380d5baa21c1388d7"
+    },
+    {
+      "path": "evidence/documents/FIGURE_AUDIT.json",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "69d0dffa4f91ff2a710741b959abf077d11769c8c6ca21a5450dc04f265b0948",
+      "bytes": 41002,
+      "prior_candidate_sha256": "69d0dffa4f91ff2a710741b959abf077d11769c8c6ca21a5450dc04f265b0948"
+    },
+    {
+      "path": "evidence/documents/REFERENCE_AUDIT.json",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "06a321441067c8041ed343cad1bab5189525fb5a0237741aaa6ba74ec0db5f17",
+      "bytes": 11181,
+      "prior_candidate_sha256": "06a321441067c8041ed343cad1bab5189525fb5a0237741aaa6ba74ec0db5f17"
+    },
+    {
+      "path": "evidence/documents/REFERENCE_AUDIT.md",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "8b9f575052c7260dd55487ef321f4c3f338a8b4f51f2cc2bb8eadbadeaf84a09",
+      "bytes": 6920,
+      "prior_candidate_sha256": "8b9f575052c7260dd55487ef321f4c3f338a8b4f51f2cc2bb8eadbadeaf84a09"
+    },
+    {
+      "path": "evidence/release_scope_inventory.json",
+      "sha256": "ac9854f9f97a6e24ceefecd46331b7018e5de77e0eddc764ba2007e8daa32c94",
+      "bytes": 41419,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New release metadata/evidence/tool; original archival records and candidate_v1 remain unchanged.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "635d6feb33a505eacb1695f2634f1d9ce044cab3622fb1f547f9e4a70221320d"
+    },
+    {
+      "path": "evidence/study/CLEAN_DATA_AUDIT_FINAL.json",
+      "role": "individually audited original evidence",
+      "source": "runs/development/pd_20261101/audit/clean_data_audit_final_20261101_203152.json",
+      "source_sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f",
+      "bytes": 18065,
+      "prior_candidate_sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f"
+    },
+    {
+      "path": "evidence/study/CLEAN_DATA_AUDIT_HANDOVER.json",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/CLEAN_DATA_AUDIT.json",
+      "source_sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+      "bytes": 18065,
+      "prior_candidate_sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "306704fffc9df7bb9c51f858bcb09099b448e88269b129991b67d717134278d4",
+      "bytes": 9575,
+      "prior_candidate_sha256": "306704fffc9df7bb9c51f858bcb09099b448e88269b129991b67d717134278d4"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.md",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "08ee6ba416c4675b1f54e5d366540f72b06f31bfbe2bb20ebcf1028c98e3ab44",
+      "bytes": 4068,
+      "prior_candidate_sha256": "08ee6ba416c4675b1f54e5d366540f72b06f31bfbe2bb20ebcf1028c98e3ab44"
+    },
+    {
+      "path": "evidence/study/LICENSE_PROPOSAL.json",
+      "role": "new release-authored scoped study documentation/provenance",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "New release material derived from the existing accepted outputs; frozen originals are not rewritten.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "23475c8fdcf119dad9e0fe41f67ae4a289e9c3e6a46bf3a3751141768d0aad9e",
+      "bytes": 19074,
+      "prior_candidate_sha256": "6e641fb9c22344502a21f47334f51d95e941d76c1c0896b16f523a1602448396"
+    },
+    {
+      "path": "evidence/study/PD_DEVIATIONS_2026-11-01.md",
+      "role": "individually audited original evidence",
+      "source": "runs/development/pd_20261101/PD_DEVIATIONS_2026-11-01.md",
+      "source_sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1",
+      "bytes": 6349,
+      "prior_candidate_sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1"
+    },
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "role": "individually audited original evidence",
+      "source": "runs/development/pd_20261101/PD_analysis.json",
+      "source_sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+      "bytes": 44928,
+      "prior_candidate_sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e"
+    },
+    {
+      "path": "evidence/study/PD_supplement.json",
+      "role": "individually audited original evidence",
+      "source": "runs/development/pd_20261101/PD_supplement.json",
+      "source_sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+      "bytes": 2895,
+      "prior_candidate_sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b"
+    },
+    {
+      "path": "evidence/study/STUDY_PROVENANCE.json",
+      "role": "new release-authored scoped study documentation/provenance",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "New release material derived from the existing accepted outputs; frozen originals are not rewritten.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "sha256": "262abfe353864c8f04fa127d6824d30a78f3aef4e74602fd44fd062b86586d2c",
+      "bytes": 10825,
+      "prior_candidate_sha256": "16871d1fb03350fea356440507024023ce48a05041cdc61af8359644c46d8fa7"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_curves.png",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/figures/fig_pd_curves.png",
+      "source_sha256": "6477d060aa2429ec4a819864360d2dad7be2e9eac9d9f720595a2781aaa5f146",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "6477d060aa2429ec4a819864360d2dad7be2e9eac9d9f720595a2781aaa5f146",
+      "bytes": 163268,
+      "prior_candidate_sha256": "6477d060aa2429ec4a819864360d2dad7be2e9eac9d9f720595a2781aaa5f146"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_curves.svg",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/figures/fig_pd_curves.svg",
+      "source_sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+      "bytes": 27556,
+      "prior_candidate_sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_main.png",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/figures/fig_pd_main.png",
+      "source_sha256": "873a316eda179368d7258bc6a766daca1d010743bb800cec4d6df8dc6c91a7dc",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "873a316eda179368d7258bc6a766daca1d010743bb800cec4d6df8dc6c91a7dc",
+      "bytes": 95848,
+      "prior_candidate_sha256": "873a316eda179368d7258bc6a766daca1d010743bb800cec4d6df8dc6c91a7dc"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_main.svg",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/figures/fig_pd_main.svg",
+      "source_sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+      "bytes": 14310,
+      "prior_candidate_sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_shift.png",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/figures/fig_pd_shift.png",
+      "source_sha256": "d65636569d98e0200a7a17deea68ff5e30a7f7098f9ab80c4cae57998736cc83",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "d65636569d98e0200a7a17deea68ff5e30a7f7098f9ab80c4cae57998736cc83",
+      "bytes": 105457,
+      "prior_candidate_sha256": "d65636569d98e0200a7a17deea68ff5e30a7f7098f9ab80c4cae57998736cc83"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_shift.svg",
+      "role": "individually audited original evidence",
+      "source": "runs/development/paper/submission_v2/handover/figures/fig_pd_shift.svg",
+      "source_sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC-BY-4.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+      "bytes": 20640,
+      "prior_candidate_sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "role": "individually audited original evidence",
+      "source": "runs/development/pd_20261101/kit_facts.json",
+      "source_sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+      "byte_identical_to_source": true,
+      "transformations": [],
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+      "bytes": 14857,
+      "prior_candidate_sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b"
+    },
+    {
+      "path": "evidence/test_result_summary.json",
+      "sha256": "26d3cfd3eff686a1893cee190d25e0f65bb05ce553cdf7c207ae762ecc5616d8",
+      "bytes": 27065,
+      "role": "new scoped public evidence/documentation",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New release metadata/evidence/tool; original archival records and candidate_v1 remain unchanged."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "26d3cfd3eff686a1893cee190d25e0f65bb05ce553cdf7c207ae762ecc5616d8"
+    },
+    {
+      "path": "examples/generated_data_example.py",
+      "bytes": 4762,
+      "sha256": "10a4e5af8ccf13e1bf83c311bf76c56652d13cab298a8382942363c2eae3955d",
+      "role": "generated example/test/tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "packaging/osu_sim/examples/generated_data_example.py",
+      "source_sha256": "10a4e5af8ccf13e1bf83c311bf76c56652d13cab298a8382942363c2eae3955d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "10a4e5af8ccf13e1bf83c311bf76c56652d13cab298a8382942363c2eae3955d"
+    },
+    {
+      "path": "examples/maps/example_seed11.osu",
+      "bytes": 1168,
+      "sha256": "8e15f8c853b00abff2a413ffcca456643fa2d307a8d0384127bed085bf3345b8",
+      "role": "fresh procedural example",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Fresh deterministic output from the exported CPU example; generated twice and compared byte-for-byte."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "8e15f8c853b00abff2a413ffcca456643fa2d307a8d0384127bed085bf3345b8"
+    },
+    {
+      "path": "examples/maps/example_seed12.osu",
+      "bytes": 2202,
+      "sha256": "f4a2a801763d84c5a9dc487ec6ac6044950a7a3cdd6f81c18b6a345dccecb372",
+      "role": "fresh procedural example",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Fresh deterministic output from the exported CPU example; generated twice and compared byte-for-byte."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "f4a2a801763d84c5a9dc487ec6ac6044950a7a3cdd6f81c18b6a345dccecb372"
+    },
+    {
+      "path": "examples/maps/example_seed13.osu",
+      "bytes": 3055,
+      "sha256": "2097dc2f1bd9d9202b20d037f6184b0e9f8f3193d41a654714e110fe3a5bef09",
+      "role": "fresh procedural example",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Fresh deterministic output from the exported CPU example; generated twice and compared byte-for-byte."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "2097dc2f1bd9d9202b20d037f6184b0e9f8f3193d41a654714e110fe3a5bef09"
+    },
+    {
+      "path": "examples/recipe/build_recipe_pools.py",
+      "bytes": 6164,
+      "sha256": "102bbf4440e6e01dd1e2c426e5cec011f6e414d7cad2348774138fda831d9da6",
+      "role": "generated example/test/tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "packaging/osu_sim/examples/recipe/build_recipe_pools.py",
+      "source_sha256": "64a63e6afbf7abf888017c7ff9f9cdc4ddba536f945384218f3a0a0e67e2f4c0",
+      "transformations": [
+        "Replace private-repository usage with portable installed-package usage.",
+        "Remove now-unused os import.",
+        "Default to one CPU worker; explicit --workers remains supported.",
+        "Do not put installation filesystem path in newly generated manifests; preserve module content hashes.",
+        "New generated manifest pool paths are relative to that manifest directory."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "102bbf4440e6e01dd1e2c426e5cec011f6e414d7cad2348774138fda831d9da6"
+    },
+    {
+      "path": "examples/recipe/make_portable_config.py",
+      "bytes": 784,
+      "sha256": "e25c148f3149ff8acd1feb8dd0d875a913812a7b1916fa8c64a3cca97cf37c52",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "e25c148f3149ff8acd1feb8dd0d875a913812a7b1916fa8c64a3cca97cf37c52"
+    },
+    {
+      "path": "examples/recipe/recipe_template.json",
+      "bytes": 2535,
+      "sha256": "c5c96b50775bf3d050d36b347309ac9ca05918747d117d9e0e168fd5f982b2c2",
+      "role": "procedural training recipe template",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": "packaging/osu_sim/examples/recipe/recipe_config.json",
+      "source_sha256": "851b5da9db406873ec9ac62b475dfdd561c4daaea26e2f55aa2d8c5ddd485e37",
+      "transformations": [
+        "New portable derivative; remove historical commentary; retain method parameters and replace pool paths with portable basenames."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "c5c96b50775bf3d050d36b347309ac9ca05918747d117d9e0e168fd5f982b2c2"
+    },
+    {
+      "path": "licenses/Bitstream-Vera.txt",
+      "role": "exact third-party font copyright/license notice",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "Bitstream Vera font license, reproduced unchanged",
+      "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+      "bytes": 5954,
+      "prior_candidate_sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d"
+    },
+    {
+      "path": "licenses/CC-BY-4.0.txt",
+      "source": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "source_sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "byte_identical_to_source": true,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "Official Creative Commons legal text reproduced unchanged; not an expansion of the owner grant",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657
+    },
+    {
+      "path": "licenses/CC0-1.0.txt",
+      "source": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+      "source_sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "byte_identical_to_source": true,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "Official Creative Commons legal text reproduced unchanged; not an expansion of the owner grant",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048
+    },
+    {
+      "path": "licenses/osu-LICENCE.txt",
+      "bytes": 1092,
+      "sha256": "2e73c7c4295cc3da18697ac982f64a4ec449e0781e8f4c59318216e13998864a",
+      "role": "unchanged upstream MIT notice",
+      "license_scope": "Upstream MIT notice; preserve byte-for-byte",
+      "source": "game/upstream/osu/LICENCE",
+      "source_sha256": "2e73c7c4295cc3da18697ac982f64a4ec449e0781e8f4c59318216e13998864a",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "2e73c7c4295cc3da18697ac982f64a4ec449e0781e8f4c59318216e13998864a"
+    },
+    {
+      "path": "licenses/osu-framework-LICENCE.txt",
+      "bytes": 1092,
+      "sha256": "d07e3ce383a24bdc4665208e0ca3730e433ea1e8235b67a301a2b26335692c8e",
+      "role": "unchanged upstream MIT notice",
+      "license_scope": "Upstream MIT notice; preserve byte-for-byte",
+      "source": "game/upstream/osu-framework/LICENCE",
+      "source_sha256": "d07e3ce383a24bdc4665208e0ca3730e433ea1e8235b67a301a2b26335692c8e",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "d07e3ce383a24bdc4665208e0ca3730e433ea1e8235b67a301a2b26335692c8e"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1096,
+      "sha256": "27124a9470d212cf08f937e2890df2239d1af4803c9628f9d00b143f484718c6",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "CC BY4.0 release-authored documentation/metadata; any quoted originals and third-party notices retain their scope",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "Candidate_v2 public provenance/completion/license-scope correction or metadata revision; prior candidate preserved.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "1eaa8f8665941392e7d9bf5abf000e354071b6185be81c235d99c4649448e8f6"
+    },
+    {
+      "path": "src/osu_rl/__init__.py",
+      "bytes": 82,
+      "sha256": "77665658417a6d06a092384ef1fb6493135c208e161351d9beaff267d500b3e5",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New minimal namespace; original namespace excluded."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "77665658417a6d06a092384ef1fb6493135c208e161351d9beaff267d500b3e5"
+    },
+    {
+      "path": "src/osu_rl/policy/__init__.py",
+      "bytes": 87,
+      "sha256": "034b4c8217d872ce10c87f1fe019fe6fd26e13970e49e83bde2705acbadb66ae",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New minimal namespace; original namespace excluded."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "034b4c8217d872ce10c87f1fe019fe6fd26e13970e49e83bde2705acbadb66ae"
+    },
+    {
+      "path": "src/osu_rl/policy/priors.py",
+      "bytes": 5398,
+      "sha256": "8f5fc2c0fb9d5ad050cb79335fc22e60630322207d2800ca0e06ae5af34bd1c9",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_rl/policy/priors.py",
+      "source_sha256": "8f5fc2c0fb9d5ad050cb79335fc22e60630322207d2800ca0e06ae5af34bd1c9",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "8f5fc2c0fb9d5ad050cb79335fc22e60630322207d2800ca0e06ae5af34bd1c9"
+    },
+    {
+      "path": "src/osu_sim/__init__.py",
+      "bytes": 430,
+      "sha256": "8d440c4625c4167d6c2ff18a9c37e7a22b900d2d61b970adc1e6f5095483a9b6",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/__init__.py",
+      "source_sha256": "9a2b43bf7a19e2592147fd77af99ae65cb2da9f4dc7925b078ba435310bb9bfe",
+      "transformations": [
+        "Replace private checkout/.simpkgs/compiler discovery with explicit OSU_SIM_ROOT or working directory."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "8d440c4625c4167d6c2ff18a9c37e7a22b900d2d61b970adc1e6f5095483a9b6"
+    },
+    {
+      "path": "src/osu_sim/autopilot.py",
+      "bytes": 4146,
+      "sha256": "f84e01fec71ba8f7273d354c6b49c84c06447beeeab9fc40d2752d5541b8fc5f",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/autopilot.py",
+      "source_sha256": "f84e01fec71ba8f7273d354c6b49c84c06447beeeab9fc40d2752d5541b8fc5f",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "f84e01fec71ba8f7273d354c6b49c84c06447beeeab9fc40d2752d5541b8fc5f"
+    },
+    {
+      "path": "src/osu_sim/beatmap.py",
+      "bytes": 25223,
+      "sha256": "f199df9df64bc5bfedf4a10c66df00a5cfbcb1cf9675682eb08f1a1e7ac41061",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/beatmap.py",
+      "source_sha256": "f199df9df64bc5bfedf4a10c66df00a5cfbcb1cf9675682eb08f1a1e7ac41061",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "f199df9df64bc5bfedf4a10c66df00a5cfbcb1cf9675682eb08f1a1e7ac41061"
+    },
+    {
+      "path": "src/osu_sim/curriculum.py",
+      "bytes": 7530,
+      "sha256": "995077ac28cedd986edb2a4949626d216110ee55dd9202fa5a860eb0f7f36557",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/curriculum.py",
+      "source_sha256": "995077ac28cedd986edb2a4949626d216110ee55dd9202fa5a860eb0f7f36557",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "995077ac28cedd986edb2a4949626d216110ee55dd9202fa5a860eb0f7f36557"
+    },
+    {
+      "path": "src/osu_sim/difficulty.py",
+      "bytes": 1528,
+      "sha256": "097b145c3b5751cb440de929222bd49297c08f34a1105abb781b3234f9028a26",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/difficulty.py",
+      "source_sha256": "097b145c3b5751cb440de929222bd49297c08f34a1105abb781b3234f9028a26",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "097b145c3b5751cb440de929222bd49297c08f34a1105abb781b3234f9028a26"
+    },
+    {
+      "path": "src/osu_sim/env.py",
+      "bytes": 53291,
+      "sha256": "feb72186750acf863b4e10d5c6d3e320fd248613e8d6cc69ea04f5467a8ebf72",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/env.py",
+      "source_sha256": "6dff4cf361d81b7867c9e5b7ca396306d605a6b0ef821072c50738e14ce28515",
+      "transformations": [
+        "Require explicit training pool; remove private default.",
+        "Remove withdrawn/mixed-source empirical augmentation rationale; retain method."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "feb72186750acf863b4e10d5c6d3e320fd248613e8d6cc69ea04f5467a8ebf72"
+    },
+    {
+      "path": "src/osu_sim/evaluate.py",
+      "bytes": 32812,
+      "sha256": "e08e55b681e3a79e3b6e0e73f2e16e36d6a43228ff9b09eeb90d299f2bf5ac41",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/evaluate.py",
+      "source_sha256": "7beaec91a4e3eddbf9cce1a147273650e73bce4be251615504bf5c940f382a12",
+      "transformations": [
+        "Require explicit evaluation pool; remove private default."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "e08e55b681e3a79e3b6e0e73f2e16e36d6a43228ff9b09eeb90d299f2bf5ac41"
+    },
+    {
+      "path": "src/osu_sim/generator.py",
+      "bytes": 21045,
+      "sha256": "6bd41881135b0aec0079e6254f8e4a159109e2ee66a2ac3ca55b0986781f4d5d",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/generator.py",
+      "source_sha256": "6bd41881135b0aec0079e6254f8e4a159109e2ee66a2ac3ca55b0986781f4d5d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "6bd41881135b0aec0079e6254f8e4a159109e2ee66a2ac3ca55b0986781f4d5d"
+    },
+    {
+      "path": "src/osu_sim/motion.py",
+      "bytes": 8134,
+      "sha256": "5eaebd361aa167182e8c5b58e6f0ad582fcb98fa053dd9740a6100bb10f8151d",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/motion.py",
+      "source_sha256": "5eaebd361aa167182e8c5b58e6f0ad582fcb98fa053dd9740a6100bb10f8151d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "5eaebd361aa167182e8c5b58e6f0ad582fcb98fa053dd9740a6100bb10f8151d"
+    },
+    {
+      "path": "src/osu_sim/osufile.py",
+      "bytes": 8025,
+      "sha256": "08e5fe6c2f798d8a542890ae22ab2685b135c8d9279a1df438d7069d1383d522",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/osufile.py",
+      "source_sha256": "08e5fe6c2f798d8a542890ae22ab2685b135c8d9279a1df438d7069d1383d522",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "08e5fe6c2f798d8a542890ae22ab2685b135c8d9279a1df438d7069d1383d522"
+    },
+    {
+      "path": "src/osu_sim/policy.py",
+      "bytes": 31429,
+      "sha256": "00679804ab652e29fe0921d2b10ec1d5785041f5ac3f1937cfffecd3779c2a52",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/policy.py",
+      "source_sha256": "462827cf38db00f43b5c88958df96c8359b2bf981ee1d21284281282fc2b398a",
+      "transformations": [
+        "Remove private ROOT/src sys.path injection; use packaged mathematical prior.",
+        "Remove unaudited historical numerical-result comment; retain algorithm.",
+        "Remove unaudited historical timing-result comment; retain algorithm."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "00679804ab652e29fe0921d2b10ec1d5785041f5ac3f1937cfffecd3779c2a52"
+    },
+    {
+      "path": "src/osu_sim/pool.py",
+      "bytes": 9807,
+      "sha256": "378be16ddc838fdbbaa6d3b92211af47339afff8ebdebb53da2e5c9247c5eeec",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/pool.py",
+      "source_sha256": "378be16ddc838fdbbaa6d3b92211af47339afff8ebdebb53da2e5c9247c5eeec",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "378be16ddc838fdbbaa6d3b92211af47339afff8ebdebb53da2e5c9247c5eeec"
+    },
+    {
+      "path": "src/osu_sim/ppo.py",
+      "bytes": 28908,
+      "sha256": "16a7faf0799ab12590d2281d3a08d391f221f5a54c7839fdcb2aaa42f9c24a5b",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/ppo.py",
+      "source_sha256": "20a3b3efe8b667ec2d701f1a172b6e4e51b887673336a707be3a731e8330d9b2",
+      "transformations": [
+        "Remove unaudited quantitative memory/scale claim from module docstring.",
+        "Remove withdrawn empirical result from hold-floor comment.",
+        "Remove historical raw-weight evaluation result from EMA comment.",
+        "Remove withdrawn warm-start empirical result from optimizer comment.",
+        "Remove historical warm-start results while preserving moment initialization description."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "16a7faf0799ab12590d2281d3a08d391f221f5a54c7839fdcb2aaa42f9c24a5b"
+    },
+    {
+      "path": "src/osu_sim/rate.py",
+      "bytes": 25597,
+      "sha256": "94e7a6f0f832b787bd44a5b65d28a5c104c10ddec9224c5df1cabd2c396ad014",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/rate.py",
+      "source_sha256": "94e7a6f0f832b787bd44a5b65d28a5c104c10ddec9224c5df1cabd2c396ad014",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "94e7a6f0f832b787bd44a5b65d28a5c104c10ddec9224c5df1cabd2c396ad014"
+    },
+    {
+      "path": "src/osu_sim/rate_rules.py",
+      "bytes": 25651,
+      "sha256": "a90988c2771cd8557be5c2564d0bb1c0b1c22eeab9695963eb5e856bc2bf20ef",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/rate_rules.py",
+      "source_sha256": "448e2e7ea26e4e1e36bd6cc7633a6bf2a77b313bf9f08c6aafa7fb4f364717bd",
+      "transformations": [
+        "Remove withdrawn spinner-policy empirical result; preserve minimum-radius rule.",
+        "Label BASE_RULES_SHA256 and original drift-test description as historical provenance, retaining the constant unchanged.",
+        "Clarify historical scope adjacent to the unchanged original base hash."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "a90988c2771cd8557be5c2564d0bb1c0b1c22eeab9695963eb5e856bc2bf20ef"
+    },
+    {
+      "path": "src/osu_sim/render.py",
+      "bytes": 120515,
+      "sha256": "8dcc7f687020c384d1f57c193c32f9a9114e4fa5cb35259f5afe135a6e24116f",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/render.py",
+      "source_sha256": "f531622e494fe8f24168b713fd011ca4a18e97c541b964051426694f0bc28176",
+      "transformations": [
+        "Remove obsolete initialization reference; use externally installed Triton.",
+        "Require explicit external texture/font directories; no private tree asset discovery.",
+        "Fail clearly when excluded external assets are not configured; preserve renderer mathematics."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "8dcc7f687020c384d1f57c193c32f9a9114e4fa5cb35259f5afe135a6e24116f"
+    },
+    {
+      "path": "src/osu_sim/render_simple.py",
+      "bytes": 7909,
+      "sha256": "a2fd99eb6ff2374e42b7b8fa36629506369ec24b483602c13efe1903bd2ba449",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/render_simple.py",
+      "source_sha256": "a2fd99eb6ff2374e42b7b8fa36629506369ec24b483602c13efe1903bd2ba449",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "a2fd99eb6ff2374e42b7b8fa36629506369ec24b483602c13efe1903bd2ba449"
+    },
+    {
+      "path": "src/osu_sim/rules.py",
+      "bytes": 32143,
+      "sha256": "9b29a2d6921f0d6e08dd6cea5022c3254a9633f25166612d40291310b0a9c1c9",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/rules.py",
+      "source_sha256": "5ece747e6388153eb2e301de08e11583049bdbf87513e1bcc542f840ba598ebb",
+      "transformations": [
+        "Remove withdrawn spinner-policy empirical result; preserve minimum-radius rule."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "9b29a2d6921f0d6e08dd6cea5022c3254a9633f25166612d40291310b0a9c1c9"
+    },
+    {
+      "path": "src/osu_sim/train.py",
+      "bytes": 36488,
+      "sha256": "13e92d0f3dd72637f2eef0258f405add2a594b475231733499409428355b9a44",
+      "role": "selected source module",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "src/osu_sim/train.py",
+      "source_sha256": "87ced35cff39d4ea0a6e6f52312b4f9bb5ae1f3334624305ea6df42c4f50db33",
+      "transformations": [
+        "Remove obsolete Triton-path setup comment from portable export.",
+        "Document explicit pool requirement.",
+        "Correct preflight docstring to match explicit required pool arguments.",
+        "Use ROOT/sealed_registry.json and remove legacy pool constants; preserve path/hash guard.",
+        "Require explicit pool during preflight before any loading.",
+        "Require explicit evaluation pool during preflight.",
+        "Remove historical withdrawn and unaudited performance/numerical results; retain compile setting.",
+        "Replace reference to absent private batch tool in refusal message."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "13e92d0f3dd72637f2eef0258f405add2a594b475231733499409428355b9a44"
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 916,
+      "sha256": "fc565a632c2fd54c575c9a14212c50c03373b825c9c507b9c20b9b399f897b90",
+      "role": "generated example/test/tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "packaging/osu_sim/tests/conftest.py",
+      "source_sha256": "fc565a632c2fd54c575c9a14212c50c03373b825c9c507b9c20b9b399f897b90",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "fc565a632c2fd54c575c9a14212c50c03373b825c9c507b9c20b9b399f897b90"
+    },
+    {
+      "path": "tests/data/MANIFEST.json",
+      "bytes": 29186,
+      "sha256": "72b7ab2a5f110a5eafe725862bf12b742f0f6e11f25c10521fe4fd4438c66b3c",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/MANIFEST.json",
+      "source_sha256": "72b7ab2a5f110a5eafe725862bf12b742f0f6e11f25c10521fe4fd4438c66b3c",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "72b7ab2a5f110a5eafe725862bf12b742f0f6e11f25c10521fe4fd4438c66b3c"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen0_late.json",
+      "bytes": 317,
+      "sha256": "4308196b7f8e0f23e652ebc1c6bee11776d2e163f6131e7d1c21a3fa9bacca11",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen0_late.json",
+      "source_sha256": "4308196b7f8e0f23e652ebc1c6bee11776d2e163f6131e7d1c21a3fa9bacca11",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "4308196b7f8e0f23e652ebc1c6bee11776d2e163f6131e7d1c21a3fa9bacca11"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen0_perfect.json",
+      "bytes": 302,
+      "sha256": "20d085adf09cbaa02863871f273f50fab65dc4b5890e305982c91f1f19bd0296",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen0_perfect.json",
+      "source_sha256": "20d085adf09cbaa02863871f273f50fab65dc4b5890e305982c91f1f19bd0296",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "20d085adf09cbaa02863871f273f50fab65dc4b5890e305982c91f1f19bd0296"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen0_sloppy.json",
+      "bytes": 321,
+      "sha256": "59329ac5d8d17f49126219be0ceab445c569ed86d3ed5d72b99ee77672afca58",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen0_sloppy.json",
+      "source_sha256": "59329ac5d8d17f49126219be0ceab445c569ed86d3ed5d72b99ee77672afca58",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "59329ac5d8d17f49126219be0ceab445c569ed86d3ed5d72b99ee77672afca58"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen1_late.json",
+      "bytes": 357,
+      "sha256": "c3a3b3b65d69fc312b7af5c0b5f195dd08b7ae97259915bcf8996b6794feffbe",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen1_late.json",
+      "source_sha256": "c3a3b3b65d69fc312b7af5c0b5f195dd08b7ae97259915bcf8996b6794feffbe",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "c3a3b3b65d69fc312b7af5c0b5f195dd08b7ae97259915bcf8996b6794feffbe"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen1_perfect.json",
+      "bytes": 342,
+      "sha256": "87a0e0df2ab1a854d8d51c679ced23cb99f5d647e647a09b910a9b37973222ba",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen1_perfect.json",
+      "source_sha256": "87a0e0df2ab1a854d8d51c679ced23cb99f5d647e647a09b910a9b37973222ba",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "87a0e0df2ab1a854d8d51c679ced23cb99f5d647e647a09b910a9b37973222ba"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen1_sloppy.json",
+      "bytes": 363,
+      "sha256": "b1a01427611b9f46d91fffd8479d26a01fd8633c0c4364f594bcd77b4b5fcc81",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen1_sloppy.json",
+      "source_sha256": "b1a01427611b9f46d91fffd8479d26a01fd8633c0c4364f594bcd77b4b5fcc81",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "b1a01427611b9f46d91fffd8479d26a01fd8633c0c4364f594bcd77b4b5fcc81"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen2_late.json",
+      "bytes": 391,
+      "sha256": "8b9279a923988a28d585b4ec7caf48a858d9e68f48a958b6b7b2c0e61e5caab3",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen2_late.json",
+      "source_sha256": "8b9279a923988a28d585b4ec7caf48a858d9e68f48a958b6b7b2c0e61e5caab3",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "8b9279a923988a28d585b4ec7caf48a858d9e68f48a958b6b7b2c0e61e5caab3"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen2_perfect.json",
+      "bytes": 374,
+      "sha256": "b09e3d8f68c89736429cbab9a773a7a4a4af592f17a926d218aa273796eb5068",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen2_perfect.json",
+      "source_sha256": "b09e3d8f68c89736429cbab9a773a7a4a4af592f17a926d218aa273796eb5068",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "b09e3d8f68c89736429cbab9a773a7a4a4af592f17a926d218aa273796eb5068"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen2_sloppy.json",
+      "bytes": 415,
+      "sha256": "ac8b2419f84cc835637e1c6a55b010f5a9390406a42835f9193c9220615092b5",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen2_sloppy.json",
+      "source_sha256": "ac8b2419f84cc835637e1c6a55b010f5a9390406a42835f9193c9220615092b5",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ac8b2419f84cc835637e1c6a55b010f5a9390406a42835f9193c9220615092b5"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen3_late.json",
+      "bytes": 361,
+      "sha256": "ab0def15776656c7711af6dcbc00e70b3cabdd8091052bba784209f8bc08bb37",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen3_late.json",
+      "source_sha256": "ab0def15776656c7711af6dcbc00e70b3cabdd8091052bba784209f8bc08bb37",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ab0def15776656c7711af6dcbc00e70b3cabdd8091052bba784209f8bc08bb37"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen3_perfect.json",
+      "bytes": 344,
+      "sha256": "8d4e9099b074225265f7693b2b49143839cb08a180ec0d7fa4914b1271f9ea54",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen3_perfect.json",
+      "source_sha256": "8d4e9099b074225265f7693b2b49143839cb08a180ec0d7fa4914b1271f9ea54",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "8d4e9099b074225265f7693b2b49143839cb08a180ec0d7fa4914b1271f9ea54"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_parity2/case_gen3_sloppy.json",
+      "bytes": 385,
+      "sha256": "ed75a482fc3f8df90241a96c9209e773469ffc98e381c48c05fd29c1927456a2",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_parity2/case_gen3_sloppy.json",
+      "source_sha256": "ed75a482fc3f8df90241a96c9209e773469ffc98e381c48c05fd29c1927456a2",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ed75a482fc3f8df90241a96c9209e773469ffc98e381c48c05fd29c1927456a2"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin0_perfect.json",
+      "bytes": 333,
+      "sha256": "1aac7da8439aa57cfd3c5165dfe2c9adcc1de05c67d62cc554d849f41cdd8e3c",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin0_perfect.json",
+      "source_sha256": "1aac7da8439aa57cfd3c5165dfe2c9adcc1de05c67d62cc554d849f41cdd8e3c",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "1aac7da8439aa57cfd3c5165dfe2c9adcc1de05c67d62cc554d849f41cdd8e3c"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin0_sloppy.json",
+      "bytes": 354,
+      "sha256": "086e53f2f3d96390ae029511cd8d89f22afb2487c234a796ad0c02ec975a4b07",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin0_sloppy.json",
+      "source_sha256": "086e53f2f3d96390ae029511cd8d89f22afb2487c234a796ad0c02ec975a4b07",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "086e53f2f3d96390ae029511cd8d89f22afb2487c234a796ad0c02ec975a4b07"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin1_perfect.json",
+      "bytes": 335,
+      "sha256": "7a69db44bd27e7dc576920e82eb9f55de86a7c9a75d68d8a097e63ef97ced6ad",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin1_perfect.json",
+      "source_sha256": "7a69db44bd27e7dc576920e82eb9f55de86a7c9a75d68d8a097e63ef97ced6ad",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "7a69db44bd27e7dc576920e82eb9f55de86a7c9a75d68d8a097e63ef97ced6ad"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin1_sloppy.json",
+      "bytes": 356,
+      "sha256": "f8ee21d6ea3d7c562cfdc8769fc23aa92363be3e288f5d276a549cdc10893bd9",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin1_sloppy.json",
+      "source_sha256": "f8ee21d6ea3d7c562cfdc8769fc23aa92363be3e288f5d276a549cdc10893bd9",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "f8ee21d6ea3d7c562cfdc8769fc23aa92363be3e288f5d276a549cdc10893bd9"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin2_perfect.json",
+      "bytes": 291,
+      "sha256": "a9929300ef24402fc7e9e2b8634a644526879fbe0485200da1f647cfd34807ce",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin2_perfect.json",
+      "source_sha256": "a9929300ef24402fc7e9e2b8634a644526879fbe0485200da1f647cfd34807ce",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "a9929300ef24402fc7e9e2b8634a644526879fbe0485200da1f647cfd34807ce"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin2_sloppy.json",
+      "bytes": 290,
+      "sha256": "777c63a1571ba4f1d93d5171448e6a28e67744b6316f55f0cd3df36493740699",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin2_sloppy.json",
+      "source_sha256": "777c63a1571ba4f1d93d5171448e6a28e67744b6316f55f0cd3df36493740699",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "777c63a1571ba4f1d93d5171448e6a28e67744b6316f55f0cd3df36493740699"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin3_perfect.json",
+      "bytes": 335,
+      "sha256": "7dbd0e907e87b433cccf0075642a511cf2a09a7eaceb4b100c619ab9746af31d",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin3_perfect.json",
+      "source_sha256": "7dbd0e907e87b433cccf0075642a511cf2a09a7eaceb4b100c619ab9746af31d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "7dbd0e907e87b433cccf0075642a511cf2a09a7eaceb4b100c619ab9746af31d"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin3_sloppy.json",
+      "bytes": 334,
+      "sha256": "2e598f1be2592cdf15a966b3d3892ae0a9d79cb67a1246d96efd497196ca16c3",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin3_sloppy.json",
+      "source_sha256": "2e598f1be2592cdf15a966b3d3892ae0a9d79cb67a1246d96efd497196ca16c3",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "2e598f1be2592cdf15a966b3d3892ae0a9d79cb67a1246d96efd497196ca16c3"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin4_perfect.json",
+      "bytes": 371,
+      "sha256": "7d94ec4d8191a73c4ccdb8c5b1fd2e1817184f4f19167c08aa7a2a1d7bff5c3c",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin4_perfect.json",
+      "source_sha256": "7d94ec4d8191a73c4ccdb8c5b1fd2e1817184f4f19167c08aa7a2a1d7bff5c3c",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "7d94ec4d8191a73c4ccdb8c5b1fd2e1817184f4f19167c08aa7a2a1d7bff5c3c"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin4_sloppy.json",
+      "bytes": 370,
+      "sha256": "a449292ce56d6829ec9010db156de581c17cd2fd235f5d00c08c484c8bda8ed5",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin4_sloppy.json",
+      "source_sha256": "a449292ce56d6829ec9010db156de581c17cd2fd235f5d00c08c484c8bda8ed5",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "a449292ce56d6829ec9010db156de581c17cd2fd235f5d00c08c484c8bda8ed5"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin5_perfect.json",
+      "bytes": 333,
+      "sha256": "6a991e3d8c37cb517a6423aeee9788c5cc1bc76ab028dcd109a2f209e55a0e8e",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin5_perfect.json",
+      "source_sha256": "6a991e3d8c37cb517a6423aeee9788c5cc1bc76ab028dcd109a2f209e55a0e8e",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "6a991e3d8c37cb517a6423aeee9788c5cc1bc76ab028dcd109a2f209e55a0e8e"
+    },
+    {
+      "path": "tests/data/cases/b3_rate1_spin/case_spin5_sloppy.json",
+      "bytes": 354,
+      "sha256": "bf372c59ea6ed5c87243848949073ee493ae06684c164642cc83c5322af45dad",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b3_rate1_spin/case_spin5_sloppy.json",
+      "source_sha256": "bf372c59ea6ed5c87243848949073ee493ae06684c164642cc83c5322af45dad",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "bf372c59ea6ed5c87243848949073ee493ae06684c164642cc83c5322af45dad"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen0_late.json",
+      "bytes": 335,
+      "sha256": "ce4bfc07e615457c8fe320d46bd059e39d7ddf0968778532fc101d76f9e997fd",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen0_late.json",
+      "source_sha256": "ce4bfc07e615457c8fe320d46bd059e39d7ddf0968778532fc101d76f9e997fd",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ce4bfc07e615457c8fe320d46bd059e39d7ddf0968778532fc101d76f9e997fd"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen0_perfect.json",
+      "bytes": 320,
+      "sha256": "18e991cf5054a53c1072c492410a8ca9d2767581d60033ebfb793b751e100658",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen0_perfect.json",
+      "source_sha256": "18e991cf5054a53c1072c492410a8ca9d2767581d60033ebfb793b751e100658",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "18e991cf5054a53c1072c492410a8ca9d2767581d60033ebfb793b751e100658"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen0_sloppy.json",
+      "bytes": 339,
+      "sha256": "0395af9bfe8306e44030d3fd6f8714df4476ff84b2845000fffd7c35f2f1d3b0",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen0_sloppy.json",
+      "source_sha256": "0395af9bfe8306e44030d3fd6f8714df4476ff84b2845000fffd7c35f2f1d3b0",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "0395af9bfe8306e44030d3fd6f8714df4476ff84b2845000fffd7c35f2f1d3b0"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen1_late.json",
+      "bytes": 375,
+      "sha256": "fcbc2936d6fa149ab298d8011ff57610152e3ca1d5ceeae3a7e8fe102330fe86",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen1_late.json",
+      "source_sha256": "fcbc2936d6fa149ab298d8011ff57610152e3ca1d5ceeae3a7e8fe102330fe86",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "fcbc2936d6fa149ab298d8011ff57610152e3ca1d5ceeae3a7e8fe102330fe86"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen1_perfect.json",
+      "bytes": 358,
+      "sha256": "5ecf85bd8d32b82ee2948a2f59c54a8c4aa21ddb460b0c58710f25391e8cd6ae",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen1_perfect.json",
+      "source_sha256": "5ecf85bd8d32b82ee2948a2f59c54a8c4aa21ddb460b0c58710f25391e8cd6ae",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "5ecf85bd8d32b82ee2948a2f59c54a8c4aa21ddb460b0c58710f25391e8cd6ae"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen1_sloppy.json",
+      "bytes": 379,
+      "sha256": "ca5efe0d7cef33df83181736d3eb834886a98205de466c09d2ecf812a62d5f5e",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen1_sloppy.json",
+      "source_sha256": "ca5efe0d7cef33df83181736d3eb834886a98205de466c09d2ecf812a62d5f5e",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ca5efe0d7cef33df83181736d3eb834886a98205de466c09d2ecf812a62d5f5e"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen2_late.json",
+      "bytes": 409,
+      "sha256": "388a7e6262d5e38f606c919aaed22bf8a53c005ac5720dfc11f3be3a1baa6c23",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen2_late.json",
+      "source_sha256": "388a7e6262d5e38f606c919aaed22bf8a53c005ac5720dfc11f3be3a1baa6c23",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "388a7e6262d5e38f606c919aaed22bf8a53c005ac5720dfc11f3be3a1baa6c23"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen2_perfect.json",
+      "bytes": 392,
+      "sha256": "9f29144be4377e698c27e76f7fa6058509f5473b2081895ba2add934efdaaf30",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen2_perfect.json",
+      "source_sha256": "9f29144be4377e698c27e76f7fa6058509f5473b2081895ba2add934efdaaf30",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "9f29144be4377e698c27e76f7fa6058509f5473b2081895ba2add934efdaaf30"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen2_sloppy.json",
+      "bytes": 433,
+      "sha256": "e9249d623fb8ac9838b72507ce447797cd4f1fde983cd2a96be423a0ae7ba991",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen2_sloppy.json",
+      "source_sha256": "e9249d623fb8ac9838b72507ce447797cd4f1fde983cd2a96be423a0ae7ba991",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "e9249d623fb8ac9838b72507ce447797cd4f1fde983cd2a96be423a0ae7ba991"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen3_late.json",
+      "bytes": 377,
+      "sha256": "4330c4d542a3889f33fbf65388cc5ea4c1436c71b686649b8a722aa195a7c416",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen3_late.json",
+      "source_sha256": "4330c4d542a3889f33fbf65388cc5ea4c1436c71b686649b8a722aa195a7c416",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "4330c4d542a3889f33fbf65388cc5ea4c1436c71b686649b8a722aa195a7c416"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen3_perfect.json",
+      "bytes": 360,
+      "sha256": "cde3f46906a5540ef2842a72d7a0a6eff37dc9af7e2902d00a392f364ff3397e",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen3_perfect.json",
+      "source_sha256": "cde3f46906a5540ef2842a72d7a0a6eff37dc9af7e2902d00a392f364ff3397e",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "cde3f46906a5540ef2842a72d7a0a6eff37dc9af7e2902d00a392f364ff3397e"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_parity2/case_gen3_sloppy.json",
+      "bytes": 381,
+      "sha256": "c6261ff761ee30573c2ae1094fb855ead878838fa01f8ec7fb0477d4b061d0a7",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_parity2/case_gen3_sloppy.json",
+      "source_sha256": "c6261ff761ee30573c2ae1094fb855ead878838fa01f8ec7fb0477d4b061d0a7",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "c6261ff761ee30573c2ae1094fb855ead878838fa01f8ec7fb0477d4b061d0a7"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin0_perfect.json",
+      "bytes": 351,
+      "sha256": "b2caa30bda6bfacdad72a71f492c38f0af4a79c2fd9fa409f94433eeb10c158e",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin0_perfect.json",
+      "source_sha256": "b2caa30bda6bfacdad72a71f492c38f0af4a79c2fd9fa409f94433eeb10c158e",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "b2caa30bda6bfacdad72a71f492c38f0af4a79c2fd9fa409f94433eeb10c158e"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin0_sloppy.json",
+      "bytes": 372,
+      "sha256": "f3854d9dd94fb4a1d092453f2582a2454f37f740c3599999466634daacde536f",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin0_sloppy.json",
+      "source_sha256": "f3854d9dd94fb4a1d092453f2582a2454f37f740c3599999466634daacde536f",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "f3854d9dd94fb4a1d092453f2582a2454f37f740c3599999466634daacde536f"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin1_perfect.json",
+      "bytes": 351,
+      "sha256": "226e4485e7e60aa0a88772572d623d1e32233616cdf1d6bf2bf011a1ae5a7875",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin1_perfect.json",
+      "source_sha256": "226e4485e7e60aa0a88772572d623d1e32233616cdf1d6bf2bf011a1ae5a7875",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "226e4485e7e60aa0a88772572d623d1e32233616cdf1d6bf2bf011a1ae5a7875"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin1_sloppy.json",
+      "bytes": 372,
+      "sha256": "cde234963a43e9cbeb1d21c3a502362d8db57dbed5909aa41d7518194a0e64bb",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin1_sloppy.json",
+      "source_sha256": "cde234963a43e9cbeb1d21c3a502362d8db57dbed5909aa41d7518194a0e64bb",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "cde234963a43e9cbeb1d21c3a502362d8db57dbed5909aa41d7518194a0e64bb"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin2_perfect.json",
+      "bytes": 309,
+      "sha256": "155a88c18a9017d965053ed23ff9f371a12e86ac83314104b4871c8c18704ad7",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin2_perfect.json",
+      "source_sha256": "155a88c18a9017d965053ed23ff9f371a12e86ac83314104b4871c8c18704ad7",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "155a88c18a9017d965053ed23ff9f371a12e86ac83314104b4871c8c18704ad7"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin2_sloppy.json",
+      "bytes": 308,
+      "sha256": "b27709ab9c4b0b7ffc65bd615b236cae886da430293e8279203f74dc7b8d4d32",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin2_sloppy.json",
+      "source_sha256": "b27709ab9c4b0b7ffc65bd615b236cae886da430293e8279203f74dc7b8d4d32",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "b27709ab9c4b0b7ffc65bd615b236cae886da430293e8279203f74dc7b8d4d32"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin3_perfect.json",
+      "bytes": 351,
+      "sha256": "ef795e507e9ffc82479d88ed1755be0a7cff5134685d666609de6fdc40c098af",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin3_perfect.json",
+      "source_sha256": "ef795e507e9ffc82479d88ed1755be0a7cff5134685d666609de6fdc40c098af",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ef795e507e9ffc82479d88ed1755be0a7cff5134685d666609de6fdc40c098af"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin3_sloppy.json",
+      "bytes": 350,
+      "sha256": "33fd7dae2a617eb29c30afed3212287cd9743a8b7da65044e1cdc04fb6d7300a",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin3_sloppy.json",
+      "source_sha256": "33fd7dae2a617eb29c30afed3212287cd9743a8b7da65044e1cdc04fb6d7300a",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "33fd7dae2a617eb29c30afed3212287cd9743a8b7da65044e1cdc04fb6d7300a"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin4_perfect.json",
+      "bytes": 387,
+      "sha256": "4c39b7f7d6aa1fa7c7a9e3fe21cf96ea3f1d6edede97fe1f5e02bd158721d6ac",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin4_perfect.json",
+      "source_sha256": "4c39b7f7d6aa1fa7c7a9e3fe21cf96ea3f1d6edede97fe1f5e02bd158721d6ac",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "4c39b7f7d6aa1fa7c7a9e3fe21cf96ea3f1d6edede97fe1f5e02bd158721d6ac"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin4_sloppy.json",
+      "bytes": 386,
+      "sha256": "d3761de900d97aaf03347922dff343f32b76bdf121cc2136c9fdc98d73f5ce2c",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin4_sloppy.json",
+      "source_sha256": "d3761de900d97aaf03347922dff343f32b76bdf121cc2136c9fdc98d73f5ce2c",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "d3761de900d97aaf03347922dff343f32b76bdf121cc2136c9fdc98d73f5ce2c"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin5_perfect.json",
+      "bytes": 351,
+      "sha256": "39ab6c3a93a611c7fa7e930202859855338c0fddce8edf2b13155ad116e9cf6f",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin5_perfect.json",
+      "source_sha256": "39ab6c3a93a611c7fa7e930202859855338c0fddce8edf2b13155ad116e9cf6f",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "39ab6c3a93a611c7fa7e930202859855338c0fddce8edf2b13155ad116e9cf6f"
+    },
+    {
+      "path": "tests/data/cases/b4_dt15_spin/case_spin5_sloppy.json",
+      "bytes": 372,
+      "sha256": "fc79b26805981d5075b8bcc9dfec50caf4126a5324adee7c8a9f15613e5d1de2",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/b4_dt15_spin/case_spin5_sloppy.json",
+      "source_sha256": "fc79b26805981d5075b8bcc9dfec50caf4126a5324adee7c8a9f15613e5d1de2",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "fc79b26805981d5075b8bcc9dfec50caf4126a5324adee7c8a9f15613e5d1de2"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen0_late.json",
+      "bytes": 317,
+      "sha256": "ed9b65717d64e488c038f4d38cabb72b63f185d1906098c8a1ad6503a8bb7a2f",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen0_late.json",
+      "source_sha256": "ed9b65717d64e488c038f4d38cabb72b63f185d1906098c8a1ad6503a8bb7a2f",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "ed9b65717d64e488c038f4d38cabb72b63f185d1906098c8a1ad6503a8bb7a2f"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen0_perfect.json",
+      "bytes": 302,
+      "sha256": "4af23ac733ea4c3a6b0a40086a7b75a0c3c093762129c714d8f0a6bab163f4f8",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen0_perfect.json",
+      "source_sha256": "4af23ac733ea4c3a6b0a40086a7b75a0c3c093762129c714d8f0a6bab163f4f8",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "4af23ac733ea4c3a6b0a40086a7b75a0c3c093762129c714d8f0a6bab163f4f8"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen0_sloppy.json",
+      "bytes": 321,
+      "sha256": "737a819676ebda7d627e35b42842755966690a806a0ce7680b127a633612f32a",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen0_sloppy.json",
+      "source_sha256": "737a819676ebda7d627e35b42842755966690a806a0ce7680b127a633612f32a",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "737a819676ebda7d627e35b42842755966690a806a0ce7680b127a633612f32a"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen1_late.json",
+      "bytes": 357,
+      "sha256": "62787a810d16e8ef87f3d22937dff66a8bd4196cbcb36dc97d4ec46ba9e8c81d",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen1_late.json",
+      "source_sha256": "62787a810d16e8ef87f3d22937dff66a8bd4196cbcb36dc97d4ec46ba9e8c81d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "62787a810d16e8ef87f3d22937dff66a8bd4196cbcb36dc97d4ec46ba9e8c81d"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen1_perfect.json",
+      "bytes": 342,
+      "sha256": "0e13252301745294e53f463b79f943aa794d49b3cd58934bdb6de5f3aebbd36d",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen1_perfect.json",
+      "source_sha256": "0e13252301745294e53f463b79f943aa794d49b3cd58934bdb6de5f3aebbd36d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "0e13252301745294e53f463b79f943aa794d49b3cd58934bdb6de5f3aebbd36d"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen1_sloppy.json",
+      "bytes": 363,
+      "sha256": "87d84bf75a7f67a6b5daf04985a4db78694c2f5675cac2fbaebdcbbe43e95b22",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen1_sloppy.json",
+      "source_sha256": "87d84bf75a7f67a6b5daf04985a4db78694c2f5675cac2fbaebdcbbe43e95b22",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "87d84bf75a7f67a6b5daf04985a4db78694c2f5675cac2fbaebdcbbe43e95b22"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen2_late.json",
+      "bytes": 391,
+      "sha256": "575548176435056fb297d3f5fa163718647b2de01913cadeabe650c1fb86e14d",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen2_late.json",
+      "source_sha256": "575548176435056fb297d3f5fa163718647b2de01913cadeabe650c1fb86e14d",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "575548176435056fb297d3f5fa163718647b2de01913cadeabe650c1fb86e14d"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen2_perfect.json",
+      "bytes": 374,
+      "sha256": "853bc97637d1e5e3160e3f4fc7be77f5baac3987b04288b8889888aa86f5cc7a",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen2_perfect.json",
+      "source_sha256": "853bc97637d1e5e3160e3f4fc7be77f5baac3987b04288b8889888aa86f5cc7a",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "853bc97637d1e5e3160e3f4fc7be77f5baac3987b04288b8889888aa86f5cc7a"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen2_sloppy.json",
+      "bytes": 415,
+      "sha256": "549e2070bae0634f7dd736f67e2d860df8ea75168a294afc4d5aed837a4f9b01",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen2_sloppy.json",
+      "source_sha256": "549e2070bae0634f7dd736f67e2d860df8ea75168a294afc4d5aed837a4f9b01",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "549e2070bae0634f7dd736f67e2d860df8ea75168a294afc4d5aed837a4f9b01"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen3_late.json",
+      "bytes": 361,
+      "sha256": "7a9051ebc0f59095ab05f39f96f26b502d45c4c61ac9b9a92479aeeb8b388cc5",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen3_late.json",
+      "source_sha256": "7a9051ebc0f59095ab05f39f96f26b502d45c4c61ac9b9a92479aeeb8b388cc5",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "7a9051ebc0f59095ab05f39f96f26b502d45c4c61ac9b9a92479aeeb8b388cc5"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen3_perfect.json",
+      "bytes": 344,
+      "sha256": "da498f5fe29dbb3a32326ec9101e4a4a794c2d4649c59d24c376c8dbc1c36c1f",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen3_perfect.json",
+      "source_sha256": "da498f5fe29dbb3a32326ec9101e4a4a794c2d4649c59d24c376c8dbc1c36c1f",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "da498f5fe29dbb3a32326ec9101e4a4a794c2d4649c59d24c376c8dbc1c36c1f"
+    },
+    {
+      "path": "tests/data/cases/parity2/case_gen3_sloppy.json",
+      "bytes": 385,
+      "sha256": "42406a52a707c3ca559482f955c97eb744ae9ec7844ee46bbaa3bf16c88612b5",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity2/case_gen3_sloppy.json",
+      "source_sha256": "42406a52a707c3ca559482f955c97eb744ae9ec7844ee46bbaa3bf16c88612b5",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "42406a52a707c3ca559482f955c97eb744ae9ec7844ee46bbaa3bf16c88612b5"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin0_perfect.json",
+      "bytes": 333,
+      "sha256": "86e6f31caa1d59a9e638b8ee90e051a5a458261a4f31702b09952de2e3ca8a05",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin0_perfect.json",
+      "source_sha256": "86e6f31caa1d59a9e638b8ee90e051a5a458261a4f31702b09952de2e3ca8a05",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "86e6f31caa1d59a9e638b8ee90e051a5a458261a4f31702b09952de2e3ca8a05"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin0_sloppy.json",
+      "bytes": 354,
+      "sha256": "66af0b6321e7b7290f2081401cc4fd5b82e532480edae17a08625e6375c6930f",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin0_sloppy.json",
+      "source_sha256": "66af0b6321e7b7290f2081401cc4fd5b82e532480edae17a08625e6375c6930f",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "66af0b6321e7b7290f2081401cc4fd5b82e532480edae17a08625e6375c6930f"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin1_perfect.json",
+      "bytes": 335,
+      "sha256": "14633162c2b74097d5f606f73063fe9cfa8d71f9b4ec82b80becd487d7b41d11",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin1_perfect.json",
+      "source_sha256": "14633162c2b74097d5f606f73063fe9cfa8d71f9b4ec82b80becd487d7b41d11",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "14633162c2b74097d5f606f73063fe9cfa8d71f9b4ec82b80becd487d7b41d11"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin1_sloppy.json",
+      "bytes": 356,
+      "sha256": "27d9b95441026e63c437edbc590e5e1461e9038d7eaa285ec47ca9da7f16e94e",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin1_sloppy.json",
+      "source_sha256": "27d9b95441026e63c437edbc590e5e1461e9038d7eaa285ec47ca9da7f16e94e",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "27d9b95441026e63c437edbc590e5e1461e9038d7eaa285ec47ca9da7f16e94e"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin2_perfect.json",
+      "bytes": 291,
+      "sha256": "12a557828f4e7b1b5ea9ec5b8db6d26fc575f7dd6cd60a48956a1a50d466266b",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin2_perfect.json",
+      "source_sha256": "12a557828f4e7b1b5ea9ec5b8db6d26fc575f7dd6cd60a48956a1a50d466266b",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "12a557828f4e7b1b5ea9ec5b8db6d26fc575f7dd6cd60a48956a1a50d466266b"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin2_sloppy.json",
+      "bytes": 290,
+      "sha256": "9450204907e6e0456055711f853d5f1485088ccd38469a8866da7119154c9bc9",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin2_sloppy.json",
+      "source_sha256": "9450204907e6e0456055711f853d5f1485088ccd38469a8866da7119154c9bc9",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "9450204907e6e0456055711f853d5f1485088ccd38469a8866da7119154c9bc9"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin3_perfect.json",
+      "bytes": 335,
+      "sha256": "3fc545cc277abd40cbeb1589d7d7a035d49e07961d4c152fe79024f7dbedc413",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin3_perfect.json",
+      "source_sha256": "3fc545cc277abd40cbeb1589d7d7a035d49e07961d4c152fe79024f7dbedc413",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "3fc545cc277abd40cbeb1589d7d7a035d49e07961d4c152fe79024f7dbedc413"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin3_sloppy.json",
+      "bytes": 334,
+      "sha256": "164ce5c1965927d43b0e2dd7be69bd70675628519e2a112139105edf33fb2e67",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin3_sloppy.json",
+      "source_sha256": "164ce5c1965927d43b0e2dd7be69bd70675628519e2a112139105edf33fb2e67",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "164ce5c1965927d43b0e2dd7be69bd70675628519e2a112139105edf33fb2e67"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin4_perfect.json",
+      "bytes": 371,
+      "sha256": "7d993b9b178058b3a67943c364314c41f5ef3211010ca883a5ca087b5f009544",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin4_perfect.json",
+      "source_sha256": "7d993b9b178058b3a67943c364314c41f5ef3211010ca883a5ca087b5f009544",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "7d993b9b178058b3a67943c364314c41f5ef3211010ca883a5ca087b5f009544"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin4_sloppy.json",
+      "bytes": 370,
+      "sha256": "adf9d0455894d51b546f11560a9fffa471042f735f887262a5544c5e26baf819",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin4_sloppy.json",
+      "source_sha256": "adf9d0455894d51b546f11560a9fffa471042f735f887262a5544c5e26baf819",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "adf9d0455894d51b546f11560a9fffa471042f735f887262a5544c5e26baf819"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin5_perfect.json",
+      "bytes": 333,
+      "sha256": "6bd684dd7914c5a8519a2e5b066b9e4e1a6e8fcc9f6561b1c3c0f6086eff0c14",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin5_perfect.json",
+      "source_sha256": "6bd684dd7914c5a8519a2e5b066b9e4e1a6e8fcc9f6561b1c3c0f6086eff0c14",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "6bd684dd7914c5a8519a2e5b066b9e4e1a6e8fcc9f6561b1c3c0f6086eff0c14"
+    },
+    {
+      "path": "tests/data/cases/parity_spin/case_spin5_sloppy.json",
+      "bytes": 354,
+      "sha256": "cf423691dbfce48420bebc76ca4060c6b954943872118e6b709010740d371e95",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/cases/parity_spin/case_spin5_sloppy.json",
+      "source_sha256": "cf423691dbfce48420bebc76ca4060c6b954943872118e6b709010740d371e95",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "cf423691dbfce48420bebc76ca4060c6b954943872118e6b709010740d371e95"
+    },
+    {
+      "path": "tests/data/maps/gen0.osu",
+      "bytes": 1525,
+      "sha256": "1ba3f12a1a478bf805e53d0dde0c3b33f7d2307c69ff2fc2df28710ad3217c1a",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/gen0.osu",
+      "source_sha256": "1ba3f12a1a478bf805e53d0dde0c3b33f7d2307c69ff2fc2df28710ad3217c1a",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "1ba3f12a1a478bf805e53d0dde0c3b33f7d2307c69ff2fc2df28710ad3217c1a"
+    },
+    {
+      "path": "tests/data/maps/gen1.osu",
+      "bytes": 1886,
+      "sha256": "071d245fc063526e8740639ef3eb9d6c1b1a49d79cecd2416fe4e398ddf8b388",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/gen1.osu",
+      "source_sha256": "071d245fc063526e8740639ef3eb9d6c1b1a49d79cecd2416fe4e398ddf8b388",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "071d245fc063526e8740639ef3eb9d6c1b1a49d79cecd2416fe4e398ddf8b388"
+    },
+    {
+      "path": "tests/data/maps/gen2.osu",
+      "bytes": 2924,
+      "sha256": "4a3af38eb6cca4511f07cba031f07d2d483f22a14b02d3d64fc092e1380ffc10",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/gen2.osu",
+      "source_sha256": "4a3af38eb6cca4511f07cba031f07d2d483f22a14b02d3d64fc092e1380ffc10",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "4a3af38eb6cca4511f07cba031f07d2d483f22a14b02d3d64fc092e1380ffc10"
+    },
+    {
+      "path": "tests/data/maps/gen3.osu",
+      "bytes": 2442,
+      "sha256": "3541fe577eae9fde5e8b1ba7271ac7582a9da6f5bbc05894d4c9537ebcad0a09",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/gen3.osu",
+      "source_sha256": "3541fe577eae9fde5e8b1ba7271ac7582a9da6f5bbc05894d4c9537ebcad0a09",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "3541fe577eae9fde5e8b1ba7271ac7582a9da6f5bbc05894d4c9537ebcad0a09"
+    },
+    {
+      "path": "tests/data/maps/spin0.osu",
+      "bytes": 1566,
+      "sha256": "d4ab4e9d7d0054495c67da888621a49011193e71fa92440eff726612db08b6a9",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/spin0.osu",
+      "source_sha256": "d4ab4e9d7d0054495c67da888621a49011193e71fa92440eff726612db08b6a9",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "d4ab4e9d7d0054495c67da888621a49011193e71fa92440eff726612db08b6a9"
+    },
+    {
+      "path": "tests/data/maps/spin1.osu",
+      "bytes": 1395,
+      "sha256": "13b24231f94cb39c1827c0b9cf8726cbdf0ac002f2f05bf58fbf610ca24051fb",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/spin1.osu",
+      "source_sha256": "13b24231f94cb39c1827c0b9cf8726cbdf0ac002f2f05bf58fbf610ca24051fb",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "13b24231f94cb39c1827c0b9cf8726cbdf0ac002f2f05bf58fbf610ca24051fb"
+    },
+    {
+      "path": "tests/data/maps/spin2.osu",
+      "bytes": 1081,
+      "sha256": "470cca3bdb054e1547072f63b2a41fa7a2fe9f612b08d480a534c0be56447f21",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/spin2.osu",
+      "source_sha256": "470cca3bdb054e1547072f63b2a41fa7a2fe9f612b08d480a534c0be56447f21",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "470cca3bdb054e1547072f63b2a41fa7a2fe9f612b08d480a534c0be56447f21"
+    },
+    {
+      "path": "tests/data/maps/spin3.osu",
+      "bytes": 1368,
+      "sha256": "531b53c642d5f7a44b79959ba618fe46e1e69989bc3fea1f3571f5b0559fab07",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/spin3.osu",
+      "source_sha256": "531b53c642d5f7a44b79959ba618fe46e1e69989bc3fea1f3571f5b0559fab07",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "531b53c642d5f7a44b79959ba618fe46e1e69989bc3fea1f3571f5b0559fab07"
+    },
+    {
+      "path": "tests/data/maps/spin4.osu",
+      "bytes": 1268,
+      "sha256": "5e08656784946d45d943ed373a0b312a9748ec83d7988028824c578c71ecdb3b",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/spin4.osu",
+      "source_sha256": "5e08656784946d45d943ed373a0b312a9748ec83d7988028824c578c71ecdb3b",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "5e08656784946d45d943ed373a0b312a9748ec83d7988028824c578c71ecdb3b"
+    },
+    {
+      "path": "tests/data/maps/spin5.osu",
+      "bytes": 1210,
+      "sha256": "34ce66f00c89be9475c458045a3fc0a3d2d81dd9b023151a81c7b2c9476aa4e9",
+      "role": "immutable generated fixture/provenance",
+      "license_scope": "CC0-1.0; rights held by James Liu only, approved candidate_v4 basis and current bytes separately inventoried",
+      "source": "packaging/osu_sim/tests/data/maps/spin5.osu",
+      "source_sha256": "34ce66f00c89be9475c458045a3fc0a3d2d81dd9b023151a81c7b2c9476aa4e9",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "34ce66f00c89be9475c458045a3fc0a3d2d81dd9b023151a81c7b2c9476aa4e9"
+    },
+    {
+      "path": "tests/paritylib.py",
+      "bytes": 4382,
+      "sha256": "9030002405740dd69edd13e8c2ae68f89e5040e7cd08a8233bc56852ee1a0636",
+      "role": "generated example/test/tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "packaging/osu_sim/tests/paritylib.py",
+      "source_sha256": "9030002405740dd69edd13e8c2ae68f89e5040e7cd08a8233bc56852ee1a0636",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "9030002405740dd69edd13e8c2ae68f89e5040e7cd08a8233bc56852ee1a0636"
+    },
+    {
+      "path": "tests/test_conformance_generated.py",
+      "bytes": 6505,
+      "sha256": "9bc29044b362a84ce91f417cc548e4c9077739d414d2462ad1d59094df186aa7",
+      "role": "generated example/test/tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "packaging/osu_sim/tests/test_conformance_generated.py",
+      "source_sha256": "9bc29044b362a84ce91f417cc548e4c9077739d414d2462ad1d59094df186aa7",
+      "transformations": [],
+      "byte_identical_to_source": true,
+      "prior_candidate_sha256": "9bc29044b362a84ce91f417cc548e4c9077739d414d2462ad1d59094df186aa7"
+    },
+    {
+      "path": "tests/test_release_interfaces.py",
+      "bytes": 4409,
+      "sha256": "b01b3aad0925a7eed038417fe06afb93d2c6a2b0ccdecac106f579494c226f75",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "b01b3aad0925a7eed038417fe06afb93d2c6a2b0ccdecac106f579494c226f75"
+    },
+    {
+      "path": "tools/build_pd_pools.py",
+      "bytes": 20274,
+      "sha256": "173267b71141f235918b15875418c549e9a928825917c96b72ac50f780273672",
+      "role": "portable procedural reproduction/analysis tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "runs/development/pd_20261101/build_pd_pools.py",
+      "source_sha256": "2c59d16766b7df166af1a37f2ff35f12344f695e17b6bd1db7d6528de182b586",
+      "transformations": [
+        "Portable derivative; input source remains untouched.",
+        "Replace private root inference with required explicit new output directory; retain train/monitor only.",
+        "Default to one worker and reject invalid prefix sizes before writes.",
+        "Omit sealed token-file reader/writer and historical manifest scanner; retain pure construction helpers without executing them.",
+        "New manifests use relative pool/builder names and module hashes without absolute source paths.",
+        "Update module instructions; mathematical and map construction functions unchanged."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "173267b71141f235918b15875418c549e9a928825917c96b72ac50f780273672"
+    },
+    {
+      "path": "tools/build_public_documents.py",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "sha256": "f09f6154ff3888006bb271b424a42e0396fd5d3c31ba4b3c53834aa1e00e7815",
+      "bytes": 16153,
+      "prior_candidate_sha256": "3da626d430e2fba9693484a10279e6096ea5c898d54d4e617a3c916b4ec0c58c"
+    },
+    {
+      "path": "tools/pd_analysis_f1.py",
+      "bytes": 54418,
+      "sha256": "483c27b015dbcafc2619f93f5beb0cb8e1bfcd3154acc714fc1c7df891b38936",
+      "role": "portable procedural reproduction/analysis tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": "runs/development/pd_20261101/pd_analysis_f1.py",
+      "source_sha256": "7730ddc45028f09504862dc717a96be59688f1814c261b78912b65d4eff51433",
+      "transformations": [
+        "Portable derivative; frozen/original source not altered or falsely presented as byte-identical.",
+        "Correct F1 documentation and power text to 3 arms, 3 replicates, 6 secondary tests, Sxx=32/9 per replicate.",
+        "Require explicit root for batch analysis and API calls; no private-root inference.",
+        "Record exported script basename/hash; distinct portable derivative version label.",
+        "Statistical formulas, design constants, integrity checks, exclusive output semantics and calculation functions unchanged."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "483c27b015dbcafc2619f93f5beb0cb8e1bfcd3154acc714fc1c7df891b38936"
+    },
+    {
+      "path": "tools/synthetic_analysis_example.py",
+      "bytes": 5211,
+      "sha256": "b6e8936d884b6989b8042bade6e66bb29a3822738b30ce835954aed9f05cbed4",
+      "role": "portable procedural reproduction/analysis tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New isolated artificial-count demonstration; no study inputs, outputs, or source-path dependency."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "b6e8936d884b6989b8042bade6e66bb29a3822738b30ce835954aed9f05cbed4"
+    },
+    {
+      "path": "tools/test_pd_tools_synthetic.py",
+      "bytes": 4739,
+      "sha256": "5572f13f709fe51ba80805db04938a0d372c4611bbacb4366980be3f7497ad70",
+      "role": "portable procedural reproduction/analysis tool",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New nine-test CPU suite: independent OLS matrix, F1 synthetic end-to-end, integrity refusals, missing replicates, zero-count/Holm, quota bounds and explicit-root CLI."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "5572f13f709fe51ba80805db04938a0d372c4611bbacb4366980be3f7497ad70"
+    },
+    {
+      "path": "tools/verify_claims.py",
+      "sha256": "bf894f90812742b735190f711f95d37e7caed6c9b2c56ff430c2693aab56aa19",
+      "bytes": 22473,
+      "role": "new public provenance verifier",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [
+        "New release metadata/evidence/tool; original archival records and candidate_v1 remain unchanged.",
+        "Candidate_v3 accepted-study integration; prior candidates preserved.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved.",
+        "Candidate_v5 applies approved naming/contribution/license decisions; prior candidates and frozen originals preserved."
+      ],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "d0069325d2ae9c8af55e9d1ccdc5347f9e657e92b93d16e42a8db771f2831806"
+    },
+    {
+      "path": "tools/verify_document_figures.py",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "sha256": "c52797d9881c54e05343bacd3d9823f71f0d87385706abe026140514dc53f3f5",
+      "bytes": 5252,
+      "prior_candidate_sha256": "c52797d9881c54e05343bacd3d9823f71f0d87385706abe026140514dc53f3f5"
+    },
+    {
+      "path": "tools/verify_documents.py",
+      "role": "new public document/evidence utility or derived artifact",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "Explicitly selected v4 derivative; original handover preserved."
+      ],
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "sha256": "d87d19306f568987ebe8abeed03d65852d3130a8fcf628e8d449b9c23c953130",
+      "bytes": 4966,
+      "prior_candidate_sha256": "d87d19306f568987ebe8abeed03d65852d3130a8fcf628e8d449b9c23c953130"
+    },
+    {
+      "path": "tools/verify_license_grants.py",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "role": "new approved release metadata/notice or license verification utility",
+      "transformations": [
+        "Added in candidate_v5 from explicit owner decisions and official license legal texts."
+      ],
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "sha256": "b25a9922d32e4bd0c65aac490bb4d22fe631ea6718281877b18f7fa613dddbaa",
+      "bytes": 5828
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 1840,
+      "sha256": "f44bddea880079ef685cf4b70e91694dcaa5d6773f22e4f1a699c3128cf20854",
+      "role": "new release tooling/metadata/notice",
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "source": null,
+      "source_sha256": null,
+      "transformations": [],
+      "byte_identical_to_source": false,
+      "prior_candidate_sha256": "f44bddea880079ef685cf4b70e91694dcaa5d6773f22e4f1a699c3128cf20854"
+    },
+    {
+      "path": "tools/verify_study.py",
+      "role": "new public study verifier",
+      "source": null,
+      "source_sha256": null,
+      "byte_identical_to_source": false,
+      "transformations": [
+        "New release material derived from the existing accepted outputs; frozen originals are not rewritten.",
+        "Candidate_v4 public document/approvedD1 integration; previous candidates preserved."
+      ],
+      "license_scope": "MIT software and release utilities; retain upstream notices",
+      "sha256": "9c67006345bdcbcf2cc2a4971f87849b187d528526aa25d79d27e2017840a5d9",
+      "bytes": 18954,
+      "prior_candidate_sha256": "9c67006345bdcbcf2cc2a4971f87849b187d528526aa25d79d27e2017840a5d9"
+    }
+  ]
+}

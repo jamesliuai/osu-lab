@@ -1,0 +1,3372 @@
+{
+  "schema": "public_document_provenance_v1",
+  "documents": [
+    {
+      "path": "docs/REPORT.md",
+      "historical_source_provenance": {
+        "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+        "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+        "availability": "not_exported_original_preserved_privately"
+      },
+      "scientific_table_sha256": [
+        "e7f32f45f4335ed6724a4483d31ec7308320cd0a3da8cc1562893277c16a5549",
+        "efd803f14060fb5e5000b80f04969caf68ab0859c16e7e604b667c73cf6f5ce4",
+        "284b0dc46a044a180e4b8d28d28923e8ef3f9bf3f63ffa98061d5641dff344c7",
+        "644df9c08570504855c166de34569f5ea9f564b236814b0fc678a5b8e5dbd079",
+        "94dbdac6827cabc1dcaafb9ecf21ab3d4e428d9c9f0cff6f1f248339efb3251e",
+        "4695dffc09e12d2190d17c6f95997802fe317a89826b65b2b717e1e04f959090",
+        "7a5f7be4642a9ec3fe17c79dbf0c3a7c17d2ab7e188f8845b95512e24dd285cb"
+      ],
+      "candidate_v4_transformations": [
+        "Resolve all three chart references to the individually audited exported originals.",
+        "Distinguish historical comparison from the aggregate-only public verification.",
+        "Accurately label inherited runtime evidence.",
+        "Retain measured numbers while disclosing unavailable primary evidence and renderer assets.",
+        "Resolve D1 to the current approved snapshot.",
+        "Replace an unavailable results-document reference with its included aggregate evidence; label the historical original.",
+        "Remove a broken media-download reference while retaining the selection caveat.",
+        "Explain independently unresolved asset permissions.",
+        "Omit the optional personal-history editorial note; preserve the generated-data scientific statement.",
+        "Provide resolvable per-reference audit instead of missing original log.",
+        "Explicitly separate original identities from public dependencies.",
+        "Avoid presenting an unavailable command as a working public quick-start.",
+        "Explain unavailable original configuration dependencies.",
+        "Keep handover audit identity and distinguish later final audit.",
+        "Replace the author placeholder with James Liu, explicitly confirmed by the owner in this release thread.",
+        "Retain all scientific table bytes and scientific numeric-token multiplicities; add public evidence/omitted-artifact qualifications."
+      ],
+      "prior_public_derivative": {
+        "candidate": "0.1.0rc5",
+        "path": "docs/REPORT.md",
+        "sha256": "563a25ef51e9a1d7db15a0a52318733c035bab0f21bf2ea54a6e5adf70f50ab2",
+        "availability": "historical_candidate_v4_identity_not_current_export_hash"
+      },
+      "transformations": [
+        "Add confirmed osu-lab project branding while retaining osu-sim distribution and osu_sim import names.",
+        "Apply owner-approved CC BY rights notice; attach complete license/attribution and font notices in corresponding PDF.",
+        "Include exact approved personal-contribution statement in report appendix; preserve upstream distinction.",
+        "Preserve scientific body, tables, numbers, limitations and internal-review/D1 disclosure; original handover and all frozen records unchanged."
+      ]
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "historical_source_provenance": {
+        "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+        "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+        "availability": "not_exported_original_preserved_privately"
+      },
+      "scientific_table_sha256": [],
+      "candidate_v4_transformations": [
+        "Resolve all three chart references to the individually audited exported originals.",
+        "Avoid an unconfirmed personal contribution claim; the owner receives a separate proposed statement.",
+        "Use neutral wording pending personal contribution confirmation.",
+        "Omit optional personal-history note; retain generated-data statement.",
+        "Replace the author placeholder with James Liu, explicitly confirmed by the owner in this release thread.",
+        "Retain all scientific table bytes and scientific numeric-token multiplicities; add public evidence/omitted-artifact qualifications."
+      ],
+      "prior_public_derivative": {
+        "candidate": "0.1.0rc5",
+        "path": "docs/ONE_PAGE_SUMMARY.md",
+        "sha256": "3ca389157562e3711d0e55a679285d95d7b7e7cef193be218f691e02a8fba31e",
+        "availability": "historical_candidate_v4_identity_not_current_export_hash"
+      },
+      "transformations": [
+        "Add confirmed osu-lab project branding while retaining osu-sim distribution and osu_sim import names.",
+        "Apply owner-approved CC BY rights notice; attach complete license/attribution and font notices in corresponding PDF.",
+        "Include exact approved personal-contribution statement in report appendix; preserve upstream distinction.",
+        "Preserve scientific body, tables, numbers, limitations and internal-review/D1 disclosure; original handover and all frozen records unchanged."
+      ]
+    }
+  ],
+  "owner_decisions": {
+    "D1": "approved_retrospectively",
+    "public_author_line": "James Liu; confirmed by owner",
+    "personal_contribution_wording": "approved_verbatim",
+    "optional_personal_history_note": "omitted",
+    "public_project_name": "osu-lab",
+    "distribution_name": "osu-sim",
+    "import_name": "osu_sim",
+    "license_scope": "owner_approved_applied; exact candidate_v4 basis",
+    "planned_destinations": {
+      "repository": "https://github.com/jamesliuai/osu-lab",
+      "downloads": "https://github.com/jamesliuai/osu-lab/releases/tag/v0.1.0rc6",
+      "website": "https://jamesliuai.github.io/osu-lab/"
+    }
+  },
+  "public_evidence": [
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/PD_supplement.json",
+      "sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/PD_DEVIATIONS_2026-11-01.md",
+      "sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/CLEAN_DATA_AUDIT_HANDOVER.json",
+      "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/CLEAN_DATA_AUDIT_FINAL.json",
+      "sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.md",
+      "sha256": "08ee6ba416c4675b1f54e5d366540f72b06f31bfbe2bb20ebcf1028c98e3ab44",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+      "sha256": "306704fffc9df7bb9c51f858bcb09099b448e88269b129991b67d717134278d4",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/documents/REFERENCE_AUDIT.json",
+      "sha256": "06a321441067c8041ed343cad1bab5189525fb5a0237741aaa6ba74ec0db5f17",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "evidence/documents/FIGURE_AUDIT.json",
+      "sha256": "69d0dffa4f91ff2a710741b959abf077d11769c8c6ca21a5450dc04f265b0948",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "docs/references.bib",
+      "sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "sha256": "587d56437a63c09610901b62c830252ecc58fdc6cb1ff4c5430725c1a9bb3e91",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "docs/REPORT.pdf",
+      "sha256": "de75466148c32973be749c263939ad88b06c40a0dd0f07543befc87d869f4358",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "sha256": "e88a1b69ea488b9edc80825741c51065b2495ed595f11d5a4baf67e4fb9f96c4",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.pdf",
+      "sha256": "7d257717a8ee1106ccd1b7b40f475f22a320ebf1b86941fa8df6a5222712ab3f",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "licenses/Bitstream-Vera.txt",
+      "sha256": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+      "locator": "whole record",
+      "supports": "Exported evidence identity and declared scope"
+    },
+    {
+      "path": "PROJECT_METADATA.json",
+      "sha256": "59acb35027672bd9b41d525023b6c6d6f756240b7f0cc59b1914e95a70dcc805",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    },
+    {
+      "path": "LICENSE-STUDY.md",
+      "sha256": "01c751f00402825a59b8341f98c05d8bbc9720383d7ea387b0de924c77a7f519",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    },
+    {
+      "path": "LICENSE-DATA.md",
+      "sha256": "812ef6827d5d547034e67dbf1a0c6a22de702fb396a78487dcca0b0872310964",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    },
+    {
+      "path": "evidence/APPROVED_V4_LICENSE_SCOPE.json",
+      "sha256": "9cf6ae185e9b0ad13927a5d97e052b3c5ba4c96cec68a5aa6efe60a9a8c40adf",
+      "locator": "whole record",
+      "supports": "Owner-approved release metadata or applied rights notice"
+    }
+  ],
+  "semantic_bindings": [
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "control_hz",
+        "value"
+      ],
+      "value": 60,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "rules_sub_update_ms",
+        "value"
+      ],
+      "value": 1,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "view_height_px",
+        "value"
+      ],
+      "value": 192,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "view_width_px",
+        "value"
+      ],
+      "value": 256,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "footprint_scale",
+        "value"
+      ],
+      "value": 3.75,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "client_width_px",
+        "value"
+      ],
+      "value": 960,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "client_height_px",
+        "value"
+      ],
+      "value": 720,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pixel_levels_max",
+        "value"
+      ],
+      "value": 255,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "n_envs",
+        "value"
+      ],
+      "value": 1024,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "rollout_steps",
+        "value"
+      ],
+      "value": 128,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "clip_min_objects",
+        "value"
+      ],
+      "value": 8,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "clip_max_objects",
+        "value"
+      ],
+      "value": 32,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "ema_decay",
+        "value"
+      ],
+      "value": 0.9999,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "lazer_release",
+        "value"
+      ],
+      "value": "2026.921.0",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_traces",
+        "value"
+      ],
+      "value": 72,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_traces_equal",
+        "value"
+      ],
+      "value": 72,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_steps",
+        "value"
+      ],
+      "value": 77323,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_mismatched_steps",
+        "value"
+      ],
+      "value": 0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_maps",
+        "value"
+      ],
+      "value": 10,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_maps_general",
+        "value"
+      ],
+      "value": 4,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "parity_maps_spinner",
+        "value"
+      ],
+      "value": 6,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "conformance_tests",
+        "value"
+      ],
+      "value": 107,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "render_fg_mae_gen_a",
+        "value"
+      ],
+      "value": 1.2339425535779245,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "render_fg_mae_gen_b",
+        "value"
+      ],
+      "value": 1.34202404962102,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "render_frames_gen",
+        "value"
+      ],
+      "value": 3541,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "token_seed_bytes",
+        "value"
+      ],
+      "value": 8,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "test_seed0",
+        "value"
+      ],
+      "value": 5000000,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "test_seed_mod",
+        "value"
+      ],
+      "value": 4000000,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "manifest_files",
+        "value"
+      ],
+      "value": 100,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "date",
+        "value"
+      ],
+      "value": "2026-11-01",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "freeze_utc",
+        "value"
+      ],
+      "value": "10:23:25",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "digicert_utc",
+        "value"
+      ],
+      "value": "10:23:32",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "sectigo_utc",
+        "value"
+      ],
+      "value": "10:23:33",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "draw_utc",
+        "value"
+      ],
+      "value": "10:23:41",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "first_launch_utc",
+        "value"
+      ],
+      "value": "10:27:19",
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pd_test_id_maps",
+        "value"
+      ],
+      "value": 500,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pd_test_tempo_maps",
+        "value"
+      ],
+      "value": 250,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pd_test_pattern_maps",
+        "value"
+      ],
+      "value": 250,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pd_test_all_maps",
+        "value"
+      ],
+      "value": 1000,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "tempo_factor",
+        "value"
+      ],
+      "value": 1.3,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "band_share_1",
+        "value"
+      ],
+      "value": 0.2061855670103093,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "band_share_2",
+        "value"
+      ],
+      "value": 0.3505154639175258,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "band_share_3",
+        "value"
+      ],
+      "value": 0.44329896907216493,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "variant_share_slider",
+        "value"
+      ],
+      "value": 0.25,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "variant_share_spinner",
+        "value"
+      ],
+      "value": 0.15,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "variant_share_streamjump",
+        "value"
+      ],
+      "value": 0.1,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "variant_share_plain",
+        "value"
+      ],
+      "value": 0.5,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "sequence_length",
+        "value"
+      ],
+      "value": 8192,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pseudo_difficulty_offset",
+        "value"
+      ],
+      "value": 0.5,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pseudo_difficulty_slope",
+        "value"
+      ],
+      "value": 4.5,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "monitor_maps",
+        "value"
+      ],
+      "value": 200,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_seed",
+        "value"
+      ],
+      "value": 0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_budget",
+        "value"
+      ],
+      "value": 40000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_eval_at_1",
+        "value"
+      ],
+      "value": 10000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_eval_at_2",
+        "value"
+      ],
+      "value": 20000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_eval_at_3",
+        "value"
+      ],
+      "value": 30000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_eval_at_4",
+        "value"
+      ],
+      "value": 40000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "pilot_pool_maps",
+        "value"
+      ],
+      "value": 8192,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "arm_16",
+        "value"
+      ],
+      "value": 16,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "arm_256",
+        "value"
+      ],
+      "value": 256,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "arm_4096",
+        "value"
+      ],
+      "value": 4096,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "arm_ratio",
+        "value"
+      ],
+      "value": 16,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "k_log_base",
+        "value"
+      ],
+      "value": 8,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "planned_arm_16",
+        "value"
+      ],
+      "value": 16,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "planned_arm_128",
+        "value"
+      ],
+      "value": 128,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "planned_arm_1024",
+        "value"
+      ],
+      "value": 1024,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "planned_arm_8192",
+        "value"
+      ],
+      "value": 8192,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "planned_replicates",
+        "value"
+      ],
+      "value": 4,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "replicates",
+        "value"
+      ],
+      "value": 3,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "residual_df",
+        "value"
+      ],
+      "value": 5,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "delta",
+        "value"
+      ],
+      "value": 0.15,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "delta_failure_rate_change",
+        "value"
+      ],
+      "value": 0.1392920235749422,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "alpha",
+        "value"
+      ],
+      "value": 0.05,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "ci_level_95",
+        "value"
+      ],
+      "value": 0.95,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "ci_level_90",
+        "value"
+      ],
+      "value": 0.9,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "seed_r1",
+        "value"
+      ],
+      "value": 1,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "seed_r2",
+        "value"
+      ],
+      "value": 2,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "seed_r3",
+        "value"
+      ],
+      "value": 3,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "budget_D",
+        "value"
+      ],
+      "value": 60000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "budget_D_millions",
+        "value"
+      ],
+      "value": 60.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "eval_at_1",
+        "value"
+      ],
+      "value": 15000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "eval_at_2",
+        "value"
+      ],
+      "value": 30000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "eval_at_3",
+        "value"
+      ],
+      "value": 45000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "eval_at_4",
+        "value"
+      ],
+      "value": 60000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "probe_cap",
+        "value"
+      ],
+      "value": 256,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "g0_threshold",
+        "value"
+      ],
+      "value": 0.85,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "g0_budget_30",
+        "value"
+      ],
+      "value": 30000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "g0_budget_40",
+        "value"
+      ],
+      "value": 40000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "g0_fallback_threshold",
+        "value"
+      ],
+      "value": 0.75,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "g0_budget_f1",
+        "value"
+      ],
+      "value": 60000000.0,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "max_hours_factor",
+        "value"
+      ],
+      "value": 1.5,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "max_hours_margin",
+        "value"
+      ],
+      "value": 0.2,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "selector": [
+        "facts",
+        "max_hours",
+        "value"
+      ],
+      "value": 3.1,
+      "kind": "historical_fact_record; omitted origins not opened"
+    },
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "selector": [
+        "settings"
+      ],
+      "value": {
+        "alpha": 0.05,
+        "arms": [
+          16,
+          256,
+          4096
+        ],
+        "budget_decisions_D": 60000000.0,
+        "curve_columns": [
+          "decisions",
+          "Y",
+          "mean_acc",
+          "fc_rate"
+        ],
+        "curve_names": [
+          "pd_monitor_ema",
+          "pd_probe_ema"
+        ],
+        "delta": 0.15,
+        "eval_mode": "deterministic",
+        "holm_m": 6,
+        "k": {
+          "16": 0.0,
+          "256": 1.3333333333333333,
+          "4096": 2.6666666666666665
+        },
+        "k_definition": "k = log8(N / 16)",
+        "labels": [
+          "P1 Design. Arms N in {16, 128, 1024, 8192} distinct generated practice maps; replicates r in {1, 2, 3, 4}; k = log8(N / 16), the exact integers 0, 1, 2, 3. Each run's final EMA-0.9999 policy played (deterministic) ONE merged test pool whose manifest gives every map's set: \"id\" (500 maps of the practice construction), \"tempo\" (250 maps at 1.3x tempo) and \"pattern\" (250 burst drills); and, separately, its train probe (its first min(N, 256) practice maps). Map records = detail.deterministic.maps of an eval JSON, one per map, in pool order.",
+          "P2 Outcome of a set of map records: F = sum of (breaks + tail_miss), O = sum of max_combo_possible, Y = ln(F / O) (lower is better); zero-failure rule: F == 0 -> Y = ln(0.5 / O); O == 0 -> Y null. fc_rate = mean of the per-map \"fc\", mean_acc = mean of the per-map \"acc\" (both unweighted over maps), n_maps = number of map records. Per run: Y_id, Y_tempo and Y_pattern (test eval, maps grouped by the manifest's set), Y_probe (every map of the probe eval) and the memorization gap G = Y_id - Y_probe.",
+          "P3 Complete-set rule. A replicate counts only if all four of its arms have a run record with complete == true (the JSON boolean). Only complete replicates enter the primary, the secondaries and the per-arm descriptives; every other run is listed in excluded_runs with its reason. With fewer than 3 complete replicates (brief section 12 F3) the primary and every secondary are \"Not tested: insufficient replicate sets\" (no estimate, interval or p-value); the descriptive results are still computed and reported.",
+          "P4 Primary (H1: b < 0). OLS Y_id = alpha_r + b k + e over the n = 4R runs of the R complete replicates, one intercept per replicate (replicate fixed effects, no common intercept). Classical OLS standard error se = s / sqrt(Sxx) with s^2 = RSS / df, df = n - R - 1 and Sxx = the sum of squared within-replicate deviations of k (5 per complete replicate); t = b / se; one-sided p = P(T_df <= t); 95% CI b +- t(0.975, df) se; 90% CI b +- t(0.95, df) se; residual SD = s; intercepts alpha_r. If se == 0: p = 0 when b < 0, else 1 (t is then not finite: null).",
+          "P5 R5 category, with delta = 0.15 (ln units per 8x step of N), p_adj = the primary's one-sided p (the primary family has one test) and the 90% CI [lo, hi]: inside = lo > -delta and hi < +delta; beyond = lo > +delta or hi < -delta (all strict). p < 0.05 and beyond: \"Exceeds the margin\"; p < 0.05 and inside: \"Detectable but within the margin\"; p < 0.05 and neither: \"Detectable difference, magnitude uncertain\"; p >= 0.05 and inside: \"Equivalent within the margin\"; p >= 0.05 and not inside: \"Inconclusive\". practically_meaningful = (category == \"Exceeds the margin\"); no other category is given that label in any output.",
+          "P6 Secondary family: 7 tests, each one-sided in the predicted direction (estimate < 0), Holm over m = 7 at alpha 0.05. S1-S4 are paired over the complete replicates: d_r = Y_id(8192) - Y_id(16) (S1), Y_id(128) - Y_id(16) (S2), Y_id(1024) - Y_id(128) (S3), Y_id(8192) - Y_id(1024) (S4); estimate = mean d, se = sd / sqrt(n) (sd with ddof 1), df = n - 1, t = mean / se, p = P(T_df <= t), 95% CI mean +- t(0.975, df) se (se == 0 as in P4). S5-S7 are the P4 model's slope on G (S5), Y_tempo (S6) and Y_pattern (S7). Holm: p sorted ascending, p_holm_(i) = max over j <= i of min(1, (m - j + 1) p_(j)); reject when p_holm < 0.05.",
+          "P7 Descriptive (no tests). by_arm: per arm over the complete replicates, the mean, the 95% t-interval (df = n - 1; null when n < 2), n and the per-replicate values (values_by_replicate) of Y_id, Y_probe, G, Y_tempo, Y_pattern, fc_rate_id and mean_acc_id. by_band / by_variant: per arm, the id set pooled over the complete replicates by the manifest's band (0, 1, 2) and variant (slider, spinner, streamjump, plain): F, O and Y (P2 on the pooled counts). references: keyed by the name of each reference policy in the batch summary, {id, tempo, pattern (the P2 values of each set), kind, note}. learning_curves: keyed by run name, every run record (complete or not), {N, replicate, monitor, probe, note}: monitor = the eval.jsonl rows named \"pd_monitor_ema\", probe = the rows named \"pd_probe_ema\", each row -> [decisions, Y, mean_acc, fc_rate] (settings.curve_columns) from the row's summary.deterministic (failures and objects with the P2 rules); a missing file is skipped with a note.",
+          "P8 Integrity; a failure refuses (SystemExit) before anything is written: the batch summary's schema is \"pd_batch_summary_v1\"; the test manifest's sha256 equals its record; every eval file's sha256 equals its record; every test eval's per-map \"map\" keys equal the test manifest's key list exactly (same maps, same order: every policy played the identical merged pool), references included; every probe eval's keys equal its probe manifest's keys; no duplicate (N, replicate).",
+          "P9 Power (preregistered; power_table(), --power-table): for R in (3, 4) complete replicates and residual SD sigma in (0.05, 0.10, 0.15, 0.20, 0.30, 0.40): df = 4R - R - 1, Sxx = 5R, se = sigma / sqrt(Sxx), 95% CI half-width t(0.975, df) se, 90% CI half-width t(0.95, df) se, approximate minimum detectable slope (one-sided alpha 0.05, 80% power) (t(0.95, df) + t(0.80, df)) se.",
+          "P10 Wording. wording.primary_sentence states the estimate, its 95% CI, the one-sided p and the R5 category; only the category \"Exceeds the margin\" is worded as practically_meaningful. No output contains a word from FORBIDDEN (checked before anything is written).",
+          "C1 A run record with complete == true must name a test_eval and a probe_eval (with sha256 records) and a probe_manifest, else refuse: a batch fault, not a design exclusion. An incomplete run's evals are read and checked when present; its per-run values are reported in \"runs\" and never pooled; absent evals -> null sets.",
+          "C2 Refused as malformed: N outside the four arms, a replicate outside 1-4, a run without a name, duplicate run names, duplicate reference names; a test-manifest map whose set is not id / tempo / pattern, a set with no map, duplicate manifest keys; a map record without map, fc, max_combo_possible, breaks, tail_miss or acc, or with a non-numeric count. sha256 records compare case-insensitively.",
+          "C3 A secondary test that is not estimable (a null per-run value) enters Holm as p = 1 (m stays 7); it reports status \"Not estimable: ...\" and null values. A test that runs has status \"Tested\". Not tested -> every value null, n null. The primary reports n (runs in complete replicate sets) and n_replicates in every status.",
+          "C4 by_band / by_variant cells also give n_maps (that cell's test maps, per run) and n_runs (complete replicates pooled); with no complete replicate F, O and Y are null.",
+          "C5 Learning-curve rows keep file order (duplicates kept); a row without failures or objects gets Y null; an unparsable line is skipped and counted in the note; eval_jsonl null or a missing file -> empty curves and a note.",
+          "C6 \"version\" is an object: the version label, this script's path and sha256, and the python, numpy and scipy versions.",
+          "C7 Recorded paths are relative to --root (posix) when the file lies under it, else absolute.",
+          "C8 A reference whose test_eval is null gets id, tempo and pattern null and a note.",
+          "C9 A reference's test_eval may instead be the <out>_maps.json of scripts/sim_autopilot_objects.py (the brief's tool for the autopilot): the same per-map records as a top-level \"maps\" list, with the same sha256 and key checks. Run evals must be scripts/sim_eval_pool.py output (detail.deterministic.maps)."
+        ],
+        "min_complete_replicates": 3,
+        "primary_model": "OLS Y_id = alpha_r + b k + e, replicate fixed effects, classical standard error, df = n - R - 1; H1: b < 0, one-sided p = P(T_df <= t)",
+        "probe": "every map of the run's probe eval (its first min(N, 256) practice maps)",
+        "replicates": [
+          1,
+          2,
+          3
+        ],
+        "secondary_direction": "each one-sided in the predicted direction, estimate < 0",
+        "secondary_family": [
+          "S1",
+          "S2",
+          "S3",
+          "S5",
+          "S6",
+          "S7"
+        ],
+        "test_sets": [
+          "id",
+          "tempo",
+          "pattern"
+        ],
+        "zero_failure_rule": "Y = ln(F / O), F = sum of (breaks + tail_miss), O = sum of max_combo_possible over a set's maps; if F == 0, Y = ln(0.5 / O); O == 0 -> null"
+      },
+      "kind": "accepted aggregate"
+    },
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "selector": [
+        "primary"
+      ],
+      "value": {
+        "b": -0.7565632314033421,
+        "ci90": [
+          -1.090579978823105,
+          -0.4225464839835793
+        ],
+        "ci95": [
+          -1.18266584763749,
+          -0.3304606151691942
+        ],
+        "delta": 0.15,
+        "df": 5,
+        "intercepts": {
+          "1": -2.318097529014742,
+          "2": -1.833902052836174,
+          "3": -1.6774081260797338
+        },
+        "n": 9,
+        "n_replicates": 3,
+        "outcome": "Y_id",
+        "p_one_sided": 0.0030169313431651717,
+        "practically_meaningful": true,
+        "r5_category": "Exceeds the margin",
+        "residual_sd": 0.5413736679476998,
+        "se": 0.16576115583134962,
+        "status": "Tested",
+        "t": -4.564176858015471
+      },
+      "kind": "accepted aggregate"
+    },
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "selector": [
+        "secondary"
+      ],
+      "value": [
+        {
+          "ci95": [
+            -4.346699515343357,
+            0.31169561452553296
+          ],
+          "df": 2,
+          "estimate": -2.0175019504089122,
+          "id": "S1",
+          "kind": "paired",
+          "label": "Y_id(4096) - Y_id(16), paired by replicate",
+          "n": 3,
+          "outcome": "Y_id",
+          "p_holm": 0.06655315034363574,
+          "p_one_sided": 0.0325251258183353,
+          "reject_holm": false,
+          "se": 0.5413398922087936,
+          "status": "Tested",
+          "t": -3.726867314686585
+        },
+        {
+          "ci95": [
+            -2.6678635183608543,
+            -0.4319550805938619
+          ],
+          "df": 2,
+          "estimate": -1.549909299477358,
+          "id": "S2",
+          "kind": "paired",
+          "label": "Y_id(256) - Y_id(16), paired by replicate",
+          "n": 3,
+          "outcome": "Y_id",
+          "p_holm": 0.05394366036633469,
+          "p_one_sided": 0.013485915091583672,
+          "reject_holm": false,
+          "se": 0.2598290610705627,
+          "status": "Tested",
+          "t": -5.965111420144199
+        },
+        {
+          "ci95": [
+            -1.6792403557663003,
+            0.7440550539031914
+          ],
+          "df": 2,
+          "estimate": -0.4675926509315544,
+          "id": "S3",
+          "kind": "paired",
+          "label": "Y_id(4096) - Y_id(256), paired by replicate",
+          "n": 3,
+          "outcome": "Y_id",
+          "p_holm": 0.11935012619665286,
+          "p_one_sided": 0.11935012619665286,
+          "reject_holm": false,
+          "se": 0.28160481008777544,
+          "status": "Tested",
+          "t": -1.660456903366839
+        },
+        {
+          "ci95": [
+            -1.0987564536163055,
+            -0.39370288607561355
+          ],
+          "df": 5,
+          "estimate": -0.7462296698459595,
+          "id": "S5",
+          "kind": "slope",
+          "label": "slope of the memorization gap G = Y_id - Y_probe on k, replicate fixed effects",
+          "n": 9,
+          "outcome": "G",
+          "p_holm": 0.00853672694774071,
+          "p_one_sided": 0.0014227878246234518,
+          "reject_holm": true,
+          "se": 0.13713890718561095,
+          "status": "Tested",
+          "t": -5.441414731677666
+        },
+        {
+          "ci95": [
+            -1.0403074858255492,
+            -0.2472971424137626
+          ],
+          "df": 5,
+          "estimate": -0.6438023141196559,
+          "id": "S6",
+          "kind": "slope",
+          "label": "slope of Y_tempo on k, replicate fixed effects",
+          "n": 9,
+          "outcome": "Y_tempo",
+          "p_holm": 0.021766746234365003,
+          "p_one_sided": 0.004353349246873001,
+          "reject_holm": true,
+          "se": 0.1542472471442418,
+          "status": "Tested",
+          "t": -4.173833413815254
+        },
+        {
+          "ci95": [
+            -0.4967446276425731,
+            -0.009388245129682699
+          ],
+          "df": 5,
+          "estimate": -0.2530664363861279,
+          "id": "S7",
+          "kind": "slope",
+          "label": "slope of Y_pattern on k, replicate fixed effects",
+          "n": 9,
+          "outcome": "Y_pattern",
+          "p_holm": 0.06655315034363574,
+          "p_one_sided": 0.022184383447878576,
+          "reject_holm": false,
+          "se": 0.09479495570936601,
+          "status": "Tested",
+          "t": -2.6696192270188934
+        }
+      ],
+      "kind": "accepted aggregate"
+    },
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "selector": [
+        "descriptive"
+      ],
+      "value": {
+        "by_arm": {
+          "16": {
+            "G": {
+              "ci95": [
+                1.5499897105272908,
+                2.5911225703875664
+              ],
+              "mean": 2.0705561404574286,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 2.299209741240259,
+                "2": 1.8876586162460187,
+                "3": 2.0248000638860084
+              }
+            },
+            "Y_id": {
+              "ci95": [
+                -2.229405476815175,
+                -1.2960941122899898
+              ],
+              "mean": -1.7627497945525825,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -1.607082589478902,
+                "2": -1.9714076621958787,
+                "3": -1.709759131982967
+              }
+            },
+            "Y_pattern": {
+              "ci95": [
+                -1.0915646282822633,
+                -0.3667825729618377
+              ],
+              "mean": -0.7291736006220505,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -0.5741945138919652,
+                "2": -0.86382673207553,
+                "3": -0.7494995558986562
+              }
+            },
+            "Y_probe": {
+              "ci95": [
+                -4.053691989359281,
+                -3.612919880660742
+              ],
+              "mean": -3.8333059350100114,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -3.906292330719161,
+                "2": -3.8590662784418974,
+                "3": -3.7345591958689757
+              }
+            },
+            "Y_tempo": {
+              "ci95": [
+                -1.806872419812284,
+                -0.9047755337460324
+              ],
+              "mean": -1.3558239767791582,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -1.2166068801556795,
+                "2": -1.5611975247509766,
+                "3": -1.289667525430819
+              }
+            },
+            "fc_rate_id": {
+              "ci95": [
+                -0.02889792765231737,
+                0.14089792765231735
+              ],
+              "mean": 0.055999999999999994,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.092,
+                "2": 0.052,
+                "3": 0.024
+              }
+            },
+            "mean_acc_id": {
+              "ci95": [
+                0.7165392280162668,
+                0.8135384253170665
+              ],
+              "mean": 0.7650388266666667,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.7713055600000001,
+                "2": 0.7806597000000001,
+                "3": 0.74315122
+              }
+            },
+            "replicates": [
+              1,
+              2,
+              3
+            ]
+          },
+          "256": {
+            "G": {
+              "ci95": [
+                0.18350476320216147,
+                0.574797433253899
+              ],
+              "mean": 0.3791510982280302,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.46918584341656544,
+                "2": 0.32303551905689876,
+                "3": 0.34523193221062654
+              }
+            },
+            "Y_id": {
+              "ci95": [
+                -4.1185598235795275,
+                -2.5067583644803535
+              ],
+              "mean": -3.3126590940299407,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -3.6740116202001207,
+                "2": -3.2175150320795107,
+                "3": -3.0464506298101903
+              }
+            },
+            "Y_pattern": {
+              "ci95": [
+                -1.9637180065309074,
+                -0.9433466202994155
+              ],
+              "mean": -1.4535323134151614,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -1.6879103181548447,
+                "2": -1.3676495581552275,
+                "3": -1.3050370639354119
+              }
+            },
+            "Y_probe": {
+              "ci95": [
+                -4.6803386753364755,
+                -2.703281709179467
+              ],
+              "mean": -3.691810192257971,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -4.143197463616686,
+                "2": -3.5405505511364095,
+                "3": -3.391682562020817
+              }
+            },
+            "Y_tempo": {
+              "ci95": [
+                -3.6937449324814096,
+                -1.9780663306838906
+              ],
+              "mean": -2.83590563158265,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -3.226323432298438,
+                "2": -2.710918147273423,
+                "3": -2.5704753151760897
+              }
+            },
+            "fc_rate_id": {
+              "ci95": [
+                0.023081213378173288,
+                0.4155854532884934
+              ],
+              "mean": 0.21933333333333335,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.298,
+                "2": 0.22,
+                "3": 0.14
+              }
+            },
+            "mean_acc_id": {
+              "ci95": [
+                0.8548164623616958,
+                0.9424592309716378
+              ],
+              "mean": 0.8986378466666668,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.9181408,
+                "2": 0.89397682,
+                "3": 0.8837959200000001
+              }
+            },
+            "replicates": [
+              1,
+              2,
+              3
+            ]
+          },
+          "4096": {
+            "G": {
+              "ci95": [
+                -0.1389848644877773,
+                0.30020557289085026
+              ],
+              "mean": 0.08061035420153646,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.1251053854460178,
+                "2": -0.021195456409334845,
+                "3": 0.13792113356792646
+              }
+            },
+            "Y_id": {
+              "ci95": [
+                -5.758277276096541,
+                -1.8022262138264493
+              ],
+              "mean": -3.780251744961495,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -4.699451302978571,
+                "2": -3.3390363898465014,
+                "3": -3.3022675420594125
+              }
+            },
+            "Y_pattern": {
+              "ci95": [
+                -2.012586512200553,
+                -0.7954483497695635
+              ],
+              "mean": -1.4040174309850582,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -1.6847738806647146,
+                "2": -1.2336716669744072,
+                "3": -1.2936067453160527
+              }
+            },
+            "Y_probe": {
+              "ci95": [
+                -5.939645605034974,
+                -1.782078593291088
+              ],
+              "mean": -3.860862099163031,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -4.824556688424589,
+                "2": -3.3178409334371666,
+                "3": -3.440188675627339
+              }
+            },
+            "Y_tempo": {
+              "ci95": [
+                -4.423665858841571,
+                -1.7215944366882454
+              ],
+              "mean": -3.072630147764908,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -3.6978582879179496,
+                "2": -2.7089618375526623,
+                "3": -2.8110703178241114
+              }
+            },
+            "fc_rate_id": {
+              "ci95": [
+                -0.2369670119864717,
+                1.0369670119864716
+              ],
+              "mean": 0.39999999999999997,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.696,
+                "2": 0.258,
+                "3": 0.246
+              }
+            },
+            "mean_acc_id": {
+              "ci95": [
+                0.8525132377634272,
+                0.9788671089032392
+              ],
+              "mean": 0.9156901733333332,
+              "n": 3,
+              "values_by_replicate": {
+                "1": 0.9449765,
+                "2": 0.89916898,
+                "3": 0.90292504
+              }
+            },
+            "replicates": [
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "by_band": {
+          "16": {
+            "0": {
+              "F": 1131,
+              "O": 10059,
+              "Y": -2.185365559018218,
+              "n_maps": 103,
+              "n_runs": 3
+            },
+            "1": {
+              "F": 4819,
+              "O": 31299,
+              "Y": -1.8710197104957462,
+              "n_maps": 175,
+              "n_runs": 3
+            },
+            "2": {
+              "F": 9726,
+              "O": 48969,
+              "Y": -1.6163847328584136,
+              "n_maps": 222,
+              "n_runs": 3
+            }
+          },
+          "256": {
+            "0": {
+              "F": 413,
+              "O": 10059,
+              "Y": -3.1927754421733057,
+              "n_maps": 103,
+              "n_runs": 3
+            },
+            "1": {
+              "F": 1100,
+              "O": 31299,
+              "Y": -3.348275968349617,
+              "n_maps": 175,
+              "n_runs": 3
+            },
+            "2": {
+              "F": 1888,
+              "O": 48969,
+              "Y": -3.2556693771166985,
+              "n_maps": 222,
+              "n_runs": 3
+            }
+          },
+          "4096": {
+            "0": {
+              "F": 267,
+              "O": 10059,
+              "Y": -3.6289743767340887,
+              "n_maps": 103,
+              "n_runs": 3
+            },
+            "1": {
+              "F": 760,
+              "O": 31299,
+              "Y": -3.718022993855702,
+              "n_maps": 175,
+              "n_runs": 3
+            },
+            "2": {
+              "F": 1423,
+              "O": 48969,
+              "Y": -3.5384201257322925,
+              "n_maps": 222,
+              "n_runs": 3
+            }
+          }
+        },
+        "by_variant": {
+          "16": {
+            "plain": {
+              "F": 9228,
+              "O": 50040,
+              "Y": -1.6905803452872032,
+              "n_maps": 250,
+              "n_runs": 3
+            },
+            "slider": {
+              "F": 2237,
+              "O": 21735,
+              "Y": -2.2737881819327628,
+              "n_maps": 125,
+              "n_runs": 3
+            },
+            "spinner": {
+              "F": 1018,
+              "O": 5718,
+              "Y": -1.725779175771789,
+              "n_maps": 75,
+              "n_runs": 3
+            },
+            "streamjump": {
+              "F": 3193,
+              "O": 12834,
+              "Y": -1.3911369855956786,
+              "n_maps": 50,
+              "n_runs": 3
+            }
+          },
+          "256": {
+            "plain": {
+              "F": 1506,
+              "O": 50040,
+              "Y": -3.5033655562210084,
+              "n_maps": 250,
+              "n_runs": 3
+            },
+            "slider": {
+              "F": 464,
+              "O": 21735,
+              "Y": -3.846794591196637,
+              "n_maps": 125,
+              "n_runs": 3
+            },
+            "spinner": {
+              "F": 1033,
+              "O": 5718,
+              "Y": -1.7111519037626186,
+              "n_maps": 75,
+              "n_runs": 3
+            },
+            "streamjump": {
+              "F": 398,
+              "O": 12834,
+              "Y": -3.473401173026023,
+              "n_maps": 50,
+              "n_runs": 3
+            }
+          },
+          "4096": {
+            "plain": {
+              "F": 1122,
+              "O": 50040,
+              "Y": -3.797709878498206,
+              "n_maps": 250,
+              "n_runs": 3
+            },
+            "slider": {
+              "F": 300,
+              "O": 21735,
+              "Y": -4.282896668766692,
+              "n_maps": 125,
+              "n_runs": 3
+            },
+            "spinner": {
+              "F": 734,
+              "O": 5718,
+              "Y": -2.0528653442677416,
+              "n_maps": 75,
+              "n_runs": 3
+            },
+            "streamjump": {
+              "F": 294,
+              "O": 12834,
+              "Y": -3.776273410971779,
+              "n_maps": 50,
+              "n_runs": 3
+            }
+          }
+        },
+        "learning_curves": {
+          "pd_n16_r1": {
+            "N": 16,
+            "monitor": [
+              [
+                15073280,
+                -1.5904405595732447,
+                0.7053,
+                0.01
+              ],
+              [
+                30015488,
+                -1.681134660271842,
+                0.7345,
+                0.025
+              ],
+              [
+                45088768,
+                -1.8364922551581029,
+                0.7683,
+                0.035
+              ],
+              [
+                60030976,
+                -1.5579266991709413,
+                0.7614,
+                0.08
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -2.943481583210113,
+                0.8952,
+                0.1875
+              ],
+              [
+                30015488,
+                -3.424454243826423,
+                0.925,
+                0.1875
+              ],
+              [
+                45088768,
+                -3.906292330719161,
+                0.9527,
+                0.3125
+              ],
+              [
+                60030976,
+                -3.906292330719161,
+                0.9729,
+                0.5625
+              ]
+            ],
+            "replicate": 1
+          },
+          "pd_n16_r2": {
+            "N": 16,
+            "monitor": [
+              [
+                15073280,
+                -1.4990969524721292,
+                0.6727,
+                0.025
+              ],
+              [
+                30015488,
+                -1.7525936242539868,
+                0.7335,
+                0.035
+              ],
+              [
+                45088768,
+                -1.8008352420574971,
+                0.7522,
+                0.04
+              ],
+              [
+                60030976,
+                -1.9562663317908,
+                0.7769,
+                0.045
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -2.4340574051413166,
+                0.8729,
+                0.3125
+              ],
+              [
+                30015488,
+                -3.08993319090403,
+                0.9123,
+                0.375
+              ],
+              [
+                45088768,
+                -3.807772984054347,
+                0.9426,
+                0.5
+              ],
+              [
+                60030976,
+                -3.8590662784418974,
+                0.9481,
+                0.5625
+              ]
+            ],
+            "replicate": 2
+          },
+          "pd_n16_r3": {
+            "N": 16,
+            "monitor": [
+              [
+                15073280,
+                -1.3291535589600085,
+                0.6447,
+                0.005
+              ],
+              [
+                30015488,
+                -1.4683468008005265,
+                0.6907,
+                0.02
+              ],
+              [
+                45088768,
+                -1.5500541186796368,
+                0.7125,
+                0.025
+              ],
+              [
+                60030976,
+                -1.6957146784104202,
+                0.7479,
+                0.035
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -2.1972245773362196,
+                0.8302,
+                0.125
+              ],
+              [
+                30015488,
+                -2.60737353475681,
+                0.8763,
+                0.25
+              ],
+              [
+                45088768,
+                -3.019905810088067,
+                0.9227,
+                0.25
+              ],
+              [
+                60030976,
+                -3.7345591958689757,
+                0.9436,
+                0.375
+              ]
+            ],
+            "replicate": 3
+          },
+          "pd_n256_r1": {
+            "N": 256,
+            "monitor": [
+              [
+                15073280,
+                -2.0223007395199537,
+                0.7609,
+                0.045
+              ],
+              [
+                30015488,
+                -2.7977886754251107,
+                0.8513,
+                0.095
+              ],
+              [
+                45088768,
+                -3.484454951900973,
+                0.8982,
+                0.275
+              ],
+              [
+                60030976,
+                -3.6529194740335016,
+                0.9171,
+                0.32
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -2.1238248681300584,
+                0.7781,
+                0.0781
+              ],
+              [
+                30015488,
+                -3.0578479688269864,
+                0.8723,
+                0.1133
+              ],
+              [
+                45088768,
+                -3.7960539659435057,
+                0.9158,
+                0.3555
+              ],
+              [
+                60030976,
+                -4.143197463616686,
+                0.9423,
+                0.4688
+              ]
+            ],
+            "replicate": 1
+          },
+          "pd_n256_r2": {
+            "N": 256,
+            "monitor": [
+              [
+                15073280,
+                -1.823646228703949,
+                0.7263,
+                0.04
+              ],
+              [
+                30015488,
+                -2.445283661948828,
+                0.8284,
+                0.09
+              ],
+              [
+                45088768,
+                -3.0610636275246565,
+                0.8791,
+                0.185
+              ],
+              [
+                60030976,
+                -3.2649355308801544,
+                0.8928,
+                0.215
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -1.8705135371808903,
+                0.7491,
+                0.0703
+              ],
+              [
+                30015488,
+                -2.5526961408885165,
+                0.8481,
+                0.1445
+              ],
+              [
+                45088768,
+                -3.127163183372534,
+                0.891,
+                0.2383
+              ],
+              [
+                60030976,
+                -3.5405505511364095,
+                0.9128,
+                0.2891
+              ]
+            ],
+            "replicate": 2
+          },
+          "pd_n256_r3": {
+            "N": 256,
+            "monitor": [
+              [
+                15073280,
+                -1.6264626612389537,
+                0.704,
+                0.055
+              ],
+              [
+                30015488,
+                -2.5686811494774604,
+                0.8433,
+                0.14
+              ],
+              [
+                45088768,
+                -2.6349447012308285,
+                0.8592,
+                0.175
+              ],
+              [
+                60030976,
+                -3.1329613667042384,
+                0.8908,
+                0.195
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -1.6752944889932555,
+                0.7142,
+                0.0664
+              ],
+              [
+                30015488,
+                -2.785546758450501,
+                0.8658,
+                0.1914
+              ],
+              [
+                45088768,
+                -2.866192264850579,
+                0.883,
+                0.207
+              ],
+              [
+                60030976,
+                -3.391682562020817,
+                0.9082,
+                0.2695
+              ]
+            ],
+            "replicate": 3
+          },
+          "pd_n4096_r1": {
+            "N": 4096,
+            "monitor": [
+              [
+                15073280,
+                -1.5586797112547155,
+                0.6637,
+                0.035
+              ],
+              [
+                30015488,
+                -2.424477845861554,
+                0.8187,
+                0.165
+              ],
+              [
+                45088768,
+                -3.9622407215887634,
+                0.9294,
+                0.595
+              ],
+              [
+                60030976,
+                -4.751531762701611,
+                0.9481,
+                0.705
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -1.5877181631822157,
+                0.6708,
+                0.0352
+              ],
+              [
+                30015488,
+                -2.4874192139238835,
+                0.8223,
+                0.1172
+              ],
+              [
+                45088768,
+                -3.9661599349693364,
+                0.9288,
+                0.6055
+              ],
+              [
+                60030976,
+                -4.824556688424589,
+                0.9477,
+                0.707
+              ]
+            ],
+            "replicate": 1
+          },
+          "pd_n4096_r2": {
+            "N": 4096,
+            "monitor": [
+              [
+                15073280,
+                -1.427552335909036,
+                0.6636,
+                0.04
+              ],
+              [
+                30015488,
+                -1.8683211607282744,
+                0.7852,
+                0.095
+              ],
+              [
+                45088768,
+                -2.598064165722492,
+                0.8735,
+                0.18
+              ],
+              [
+                60030976,
+                -3.34705508249853,
+                0.9026,
+                0.285
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -1.4322454344032394,
+                0.6789,
+                0.0508
+              ],
+              [
+                30015488,
+                -1.826576757973269,
+                0.7837,
+                0.1172
+              ],
+              [
+                45088768,
+                -2.5256028502329904,
+                0.8731,
+                0.2148
+              ],
+              [
+                60030976,
+                -3.3178409334371666,
+                0.9013,
+                0.2617
+              ]
+            ],
+            "replicate": 2
+          },
+          "pd_n4096_r3": {
+            "N": 4096,
+            "monitor": [
+              [
+                15073280,
+                -2.2298479850958857,
+                0.733,
+                0.045
+              ],
+              [
+                30015488,
+                -2.049616550166917,
+                0.7864,
+                0.06
+              ],
+              [
+                45088768,
+                -3.1329613667042384,
+                0.8884,
+                0.235
+              ],
+              [
+                60030976,
+                -3.3606607345543087,
+                0.9057,
+                0.27
+              ]
+            ],
+            "note": null,
+            "probe": [
+              [
+                15073280,
+                -2.215945571834885,
+                0.7246,
+                0.0703
+              ],
+              [
+                30015488,
+                -2.107492240126659,
+                0.7862,
+                0.0938
+              ],
+              [
+                45088768,
+                -3.115429185392659,
+                0.8834,
+                0.2188
+              ],
+              [
+                60030976,
+                -3.440188675627339,
+                0.906,
+                0.3047
+              ]
+            ],
+            "replicate": 3
+          }
+        },
+        "references": {
+          "autopilot": {
+            "id": {
+              "F": 0,
+              "O": 30109,
+              "Y": -11.005726589926587,
+              "fc_rate": 1.0,
+              "mean_acc": 1.0,
+              "n_maps": 500
+            },
+            "kind": "autopilot",
+            "note": null,
+            "pattern": {
+              "F": 0,
+              "O": 51648,
+              "Y": -11.545353932189565,
+              "fc_rate": 1.0,
+              "mean_acc": 1.0,
+              "n_maps": 250
+            },
+            "tempo": {
+              "F": 0,
+              "O": 23046,
+              "Y": -10.738394678133906,
+              "fc_rate": 1.0,
+              "mean_acc": 1.0,
+              "n_maps": 250
+            }
+          },
+          "untrained_seed0": {
+            "id": {
+              "F": 30109,
+              "O": 30109,
+              "Y": 0.0,
+              "fc_rate": 0.0,
+              "mean_acc": 0.0,
+              "n_maps": 500
+            },
+            "kind": "untrained",
+            "note": null,
+            "pattern": {
+              "F": 51648,
+              "O": 51648,
+              "Y": 0.0,
+              "fc_rate": 0.0,
+              "mean_acc": 0.0,
+              "n_maps": 250
+            },
+            "tempo": {
+              "F": 23046,
+              "O": 23046,
+              "Y": 0.0,
+              "fc_rate": 0.0,
+              "mean_acc": 0.0,
+              "n_maps": 250
+            }
+          }
+        }
+      },
+      "kind": "accepted aggregate"
+    },
+    {
+      "path": "evidence/study/PD_analysis.json",
+      "selector": [
+        "runs"
+      ],
+      "value": [
+        {
+          "G": 2.299209741240259,
+          "N": 16,
+          "complete": true,
+          "k": 0.0,
+          "name": "pd_n16_r1",
+          "replicate": 1,
+          "sets": {
+            "id": {
+              "F": 6036,
+              "O": 30109,
+              "Y": -1.607082589478902,
+              "fc_rate": 0.092,
+              "mean_acc": 0.7713055600000001,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 29086,
+              "O": 51648,
+              "Y": -0.5741945138919652,
+              "fc_rate": 0.0,
+              "mean_acc": 0.30235124,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 21,
+              "O": 1044,
+              "Y": -3.906292330719161,
+              "fc_rate": 0.5625,
+              "mean_acc": 0.972933125,
+              "n_maps": 16
+            },
+            "tempo": {
+              "F": 6827,
+              "O": 23046,
+              "Y": -1.2166068801556795,
+              "fc_rate": 0.032,
+              "mean_acc": 0.6751377599999999,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 0.46918584341656544,
+          "N": 256,
+          "complete": true,
+          "k": 1.3333333333333333,
+          "name": "pd_n256_r1",
+          "replicate": 1,
+          "sets": {
+            "id": {
+              "F": 764,
+              "O": 30109,
+              "Y": -3.6740116202001207,
+              "fc_rate": 0.298,
+              "mean_acc": 0.9181408,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 9550,
+              "O": 51648,
+              "Y": -1.6879103181548447,
+              "fc_rate": 0.0,
+              "mean_acc": 0.62711344,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 253,
+              "O": 15940,
+              "Y": -4.143197463616686,
+              "fc_rate": 0.46875,
+              "mean_acc": 0.9422887109375,
+              "n_maps": 256
+            },
+            "tempo": {
+              "F": 915,
+              "O": 23046,
+              "Y": -3.226323432298438,
+              "fc_rate": 0.204,
+              "mean_acc": 0.91424548,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 0.1251053854460178,
+          "N": 4096,
+          "complete": true,
+          "k": 2.6666666666666665,
+          "name": "pd_n4096_r1",
+          "replicate": 1,
+          "sets": {
+            "id": {
+              "F": 274,
+              "O": 30109,
+              "Y": -4.699451302978571,
+              "fc_rate": 0.696,
+              "mean_acc": 0.9449765,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 9580,
+              "O": 51648,
+              "Y": -1.6847738806647146,
+              "fc_rate": 0.0,
+              "mean_acc": 0.62315988,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 128,
+              "O": 15940,
+              "Y": -4.824556688424589,
+              "fc_rate": 0.70703125,
+              "mean_acc": 0.94768609375,
+              "n_maps": 256
+            },
+            "tempo": {
+              "F": 571,
+              "O": 23046,
+              "Y": -3.6978582879179496,
+              "fc_rate": 0.356,
+              "mean_acc": 0.9239181999999999,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 1.8876586162460187,
+          "N": 16,
+          "complete": true,
+          "k": 0.0,
+          "name": "pd_n16_r2",
+          "replicate": 2,
+          "sets": {
+            "id": {
+              "F": 4193,
+              "O": 30109,
+              "Y": -1.9714076621958787,
+              "fc_rate": 0.052,
+              "mean_acc": 0.7806597000000001,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 21772,
+              "O": 51648,
+              "Y": -0.86382673207553,
+              "fc_rate": 0.0,
+              "mean_acc": 0.39986924,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 19,
+              "O": 901,
+              "Y": -3.8590662784418974,
+              "fc_rate": 0.5625,
+              "mean_acc": 0.94810375,
+              "n_maps": 16
+            },
+            "tempo": {
+              "F": 4837,
+              "O": 23046,
+              "Y": -1.5611975247509766,
+              "fc_rate": 0.0,
+              "mean_acc": 0.71503116,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 0.32303551905689876,
+          "N": 256,
+          "complete": true,
+          "k": 1.3333333333333333,
+          "name": "pd_n256_r2",
+          "replicate": 2,
+          "sets": {
+            "id": {
+              "F": 1206,
+              "O": 30109,
+              "Y": -3.2175150320795107,
+              "fc_rate": 0.22,
+              "mean_acc": 0.89397682,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 13155,
+              "O": 51648,
+              "Y": -1.3676495581552275,
+              "fc_rate": 0.0,
+              "mean_acc": 0.5654066400000001,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 461,
+              "O": 15898,
+              "Y": -3.5405505511364095,
+              "fc_rate": 0.2890625,
+              "mean_acc": 0.9127663671875,
+              "n_maps": 256
+            },
+            "tempo": {
+              "F": 1532,
+              "O": 23046,
+              "Y": -2.710918147273423,
+              "fc_rate": 0.084,
+              "mean_acc": 0.8658692,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": -0.021195456409334845,
+          "N": 4096,
+          "complete": true,
+          "k": 2.6666666666666665,
+          "name": "pd_n4096_r2",
+          "replicate": 2,
+          "sets": {
+            "id": {
+              "F": 1068,
+              "O": 30109,
+              "Y": -3.3390363898465014,
+              "fc_rate": 0.258,
+              "mean_acc": 0.89916898,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 15041,
+              "O": 51648,
+              "Y": -1.2336716669744072,
+              "fc_rate": 0.0,
+              "mean_acc": 0.5358898799999999,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 576,
+              "O": 15898,
+              "Y": -3.3178409334371666,
+              "fc_rate": 0.26171875,
+              "mean_acc": 0.9012835546875,
+              "n_maps": 256
+            },
+            "tempo": {
+              "F": 1535,
+              "O": 23046,
+              "Y": -2.7089618375526623,
+              "fc_rate": 0.112,
+              "mean_acc": 0.864773,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 2.0248000638860084,
+          "N": 16,
+          "complete": true,
+          "k": 0.0,
+          "name": "pd_n16_r3",
+          "replicate": 3,
+          "sets": {
+            "id": {
+              "F": 5447,
+              "O": 30109,
+              "Y": -1.709759131982967,
+              "fc_rate": 0.024,
+              "mean_acc": 0.74315122,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 24409,
+              "O": 51648,
+              "Y": -0.7494995558986562,
+              "fc_rate": 0.0,
+              "mean_acc": 0.35353748,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 23,
+              "O": 963,
+              "Y": -3.7345591958689757,
+              "fc_rate": 0.375,
+              "mean_acc": 0.943586875,
+              "n_maps": 16
+            },
+            "tempo": {
+              "F": 6346,
+              "O": 23046,
+              "Y": -1.289667525430819,
+              "fc_rate": 0.0,
+              "mean_acc": 0.6613561600000001,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 0.34523193221062654,
+          "N": 256,
+          "complete": true,
+          "k": 1.3333333333333333,
+          "name": "pd_n256_r3",
+          "replicate": 3,
+          "sets": {
+            "id": {
+              "F": 1431,
+              "O": 30109,
+              "Y": -3.0464506298101903,
+              "fc_rate": 0.14,
+              "mean_acc": 0.8837959200000001,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 14005,
+              "O": 51648,
+              "Y": -1.3050370639354119,
+              "fc_rate": 0.0,
+              "mean_acc": 0.55957848,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 528,
+              "O": 15690,
+              "Y": -3.391682562020817,
+              "fc_rate": 0.26953125,
+              "mean_acc": 0.9082394921875,
+              "n_maps": 256
+            },
+            "tempo": {
+              "F": 1763,
+              "O": 23046,
+              "Y": -2.5704753151760897,
+              "fc_rate": 0.064,
+              "mean_acc": 0.854308,
+              "n_maps": 250
+            }
+          }
+        },
+        {
+          "G": 0.13792113356792646,
+          "N": 4096,
+          "complete": true,
+          "k": 2.6666666666666665,
+          "name": "pd_n4096_r3",
+          "replicate": 3,
+          "sets": {
+            "id": {
+              "F": 1108,
+              "O": 30109,
+              "Y": -3.3022675420594125,
+              "fc_rate": 0.246,
+              "mean_acc": 0.90292504,
+              "n_maps": 500
+            },
+            "pattern": {
+              "F": 14166,
+              "O": 51648,
+              "Y": -1.2936067453160527,
+              "fc_rate": 0.0,
+              "mean_acc": 0.5479057199999999,
+              "n_maps": 250
+            },
+            "probe": {
+              "F": 503,
+              "O": 15690,
+              "Y": -3.440188675627339,
+              "fc_rate": 0.3046875,
+              "mean_acc": 0.9059630859375,
+              "n_maps": 256
+            },
+            "tempo": {
+              "F": 1386,
+              "O": 23046,
+              "Y": -2.8110703178241114,
+              "fc_rate": 0.108,
+              "mean_acc": 0.87733228,
+              "n_maps": 250
+            }
+          }
+        }
+      ],
+      "kind": "accepted aggregate"
+    },
+    {
+      "path": "evidence/study/PD_supplement.json",
+      "selector": [
+        "throughput"
+      ],
+      "value": {
+        "median_of_run_medians": 9143.1,
+        "min_run_median": 8883.1,
+        "max_run_median": 9745.9
+      },
+      "kind": "recorded methods/exploratory evidence"
+    },
+    {
+      "path": "evidence/study/PD_supplement.json",
+      "selector": [
+        "pilot"
+      ],
+      "value": [
+        {
+          "name": "pd_monitor_ema",
+          "decisions": 10092544,
+          "wall_s": 1160.8,
+          "mean_acc": 0.6147,
+          "fail_per_obj": 0.183389,
+          "fc_rate": 0.05
+        },
+        {
+          "name": "pd_monitor_raw",
+          "decisions": 10092544,
+          "wall_s": 1177.0,
+          "mean_acc": 0.7083,
+          "fail_per_obj": 0.162308,
+          "fc_rate": 0.05
+        },
+        {
+          "name": "pd_monitor_ema",
+          "decisions": 20054016,
+          "wall_s": 2310.2,
+          "mean_acc": 0.7747,
+          "fail_per_obj": 0.128705,
+          "fc_rate": 0.065
+        },
+        {
+          "name": "pd_monitor_raw",
+          "decisions": 20054016,
+          "wall_s": 2326.2,
+          "mean_acc": 0.7027,
+          "fail_per_obj": 0.208749,
+          "fc_rate": 0.045
+        },
+        {
+          "name": "pd_monitor_ema",
+          "decisions": 30015488,
+          "wall_s": 3459.6,
+          "mean_acc": 0.8206,
+          "fail_per_obj": 0.118719,
+          "fc_rate": 0.045
+        },
+        {
+          "name": "pd_monitor_raw",
+          "decisions": 30015488,
+          "wall_s": 3475.6,
+          "mean_acc": 0.8208,
+          "fail_per_obj": 0.130052,
+          "fc_rate": 0.045
+        },
+        {
+          "name": "pd_monitor_ema",
+          "decisions": 40108032,
+          "wall_s": 4623.6,
+          "mean_acc": 0.8446,
+          "fail_per_obj": 0.087494,
+          "fc_rate": 0.08
+        },
+        {
+          "name": "pd_monitor_raw",
+          "decisions": 40108032,
+          "wall_s": 4639.7,
+          "mean_acc": 0.8647,
+          "fail_per_obj": 0.070217,
+          "fc_rate": 0.11
+        }
+      ],
+      "kind": "recorded methods/exploratory evidence"
+    },
+    {
+      "path": "evidence/study/PD_supplement.json",
+      "selector": [
+        "runs"
+      ],
+      "value": {
+        "pd_n16_r1": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6260.2,
+          "median_dps": 9745.9
+        },
+        "pd_n256_r1": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6438.3,
+          "median_dps": 9567.8
+        },
+        "pd_n4096_r1": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6692.9,
+          "median_dps": 9129.3
+        },
+        "pd_n16_r2": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6849.5,
+          "median_dps": 8906.2
+        },
+        "pd_n256_r2": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6722.2,
+          "median_dps": 9143.1
+        },
+        "pd_n4096_r2": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6734.2,
+          "median_dps": 9222.2
+        },
+        "pd_n16_r3": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6453.2,
+          "median_dps": 9481.2
+        },
+        "pd_n256_r3": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6781.2,
+          "median_dps": 9035.0
+        },
+        "pd_n4096_r3": {
+          "updates": 458,
+          "decisions": 60030976,
+          "wall_s": 6907.8,
+          "median_dps": 8883.1
+        }
+      },
+      "kind": "recorded methods/exploratory evidence"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+      "selector": [
+        "robustness"
+      ],
+      "value": {
+        "classification": "exploratory, not preregistered",
+        "source_entry": "2026-11-01T19:58:52-08:00",
+        "source_lines": [
+          453,
+          456
+        ],
+        "exact_source_excerpt": "leave one replicate out, b -0.555 / -0.878 / -0.836 with\n  one-sided p 0.0143 / 0.0124 / 0.0181 and every 90% CI beyond -0.15; one slope per replicate, H1 one-sided p 0.0325, S5\n  0.0011, S6 0.0248, S7 0.0472, so Holm would keep only S5; the EMA warm-up `min(d, (1 + t) / (10 + t))` in\n  `src/osu_sim/ppo.py` never reaches 0.9999 within the budget",
+        "leave_one_replicate_out": {
+          "slopes_in_recorded_order": [
+            -0.555,
+            -0.878,
+            -0.836
+          ],
+          "p_one_sided_in_recorded_order": [
+            0.0143,
+            0.0124,
+            0.0181
+          ],
+          "all_90pct_intervals_beyond_negative_margin": true,
+          "negative_margin": -0.15,
+          "order_note": "The excerpt lists three checks in order but does not identify the omitted replicate for each row. No replicate identity is inferred here."
+        },
+        "replicate_level_error": {
+          "H1_p_one_sided": 0.0325,
+          "S5_p_one_sided": 0.0011,
+          "S6_p_one_sided": 0.0248,
+          "S7_p_one_sided": 0.0472,
+          "recorded_holm_result": "Only S5 would remain significant after Holm among the secondary tests under this alternative error model."
+        },
+        "interpretation": "The accepted report retains the preregistered primary result and identifies its p-value and S6 significance as dependent on the preregistered error term."
+      },
+      "kind": "recorded methods/exploratory evidence"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+      "selector": [
+        "ema"
+      ],
+      "value": {
+        "classification": "recorded training-method limitation",
+        "source_entry": "2026-11-01T19:58:52-08:00",
+        "source_lines": [
+          455,
+          456
+        ],
+        "warmup_formula": "min(d, (1 + t) / (10 + t))",
+        "nominal_decay": 0.9999,
+        "recorded_observation": "The EMA warm-up never reaches nominal decay within the study budget.",
+        "scope_note": "These EVIDENCE lines do not quantify the weight on the final quarter of training or measure whether averaging favors an arm. The report presents those as a methods limitation and unmeasured possibility, respectively; no new verification of them is claimed by this receipt."
+      },
+      "kind": "recorded methods/exploratory evidence"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+      "selector": [
+        "spinner_post_hoc"
+      ],
+      "value": {
+        "classification": "post hoc descriptive counts on T_ID; not a preregistered spinner test",
+        "source_entry": "2026-11-01T20:12:45-08:00",
+        "source_lines": [
+          491,
+          497
+        ],
+        "exact_source_excerpt": "failures F, failures on spinner-drill maps, spinners completed of 799): `pd_n16_r1` 6,036 / 176 / 773;\n  `pd_n16_r2` 4,193 / 343 / 324; `pd_n16_r3` 5,447 / 499 / 167; `pd_n256_r1` 764 / 231 / 411; `pd_n256_r2` 1,206 / 390\n  / 76; `pd_n256_r3` 1,431 / 412 / 27; `pd_n4096_r1` 274 / 9 / 799; `pd_n4096_r2` 1,068 / 358 / 123; `pd_n4096_r3`\n  1,108 / 367 / 109. Completed spinners fell from 16 to 256 maps and rose from 256 to 4,096 maps in every replicate.\n  Spinner-drill maps hold 349 of `pd_n4096_r1`'s 794-failure advantage over r2 and 358 of 834 over r3 (lens 2's figures,\n  consistent with these counts).",
+        "runs": [
+          {
+            "run": "pd_n16_r1",
+            "pool_maps": 16,
+            "replicate": 1,
+            "failures_total": 6036,
+            "failures_on_spinner_drill_maps": 176,
+            "spinners_completed": 773,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n16_r2",
+            "pool_maps": 16,
+            "replicate": 2,
+            "failures_total": 4193,
+            "failures_on_spinner_drill_maps": 343,
+            "spinners_completed": 324,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n16_r3",
+            "pool_maps": 16,
+            "replicate": 3,
+            "failures_total": 5447,
+            "failures_on_spinner_drill_maps": 499,
+            "spinners_completed": 167,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n256_r1",
+            "pool_maps": 256,
+            "replicate": 1,
+            "failures_total": 764,
+            "failures_on_spinner_drill_maps": 231,
+            "spinners_completed": 411,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n256_r2",
+            "pool_maps": 256,
+            "replicate": 2,
+            "failures_total": 1206,
+            "failures_on_spinner_drill_maps": 390,
+            "spinners_completed": 76,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n256_r3",
+            "pool_maps": 256,
+            "replicate": 3,
+            "failures_total": 1431,
+            "failures_on_spinner_drill_maps": 412,
+            "spinners_completed": 27,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n4096_r1",
+            "pool_maps": 4096,
+            "replicate": 1,
+            "failures_total": 274,
+            "failures_on_spinner_drill_maps": 9,
+            "spinners_completed": 799,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n4096_r2",
+            "pool_maps": 4096,
+            "replicate": 2,
+            "failures_total": 1068,
+            "failures_on_spinner_drill_maps": 358,
+            "spinners_completed": 123,
+            "spinners_total": 799
+          },
+          {
+            "run": "pd_n4096_r3",
+            "pool_maps": 4096,
+            "replicate": 3,
+            "failures_total": 1108,
+            "failures_on_spinner_drill_maps": 367,
+            "spinners_completed": 109,
+            "spinners_total": 799
+          }
+        ],
+        "recorded_comparisons": [
+          {
+            "run": "pd_n4096_r1",
+            "other_run": "pd_n4096_r2",
+            "total_failure_advantage": 794,
+            "spinner_drill_failure_advantage": 349
+          },
+          {
+            "run": "pd_n4096_r1",
+            "other_run": "pd_n4096_r3",
+            "total_failure_advantage": 834,
+            "spinner_drill_failure_advantage": 358
+          }
+        ],
+        "interpretation": "Completed spinners fell from 16 to 256 maps and rose from 256 to 4096 maps in every replicate. Replicate 1 at 4096 maps alone completed all 799 spinners. Spinner-drill maps account for nearly half of its failure advantage over the other 4096-map runs, and it still leads on the remaining maps. Improvement at 4096 maps is mostly, not only, through replicate 1."
+      },
+      "kind": "recorded methods/exploratory evidence"
+    },
+    {
+      "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+      "selector": [
+        "exposure"
+      ],
+      "value": {
+        "classification": "descriptive exposure limitation; not an additional treatment or confirmatory test",
+        "source_entry": "2026-11-01T20:12:45-08:00",
+        "source_lines": [
+          498,
+          501
+        ],
+        "exact_source_excerpt": "clips per map,\n  notes per run): 16 maps 5,346.6 / 5,328.9 / 5,538.4 clips per map, notes 1,655,893 / 1,564,556 / 1,626,113; 256 maps\n  347.1 / 338.7 / 341.8, notes 1,664,125 / 1,642,310 / 1,649,037; 4,096 maps 21.5 / 21.6 / 21.4, notes 1,667,722 /\n  1,665,109 / 1,660,515 (r1 / r2 / r3). Notes per run span 6.6%.",
+        "runs": [
+          {
+            "run": "pd_n16_r1",
+            "clips_per_map": 5346.6,
+            "notes_per_run": 1655893
+          },
+          {
+            "run": "pd_n16_r2",
+            "clips_per_map": 5328.9,
+            "notes_per_run": 1564556
+          },
+          {
+            "run": "pd_n16_r3",
+            "clips_per_map": 5538.4,
+            "notes_per_run": 1626113
+          },
+          {
+            "run": "pd_n256_r1",
+            "clips_per_map": 347.1,
+            "notes_per_run": 1664125
+          },
+          {
+            "run": "pd_n256_r2",
+            "clips_per_map": 338.7,
+            "notes_per_run": 1642310
+          },
+          {
+            "run": "pd_n256_r3",
+            "clips_per_map": 341.8,
+            "notes_per_run": 1649037
+          },
+          {
+            "run": "pd_n4096_r1",
+            "clips_per_map": 21.5,
+            "notes_per_run": 1667722
+          },
+          {
+            "run": "pd_n4096_r2",
+            "clips_per_map": 21.6,
+            "notes_per_run": 1665109
+          },
+          {
+            "run": "pd_n4096_r3",
+            "clips_per_map": 21.4,
+            "notes_per_run": 1660515
+          }
+        ],
+        "recorded_notes_span_percent": 6.6,
+        "interpretation": "At the fixed budget, each map received thousands of clips with 16 maps, hundreds with 256 maps and about twenty with 4096 maps. Total notes played per run differed by several percent. The design does not separate diversity from reduced repetition per map."
+      },
+      "kind": "recorded methods/exploratory evidence"
+    }
+  ],
+  "semantic_claim_groups": [
+    {
+      "section": "Abstract; sections 4.3, 4.5-4.6 and 5.1; summary Result",
+      "claims": "Arms, replicate count, budget, primary slope, CI, p, margin/category, multiplicative rate change",
+      "public_evidence": [
+        "evidence/study/PD_analysis.json: settings, complete_replicates, primary, runs",
+        "evidence/study/kit_facts.json: facts.arm_16/arm_256/arm_4096, replicates, budget_D, delta, delta_failure_rate_change"
+      ],
+      "derivations": "53% = 100*(1-exp(primary.b)); CI percentage endpoints reverse the signed slope CI; round as source. Category is primary.r5_category, not inferred from p alone."
+    },
+    {
+      "section": "Sections 2.1-2.4; summary engineering sentence",
+      "claims": "Control/subupdates, image dimensions/footprint, clip lengths, rollout/environment count, EMA, throughput",
+      "public_evidence": [
+        "evidence/study/kit_facts.json: facts.control_hz, rules_sub_update_ms, view_height_px, view_width_px, footprint_scale, client_width_px, client_height_px, clip_min_objects, clip_max_objects, n_envs, rollout_steps, ema_decay",
+        "evidence/study/PD_supplement.json: throughput and runs",
+        "exported code/config exact paths and hashes"
+      ],
+      "derivations": "9143 is rounded median_of_run_medians; 8883-9746 are rounded min/max. Do not relabel GPU throughput as a portable CPU result."
+    },
+    {
+      "section": "Section 2.5 fidelity",
+      "claims": "72 traces, 10 maps, 77,323 steps, no recorded mismatches, 107 generated tests, rendering MAE and frame count; coverage limits",
+      "public_evidence": [
+        "existing public generated parity fixtures and generated-conformance verification receipt",
+        "evidence/study/kit_facts.json: facts.parity_*, conformance_tests, render_fg_mae_gen_a, render_fg_mae_gen_b, render_frames_gen"
+      ],
+      "derivations": "Historical fact record is public but some underlying original metric paths remain omitted; explicitly distinguish record traceability from independent raw replay. Keep missed-tick/tail/spinner, accuracy/score/positions/stacking exclusions."
+    },
+    {
+      "section": "Section 3 and Appendix A protocol",
+      "claims": "Frozen hashes, 2 RFC3161 timestamps, times, seed formula, ordering, once-only evaluation",
+      "public_evidence": [
+        "evidence/study/kit_facts.json: facts.token_seed_bytes, test_seed0, test_seed_mod, manifest_files, freeze_utc, digicert_utc, sectigo_utc, draw_utc, first_launch_utc",
+        "evidence/study/CLEAN_DATA_AUDIT_FINAL.json",
+        "docs/REPORT.md: Appendix A preserves historical file/hash associations; unavailable original tokens and pools are explicitly labeled"
+      ],
+      "derivations": "Do not imply timestamp cryptographic verification is independently repeatable without the omitted .tsr/manifest/CA inputs. No sealed data need be exported."
+    },
+    {
+      "section": "Section 3.6 review and D1",
+      "claims": "Internal six-lens review; round5 accepted; cap3 breached; retrospective owner acceptance",
+      "public_evidence": [
+        "current evidence/study/PD_DEVIATIONS_2026-11-01.md snapshot",
+        "evidence/study/PD_DEVIATIONS_2026-11-01.md: final round and owner approval"
+      ],
+      "derivations": "No fresh review; distinguish internal from external/human peer review. D1 approval is final."
+    },
+    {
+      "section": "Sections 4.1-4.4 and Appendix B design",
+      "claims": "Generator bands/variants, sequence, 500/250/250 sets, 1.3x tempo, own probe cap, planned vs F1 arms, config/run constants",
+      "public_evidence": [
+        "evidence/study/kit_facts.json: corresponding facts.sequence_length, band_share_*, variant_share_*, tempo_factor, pd_test_*, probe_cap, planned_arm_*, planned_replicates, arm_*, seed_r*, eval_at_*",
+        "PD_analysis.json: settings, runs[*].N/k/replicate/sets[*].n_maps",
+        "exported portable config/tool code"
+      ],
+      "derivations": "Use semantic selectors: 256 pixels != 256 maps != probe cap; 0.15 margin != spinner share; 1.3 tempo != rounded rendering MAE."
+    },
+    {
+      "section": "Sections 5.2-5.3 secondary and descriptive",
+      "claims": "S1/S2/S3/S5/S6/S7 estimates/CI/Holm p, arm means/gap, per-run and variant claims",
+      "public_evidence": [
+        "PD_analysis.json: secondary selected by id, descriptive.by_arm, by_variant, by_band, runs selected by name"
+      ],
+      "derivations": "Preserve H3 dependence on preregistered error term and H4 not-supported-after-Holm. 79% and37% are transformed16x step contrasts, not primary8x effect. Middle arm does not shift fitted endpoint slope in this design."
+    },
+    {
+      "section": "Section 5.1 exploratory robustness; section 5.3 post hoc spinner; section 6 exposure and EMA",
+      "claims": "Leave-one-replicate results, alternative replicate-error tests, spinner counts/advantage, clips/map, notes/run, warm-up consequences",
+      "public_evidence": [
+        "evidence/study/EXPLORATORY_RECEIPT.json: robustness, spinner_post_hoc, exposure, ema",
+        "PD_analysis.json: runs for endpoint/whole-run values",
+        "exported ppo.py warm-up implementation, if unchanged"
+      ],
+      "derivations": "Clearly label exploratory/post hoc. These checks were outside pinned tools. Raw batch outputs and updates.jsonl are omitted; historical source receipt traces accepted statements without pretending independent raw-data verification."
+    },
+    {
+      "section": "Section 5.4 learning curves and reference policies",
+      "claims": "200-map monitor four evaluations per run; continued improvement; zero-failure scripted/untrained failure baselines",
+      "public_evidence": [
+        "PD_analysis.json: descriptive.learning_curves, descriptive.references",
+        "evidence/study/kit_facts.json: facts.monitor_maps, eval_at_*"
+      ],
+      "derivations": "Descriptive continuation is not convergence or an additional confirmatory result."
+    },
+    {
+      "section": "Appendix D pilot and G0; section 4.2",
+      "claims": "Pilot rows, 8192map40Mseed0, EMA.8206/.8446, F1 rule,3.1h limit",
+      "public_evidence": [
+        "PD_supplement.json: pilot selected by name and decisions",
+        "evidence/study/kit_facts.json: facts.pilot_*, g0_*, max_hours_*"
+      ],
+      "derivations": "Pilot is exploratory and never pooled. G0 uses EMA, even when raw40Maccuracy exceeds.85; preserve distinction."
+    },
+    {
+      "section": "Section 6 limitations; summary Limitations",
+      "claims": "Generated-only, one generator, absolute cursor, pseudo difficulty, model-conditional p, one budget, unequal repetition, unvalidated misses/accuracy",
+      "public_evidence": [
+        "PD_analysis.json: settings, primary, runs",
+        "evidence/study/kit_facts.json: pseudo_difficulty_offset/slope, budget_D, replicates, residual_df",
+        "existing public fidelity limitation documentation",
+        "accepted-evidence receipt for exposure/EMA"
+      ],
+      "derivations": "Qualitative qualifications travel with every abridged claim, including website copy."
+    }
+  ],
+  "required_document_text": [
+    {
+      "path": "docs/REPORT.md",
+      "text": "Author: James Liu"
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "text": "Author: James Liu"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "slope is b = -0.757 per 8x more maps (95% CI -1.183 to -0.330; one-sided p = 0.003; df = 5;"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "The pre-registered tests are the primary slope and the six secondary tests in table 1."
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "Exploratory checks, not pre-registered:"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "accepted retrospectively by the owner on 2026-11-01."
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "text": "Internal review exceeded the preregistered three-round cap; the owner retrospectively approved D1."
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "text": "a p-value that depends on the pre-registered error term"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "Native per-step traces, comparison frames and the renderer assets are omitted;"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "The video and its supporting media files are excluded because renderer texture and font permissions are unresolved;"
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "I developed and integrated a reinforcement-learning system for procedurally generated osu! maps, and designed and ran a study of how practice-map diversity affects generalization. The system adapts upstream osu! and osu-framework rules and uses established PPO and recurrent-network methods."
+    },
+    {
+      "path": "docs/REPORT.md",
+      "text": "Project: **osu-lab**. Software distribution: **osu-sim**; Python import: **osu_sim**."
+    },
+    {
+      "path": "docs/ONE_PAGE_SUMMARY.md",
+      "text": "Project: **osu-lab**. Software distribution: **osu-sim**; Python import: **osu_sim**."
+    }
+  ],
+  "verification_limits": [
+    "Record traceability is not independent raw-data authentication. Native per-step events, renderer comparisons, raw study evaluations and training logs remain omitted.",
+    "Original handover was preserved unchanged; only individually audited documents, chart formats and factual records were selected.",
+    "The EMA last-quarter interpretation is retained from the accepted report; the selected EVIDENCE excerpt does not itself quantify that weight. The effect on arms was not measured.",
+    "All hash references point down to exported files; originals and their hashes are historical identities. This record omits its own hash and the registry/manifest hashes."
+  ],
+  "public_document_fonts": {
+    "family": "Bitstream Vera",
+    "notice": "licenses/Bitstream-Vera.txt",
+    "standalone_PDF_notice": "Exact Bitstream Vera license, LICENSE-STUDY.md attribution/scope notice and complete CC BY 4.0 legal text attached to each PDF.",
+    "game_renderer_fonts_included": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "published_download_manifest_v1",
+  "project": "osu-lab",
+  "version": "0.1.0rc6",
+  "tag": "v0.1.0rc6",
+  "prerelease": true,
+  "downloads": [
+    {
+      "file": "osu-lab-0.1.0rc6-source.zip",
+      "bytes": 1325167,
+      "sha256": "00f686dce2f69a705df21ff4ffbe6c8c426582d65d7d840505b07e1bb0ad94fe",
+      "role": "Complete allowlisted osu-lab software, public documents and evidence; website is published separately",
+      "url": "https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/osu-lab-0.1.0rc6-source.zip"
+    },
+    {
+      "file": "osu_sim-0.1.0rc6-py3-none-any.whl",
+      "bytes": 171567,
+      "sha256": "f24a3f83b8497b6e2937234295887ece59b149aa7d08bea9dad03a7ec443f01a",
+      "role": "osu-sim distribution: unchanged runtime code with updated metadata/notices",
+      "url": "https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/osu_sim-0.1.0rc6-py3-none-any.whl"
+    },
+    {
+      "file": "REPORT.pdf",
+      "bytes": 457093,
+      "sha256": "de75466148c32973be749c263939ad88b06c40a0dd0f07543befc87d869f4358",
+      "role": "13-page public report derivative by James Liu, applied CC BY4.0 owner-held-rights scope with exact license/font notices attached",
+      "url": "https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/REPORT.pdf"
+    },
+    {
+      "file": "ONE_PAGE_SUMMARY.pdf",
+      "bytes": 174069,
+      "sha256": "7d257717a8ee1106ccd1b7b40f475f22a320ebf1b86941fa8df6a5222712ab3f",
+      "role": "One-page summary derivative by James Liu, applied CC BY4.0 owner-held-rights scope with exact license/font notices attached",
+      "url": "https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/ONE_PAGE_SUMMARY.pdf"
+    }
+  ]
+}

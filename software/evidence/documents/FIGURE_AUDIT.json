@@ -1,0 +1,1205 @@
+{
+  "schema": "public_document_figure_audit_v1",
+  "scope": "Release checks of the three scientific figures used by the public report and summary; no study experiments or additional review round.",
+  "checked_utc": "2026-11-02",
+  "analysis": {
+    "path": "evidence/study/PD_analysis.json",
+    "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+    "matched_candidate": "osu_sim_release_candidate_v3"
+  },
+  "historical_source_manifest": {
+    "path": "runs/development/paper/submission_v2/handover/figures/figures_manifest.json",
+    "sha256": "ff2972287166d9fb52448946fa8ddb0607bd10d00859c109cb21b3e1e16eb918",
+    "bytes": 1590,
+    "role": "historical source, not a hash of an edited public derivative"
+  },
+  "figures": [
+    {
+      "stem": "fig_pd_main",
+      "numeric_annotation_checks": 31,
+      "numeric_annotation_results": [
+        {
+          "analysis_locator": "descriptive.references.untrained_seed0.id.Y",
+          "values": [
+            0.0
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.ci95",
+          "values": [
+            -2.229405476815175,
+            -1.2960941122899898
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.ci95",
+          "values": [
+            -4.1185598235795275,
+            -2.5067583644803535
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.ci95",
+          "values": [
+            -5.758277276096541,
+            -1.8022262138264493
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_probe.ci95",
+          "values": [
+            -4.053691989359281,
+            -3.612919880660742
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_probe.ci95",
+          "values": [
+            -4.6803386753364755,
+            -2.703281709179467
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_probe.ci95",
+          "values": [
+            -5.939645605034974,
+            -1.782078593291088
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.values_by_replicate.1",
+          "values": [
+            -1.607082589478902
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.values_by_replicate.2",
+          "values": [
+            -1.9714076621958787
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.values_by_replicate.3",
+          "values": [
+            -1.709759131982967
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.values_by_replicate.1",
+          "values": [
+            -3.6740116202001207
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.values_by_replicate.2",
+          "values": [
+            -3.2175150320795107
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.values_by_replicate.3",
+          "values": [
+            -3.0464506298101903
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.values_by_replicate.1",
+          "values": [
+            -4.699451302978571
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.values_by_replicate.2",
+          "values": [
+            -3.3390363898465014
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.values_by_replicate.3",
+          "values": [
+            -3.3022675420594125
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_probe.values_by_replicate.1",
+          "values": [
+            -3.906292330719161
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_probe.values_by_replicate.2",
+          "values": [
+            -3.8590662784418974
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_probe.values_by_replicate.3",
+          "values": [
+            -3.7345591958689757
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_probe.values_by_replicate.1",
+          "values": [
+            -4.143197463616686
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_probe.values_by_replicate.2",
+          "values": [
+            -3.5405505511364095
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_probe.values_by_replicate.3",
+          "values": [
+            -3.391682562020817
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_probe.values_by_replicate.1",
+          "values": [
+            -4.824556688424589
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_probe.values_by_replicate.2",
+          "values": [
+            -3.3178409334371666
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_probe.values_by_replicate.3",
+          "values": [
+            -3.440188675627339
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.mean",
+          "values": [
+            -1.7627497945525825
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.mean",
+          "values": [
+            -3.3126590940299407
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.mean",
+          "values": [
+            -3.780251744961495
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_probe.mean",
+          "values": [
+            -3.8333059350100114
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_probe.mean",
+          "values": [
+            -3.691810192257971
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_probe.mean",
+          "values": [
+            -3.860862099163031
+          ],
+          "projection": "scalar or full interval"
+        }
+      ],
+      "captions": [
+        {
+          "analysis_locator": "primary",
+          "text": "Slope per 8x maps: b = -0.757 (95% CI -1.183 to -0.330), one-sided p = 0.00302; Exceeds the margin"
+        }
+      ],
+      "visual_png_inspection": "PASS: legible complete chart; no clipping, foreign imagery, renderer textures, or demo frames",
+      "svg_safety": "PASS: ordinary SVG/text/chart primitives only; no script, image, href, event attributes, remote imports, embedded fonts or font outlines",
+      "font_family": "Helvetica, Arial, sans-serif (generic installed-font references only)",
+      "files": [
+        {
+          "public_path": "evidence/study/figures/fig_pd_main.svg",
+          "sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+          "bytes": 14310,
+          "historical_source_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_main.svg",
+          "relationship": "unchanged figure snapshot"
+        },
+        {
+          "public_path": "evidence/study/figures/fig_pd_main.png",
+          "sha256": "873a316eda179368d7258bc6a766daca1d010743bb800cec4d6df8dc6c91a7dc",
+          "bytes": 95848,
+          "historical_source_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_main.png",
+          "relationship": "unchanged figure snapshot"
+        }
+      ],
+      "usage_conditions": [
+        "Present with the report caption and definition of Y, lower-is-better direction, three complete replicate sets, generated-task scope and relevant inferential qualifications.",
+        "Do not imply connecting lines are fitted slopes or infer a new analysis from descriptive learning curves.",
+        "Public numerical source is evidence/study/PD_analysis.json. Historical original paths in frozen provenance are not public evidence links."
+      ]
+    },
+    {
+      "stem": "fig_pd_curves",
+      "numeric_annotation_checks": 72,
+      "numeric_annotation_results": [
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.monitor.0",
+          "values": [
+            15073280.0,
+            -1.5904405595732447
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.monitor.1",
+          "values": [
+            30015488.0,
+            -1.681134660271842
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.monitor.2",
+          "values": [
+            45088768.0,
+            -1.8364922551581029
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.monitor.3",
+          "values": [
+            60030976.0,
+            -1.5579266991709413
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.monitor.0",
+          "values": [
+            15073280.0,
+            -1.4990969524721292
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.monitor.1",
+          "values": [
+            30015488.0,
+            -1.7525936242539868
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.monitor.2",
+          "values": [
+            45088768.0,
+            -1.8008352420574971
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.monitor.3",
+          "values": [
+            60030976.0,
+            -1.9562663317908
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.monitor.0",
+          "values": [
+            15073280.0,
+            -1.3291535589600085
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.monitor.1",
+          "values": [
+            30015488.0,
+            -1.4683468008005265
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.monitor.2",
+          "values": [
+            45088768.0,
+            -1.5500541186796368
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.monitor.3",
+          "values": [
+            60030976.0,
+            -1.6957146784104202
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.monitor.0",
+          "values": [
+            15073280.0,
+            -2.0223007395199537
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.monitor.1",
+          "values": [
+            30015488.0,
+            -2.7977886754251107
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.monitor.2",
+          "values": [
+            45088768.0,
+            -3.484454951900973
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.monitor.3",
+          "values": [
+            60030976.0,
+            -3.6529194740335016
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.monitor.0",
+          "values": [
+            15073280.0,
+            -1.823646228703949
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.monitor.1",
+          "values": [
+            30015488.0,
+            -2.445283661948828
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.monitor.2",
+          "values": [
+            45088768.0,
+            -3.0610636275246565
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.monitor.3",
+          "values": [
+            60030976.0,
+            -3.2649355308801544
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.monitor.0",
+          "values": [
+            15073280.0,
+            -1.6264626612389537
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.monitor.1",
+          "values": [
+            30015488.0,
+            -2.5686811494774604
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.monitor.2",
+          "values": [
+            45088768.0,
+            -2.6349447012308285
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.monitor.3",
+          "values": [
+            60030976.0,
+            -3.1329613667042384
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.monitor.0",
+          "values": [
+            15073280.0,
+            -1.5586797112547155
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.monitor.1",
+          "values": [
+            30015488.0,
+            -2.424477845861554
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.monitor.2",
+          "values": [
+            45088768.0,
+            -3.9622407215887634
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.monitor.3",
+          "values": [
+            60030976.0,
+            -4.751531762701611
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.monitor.0",
+          "values": [
+            15073280.0,
+            -1.427552335909036
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.monitor.1",
+          "values": [
+            30015488.0,
+            -1.8683211607282744
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.monitor.2",
+          "values": [
+            45088768.0,
+            -2.598064165722492
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.monitor.3",
+          "values": [
+            60030976.0,
+            -3.34705508249853
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.monitor.0",
+          "values": [
+            15073280.0,
+            -2.2298479850958857
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.monitor.1",
+          "values": [
+            30015488.0,
+            -2.049616550166917
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.monitor.2",
+          "values": [
+            45088768.0,
+            -3.1329613667042384
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.monitor.3",
+          "values": [
+            60030976.0,
+            -3.3606607345543087
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.probe.0",
+          "values": [
+            15073280.0,
+            -2.943481583210113
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.probe.1",
+          "values": [
+            30015488.0,
+            -3.424454243826423
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.probe.2",
+          "values": [
+            45088768.0,
+            -3.906292330719161
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r1.probe.3",
+          "values": [
+            60030976.0,
+            -3.906292330719161
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.probe.0",
+          "values": [
+            15073280.0,
+            -2.4340574051413166
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.probe.1",
+          "values": [
+            30015488.0,
+            -3.08993319090403
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.probe.2",
+          "values": [
+            45088768.0,
+            -3.807772984054347
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r2.probe.3",
+          "values": [
+            60030976.0,
+            -3.8590662784418974
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.probe.0",
+          "values": [
+            15073280.0,
+            -2.1972245773362196
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.probe.1",
+          "values": [
+            30015488.0,
+            -2.60737353475681
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.probe.2",
+          "values": [
+            45088768.0,
+            -3.019905810088067
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n16_r3.probe.3",
+          "values": [
+            60030976.0,
+            -3.7345591958689757
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.probe.0",
+          "values": [
+            15073280.0,
+            -2.1238248681300584
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.probe.1",
+          "values": [
+            30015488.0,
+            -3.0578479688269864
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.probe.2",
+          "values": [
+            45088768.0,
+            -3.7960539659435057
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r1.probe.3",
+          "values": [
+            60030976.0,
+            -4.143197463616686
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.probe.0",
+          "values": [
+            15073280.0,
+            -1.8705135371808903
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.probe.1",
+          "values": [
+            30015488.0,
+            -2.5526961408885165
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.probe.2",
+          "values": [
+            45088768.0,
+            -3.127163183372534
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r2.probe.3",
+          "values": [
+            60030976.0,
+            -3.5405505511364095
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.probe.0",
+          "values": [
+            15073280.0,
+            -1.6752944889932555
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.probe.1",
+          "values": [
+            30015488.0,
+            -2.785546758450501
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.probe.2",
+          "values": [
+            45088768.0,
+            -2.866192264850579
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n256_r3.probe.3",
+          "values": [
+            60030976.0,
+            -3.391682562020817
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.probe.0",
+          "values": [
+            15073280.0,
+            -1.5877181631822157
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.probe.1",
+          "values": [
+            30015488.0,
+            -2.4874192139238835
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.probe.2",
+          "values": [
+            45088768.0,
+            -3.9661599349693364
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r1.probe.3",
+          "values": [
+            60030976.0,
+            -4.824556688424589
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.probe.0",
+          "values": [
+            15073280.0,
+            -1.4322454344032394
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.probe.1",
+          "values": [
+            30015488.0,
+            -1.826576757973269
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.probe.2",
+          "values": [
+            45088768.0,
+            -2.5256028502329904
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r2.probe.3",
+          "values": [
+            60030976.0,
+            -3.3178409334371666
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.probe.0",
+          "values": [
+            15073280.0,
+            -2.215945571834885
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.probe.1",
+          "values": [
+            30015488.0,
+            -2.107492240126659
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.probe.2",
+          "values": [
+            45088768.0,
+            -3.115429185392659
+          ],
+          "projection": "first two columns: training decisions, Y"
+        },
+        {
+          "analysis_locator": "descriptive.learning_curves.pd_n4096_r3.probe.3",
+          "values": [
+            60030976.0,
+            -3.440188675627339
+          ],
+          "projection": "first two columns: training decisions, Y"
+        }
+      ],
+      "captions": [],
+      "visual_png_inspection": "PASS: legible complete chart; no clipping, foreign imagery, renderer textures, or demo frames",
+      "svg_safety": "PASS: ordinary SVG/text/chart primitives only; no script, image, href, event attributes, remote imports, embedded fonts or font outlines",
+      "font_family": "Helvetica, Arial, sans-serif (generic installed-font references only)",
+      "files": [
+        {
+          "public_path": "evidence/study/figures/fig_pd_curves.svg",
+          "sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+          "bytes": 27556,
+          "historical_source_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_curves.svg",
+          "relationship": "unchanged figure snapshot"
+        },
+        {
+          "public_path": "evidence/study/figures/fig_pd_curves.png",
+          "sha256": "6477d060aa2429ec4a819864360d2dad7be2e9eac9d9f720595a2781aaa5f146",
+          "bytes": 163268,
+          "historical_source_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_curves.png",
+          "relationship": "unchanged figure snapshot"
+        }
+      ],
+      "usage_conditions": [
+        "Present with the report caption and definition of Y, lower-is-better direction, three complete replicate sets, generated-task scope and relevant inferential qualifications.",
+        "Do not imply connecting lines are fitted slopes or infer a new analysis from descriptive learning curves.",
+        "Public numerical source is evidence/study/PD_analysis.json. Historical original paths in frozen provenance are not public evidence links."
+      ]
+    },
+    {
+      "stem": "fig_pd_shift",
+      "numeric_annotation_checks": 38,
+      "numeric_annotation_results": [
+        {
+          "analysis_locator": "descriptive.references.untrained_seed0.tempo.Y",
+          "values": [
+            0.0
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.mean",
+          "values": [
+            -1.7627497945525825
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.mean",
+          "values": [
+            -3.3126590940299407
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.mean",
+          "values": [
+            -3.780251744961495
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_tempo.ci95",
+          "values": [
+            -1.806872419812284,
+            -0.9047755337460324
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_tempo.ci95",
+          "values": [
+            -3.6937449324814096,
+            -1.9780663306838906
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_tempo.ci95",
+          "values": [
+            -4.423665858841571,
+            -1.7215944366882454
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_tempo.values_by_replicate.1",
+          "values": [
+            -1.2166068801556795
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_tempo.values_by_replicate.2",
+          "values": [
+            -1.5611975247509766
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_tempo.values_by_replicate.3",
+          "values": [
+            -1.289667525430819
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_tempo.values_by_replicate.1",
+          "values": [
+            -3.226323432298438
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_tempo.values_by_replicate.2",
+          "values": [
+            -2.710918147273423
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_tempo.values_by_replicate.3",
+          "values": [
+            -2.5704753151760897
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_tempo.values_by_replicate.1",
+          "values": [
+            -3.6978582879179496
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_tempo.values_by_replicate.2",
+          "values": [
+            -2.7089618375526623
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_tempo.values_by_replicate.3",
+          "values": [
+            -2.8110703178241114
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_tempo.mean",
+          "values": [
+            -1.3558239767791582
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_tempo.mean",
+          "values": [
+            -2.83590563158265
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_tempo.mean",
+          "values": [
+            -3.072630147764908
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.references.untrained_seed0.pattern.Y",
+          "values": [
+            0.0
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_id.mean",
+          "values": [
+            -1.7627497945525825
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_id.mean",
+          "values": [
+            -3.3126590940299407
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_id.mean",
+          "values": [
+            -3.780251744961495
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_pattern.ci95",
+          "values": [
+            -1.0915646282822633,
+            -0.3667825729618377
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_pattern.ci95",
+          "values": [
+            -1.9637180065309074,
+            -0.9433466202994155
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_pattern.ci95",
+          "values": [
+            -2.012586512200553,
+            -0.7954483497695635
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_pattern.values_by_replicate.1",
+          "values": [
+            -0.5741945138919652
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_pattern.values_by_replicate.2",
+          "values": [
+            -0.86382673207553
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_pattern.values_by_replicate.3",
+          "values": [
+            -0.7494995558986562
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_pattern.values_by_replicate.1",
+          "values": [
+            -1.6879103181548447
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_pattern.values_by_replicate.2",
+          "values": [
+            -1.3676495581552275
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_pattern.values_by_replicate.3",
+          "values": [
+            -1.3050370639354119
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_pattern.values_by_replicate.1",
+          "values": [
+            -1.6847738806647146
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_pattern.values_by_replicate.2",
+          "values": [
+            -1.2336716669744072
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_pattern.values_by_replicate.3",
+          "values": [
+            -1.2936067453160527
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.16.Y_pattern.mean",
+          "values": [
+            -0.7291736006220505
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.256.Y_pattern.mean",
+          "values": [
+            -1.4535323134151614
+          ],
+          "projection": "scalar or full interval"
+        },
+        {
+          "analysis_locator": "descriptive.by_arm.4096.Y_pattern.mean",
+          "values": [
+            -1.4040174309850582
+          ],
+          "projection": "scalar or full interval"
+        }
+      ],
+      "captions": [
+        {
+          "analysis_locator": "secondary.S6",
+          "text": "S6 (slope of Y_tempo on k, replicate fixed effects):"
+        },
+        {
+          "analysis_locator": "secondary.S6",
+          "text": "-0.644 (95% CI -1.040 to -0.247), Holm p = 0.0218"
+        },
+        {
+          "analysis_locator": "secondary.S7",
+          "text": "S7 (slope of Y_pattern on k, replicate fixed effects):"
+        },
+        {
+          "analysis_locator": "secondary.S7",
+          "text": "-0.253 (95% CI -0.497 to -0.009), Holm p = 0.0666"
+        }
+      ],
+      "visual_png_inspection": "PASS: legible complete chart; no clipping, foreign imagery, renderer textures, or demo frames",
+      "svg_safety": "PASS: ordinary SVG/text/chart primitives only; no script, image, href, event attributes, remote imports, embedded fonts or font outlines",
+      "font_family": "Helvetica, Arial, sans-serif (generic installed-font references only)",
+      "files": [
+        {
+          "public_path": "evidence/study/figures/fig_pd_shift.svg",
+          "sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+          "bytes": 20640,
+          "historical_source_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_shift.svg",
+          "relationship": "unchanged figure snapshot"
+        },
+        {
+          "public_path": "evidence/study/figures/fig_pd_shift.png",
+          "sha256": "d65636569d98e0200a7a17deea68ff5e30a7f7098f9ab80c4cae57998736cc83",
+          "bytes": 105457,
+          "historical_source_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_shift.png",
+          "relationship": "unchanged figure snapshot"
+        }
+      ],
+      "usage_conditions": [
+        "Present with the report caption and definition of Y, lower-is-better direction, three complete replicate sets, generated-task scope and relevant inferential qualifications.",
+        "Do not imply connecting lines are fitted slopes or infer a new analysis from descriptive learning curves.",
+        "Public numerical source is evidence/study/PD_analysis.json. Historical original paths in frozen provenance are not public evidence links."
+      ]
+    }
+  ],
+  "rights_scope": "No embedded renderer/game/font resources were observed in these SVG charts. This technical observation does not grant publication or licensing permission. Any project-controlled figure/document license grant is recorded separately by the owner."
+}

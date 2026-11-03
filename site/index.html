@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>osu-lab: practice diversity in a pixel-input osu! agent</title>
+<meta name="description" content="James Liu's osu-lab: a reinforcement-learning system for procedurally generated osu! maps, and a preregistered study of how practice-map diversity affects generalization.">
+<link rel="canonical" href="https://jamesliuai.github.io/osu-lab/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="osu-lab">
+<meta property="og:title" content="Practice diversity and generalization in a pixel-input osu! agent">
+<meta property="og:description" content="A reinforcement-learning system for procedurally generated osu! maps, and a preregistered study of practice-map diversity, by James Liu.">
+<meta property="og:url" content="https://jamesliuai.github.io/osu-lab/">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fcfcfb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131416" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/site.css">
+<script src="assets/site.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="bar">
+    <a class="wordmark" href="#top" aria-label="osu-lab, back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="currentColor"/></svg>osu-lab</a>
+    <nav class="section-nav" aria-label="Sections">
+      <ul>
+        <li><a href="#system">System</a></li>
+        <li><a href="#maps">Maps</a></li>
+        <li><a href="#checks">Checks</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#limitations">Limitations</a></li>
+        <li><a href="#review">Review</a></li>
+        <li><a href="#code">Downloads</a></li>
+        <li><a href="#credits">Credits</a></li>
+      </ul>
+    </nav>
+    <nav class="doc-nav" aria-label="Documents and code">
+      <ul>
+        <li><a href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/ONE_PAGE_SUMMARY.pdf">Summary</a></li>
+        <li><a href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/REPORT.pdf">Report</a></li>
+        <li><a href="https://github.com/jamesliuai/osu-lab">Code</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page">
+
+    <header class="hero" id="top">
+      <h1><span class="project">osu-lab</span>: Practice diversity and generalization <span class="keep">in a pixel-input osu! agent</span></h1>
+      <p class="subtitle">A preregistered reinforcement-learning study on procedurally generated maps</p>
+      <p class="authors">James Liu</p>
+      <p class="release">Release v0.1.0rc6 &middot; November 2026</p>
+      <ul class="actions" aria-label="Documents and code">
+        <li><a href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/ONE_PAGE_SUMMARY.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M6 2.75h8.25l4.75 4.75v13.75H6z"/><path d="M14 2.75V7.75h5"/><path d="M9 12.5h7M9 15.5h7M9 18.5h4"/></svg>Summary <span class="m">PDF</span></a></li>
+        <li><a href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/REPORT.pdf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M8.75 5.25h7.5l4 4v12H8.75z"/><path d="M16 5.25V9.5h4.25"/><path d="M4.75 18.25V2.75h8.5"/><path d="M11.5 13.5h6M11.5 16.5h6"/></svg>Technical report <span class="m">PDF</span></a></li>
+        <li><a href="https://github.com/jamesliuai/osu-lab"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M8.5 7.5 4 12l4.5 4.5M15.5 7.5 20 12l-4.5 4.5M13.5 5l-3 14"/></svg>Code <span class="m">GitHub</span></a></li>
+      </ul>
+    </header>
+
+
+    <section class="abstract" aria-labelledby="abstract-title">
+      <h2 id="abstract-title">Abstract</h2>
+      <p><span class="runin">Contribution.</span> I developed and integrated a reinforcement-learning system for procedurally generated osu! maps, and designed and ran a study of how practice-map diversity affects generalization. The system adapts upstream osu! and osu-framework rules and uses established PPO and recurrent-network methods.</p>
+      <p><span class="runin">Question.</span> At a fixed training budget, does practising on more distinct procedurally generated maps lower an agent&rsquo;s failure rate on maps it has never seen?</p>
+      <div class="finding">
+        <p><span class="runin">Finding.</span> Nine agents trained from scratch for 60 million decisions each, on 16, 256 or 4,096 distinct generated maps. On 500 unseen maps from the same generator, agents that had practised on more distinct maps failed less often: along the fitted line, <strong>failures per object fell by about 53% per 8&times; more maps</strong> (95% CI 28% to 69%; preregistered slope &minus;0.757, one-sided p = 0.003), which exceeds the preregistered margin.</p>
+        <p class="scope"><span class="runin">Scope.</span> One generator, one training recipe and budget, and only three replicate sets; more maps also meant fewer repetitions of each map. The slope is 3/8 of the 16-versus-4,096 contrast, whose paired-replicate 95% interval includes zero, so the uncertainty depends on the error model. Every map was generated: there is no claim about human-made maps, human-level skill, universal simulator fidelity or an unlimited scaling law.</p>
+      </div>
+    </section>
+
+    <nav class="toc" aria-label="Contents">
+      <p class="toc__label">Contents</p>
+      <ol>
+        <li><a href="#system"><span>1</span> System</a></li>
+        <li><a href="#maps"><span>2</span> Generated maps</a></li>
+        <li><a href="#checks"><span>3</span> Simulator checks</a></li>
+        <li><a href="#design"><span>4</span> Study design</a></li>
+        <li><a href="#results"><span>5</span> Results</a></li>
+        <li><a href="#limitations"><span>6</span> Limitations</a></li>
+        <li><a href="#review"><span>7</span> Review and D1</a></li>
+        <li><a href="#code"><span>8</span> Code and downloads</a></li>
+        <li><a href="#credits"><span>9</span> Credits and licences</a></li>
+      </ol>
+    </nav>
+
+    <div class="content">
+
+      <section class="section" id="system" aria-labelledby="system-title">
+        <h2 id="system-title"><span class="n">1</span> The osu-lab system</h2>
+        <p class="lede">osu-lab combines a vectorized osu!standard simulator, procedural map generation, renderer interfaces, a recurrent policy, PPO training and evaluation tools. Its portable software release includes a CPU quick-start and generated conformance fixtures.</p>
+        <p>The simulator runs many episodes in parallel on one machine: the judgement rules run on the CPU in parallel over environments, a GPU kernel renders what the agent sees, and a PPO trainer learns from those frames.</p>
+
+        <figure id="fig-system">
+          <div class="scroller" role="region" aria-label="Figure 1, training loop diagram">
+            <img src="assets/architecture.svg" width="1200" height="300" alt="Procedural generator feeds judgement simulation; rendered observations and command history feed a recurrent policy, whose cursor and held-key actions return to the simulation.">
+          </div>
+          <p class="scroll-hint">Scroll sideways to see the whole diagram.</p>
+          <figcaption><span class="fig">Figure 1.</span> The training loop. Generated maps are played by the judgement simulation; rendered observations, with the previous command and held keys, feed a recurrent policy, whose absolute-cursor and held-key actions return to the simulation 60 times per second. An explanatory diagram, not gameplay footage. <span class="credit">Diagram: James Liu, osu-lab. CC BY 4.0. <a href="assets/architecture.svg">Full size</a></span></figcaption>
+        </figure>
+
+        <dl class="specs">
+          <div><dt>Rules</dt><dd>A vectorized port of the judgement rules of a pinned osu!lazer build (release 2026.921.0). Each decision is a 60 Hz step; between decisions the rules advance in 1 ms sub-updates, judging hits, slider ticks, repeats and ends, and spinners.</dd></div>
+          <div><dt>Observation</dt><dd>A 256 &times; 192 RGB frame of the playfield, drawn on the GPU in the game&rsquo;s default style, plus the previous command and held keys. The calibrated renderer&rsquo;s textures and fonts are separately licensed and not distributed; an asset-free simple renderer is included as a diagnostic approximation.</dd></div>
+          <div><dt>Actions</dt><dd>An absolute cursor position and two held keys, 60 times per second. The cursor can cross the playfield in one step, so this is not a model of human motor control.</dd></div>
+          <div><dt>Training</dt><dd>PPO with 1,024 parallel environments and 128-step rollouts, a recurrent policy over a convolutional encoder, and a moving average of the parameters for evaluation. Training episodes are clips of 8 to 32 objects; evaluation plays whole maps.</dd></div>
+          <div><dt>Throughput</dt><dd>A median of 9,143 decisions per second on one consumer GPU in the study (run medians 8,883 to 9,746), so each 60-million-decision run took under two hours. This is historical study throughput, not CPU quick-start performance.</dd></div>
+        </dl>
+        <p>Beatmap conversion, slider paths, stacking, difficulty mappings and the judgement and rate rules adapt upstream osu! and osu-framework code at pinned commits, and their MIT notices ship with the software (see <a href="#credits">credits</a>). The integration is original work; the upstream rules, PPO and recurrent networks are established methods and are not presented as new.</p>
+      </section>
+
+      <section class="section" id="maps" aria-labelledby="maps-title">
+        <h2 id="maps-title"><span class="n">2</span> Generated maps</h2>
+        <p>Every map in this project comes from osu-lab&rsquo;s procedural generator, driven by a seed. A difficulty level between 0 and 1 sets the tempo, approach rate, timing windows, circle size, spacing, rhythm divisions and the chances of sliders, spinners and streams; a variant then makes the map a slider drill, spinner drill, stream/jump drill or plain map. Because maps are rebuilt from recorded seeds, practice and test sets can be kept apart and checked by hash. No community-made beatmap was used for training, evaluation or testing.</p>
+        <p>The level is a synthetic sampling label (the study&rsquo;s pseudo-difficulty is 0.5 + 4.5 &times; level), not an osu! star rating, and should not be compared with ratings of real maps.</p>
+
+        <figure id="fig-maps">
+<div class="map-grid">
+<div class="map-panel">
+<svg class="pf" viewBox="-12 -13.8 548.8 413.1" role="img" aria-label="Generated map, seed 11, sampling level 0.2: the first 5 of 16 objects (5 circles) on the 512 by 384 playfield, numbered in order of play.">
+<rect class="pf-field" x="0" y="0" width="512" height="384"/>
+<path class="pf-grid" d="M64 0V384 M128 0V384 M192 0V384 M256 0V384 M320 0V384 M384 0V384 M448 0V384 M0 64H512 M0 128H512 M0 192H512 M0 256H512 M0 320H512"/>
+<circle class="pf-hit" cx="158" cy="250" r="41.3"/>
+<circle class="pf-hit" cx="88" cy="210" r="41.3"/>
+<circle class="pf-hit" cx="54" cy="310" r="41.3"/>
+<circle class="pf-hit" cx="193" cy="354" r="41.3"/>
+<circle class="pf-hit" cx="140" cy="292" r="41.3"/>
+<path class="pf-follow" d="M140 292L193 354 M193 354L54 310 M54 310L88 210 M88 210L158 250"/>
+<circle class="pf-c" cx="158" cy="250" r="17.5"/>
+<text class="pf-n" x="158" y="250" font-size="22">5</text>
+<circle class="pf-c" cx="88" cy="210" r="17.5"/>
+<text class="pf-n" x="88" y="210" font-size="22">4</text>
+<circle class="pf-c" cx="54" cy="310" r="17.5"/>
+<text class="pf-n" x="54" y="310" font-size="22">3</text>
+<circle class="pf-c" cx="193" cy="354" r="17.5"/>
+<text class="pf-n" x="193" y="354" font-size="22">2</text>
+<circle class="pf-c" cx="140" cy="292" r="17.5"/>
+<text class="pf-n" x="140" y="292" font-size="22">1</text>
+</svg>
+<p class="map-meta"><strong>Seed 11</strong> <span>level 0.2</span> <span>90 BPM · CS 2.7 · AR 6.6 · OD 4.7</span> <span>objects 1–5 of 16, first 3 s</span></p>
+</div>
+<div class="map-panel">
+<svg class="pf" viewBox="-12 -13.8 548.8 413.1" role="img" aria-label="Generated map, seed 12, sampling level 0.5: the first 14 of 49 objects (14 circles) on the 512 by 384 playfield, numbered in order of play.">
+<rect class="pf-field" x="0" y="0" width="512" height="384"/>
+<path class="pf-grid" d="M64 0V384 M128 0V384 M192 0V384 M256 0V384 M320 0V384 M384 0V384 M448 0V384 M0 64H512 M0 128H512 M0 192H512 M0 256H512 M0 320H512"/>
+<circle class="pf-hit" cx="427" cy="183" r="38.6"/>
+<circle class="pf-hit" cx="456" cy="221" r="38.6"/>
+<circle class="pf-hit" cx="418" cy="130" r="38.6"/>
+<circle class="pf-hit" cx="414" cy="165" r="38.6"/>
+<circle class="pf-hit" cx="403" cy="199" r="38.6"/>
+<circle class="pf-hit" cx="387" cy="230" r="38.6"/>
+<circle class="pf-hit" cx="364" cy="257" r="38.6"/>
+<circle class="pf-hit" cx="337" cy="279" r="38.6"/>
+<circle class="pf-hit" cx="305" cy="296" r="38.6"/>
+<circle class="pf-hit" cx="272" cy="306" r="38.6"/>
+<circle class="pf-hit" cx="236" cy="310" r="38.6"/>
+<circle class="pf-hit" cx="201" cy="307" r="38.6"/>
+<circle class="pf-hit" cx="167" cy="297" r="38.6"/>
+<circle class="pf-hit" cx="136" cy="281" r="38.6"/>
+<path class="pf-follow" d="M136 281L167 297 M167 297L201 307 M201 307L236 310 M236 310L272 306 M272 306L305 296 M305 296L337 279 M337 279L364 257 M364 257L387 230 M387 230L403 199 M403 199L414 165 M414 165L418 130 M418 130L456 221 M456 221L427 183"/>
+<circle class="pf-c" cx="427" cy="183" r="17.5"/>
+<text class="pf-n" x="427" y="183" font-size="22">14</text>
+<circle class="pf-c" cx="456" cy="221" r="17.5"/>
+<text class="pf-n" x="456" y="221" font-size="22">13</text>
+<circle class="pf-c" cx="418" cy="130" r="17.5"/>
+<text class="pf-n" x="418" y="130" font-size="22">12</text>
+<circle class="pf-c" cx="414" cy="165" r="17.5"/>
+<text class="pf-n" x="414" y="165" font-size="22">11</text>
+<circle class="pf-c" cx="403" cy="199" r="17.5"/>
+<text class="pf-n" x="403" y="199" font-size="22">10</text>
+<circle class="pf-c" cx="387" cy="230" r="17.5"/>
+<text class="pf-n" x="387" y="230" font-size="22">9</text>
+<circle class="pf-c" cx="364" cy="257" r="17.5"/>
+<text class="pf-n" x="364" y="257" font-size="22">8</text>
+<circle class="pf-c" cx="337" cy="279" r="17.5"/>
+<text class="pf-n" x="337" y="279" font-size="22">7</text>
+<circle class="pf-c" cx="305" cy="296" r="17.5"/>
+<text class="pf-n" x="305" y="296" font-size="22">6</text>
+<circle class="pf-c" cx="272" cy="306" r="17.5"/>
+<text class="pf-n" x="272" y="306" font-size="22">5</text>
+<circle class="pf-c" cx="236" cy="310" r="17.5"/>
+<text class="pf-n" x="236" y="310" font-size="22">4</text>
+<circle class="pf-c" cx="201" cy="307" r="17.5"/>
+<text class="pf-n" x="201" y="307" font-size="22">3</text>
+<circle class="pf-c" cx="167" cy="297" r="17.5"/>
+<text class="pf-n" x="167" y="297" font-size="22">2</text>
+<circle class="pf-c" cx="136" cy="281" r="17.5"/>
+<text class="pf-n" x="136" y="281" font-size="22">1</text>
+</svg>
+<p class="map-meta"><strong>Seed 12</strong> <span>level 0.5</span> <span>121 BPM · CS 3.3 · AR 8.3 · OD 5</span> <span>objects 1–14 of 49, first 3 s</span></p>
+</div>
+<div class="map-panel">
+<svg class="pf" viewBox="-12 -13.8 548.8 413.1" role="img" aria-label="Generated map, seed 13, sampling level 0.8: the first 18 of 70 objects (17 circles, 1 slider) on the 512 by 384 playfield, numbered in order of play.">
+<rect class="pf-field" x="0" y="0" width="512" height="384"/>
+<path class="pf-grid" d="M64 0V384 M128 0V384 M192 0V384 M256 0V384 M320 0V384 M384 0V384 M448 0V384 M0 64H512 M0 128H512 M0 192H512 M0 256H512 M0 320H512"/>
+<circle class="pf-hit" cx="88" cy="58" r="36.8"/>
+<circle class="pf-hit" cx="120" cy="85" r="36.8"/>
+<circle class="pf-hit" cx="152" cy="112" r="36.8"/>
+<circle class="pf-hit" cx="182" cy="141" r="36.8"/>
+<circle class="pf-hit" cx="212" cy="171" r="36.8"/>
+<circle class="pf-hit" cx="240" cy="201" r="36.8"/>
+<circle class="pf-hit" cx="267" cy="233" r="36.8"/>
+<circle class="pf-hit" cx="293" cy="266" r="36.8"/>
+<circle class="pf-hit" cx="318" cy="300" r="36.8"/>
+<circle class="pf-hit" cx="342" cy="334" r="36.8"/>
+<circle class="pf-hit" cx="474" cy="56" r="36.8"/>
+<circle class="pf-hit" cx="496" cy="33" r="36.8"/>
+<circle class="pf-hit" cx="484" cy="27" r="36.8"/>
+<circle class="pf-hit" cx="480" cy="59" r="36.8"/>
+<circle class="pf-hit" cx="466" cy="87" r="36.8"/>
+<circle class="pf-hit" cx="444" cy="111" r="36.8"/>
+<circle class="pf-hit" cx="416" cy="126" r="36.8"/>
+<path class="pf-sb-edge" d="M101 284 L99.4 282.7 L97.9 281.5 L96.4 280.1 L94.9 278.8 L93.5 277.4 L92.1 275.9 L90.7 274.4 L89.4 272.9 L88.1 271.4 L86.8 269.8 L85.6 268.2 L84.4 266.6 L83.3 264.9 L82.2 263.3 L81.1 261.6 L80.1 259.8 L79.1 258.1 L78.2 256.3 L77.3 254.5 L76.5 252.6 L75.7 250.8 L74.9 248.9 L74.2 247.1 L73.6 245.2 L73 243.2 L72.4 241.3 L71.9 239.4 L71.4 237.4 L71 235.4 L70.6 233.5 L70.3 231.5 L70 229.5 L69.8 227.5 L69.6 225.5 L69.5 223.5 L69.4 221.5 L69.4 219.5 L69.4 217.5 L69.5 215.5 L69.6 213.4 L69.8 211.4 L70 209.4 L70.2 207.5 L70.6 205.5 L70.9 203.5 L71.3 201.5 L71.8 199.6 L72.3 197.6 L72.9 195.7 L73.5 193.8 L74.1 191.9 L74.8 190 L75.5 188.1 L76.3 186.3 L77.2 184.4 L78 182.6 L78.9 180.8 L79.9 179.1 L80.9 177.3 L82 175.6 L83.1 173.9 L84.2 172.3 L85.4 170.6 L86.6 169 L87.8 167.5 L89.1 165.9 L90.4 164.4 L91.8 162.9 L93.2 161.5 L94.6 160.1 L96.1 158.7 L97.6 157.4 L99.1 156.1 L100.7 154.8 L102.3 153.6 L103.9 152.4 L105.6 151.2 L107.2 150.1 L108.9 149.1 L110.7 148 L112.4 147.1 L114.2 146.1 L116 145.2 L117.8 144.4 L119.7 143.6 L121.5 142.8 L123.4 142.1 L125.3 141.5 L127.2 140.9 L129.2 140.3 L131.1 139.8 L133 139.3 L135 138.9 L137 138.5 L139 138.1 L141 137.9 L143 137.6 L145 137.4 L147 137.3 L149 137.2 L151 137.2 L152.4 137.2" stroke-width="75.6"/>
+<path class="pf-sb-body" d="M101 284 L99.4 282.7 L97.9 281.5 L96.4 280.1 L94.9 278.8 L93.5 277.4 L92.1 275.9 L90.7 274.4 L89.4 272.9 L88.1 271.4 L86.8 269.8 L85.6 268.2 L84.4 266.6 L83.3 264.9 L82.2 263.3 L81.1 261.6 L80.1 259.8 L79.1 258.1 L78.2 256.3 L77.3 254.5 L76.5 252.6 L75.7 250.8 L74.9 248.9 L74.2 247.1 L73.6 245.2 L73 243.2 L72.4 241.3 L71.9 239.4 L71.4 237.4 L71 235.4 L70.6 233.5 L70.3 231.5 L70 229.5 L69.8 227.5 L69.6 225.5 L69.5 223.5 L69.4 221.5 L69.4 219.5 L69.4 217.5 L69.5 215.5 L69.6 213.4 L69.8 211.4 L70 209.4 L70.2 207.5 L70.6 205.5 L70.9 203.5 L71.3 201.5 L71.8 199.6 L72.3 197.6 L72.9 195.7 L73.5 193.8 L74.1 191.9 L74.8 190 L75.5 188.1 L76.3 186.3 L77.2 184.4 L78 182.6 L78.9 180.8 L79.9 179.1 L80.9 177.3 L82 175.6 L83.1 173.9 L84.2 172.3 L85.4 170.6 L86.6 169 L87.8 167.5 L89.1 165.9 L90.4 164.4 L91.8 162.9 L93.2 161.5 L94.6 160.1 L96.1 158.7 L97.6 157.4 L99.1 156.1 L100.7 154.8 L102.3 153.6 L103.9 152.4 L105.6 151.2 L107.2 150.1 L108.9 149.1 L110.7 148 L112.4 147.1 L114.2 146.1 L116 145.2 L117.8 144.4 L119.7 143.6 L121.5 142.8 L123.4 142.1 L125.3 141.5 L127.2 140.9 L129.2 140.3 L131.1 139.8 L133 139.3 L135 138.9 L137 138.5 L139 138.1 L141 137.9 L143 137.6 L145 137.4 L147 137.3 L149 137.2 L151 137.2 L152.4 137.2" stroke-width="71.6"/>
+<circle class="pf-hit" cx="101" cy="284" r="36.8"/>
+<path class="pf-track" d="M101 284 L99.4 282.7 L97.9 281.5 L96.4 280.1 L94.9 278.8 L93.5 277.4 L92.1 275.9 L90.7 274.4 L89.4 272.9 L88.1 271.4 L86.8 269.8 L85.6 268.2 L84.4 266.6 L83.3 264.9 L82.2 263.3 L81.1 261.6 L80.1 259.8 L79.1 258.1 L78.2 256.3 L77.3 254.5 L76.5 252.6 L75.7 250.8 L74.9 248.9 L74.2 247.1 L73.6 245.2 L73 243.2 L72.4 241.3 L71.9 239.4 L71.4 237.4 L71 235.4 L70.6 233.5 L70.3 231.5 L70 229.5 L69.8 227.5 L69.6 225.5 L69.5 223.5 L69.4 221.5 L69.4 219.5 L69.4 217.5 L69.5 215.5 L69.6 213.4 L69.8 211.4 L70 209.4 L70.2 207.5 L70.6 205.5 L70.9 203.5 L71.3 201.5 L71.8 199.6 L72.3 197.6 L72.9 195.7 L73.5 193.8 L74.1 191.9 L74.8 190 L75.5 188.1 L76.3 186.3 L77.2 184.4 L78 182.6 L78.9 180.8 L79.9 179.1 L80.9 177.3 L82 175.6 L83.1 173.9 L84.2 172.3 L85.4 170.6 L86.6 169 L87.8 167.5 L89.1 165.9 L90.4 164.4 L91.8 162.9 L93.2 161.5 L94.6 160.1 L96.1 158.7 L97.6 157.4 L99.1 156.1 L100.7 154.8 L102.3 153.6 L103.9 152.4 L105.6 151.2 L107.2 150.1 L108.9 149.1 L110.7 148 L112.4 147.1 L114.2 146.1 L116 145.2 L117.8 144.4 L119.7 143.6 L121.5 142.8 L123.4 142.1 L125.3 141.5 L127.2 140.9 L129.2 140.3 L131.1 139.8 L133 139.3 L135 138.9 L137 138.5 L139 138.1 L141 137.9 L143 137.6 L145 137.4 L147 137.3 L149 137.2 L151 137.2 L152.4 137.2"/>
+<path class="pf-follow" d="M152.4 137.2L416 126 M416 126L444 111 M444 111L466 87 M466 87L480 59 M480 59L484 27 M484 27L496 33 M496 33L474 56 M474 56L342 334 M342 334L318 300 M318 300L293 266 M293 266L267 233 M267 233L240 201 M240 201L212 171 M212 171L182 141 M182 141L152 112 M152 112L120 85 M120 85L88 58"/>
+<circle class="pf-c" cx="88" cy="58" r="17.5"/>
+<text class="pf-n" x="88" y="58" font-size="22">18</text>
+<circle class="pf-c" cx="120" cy="85" r="17.5"/>
+<text class="pf-n" x="120" y="85" font-size="22">17</text>
+<circle class="pf-c" cx="152" cy="112" r="17.5"/>
+<text class="pf-n" x="152" y="112" font-size="22">16</text>
+<circle class="pf-c" cx="182" cy="141" r="17.5"/>
+<text class="pf-n" x="182" y="141" font-size="22">15</text>
+<circle class="pf-c" cx="212" cy="171" r="17.5"/>
+<text class="pf-n" x="212" y="171" font-size="22">14</text>
+<circle class="pf-c" cx="240" cy="201" r="17.5"/>
+<text class="pf-n" x="240" y="201" font-size="22">13</text>
+<circle class="pf-c" cx="267" cy="233" r="17.5"/>
+<text class="pf-n" x="267" y="233" font-size="22">12</text>
+<circle class="pf-c" cx="293" cy="266" r="17.5"/>
+<text class="pf-n" x="293" y="266" font-size="22">11</text>
+<circle class="pf-c" cx="318" cy="300" r="17.5"/>
+<text class="pf-n" x="318" y="300" font-size="22">10</text>
+<circle class="pf-c" cx="342" cy="334" r="17.5"/>
+<text class="pf-n" x="342" y="334" font-size="22">9</text>
+<rect class="pf-c" x="456.5" y="9.5" width="54.9" height="35" rx="17.5"/>
+<text class="pf-n" x="484" y="27" font-size="22">6,7</text>
+<rect class="pf-c" x="452.5" y="41.5" width="54.9" height="35" rx="17.5"/>
+<text class="pf-n" x="480" y="59" font-size="22">5,8</text>
+<circle class="pf-c" cx="466" cy="87" r="17.5"/>
+<text class="pf-n" x="466" y="87" font-size="22">4</text>
+<circle class="pf-c" cx="444" cy="111" r="17.5"/>
+<text class="pf-n" x="444" y="111" font-size="22">3</text>
+<circle class="pf-c" cx="416" cy="126" r="17.5"/>
+<text class="pf-n" x="416" y="126" font-size="22">2</text>
+<circle class="pf-c" cx="101" cy="284" r="17.5"/>
+<text class="pf-n" x="101" y="284" font-size="22">1</text>
+</svg>
+<p class="map-meta"><strong>Seed 13</strong> <span>level 0.8</span> <span>195 BPM · CS 3.7 · AR 9 · OD 8.1</span> <span>objects 1–18 of 70, first 3 s</span></p>
+</div>
+</div>
+          <figcaption><span class="fig">Figure 2.</span> Object layouts of the three example maps that ship with the source release, written by its CPU example from seeds 11, 12 and 13 at levels 0.2, 0.5 and 0.8. Each panel shows the first three seconds of its map on the 512 &times; 384 osu!pixel playfield (dashed outline, 64-pixel grid), all at one scale. Pale shapes are the true hit areas, sized from each map&rsquo;s circle size; numbered markers, not to scale, give the order of play, and one marker lists two numbers where two objects almost coincide. Thin lines join consecutive objects. Positions are as written in the map file, before stacking offsets. Drawn from the map files as vector shapes: not a game or renderer frame, and no agent or scripted player is involved. <span class="credit">Drawn for this site from the release&rsquo;s example maps (CC0 1.0).</span></figcaption>
+        </figure>
+      </section>
+
+      <section class="section" id="checks" aria-labelledby="checks-title">
+        <h2 id="checks-title"><span class="n">3</span> Simulator checks</h2>
+        <p>The simulator&rsquo;s judgement rules were checked against the game engine on generated maps. In a historical comparison, 72 scripted input traces on 10 seeded generated maps (four general, six spinner-heavy) were replayed both in the simulator and in a pinned osu!lazer build through an instrumented host. All 72 agreed step for step: 77,323 recorded steps with no mismatched step, and equal per-type judgement totals, maximum combo and episode length, at normal speed and at the Double Time rate.</p>
+        <p>The comparison covers judgement counts, combo and episode timing. It does not cover accuracy, score or object positions; the traces contain no missed slider ticks, slider ends or spinners, and only 9 Meh judgements. Native per-step events were not retained, so the release&rsquo;s tests re-simulate judgement totals, maximum combo and step count rather than repeating the step-by-step comparison. None of this establishes universal fidelity or pixel-exact rendering.</p>
+        <p>The runtime evidence is inherited: an earlier release candidate ran the CPU example and passed 107 generated-conformance, 7 interface and 9 synthetic-analysis tests with nothing skipped, and this release keeps that code and those fixtures byte for byte without rerunning them. Its own package, licence, document, evidence and archive checks are separate. These are the publisher&rsquo;s records, not independent attestation.</p>
+      </section>
+
+      <section class="section" id="design" aria-labelledby="design-title">
+        <h2 id="design-title"><span class="n">4</span> Study design</h2>
+        <p class="lede">The study, Study PD, asks: at a fixed training budget, how does the number of distinct procedurally generated practice maps change a pixel-input agent&rsquo;s failure rate on unseen generated maps, in distribution and under two shifts?</p>
+
+        <h3>Arms and training</h3>
+        <p>Three arms of 16, 256 and 4,096 distinct practice maps, each 16 times the previous, and three replicate sets: nine runs, all complete, none excluded. This is the preregistered fallback design (F1), selected before the freeze by a pilot rule written in advance. Each replicate draws its own map sequence and training seed, and its pools are nested: the 16-map pool is the first 16 maps of the 256-map pool, which is the first 256 of the 4,096-map pool, so arms differ in how many distinct maps they see, not in which kind.</p>
+        <p>Every run trained from scratch for a target of 60 million decisions with the same frozen recipe; final updates overshoot the target slightly. The evaluated policy is the final parameter average (decay 0.9999). Runs trained one at a time in a preregistered Latin-square order.</p>
+
+        <h3>Test sets and outcome</h3>
+        <p>The sealed test sets were drawn after the freeze: T_ID, 500 unseen maps of the practice construction (the primary set); T_tempo, 250 maps of the two harder bands with the tempo raised 1.3 times; and T_pattern, 250 burst drills, a drill family no run practised as such. Every final policy played the same merged test file once, deterministically. Each run also played its own first min(N, 256) practice maps to measure memorization.</p>
+        <p>The outcome is Y = ln(F / O), the log failure rate: F counts failures (combo breaks plus missed slider ends) and O counts combo-bearing judgements. Lower is better.</p>
+
+        <h3>Analysis</h3>
+        <p>The primary hypothesis, H1, predicts that more distinct maps mean fewer failures on unseen maps. It is tested with a least-squares slope of Y on T_ID per 8&times; more maps, with one intercept per replicate set, one-sided at 0.05, and reported with 95% and 90% intervals and one of five preregistered categories against a margin of &delta; = 0.15 per 8&times; (about a 14% change in the failure rate). Six secondary tests, Holm-corrected and one-sided in the predicted direction, compare 16 with 4,096 maps and the two adjacent steps (paired by replicate), and fit slopes for the memorization gap (H2), T_tempo (H3) and T_pattern (H4).</p>
+        <div class="table">
+          <div class="table-scroll">
+            <table>
+              <caption><span class="fig">Table 1.</span> Preregistered outcome categories for the primary slope. Only &ldquo;Exceeds the margin&rdquo; may be called practically meaningful.</caption>
+              <thead><tr><th scope="col">Category</th><th scope="col">Rule (p from the one-sided test; 90% interval)</th></tr></thead>
+              <tbody>
+                <tr class="is-result"><th scope="row">Exceeds the margin</th><td>p &lt; 0.05 and the 90% interval lies entirely beyond +&delta; or entirely beyond &minus;&delta; (this study)</td></tr>
+                <tr><th scope="row">Detectable difference, magnitude uncertain</th><td>p &lt; 0.05, and the interval neither lies inside &plusmn;&delta; nor entirely beyond it</td></tr>
+                <tr><th scope="row">Detectable but within the margin</th><td>p &lt; 0.05 and the 90% interval lies inside &plusmn;&delta;</td></tr>
+                <tr><th scope="row">Equivalent within the margin</th><td>p &ge; 0.05 and the 90% interval lies inside &plusmn;&delta;</td></tr>
+                <tr><th scope="row">Inconclusive</th><td>p &ge; 0.05 and the interval is not inside &plusmn;&delta;</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <h3>Protocol</h3>
+        <p>Each step left a file whose hash later steps checked, so the design could not be tuned to the test maps.</p>
+        <ol class="timeline">
+          <li><span class="step">Pilot, then freeze</span><p>An exploratory pilot set the budget by a rule written in advance; the frozen preregistration and the hash of every pool, configuration, queue file and analysis script went into one manifest.</p><time datetime="2026-11-01T10:23:25Z">Frozen 10:23:25 UTC</time></li>
+          <li><span class="step">Two trusted timestamps</span><p>DigiCert and Sectigo signed the manifest&rsquo;s SHA-256 digest under RFC 3161.</p><time datetime="2026-11-01T10:23:33Z">10:23:32 and 10:23:33 UTC</time></li>
+          <li><span class="step">Test maps drawn</span><p>Generated from a seed derived from both timestamp tokens, checked by hash against every practice pool, and registered so that the trainer and the queue refuse them.</p><time datetime="2026-11-01T10:23:41Z">10:23:41 UTC</time></li>
+          <li><span class="step">Training</span><p>Nine runs, one at a time, under queue guards and a fixed cut-off.</p><time datetime="2026-11-01T10:27:19Z">First launch 10:27:19 UTC</time></li>
+          <li><span class="step">One test batch</span><p>Every final policy played the sealed test file once; the batch tool refuses a second run.</p></li>
+          <li><span class="step">Analysis and review</span><p>The preregistered script, tested on synthetic data before any result existed, then internal review (<a href="#review">section 7</a>).</p></li>
+        </ol>
+        <p class="note">All times are on 1 November 2026. The timestamp tokens, the manifest and the sealed maps are not distributed, so these checks cannot be repeated from the public release.</p>
+      </section>
+
+      <section class="section" id="results" aria-labelledby="results-title">
+        <h2 id="results-title"><span class="n">5</span> Results</h2>
+        <p>All nine runs reached the budget on their first attempt, with no rerun or stop, and the test batch ran once. Throughout, Y is the natural log of failures per combo object; lower is better. The preregistered tests are the primary slope and the six secondary tests; everything else is labelled descriptive or exploratory.</p>
+
+        <h3>Primary result <span class="status">&middot; preregistered</span></h3>
+        <div class="finding">
+          <p>Agents trained on more distinct practice maps failed less often on unseen maps of the same construction. The preregistered slope is b = &minus;0.757 per 8&times; more maps (95% CI &minus;1.183 to &minus;0.330; one-sided p = 0.003; df = 5; nine runs in three complete replicate sets), under the preregistered classical OLS error term. Along the fitted line, failures per object fell by about 53% per 8&times; more maps (95% CI 28% to 69%). The whole 90% interval (&minus;1.091 to &minus;0.423) lies further from zero than the margin &delta; = 0.15, so the category is <strong>Exceeds the margin</strong>; the category says nothing more about how large the slope is.</p>
+          <p><span class="runin">What the estimate rests on.</span> With three equally spaced arms, the slope is 3/8 of the 16-versus-4,096 contrast; the 256-map runs enter only its error term. Judged by replicate-to-replicate variation alone (S1 below), that contrast&rsquo;s 95% interval includes zero and it is not significant after Holm, so the uncertainty depends on the error model. The evidence covers one generator, one recipe and budget and three replicate sets, and more maps also meant fewer repetitions of each map. It does not establish transfer to human-made maps, human-level skill, universal simulator fidelity or an unlimited scaling law.</p>
+        </div>
+
+        <figure id="fig-main">
+          <img src="assets/fig_pd_main.svg" width="760" height="424" alt="Unseen and own-practice log-failure outcomes across three practice-pool sizes, with replicate points and uncertainty.">
+          <figcaption><span class="fig">Figure 3.</span> Study PD, F1. Hollow markers: replicate runs; filled markers and bars: arm means and 95% t-intervals across three replicates. Lines join means, not the fitted primary slope. At 4,096 maps the own-practice probe is the first 256 maps. The primary interval is conditional on classical OLS errors. Generated maps only; internal review exceeded the preregistered cap under owner-approved D1. <span class="credit">Chart: James Liu, osu-lab / Study PD. CC BY 4.0, shown unchanged. <a href="assets/fig_pd_main.svg">Full size</a></span></figcaption>
+        </figure>
+
+        <h3>Secondary tests <span class="status">&middot; preregistered</span></h3>
+        <p>S1 to S3 compare two arms within each replicate set (a difference in Y); S5 to S7 are slopes per 8&times; more maps, fitted like the primary. Only the memorization-gap slope (S5) and the tempo-shift slope (S6) met the six-test Holm rejection criterion.</p>
+        <div class="table">
+          <table class="stack-table" role="table">
+            <caption><span class="fig">Table 2.</span> Secondary tests, Holm-corrected, each one-sided in the predicted direction. Intervals are per test, two-sided and not adjusted.</caption>
+            <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Test</th><th scope="col" role="columnheader" class="num">Estimate</th><th scope="col" role="columnheader" class="num">95% CI</th><th scope="col" role="columnheader" class="num">Holm p</th><th scope="col" role="columnheader">After Holm</th></tr></thead>
+            <tbody role="rowgroup">
+              <tr role="row"><th scope="row" role="rowheader"><span class="t-id">S1</span> 4,096 vs 16 maps (difference in Y)</th><td role="cell" class="num" data-label="Estimate">&minus;2.018</td><td role="cell" class="num" data-label="95% CI">&minus;4.347 to 0.312</td><td role="cell" class="num" data-label="Holm p">0.067</td><td role="cell" data-label="After Holm">not significant</td></tr>
+              <tr role="row"><th scope="row" role="rowheader"><span class="t-id">S2</span> 256 vs 16 maps (difference in Y)</th><td role="cell" class="num" data-label="Estimate">&minus;1.550</td><td role="cell" class="num" data-label="95% CI">&minus;2.668 to &minus;0.432</td><td role="cell" class="num" data-label="Holm p">0.054</td><td role="cell" data-label="After Holm">not significant</td></tr>
+              <tr role="row"><th scope="row" role="rowheader"><span class="t-id">S3</span> 4,096 vs 256 maps (difference in Y)</th><td role="cell" class="num" data-label="Estimate">&minus;0.468</td><td role="cell" class="num" data-label="95% CI">&minus;1.679 to 0.744</td><td role="cell" class="num" data-label="Holm p">0.119</td><td role="cell" data-label="After Holm">not significant</td></tr>
+              <tr role="row"><th scope="row" role="rowheader"><span class="t-id">S5</span> Slope of the memorization gap (H2)</th><td role="cell" class="num" data-label="Estimate">&minus;0.746</td><td role="cell" class="num" data-label="95% CI">&minus;1.099 to &minus;0.394</td><td role="cell" class="num" data-label="Holm p">0.009</td><td role="cell" data-label="After Holm">significant</td></tr>
+              <tr role="row"><th scope="row" role="rowheader"><span class="t-id">S6</span> Slope on T_tempo (H3)</th><td role="cell" class="num" data-label="Estimate">&minus;0.644</td><td role="cell" class="num" data-label="95% CI">&minus;1.040 to &minus;0.247</td><td role="cell" class="num" data-label="Holm p">0.022</td><td role="cell" data-label="After Holm">significant</td></tr>
+              <tr role="row"><th scope="row" role="rowheader"><span class="t-id">S7</span> Slope on T_pattern (H4)</th><td role="cell" class="num" data-label="Estimate">&minus;0.253</td><td role="cell" class="num" data-label="95% CI">&minus;0.497 to &minus;0.009</td><td role="cell" class="num" data-label="Holm p">0.067</td><td role="cell" data-label="After Holm">not significant</td></tr>
+            </tbody>
+          </table>
+          <p class="table-note">S1 to S3 use paired replicate errors with two degrees of freedom; S5 to S7 use the preregistered classical OLS error term with five. S6 is significant under that error term. The burst-drill advantage (S7) was not established after correction, although its individual interval excludes zero.</p>
+        </div>
+
+        <figure id="fig-shift">
+          <img src="assets/fig_pd_shift.svg" width="1050" height="441" alt="Tempo and burst-pattern outcomes across pool sizes, with different corrected significance results.">
+          <figcaption><span class="fig">Figure 4.</span> Shifted outcomes. T_tempo: S6 significant after Holm under the preregistered error term; T_pattern: S7 not significant after Holm. Never practised means never practised as this drill family. Faint ID means differ from tempo in difficulty bands as well as tempo. The figure shows individual runs and intervals. <span class="credit">Chart: James Liu, osu-lab / Study PD. CC BY 4.0, shown unchanged. <a href="assets/fig_pd_shift.svg">Full size</a></span></figcaption>
+        </figure>
+
+        <h3>Arm means and descriptive results <span class="status">&middot; descriptive</span></h3>
+        <div class="table">
+          <table class="stack-table" role="table">
+            <caption><span class="fig">Table 3.</span> Arm means of Y over three replicate sets (lower is better). The gap G is Y on T_ID minus Y on own practice maps.</caption>
+            <thead role="rowgroup"><tr role="row"><th scope="col" role="columnheader">Distinct practice maps</th><th scope="col" role="columnheader" class="num">T_ID</th><th scope="col" role="columnheader" class="num">Own practice</th><th scope="col" role="columnheader" class="num">Gap G</th><th scope="col" role="columnheader" class="num">T_tempo</th><th scope="col" role="columnheader" class="num">T_pattern</th></tr></thead>
+            <tbody role="rowgroup">
+              <tr role="row"><th scope="row" role="rowheader">16</th><td role="cell" class="num" data-label="T_ID">&minus;1.763</td><td role="cell" class="num" data-label="Own practice">&minus;3.833</td><td role="cell" class="num" data-label="Gap G">2.071</td><td role="cell" class="num" data-label="T_tempo">&minus;1.356</td><td role="cell" class="num" data-label="T_pattern">&minus;0.729</td></tr>
+              <tr role="row"><th scope="row" role="rowheader">256</th><td role="cell" class="num" data-label="T_ID">&minus;3.313</td><td role="cell" class="num" data-label="Own practice">&minus;3.692</td><td role="cell" class="num" data-label="Gap G">0.379</td><td role="cell" class="num" data-label="T_tempo">&minus;2.836</td><td role="cell" class="num" data-label="T_pattern">&minus;1.454</td></tr>
+              <tr role="row"><th scope="row" role="rowheader">4,096</th><td role="cell" class="num" data-label="T_ID">&minus;3.780</td><td role="cell" class="num" data-label="Own practice">&minus;3.861</td><td role="cell" class="num" data-label="Gap G">0.081</td><td role="cell" class="num" data-label="T_tempo">&minus;3.073</td><td role="cell" class="num" data-label="T_pattern">&minus;1.404</td></tr>
+            </tbody>
+          </table>
+          <p class="table-note">Intervals, per-replicate values and tables by difficulty band and map variant are in the aggregate analysis inside the source archive.</p>
+        </div>
+        <ul>
+          <li><span class="runin">Unequal steps.</span> In every replicate set both steps lowered Y on T_ID, and the step from 16 to 256 maps was the larger. As paired mean changes, failures per object fell by about 79% from 16 to 256 maps and about 37% from 256 to 4,096 maps; each is a 16&times; step, not the primary 8&times; effect, and neither is significant on its own after Holm.</li>
+          <li><span class="runin">Memorization (H2, supported).</span> With 16 maps the agents played their own practice maps far better than unseen maps (gap 2.071); the gap shrank to 0.379 with 256 maps and 0.081 with 4,096. Play on own practice maps was similar across arms, so the gap closed because play on unseen maps improved; H2 mostly restates H1.</li>
+          <li><span class="runin">A faster tempo (H3, supported under the preregistered error term).</span> On the two harder bands at 1.3&times; tempo the slope was &minus;0.644. These tempos overlap the practised range, so the advantage held under a speed-up, not beyond every practised tempo.</li>
+          <li><span class="runin">Burst drills (H4, not supported).</span> Every arm stayed far worse than on in-distribution maps, and no run completed a drill without a failure. Every 256- and 4,096-map run had fewer failures there than every 16-map run, with no further gain beyond 256 maps, but the slope (&minus;0.253) is not significant after Holm: the data neither establish nor exclude a benefit.</li>
+          <li><span class="runin">Replicates.</span> Replicate 1&rsquo;s 4,096-map agent (Y &minus;4.699 on T_ID) was far better than the other two (&minus;3.339 and &minus;3.302). Post hoc, it was the only agent that completed every spinner, and completing spinners did not follow the number of maps. Because the slope rests on the 16-versus-4,096 contrast, this enters the estimate; leaving replicate 1 out (an exploratory check) still gives a slope beyond the margin.</li>
+          <li><span class="runin">Training curves.</span> The 4,096-map runs were still improving steeply when the budget ended, the 256-map runs more slowly and the 16-map runs slowly throughout (Figure 5). The results describe one budget.</li>
+          <li><span class="runin">References.</span> A scripted autopilot that knows every object&rsquo;s position and time in advance played the whole test pool without a failure; the untrained network failed every object.</li>
+        </ul>
+
+        <figure id="fig-curves">
+          <img src="assets/fig_pd_curves.svg" width="1000" height="453" alt="Recorded monitor and own-practice learning curves for the nine runs.">
+          <figcaption><span class="fig">Figure 5.</span> Y during training: four evaluations per run on the 200-map generated monitor set and own practice maps, one line per run. These are descriptive curves at the recorded budget; they do not establish convergence or an unlimited scaling law. <span class="credit">Chart: James Liu, osu-lab / Study PD. CC BY 4.0, shown unchanged. <a href="assets/fig_pd_curves.svg">Full size</a></span></figcaption>
+        </figure>
+
+        <h3>Robustness <span class="status">&middot; exploratory, not preregistered</span></h3>
+        <p>Leaving out any one replicate set, the slope stays negative with a one-sided p below 0.05 and a 90% interval beyond the margin; with a replicate-level error term, the 90% interval still lies just beyond the margin. The direction and the category hold in every check, but the p-value of 0.003 depends on the preregistered error term. The residual standard deviation of the primary fit (0.541) was larger than every value in the preregistered precision table (largest 0.40).</p>
+      </section>
+
+      <section class="section" id="limitations" aria-labelledby="limitations-title">
+        <h2 id="limitations-title"><span class="n">6</span> Limitations</h2>
+        <ul class="limits">
+          <li><span class="runin">Generated maps only.</span> All training and test maps come from one procedural generator. The results say how practice diversity matters within that generator&rsquo;s distribution, under a speed-up and on a drill family from the same code base; they do not show how agents would do on human-made beatmaps.</li>
+          <li><span class="runin">One generator.</span> Diversity here means more seeds of the same generator, not more generators or styles.</li>
+          <li><span class="runin">An absolute cursor.</span> The agent sets the cursor position directly at every 60 Hz step and can move it any distance in one step, so aiming is easier than for a person and its play is not a model of human play.</li>
+          <li><span class="runin">Synthetic difficulty.</span> The generator&rsquo;s pseudo-difficulty (0.5 + 4.5 &times; level) is not an osu! star rating.</li>
+          <li><span class="runin">Three replicate sets.</span> The primary inference has five residual degrees of freedom. The category says where the 90% interval lies relative to the margin, not how precise the estimate is, and the p-value depends on the preregistered error term.</li>
+          <li><span class="runin">Three arms, one budget, one recipe.</span> The pilot rule selected the fallback arms (16, 256 and 4,096 maps rather than the planned four arms up to 8,192) at 60 million decisions; the effect could differ at other budgets, model sizes or hyperparameters.</li>
+          <li><span class="runin">Diversity or repetition.</span> At a fixed budget a 16-map run practised each map in thousands of training clips and a 4,096-map run each map in about twenty. The design cannot separate the effect of diversity from that of repeating each map less.</li>
+          <li><span class="runin">An uneven curve.</span> Most of the gain came between 16 and 256 maps. The straight line in log N summarizes three arms, its shape was not a preregistered test, and nothing here establishes a scaling law that continues indefinitely.</li>
+          <li><span class="runin">The averaged policy.</span> With the recipe&rsquo;s warm-up schedule the parameter average weights the last quarter of training most, so arms still improving fast are evaluated somewhat behind their final weights; whether averaging favours an arm was not measured.</li>
+          <li><span class="runin">One pass on one test draw.</span> Each agent played each test map once, deterministically; the intervals reflect training replicates only, not which test maps were drawn.</li>
+          <li><span class="runin">Simulator coverage.</span> Missed slider ticks, slider ends and spinners, all counted as failures, were not compared with the game, and the accuracy the report tabulates was not validated against it.</li>
+          <li><span class="runin">Omitted inputs.</span> Raw study evaluations, training logs, native per-step traces, renderer comparison frames and the renderer&rsquo;s assets are not distributed. The public records are traceable, but tracing them is not an independent authentication of those inputs.</li>
+        </ul>
+      </section>
+
+      <section class="section" id="review" aria-labelledby="review-title">
+        <h2 id="review-title"><span class="n">7</span> Internal review and deviation D1</h2>
+        <p>The results document went through internal review rounds, each covering numbers and provenance, statistics, claims against the preregistration, clean-data and protocol compliance, readability, and a skeptic&rsquo;s reading. This was internal review, not external peer review.</p>
+        <p>The preregistration allowed at most three rounds. None of the first three was free of major findings (the third found one major wording problem), so review continued until a fifth full round, on revision r5, found no major problem and the required fixes were rechecked. Exceeding the cap is the study&rsquo;s one deviation from the preregistration, <strong>D1</strong>. It is recorded in a dated deviations file included in the source archive, and James Liu approved it retrospectively on 1 November 2026, accepting r5 as the final internally reviewed results document; the breach remains disclosed. It changes no number.</p>
+        <p>The recorded final clean-data audit, which was not a dry run, is a PASS: it checks mechanically that no community-made beatmap, and no model trained on one, was used. It is the study&rsquo;s existing record, not an independent re-authentication of the raw data.</p>
+      </section>
+
+      <section class="section" id="code" aria-labelledby="code-title">
+        <h2 id="code-title"><span class="n">8</span> Code and downloads</h2>
+        <p>The files below are release <a href="https://github.com/jamesliuai/osu-lab/releases/tag/v0.1.0rc6">v0.1.0rc6</a> of <a href="https://github.com/jamesliuai/osu-lab">jamesliuai/osu-lab</a>. The source archive holds the software, the public documents and the evidence; the wheel installs the osu-sim distribution, imported as <code>osu_sim</code>. No trained weights, community beatmaps, music, game textures or fonts are included.</p>
+        <ul class="files">
+          <li>
+            <div class="files__head"><a class="files__name" href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/osu-lab-0.1.0rc6-source.zip">osu-lab-0.1.0rc6-source.zip</a> <span class="files__size">1.3 MB &middot; 1,325,167 bytes</span></div>
+            <p class="files__desc">Complete source: software, public documents and evidence.</p>
+            <p class="files__hash"><span>SHA-256</span> 00f686dce2f69a705df21ff4ffbe6c8c426582d65d7d840505b07e1bb0ad94fe</p>
+          </li>
+          <li>
+            <div class="files__head"><a class="files__name" href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/osu_sim-0.1.0rc6-py3-none-any.whl">osu_sim-0.1.0rc6-py3-none-any.whl</a> <span class="files__size">172 kB &middot; 171,567 bytes</span></div>
+            <p class="files__desc">The osu-sim Python package: runtime code with its licence notices.</p>
+            <p class="files__hash"><span>SHA-256</span> f24a3f83b8497b6e2937234295887ece59b149aa7d08bea9dad03a7ec443f01a</p>
+          </li>
+          <li>
+            <div class="files__head"><a class="files__name" href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/REPORT.pdf">REPORT.pdf</a> <span class="files__size">457 kB &middot; 457,093 bytes</span></div>
+            <p class="files__desc">The 13-page technical report.</p>
+            <p class="files__hash"><span>SHA-256</span> de75466148c32973be749c263939ad88b06c40a0dd0f07543befc87d869f4358</p>
+          </li>
+          <li>
+            <div class="files__head"><a class="files__name" href="https://github.com/jamesliuai/osu-lab/releases/download/v0.1.0rc6/ONE_PAGE_SUMMARY.pdf">ONE_PAGE_SUMMARY.pdf</a> <span class="files__size">174 kB &middot; 174,069 bytes</span></div>
+            <p class="files__desc">The one-page summary.</p>
+            <p class="files__hash"><span>SHA-256</span> 7d257717a8ee1106ccd1b7b40f475f22a320ebf1b86941fa8df6a5222712ab3f</p>
+          </li>
+        </ul>
+
+        <h3>Quick start on CPU</h3>
+        <pre><code>cd osu-lab-0.1.0rc6
+python -m venv .venv
+<span class="cmt"># activate: .venv\Scripts\Activate.ps1 (PowerShell) or source .venv/bin/activate</span>
+python -m pip install ".[test]"
+python examples/generated_data_example.py --out-dir demo_output
+python -m pytest tests -p no:cacheprovider</code></pre>
+        <p class="note">Python 3.12, from the extracted source archive. The example generates maps, compiles them and plays scripted on-time and late actions on the CPU; its judgement counts are a software demonstration, not a learned-policy result. It needs no game client, external assets, checkpoint or GPU, though installation fetches dependencies. Training needs a CUDA GPU, and full-renderer training needs the separately licensed assets this release omits.</p>
+
+        <h3>Check the release</h3>
+        <pre><code>python tools/verify_release.py --strict
+python tools/verify_claims.py
+python tools/verify_study.py
+python tools/verify_documents.py</code></pre>
+        <p class="note">Standard-library checks, run from the extracted source root. They hash the public evidence, trace each scoped claim, recompute the recorded aggregate study calculations and check the documents&rsquo; figures. They do not train, rerun the study, open sealed maps or authenticate the omitted raw inputs.</p>
+      </section>
+
+      <section class="section" id="credits" aria-labelledby="credits-title">
+        <h2 id="credits-title"><span class="n">9</span> Credits and licences</h2>
+        <h3>Upstream</h3>
+        <p>osu-lab adapts behaviour and algorithms from <a href="https://github.com/ppy/osu">osu!</a> and <a href="https://github.com/ppy/osu-framework">osu-framework</a> by ppy: beatmap decoding and conversion, slider paths and nested events, stacking, difficulty mappings, judgement and rate handling, and parts of visual transform, text layout and colour behaviour, from pinned commits aaa75b7c and 247dee98. Those portions remain under ppy&rsquo;s MIT licence, whose notices ship with the code. osu-lab is independent research, not an official or endorsed osu! product.</p>
+        <h3>Licences</h3>
+        <ul>
+          <li>Software and release utilities: MIT.</li>
+          <li>James Liu&rsquo;s rights in 86 fixture and example files and six factual or bibliographic records: CC0 1.0.</li>
+          <li>His rights in 13 study, document and chart files (the report and summary in Markdown and PDF, the deviation record, the exploratory receipt, and the three study charts as SVG and PNG): CC BY 4.0, attributed to James Liu, osu-lab / Study PD.</li>
+          <li>Release-authored documentation: CC BY 4.0.</li>
+        </ul>
+        <p>These grants cover only rights James Liu holds. They grant nothing in osu! or ppy names, game textures, fonts or music, community maps or other third-party material, and adapted upstream code keeps its own notices.</p>
+        <h3>Figures on this page</h3>
+        <p>Figures 3 to 5 are the study&rsquo;s charts, shown unchanged; Figure 1 is the release&rsquo;s architecture diagram; Figure 2 is drawn for this site from the release&rsquo;s example maps. None is a screenshot or a recording of play, and no gameplay media or checkpoints are distributed.</p>
+        <h3>Citation</h3>
+        <div class="code-block">
+<pre id="bibtex"><code>@misc{liu2026practice,
+  author = {Liu, James},
+  title  = {Practice diversity and generalization in a pixel-input osu! agent:
+            a pre-registered study on procedurally generated maps},
+  year   = {2026},
+  note   = {osu-lab, release v0.1.0rc6},
+  url    = {https://jamesliuai.github.io/osu-lab/}
+}</code></pre>
+          <button class="copy" type="button" data-copy="bibtex" hidden>Copy BibTeX</button>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="bar">
+    <p>osu-lab &middot; James Liu &middot; release v0.1.0rc6</p>
+    <p>Independent research; not an official or endorsed osu! product.</p>
+  </div>
+</footer>
+</body>
+</html>

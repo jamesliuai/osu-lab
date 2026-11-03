@@ -1,0 +1,1 @@
+{"case": "spin5", "variant": "perfect", "steps_sim": 1594, "steps_real": 1594, "sim_max_combo": 15, "real_max_combo": 15, "sim_totals": {"Great": 9, "SliderTailHit": 2, "spin_hit": 4}, "real_totals": {"Great": 9, "SliderTailHit": 2, "spin_hit": 4}, "mismatched_steps": 0, "first_mismatches": [], "totals_equal": true, "wall_s": 23.6}

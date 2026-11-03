@@ -1,0 +1,11 @@
+# Local build, environment and credential files are not publication payload.
+__pycache__/
+*.py[cod]
+.venv/
+build/
+dist/
+*.egg-info/
+.env
+.env.*
+demo_output/
+rebuilt_documents/

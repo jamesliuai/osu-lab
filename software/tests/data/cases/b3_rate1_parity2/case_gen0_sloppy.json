@@ -1,0 +1,1 @@
+{"case": "gen0", "variant": "sloppy", "steps_sim": 935, "steps_real": 935, "sim_max_combo": 9, "real_max_combo": 9, "sim_totals": {"Great": 24, "Miss": 4, "SliderTailHit": 1}, "real_totals": {"Great": 24, "Miss": 4, "SliderTailHit": 1}, "mismatched_steps": 0, "first_mismatches": [], "totals_equal": true, "wall_s": 23.0}

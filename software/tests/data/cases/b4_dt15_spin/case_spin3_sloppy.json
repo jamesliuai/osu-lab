@@ -1,0 +1,1 @@
+{"case": "spin3", "variant": "sloppy", "steps_sim": 816, "steps_real": 816, "sim_max_combo": 21, "real_max_combo": 21, "sim_totals": {"Great": 16, "SliderTailHit": 2, "spin_hit": 3}, "real_totals": {"Great": 16, "SliderTailHit": 2, "spin_hit": 3}, "mismatched_steps": 0, "first_mismatches": [], "totals_equal": true, "wall_s": 18.9, "game_rate": 1.5}

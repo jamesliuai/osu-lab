@@ -1,0 +1,1 @@
+{"case": "gen3", "variant": "perfect", "steps_sim": 1151, "steps_real": 1151, "sim_max_combo": 60, "real_max_combo": 60, "sim_totals": {"Great": 42, "LargeTickHit": 6, "SliderTailHit": 12}, "real_totals": {"Great": 42, "LargeTickHit": 6, "SliderTailHit": 12}, "mismatched_steps": 0, "first_mismatches": [], "totals_equal": true, "wall_s": 27.5}

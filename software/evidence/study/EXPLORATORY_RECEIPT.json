@@ -1,0 +1,234 @@
+{
+  "schema": "pd_public_exploratory_record_v1",
+  "title": "Recorded exploratory checks and exposure counts",
+  "status": "Public derivative of accepted historical internal evidence; not a new study analysis or new scientific review.",
+  "historical_source": {
+    "path": "runs/development/pd_20261101/EVIDENCE.md",
+    "sha256": "4f51a49c2b877858d12cf624160441f18904c3e40d0d98c23cf697e5c00518a9",
+    "source_is_included": false,
+    "line_numbers_are_1_based": true,
+    "role": "Original record identity, not a resolvable public evidence path"
+  },
+  "public_evidence_note": "This JSON is the exported evidence record. Its final exported path and matching SHA-256 are recorded by the release claim registry and artifact manifest, outside this file to avoid checksum cycles.",
+  "limits": [
+    "The checks below are exploratory or post hoc and were performed outside the pinned analysis tools. They do not replace the preregistered primary analysis or its error model.",
+    "Raw per-map batch outputs, test-map manifests and per-update training logs are omitted. This record permits inspection of the accepted recorded values, not independent reconstruction from those omitted inputs.",
+    "Spinner completions and failures describe the simulator rules. Generated fidelity traces do not validate missed slider ticks, missed slider tails or spinner misses against the game engine.",
+    "No new experiment, training, sealed-pool read or audit run was performed to make this derivative."
+  ],
+  "robustness": {
+    "classification": "exploratory, not preregistered",
+    "source_entry": "2026-11-01T19:58:52-08:00",
+    "source_lines": [
+      453,
+      456
+    ],
+    "exact_source_excerpt": "leave one replicate out, b -0.555 / -0.878 / -0.836 with\n  one-sided p 0.0143 / 0.0124 / 0.0181 and every 90% CI beyond -0.15; one slope per replicate, H1 one-sided p 0.0325, S5\n  0.0011, S6 0.0248, S7 0.0472, so Holm would keep only S5; the EMA warm-up `min(d, (1 + t) / (10 + t))` in\n  `src/osu_sim/ppo.py` never reaches 0.9999 within the budget",
+    "leave_one_replicate_out": {
+      "slopes_in_recorded_order": [
+        -0.555,
+        -0.878,
+        -0.836
+      ],
+      "p_one_sided_in_recorded_order": [
+        0.0143,
+        0.0124,
+        0.0181
+      ],
+      "all_90pct_intervals_beyond_negative_margin": true,
+      "negative_margin": -0.15,
+      "order_note": "The excerpt lists three checks in order but does not identify the omitted replicate for each row. No replicate identity is inferred here."
+    },
+    "replicate_level_error": {
+      "H1_p_one_sided": 0.0325,
+      "S5_p_one_sided": 0.0011,
+      "S6_p_one_sided": 0.0248,
+      "S7_p_one_sided": 0.0472,
+      "recorded_holm_result": "Only S5 would remain significant after Holm among the secondary tests under this alternative error model."
+    },
+    "interpretation": "The accepted report retains the preregistered primary result and identifies its p-value and S6 significance as dependent on the preregistered error term."
+  },
+  "ema": {
+    "classification": "recorded training-method limitation",
+    "source_entry": "2026-11-01T19:58:52-08:00",
+    "source_lines": [
+      455,
+      456
+    ],
+    "warmup_formula": "min(d, (1 + t) / (10 + t))",
+    "nominal_decay": 0.9999,
+    "recorded_observation": "The EMA warm-up never reaches nominal decay within the study budget.",
+    "scope_note": "These EVIDENCE lines do not quantify the weight on the final quarter of training or measure whether averaging favors an arm. The report presents those as a methods limitation and unmeasured possibility, respectively; no new verification of them is claimed by this receipt."
+  },
+  "spinner_post_hoc": {
+    "classification": "post hoc descriptive counts on T_ID; not a preregistered spinner test",
+    "source_entry": "2026-11-01T20:12:45-08:00",
+    "source_lines": [
+      491,
+      497
+    ],
+    "exact_source_excerpt": "failures F, failures on spinner-drill maps, spinners completed of 799): `pd_n16_r1` 6,036 / 176 / 773;\n  `pd_n16_r2` 4,193 / 343 / 324; `pd_n16_r3` 5,447 / 499 / 167; `pd_n256_r1` 764 / 231 / 411; `pd_n256_r2` 1,206 / 390\n  / 76; `pd_n256_r3` 1,431 / 412 / 27; `pd_n4096_r1` 274 / 9 / 799; `pd_n4096_r2` 1,068 / 358 / 123; `pd_n4096_r3`\n  1,108 / 367 / 109. Completed spinners fell from 16 to 256 maps and rose from 256 to 4,096 maps in every replicate.\n  Spinner-drill maps hold 349 of `pd_n4096_r1`'s 794-failure advantage over r2 and 358 of 834 over r3 (lens 2's figures,\n  consistent with these counts).",
+    "runs": [
+      {
+        "run": "pd_n16_r1",
+        "pool_maps": 16,
+        "replicate": 1,
+        "failures_total": 6036,
+        "failures_on_spinner_drill_maps": 176,
+        "spinners_completed": 773,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n16_r2",
+        "pool_maps": 16,
+        "replicate": 2,
+        "failures_total": 4193,
+        "failures_on_spinner_drill_maps": 343,
+        "spinners_completed": 324,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n16_r3",
+        "pool_maps": 16,
+        "replicate": 3,
+        "failures_total": 5447,
+        "failures_on_spinner_drill_maps": 499,
+        "spinners_completed": 167,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n256_r1",
+        "pool_maps": 256,
+        "replicate": 1,
+        "failures_total": 764,
+        "failures_on_spinner_drill_maps": 231,
+        "spinners_completed": 411,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n256_r2",
+        "pool_maps": 256,
+        "replicate": 2,
+        "failures_total": 1206,
+        "failures_on_spinner_drill_maps": 390,
+        "spinners_completed": 76,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n256_r3",
+        "pool_maps": 256,
+        "replicate": 3,
+        "failures_total": 1431,
+        "failures_on_spinner_drill_maps": 412,
+        "spinners_completed": 27,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n4096_r1",
+        "pool_maps": 4096,
+        "replicate": 1,
+        "failures_total": 274,
+        "failures_on_spinner_drill_maps": 9,
+        "spinners_completed": 799,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n4096_r2",
+        "pool_maps": 4096,
+        "replicate": 2,
+        "failures_total": 1068,
+        "failures_on_spinner_drill_maps": 358,
+        "spinners_completed": 123,
+        "spinners_total": 799
+      },
+      {
+        "run": "pd_n4096_r3",
+        "pool_maps": 4096,
+        "replicate": 3,
+        "failures_total": 1108,
+        "failures_on_spinner_drill_maps": 367,
+        "spinners_completed": 109,
+        "spinners_total": 799
+      }
+    ],
+    "recorded_comparisons": [
+      {
+        "run": "pd_n4096_r1",
+        "other_run": "pd_n4096_r2",
+        "total_failure_advantage": 794,
+        "spinner_drill_failure_advantage": 349
+      },
+      {
+        "run": "pd_n4096_r1",
+        "other_run": "pd_n4096_r3",
+        "total_failure_advantage": 834,
+        "spinner_drill_failure_advantage": 358
+      }
+    ],
+    "interpretation": "Completed spinners fell from 16 to 256 maps and rose from 256 to 4096 maps in every replicate. Replicate 1 at 4096 maps alone completed all 799 spinners. Spinner-drill maps account for nearly half of its failure advantage over the other 4096-map runs, and it still leads on the remaining maps. Improvement at 4096 maps is mostly, not only, through replicate 1."
+  },
+  "exposure": {
+    "classification": "descriptive exposure limitation; not an additional treatment or confirmatory test",
+    "source_entry": "2026-11-01T20:12:45-08:00",
+    "source_lines": [
+      498,
+      501
+    ],
+    "exact_source_excerpt": "clips per map,\n  notes per run): 16 maps 5,346.6 / 5,328.9 / 5,538.4 clips per map, notes 1,655,893 / 1,564,556 / 1,626,113; 256 maps\n  347.1 / 338.7 / 341.8, notes 1,664,125 / 1,642,310 / 1,649,037; 4,096 maps 21.5 / 21.6 / 21.4, notes 1,667,722 /\n  1,665,109 / 1,660,515 (r1 / r2 / r3). Notes per run span 6.6%.",
+    "runs": [
+      {
+        "run": "pd_n16_r1",
+        "clips_per_map": 5346.6,
+        "notes_per_run": 1655893
+      },
+      {
+        "run": "pd_n16_r2",
+        "clips_per_map": 5328.9,
+        "notes_per_run": 1564556
+      },
+      {
+        "run": "pd_n16_r3",
+        "clips_per_map": 5538.4,
+        "notes_per_run": 1626113
+      },
+      {
+        "run": "pd_n256_r1",
+        "clips_per_map": 347.1,
+        "notes_per_run": 1664125
+      },
+      {
+        "run": "pd_n256_r2",
+        "clips_per_map": 338.7,
+        "notes_per_run": 1642310
+      },
+      {
+        "run": "pd_n256_r3",
+        "clips_per_map": 341.8,
+        "notes_per_run": 1649037
+      },
+      {
+        "run": "pd_n4096_r1",
+        "clips_per_map": 21.5,
+        "notes_per_run": 1667722
+      },
+      {
+        "run": "pd_n4096_r2",
+        "clips_per_map": 21.6,
+        "notes_per_run": 1665109
+      },
+      {
+        "run": "pd_n4096_r3",
+        "clips_per_map": 21.4,
+        "notes_per_run": 1660515
+      }
+    ],
+    "recorded_notes_span_percent": 6.6,
+    "interpretation": "At the fixed budget, each map received thousands of clips with 16 maps, hundreds with 256 maps and about twenty with 4096 maps. Total notes played per run differed by several percent. The design does not separate diversity from reduced repetition per map."
+  },
+  "release_checks": {
+    "total_failure_counts_match_existing_public_analysis_runs": true,
+    "count_rows": 9,
+    "source_hash_verified_at_creation": true,
+    "reran_study": false
+  }
+}

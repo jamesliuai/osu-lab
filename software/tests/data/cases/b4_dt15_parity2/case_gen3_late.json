@@ -1,0 +1,1 @@
+{"case": "gen3", "variant": "late", "steps_sim": 768, "steps_real": 768, "sim_max_combo": 60, "real_max_combo": 60, "sim_totals": {"Great": 17, "LargeTickHit": 6, "SliderTailHit": 12, "Ok": 25}, "real_totals": {"Great": 17, "LargeTickHit": 6, "SliderTailHit": 12, "Ok": 25}, "mismatched_steps": 0, "first_mismatches": [], "totals_equal": true, "wall_s": 18.1, "game_rate": 1.5}

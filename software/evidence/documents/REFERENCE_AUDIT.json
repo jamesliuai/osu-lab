@@ -1,0 +1,195 @@
+{
+  "schema": "public_reference_audit_v1",
+  "scope": "Bibliographic release audit; not an additional scientific review round. Cited papers are external references and are not redistributed.",
+  "checked_utc": "2026-11-02",
+  "bibliography": {
+    "public_path": "docs/references.bib",
+    "sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5",
+    "historical_source_path": "runs/development/paper/submission_v2/handover/references.bib",
+    "relationship": "unchanged bibliographic snapshot"
+  },
+  "entries": [
+    {
+      "key": "cobbe2019quantifying",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://proceedings.mlr.press/v97/cobbe19a.html"
+      ],
+      "verification": "Publisher BibTeX verifies title, authors, editors, ICML/PMLR 97, year and pages 1282-1289.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "cobbe2020leveraging",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://proceedings.mlr.press/v119/cobbe20a.html"
+      ],
+      "verification": "Publisher BibTeX verifies title, authors, ICML/PMLR 119, year and pages 2048-2056.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "zhang2018study",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://arxiv.org/abs/1804.06893"
+      ],
+      "verification": "Author-deposited arXiv record verifies title, four authors, identifier and 2018 preprint status.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "justesen2018illuminating",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://arxiv.org/abs/1806.10729"
+      ],
+      "verification": "Author-deposited arXiv record verifies title, six authors and 2018; comments explicitly identify accepted NeurIPS Deep RL Workshop 2018. Workshop must not be described as a NeurIPS main-conference paper.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "kirk2023survey",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://jair.org/index.php/jair/article/view/14174",
+        "https://jair.org/index.php/jair/article/download/14174/26890/33042"
+      ],
+      "verification": "Publisher landing page and PDF first page verify title, authors, DOI, JAIR 76, 2023 and 201-264.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "risi2020increasing",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://www.nature.com/articles/s42256-020-0208-z",
+        "https://arxiv.org/abs/1911.13071"
+      ],
+      "verification": "Indexed publisher citation verifies Nature Machine Intelligence 2, 428-436, 2020 and DOI; author arXiv record verifies two authors and title. Direct publisher fetch failed, so the access limitation is recorded rather than claimed as a fulltext check.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "adams2001internet",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://www.rfc-editor.org/info/rfc3161/"
+      ],
+      "verification": "Official RFC Editor metadata verifies title, authors, RFC 3161, August 2001 and DOI. RFC has later updates; cite the frozen protocol used rather than imply latest standard.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "schulman2017proximal",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://arxiv.org/abs/1707.06347"
+      ],
+      "verification": "Author-deposited arXiv record verifies title, five authors, identifier and 2017 preprint status.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "holm1979simple",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://www.jstor.org/stable/4615733",
+        "https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf"
+      ],
+      "verification": "Indexed original-paper/JSTOR cover hosted by University of Sao Paulo verifies Sture Holm, title, Scandinavian Journal of Statistics 6(2), 65-70, 1979. Direct JSTOR body unavailable; PDF redirect fetch unavailable. No DOI added or invented.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "nosek2018preregistration",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://doi.org/10.1073/pnas.1708274114"
+      ],
+      "verification": "Indexed publisher page verifies four authors, title, PNAS 115(11), 2600-2606, March 2018 and DOI. Direct page returned 403; metadata search access is distinguished from fulltext access.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "bellemare2013arcade",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://www.jair.org/index.php/jair/article/view/10819",
+        "https://www.jair.org/index.php/jair/article/download/10819/25823/20168"
+      ],
+      "verification": "Publisher landing page and PDF first page verify title, four authors, DOI, JAIR 47, 253-279, 2013.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "machado2018revisiting",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://www.jair.org/index.php/jair/article/view/11182",
+        "https://www.jair.org/index.php/jair/article/download/11182/26388/20711"
+      ],
+      "verification": "Publisher landing page and PDF first page verify title, six authors, DOI, JAIR 61, 523-562, 2018.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "henderson2018deep",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://arxiv.org/abs/1709.06560",
+        "https://ojs.aaai.org/index.php/AAAI/citationstylelanguage/get/apa?publicationId=10053&submissionId=11694"
+      ],
+      "verification": "Author arXiv verifies core paper; indexed AAAI publisher citation verifies 2018, 32(1), title and DOI. Direct publisher blocked by challenge/502.2018 is conference year; arXiv originally 2017.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "agarwal2021deep",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://proceedings.neurips.cc/paper_files/paper/2021/hash/f514cec81cb148559cf475e7426eed5e-Abstract.html",
+        "https://proceedings.neurips.cc/paper/2021/file/f514cec81cb148559cf475e7426eed5e-Paper.pdf",
+        "https://arxiv.org/abs/2108.13264"
+      ],
+      "verification": "Official proceedings/PDF verify title, five authors, NeurIPS 34, 2021; author arXiv verifies identifier. Pagination 29304-29320 retained from reviewed source; official BibTeX endpoint returned unsupported content-type and pagination was not independently reverified this revision. This is a bounded metadata-check limitation, not evidence of a mismatch.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "lakens2017equivalence",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://journals.sagepub.com/doi/full/10.1177/1948550617697177",
+        "https://researchmethodscommunity.sagepub.com/blog/why-write-research-design-and-methods-an-applied-guide-for-the-scholar-practitioner"
+      ],
+      "verification": "Indexed publisher article identifies author, title, year and DOI; SAGE publisher research-methods article supplies 8(4), 355-362. Direct article timeout; no article content or figure is copied.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "ferrerfilho2021gym",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://paulobruno.github.io/publication/SBGames-gym-hero/",
+        "https://www.sbgames.org/proceedings2021/ComputacaoFull/217884.pdf",
+        "https://ieeexplore.ieee.org/document/9637691"
+      ],
+      "verification": "Coauthor publication page/BibTeX and official conference paper verify title, five authors, SBGames 2021, pages 87-96, DOI. IEEE page is challenge-limited. Coauthor name de Sousa is in displayed author line; BibTeX shortening is not a different contributor.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "ppy2026osu",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://github.com/ppy/osu/releases/tag/2026.921.0-lazer",
+        "https://github.com/ppy/osu/commit/aaa75b7c0a9f21d558ce84cd0ffac6c739bad8e7",
+        "https://github.com/ppy/osu"
+      ],
+      "verification": "Official release page and linked commit verify version, full commit and September 21 release. Official repository distinguishes code MIT from game resources and branding. Bibliography does not authorize renderer/media redistribution or imply endorsement.",
+      "material_mismatch_found": false
+    },
+    {
+      "key": "dalton2020accelerating",
+      "export_decision": "retain bibliographic entry only; no paper PDFs, images or abstracts bundled",
+      "primary_sources": [
+        "https://proceedings.neurips.cc/paper/2020/hash/e4d78a6b4d93e1d79241f7b282fa3413-Abstract.html",
+        "https://proceedings.neurips.cc/paper/2020/file/e4d78a6b4d93e1d79241f7b282fa3413-Paper.pdf",
+        "https://github.com/NVlabs/cule"
+      ],
+      "verification": "Official proceedings/PDF and author project citation verify title, two authors, NeurIPS 33, 19773-19782, 2020. Earlier arXiv version has different title/three authors; retain 2020 conference-paper citation and do not conflate original 2019 version.",
+      "material_mismatch_found": false
+    }
+  ],
+  "limitations": [
+    "Some publisher endpoints blocked automated access; each entry states which exact fields were verified from publisher metadata, official paper or author-deposited source.",
+    "Agarwal 2021 pagination 29304-29320 is retained from the reviewed bibliography. Official title/authors/venue/year and paper identity were checked, but the publisher BibTeX response could not be read to independently recheck pagination."
+  ],
+  "rights_scope": "Bibliographic attribution only. This record does not grant permissions for third-party articles, images, source code, game resources or branding."
+}

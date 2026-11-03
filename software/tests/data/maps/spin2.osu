@@ -1,0 +1,60 @@
+osu file format v14
+
+[General]
+AudioFilename: virtual
+AudioLeadIn: 0
+PreviewTime: -1
+Countdown: 0
+SampleSet: Normal
+StackLeniency: 0.7
+Mode: 0
+LetterboxInBreaks: 0
+WidescreenStoryboard: 0
+
+[Editor]
+DistanceSpacing: 1
+BeatDivisor: 4
+GridSize: 4
+TimelineZoom: 1
+
+[Metadata]
+Title:osu-sim
+Artist:osu-sim
+Creator:osu-sim
+Version:generated
+Source:
+Tags:
+BeatmapID:0
+BeatmapSetID:-1
+
+[Difficulty]
+HPDrainRate:5
+CircleSize:3.1
+OverallDifficulty:8
+ApproachRate:7.1
+SliderMultiplier:1.4
+SliderTickRate:1
+
+[Events]
+//Background and Video events
+//Break Periods
+//Storyboard Layer 0 (Background)
+
+[TimingPoints]
+0,406.2453712147895,4,1,0,60,1,0
+0,-107.84011982483106,4,1,0,60,0,0
+
+
+[HitObjects]
+362,135,1953,5,0,0:0:0:0:
+487,77,2766,1,0,0:0:0:0:
+479,171,3172,1,0,0:0:0:0:
+375,121,3578,1,0,0:0:0:0:
+167,134,3984,1,0,0:0:0:0:
+256,192,4391,12,0,6022,0:0:0:0:
+256,192,6834,5,0,0:0:0:0:
+424,66,7241,1,0,0:0:0:0:
+277,47,7647,1,0,0:0:0:0:
+256,192,8256,12,0,9890,0:0:0:0:
+256,192,10702,12,0,12832,0:0:0:0:
+256,192,13238,12,0,14873,0:0:0:0:

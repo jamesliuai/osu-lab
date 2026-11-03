@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osu-sim"
+version = "0.1.0rc6"
+description = "osu-lab procedural osu!standard simulation and visual-control research toolkit"
+authors = [{name = "James Liu"}]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE", "LICENSE-DOCS.md", "LICENSE-DATA.md", "LICENSE-STUDY.md", "THIRD_PARTY_NOTICES.md", "licenses/*.txt"]
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.5.3", "numba==0.68.0", "llvmlite==0.50.0", "torch==2.10.0"]
+
+[project.urls]
+Repository = "https://github.com/jamesliuai/osu-lab"
+Documentation = "https://jamesliuai.github.io/osu-lab/"
+Releases = "https://github.com/jamesliuai/osu-lab/releases"
+
+[project.optional-dependencies]
+test = ["pytest==9.1.1"]
+render = ["triton-windows==3.6.0.post26; sys_platform == 'win32'", "opencv-python==5.0.0.93"]
+config = ["PyYAML==6.0.3"]
+analysis = ["scipy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["osu_sim", "osu_rl", "osu_rl.policy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

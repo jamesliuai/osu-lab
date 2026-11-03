@@ -1,0 +1,1260 @@
+{
+  "schema": "release_claim_registry_v2",
+  "revision": 6,
+  "date": "2026-11-01",
+  "release_version": "0.1.0rc6",
+  "candidate_revision": 5,
+  "study_status": "final_results_and_D1_settled_owner_release_decisions_applied_publication_separate",
+  "evidence_path_base": "extracted_public_source_root",
+  "provenance_policy": "public_evidence hashes the actual exported bytes and resolves inside the source release. historical_source_provenance identifies original material only; absent originals are not public dependencies or falsely asserted to equal modified exports.",
+  "checksum_policy": "Registry -> public evidence -> leaf code/data. No registry hash reference to the manifest/checksums/self/archives. The public manifest separately hashes this registry.",
+  "historical_materials": [
+    {
+      "original_repository_path": "runs/development/pd_20261101/drafts/kit_facts_try3_042618.json",
+      "sha256": "5c66ff8ab8581ec3d65a9ab6c058d2c3a05757b9c188044c2654fd4011b53767",
+      "role": "Existing draft fact index; claims individually checked, not blanket approval",
+      "availability": "not_in_public_package; historical context, not required to check the scoped public claims"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/fidelity_audit.md",
+      "sha256": "7604d0bbd7782f257af8181ea22524b67091d973828aca90776a55fc2b7489dd",
+      "role": "Reviewed generated-content fidelity boundaries",
+      "availability": "not_in_public_package; historical context, not required to check the scoped public claims"
+    }
+  ],
+  "numerical_scope": "Every promoted result or document number is scoped by the claim entries and DOCUMENT_PROVENANCE semantic groups. Historical records with omitted raw dependencies are labeled as such; raw context is not permission for broader promotional claims.",
+  "claims": [
+    {
+      "id": "ENG-001",
+      "status": "verified_source",
+      "text": "A procedural osu!standard simulation toolkit with map generation, judgement rules, rendering code, a recurrent policy, PPO training, and evaluation.",
+      "value": null,
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "src/osu_sim/generator.py",
+          "sha256": "6bd41881135b0aec0079e6254f8e4a159109e2ee66a2ac3ca55b0986781f4d5d",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is byte-identical."
+        },
+        {
+          "original_repository_path": "src/osu_sim/rules.py",
+          "sha256": "5ece747e6388153eb2e301de08e11583049bdbf87513e1bcc542f840ba598ebb",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        },
+        {
+          "original_repository_path": "src/osu_sim/policy.py",
+          "sha256": "462827cf38db00f43b5c88958df96c8359b2bf981ee1d21284281282fc2b398a",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        },
+        {
+          "original_repository_path": "src/osu_sim/ppo.py",
+          "sha256": "20a3b3efe8b667ec2d701f1a172b6e4e51b887673336a707be3a731e8330d9b2",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        },
+        {
+          "original_repository_path": "src/osu_sim/evaluate.py",
+          "sha256": "7beaec91a4e3eddbf9cce1a147273650e73bce4be251615504bf5c940f382a12",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "src/osu_sim/generator.py",
+          "sha256": "6bd41881135b0aec0079e6254f8e4a159109e2ee66a2ac3ca55b0986781f4d5d",
+          "locator": "generate; sample_params",
+          "supports": "procedural map construction"
+        },
+        {
+          "path": "src/osu_sim/rules.py",
+          "sha256": "9b29a2d6921f0d6e08dd6cea5022c3254a9633f25166612d40291310b0a9c1c9",
+          "locator": "step_all",
+          "supports": "judgement simulation"
+        },
+        {
+          "path": "src/osu_sim/render.py",
+          "sha256": "8dcc7f687020c384d1f57c193c32f9a9114e4fa5cb35259f5afe135a6e24116f",
+          "locator": "Renderer",
+          "supports": "renderer implementation, requiring excluded external assets"
+        },
+        {
+          "path": "src/osu_sim/policy.py",
+          "sha256": "00679804ab652e29fe0921d2b10ec1d5785041f5ac3f1937cfffecd3779c2a52",
+          "locator": "Agent; RecurrentCore",
+          "supports": "recurrent policy implementation"
+        },
+        {
+          "path": "src/osu_sim/ppo.py",
+          "sha256": "16a7faf0799ab12590d2281d3a08d391f221f5a54c7839fdcb2aaa42f9c24a5b",
+          "locator": "PPOTrainer",
+          "supports": "PPO training implementation"
+        },
+        {
+          "path": "src/osu_sim/evaluate.py",
+          "sha256": "e08e55b681e3a79e3b6e0e73f2e16e36d6a43228ff9b09eeb90d299f2bf5ac41",
+          "locator": "SimEvaluator",
+          "supports": "evaluation implementation"
+        }
+      ]
+    },
+    {
+      "id": "ENG-002",
+      "status": "verified_source",
+      "text": "The default interface takes an absolute cursor position and held-key state at 60 Hz.",
+      "value": 60,
+      "unit": "Hz",
+      "limitation": "An absolute cursor can move across the playfield in one step. This is not a model of human motor control.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "src/osu_sim/env.py",
+          "sha256": "6dff4cf361d81b7867c9e5b7ca396306d605a6b0ef821072c50738e14ce28515",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "src/osu_sim/env.py",
+          "sha256": "feb72186750acf863b4e10d5c6d3e320fd248613e8d6cc69ea04f5467a8ebf72",
+          "locator": "SimEnv.__init__: control_hz=60 and dt; step_np; action_to_gamefield",
+          "supports": "default absolute cursor and held-key interface at 60 Hz"
+        }
+      ]
+    },
+    {
+      "id": "ENG-003",
+      "status": "verified_source",
+      "text": "The full renderer produces a 256 by 192 RGB observation; auxiliary inputs describe the previous command and held keys.",
+      "value": [
+        256,
+        192
+      ],
+      "unit": "pixels",
+      "limitation": "The calibrated renderer needs external texture and font assets excluded from this release. The simple renderer is an approximate diagnostic renderer. The auxiliary vector also includes a first-step/continuation flag and a reserved zero.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "src/osu_sim/render.py",
+          "sha256": "f531622e494fe8f24168b713fd011ca4a18e97c541b964051426694f0bc28176",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        },
+        {
+          "original_repository_path": "src/osu_sim/env.py",
+          "sha256": "6dff4cf361d81b7867c9e5b7ca396306d605a6b0ef821072c50738e14ce28515",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Same-named exported file is an explicitly changed derivative with its own public_evidence hash."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "src/osu_sim/render.py",
+          "sha256": "8dcc7f687020c384d1f57c193c32f9a9114e4fa5cb35259f5afe135a6e24116f",
+          "locator": "H_ACT, W_ACT; Renderer._launch output allocation [M,3,H_ACT,W_ACT]",
+          "supports": "256-wide by 192-high RGB source interface"
+        },
+        {
+          "path": "src/osu_sim/env.py",
+          "sha256": "feb72186750acf863b4e10d5c6d3e320fd248613e8d6cc69ea04f5467a8ebf72",
+          "locator": "SimEnv.aux_np",
+          "supports": "previous cursor, key one-hot, first-step/continuation flag and reserved zero"
+        }
+      ]
+    },
+    {
+      "id": "FID-001",
+      "status": "verified_retained_records",
+      "text": "The retained generated-content suite contains 72 scripted records over 10 generated maps, with 77,323 recorded native steps and zero recorded mismatched steps.",
+      "value": {
+        "traces": 72,
+        "maps": 10,
+        "steps": 77323,
+        "recorded_mismatched_steps": 0
+      },
+      "limitation": "Historical per-step comparison against one pinned native build. Per-step native events were not retained. Public tests re-simulate judgement totals, max combo, and step count; they cannot independently repeat the historical per-step comparison.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/fidelity_audit.md",
+          "sha256": "7604d0bbd7782f257af8181ea22524b67091d973828aca90776a55fc2b7489dd",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Original source identity; no promise of availability at this path in the public export."
+        },
+        {
+          "original_repository_path": "packaging/osu_sim/tests/data/MANIFEST.json",
+          "sha256": "72b7ab2a5f110a5eafe725862bf12b742f0f6e11f25c10521fe4fd4438c66b3c",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Original source identity; no promise of availability at this path in the public export."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "tests/data/MANIFEST.json",
+          "sha256": "72b7ab2a5f110a5eafe725862bf12b742f0f6e11f25c10521fe4fd4438c66b3c",
+          "locator": "maps; cases[].copy and sha256",
+          "supports": "hash-linked generated fixture inventory"
+        },
+        {
+          "path": "docs/generated_fixture_summary.json",
+          "sha256": "f8eb2873f5e55349eaf961e12e0be14198c7333c4072ca839131b709e62509fc",
+          "locator": "maps, cases, recorded_native_steps, recorded_mismatched_steps",
+          "supports": "aggregates recomputed from all included case JSON files"
+        }
+      ]
+    },
+    {
+      "id": "FID-002",
+      "status": "verified_retained_records",
+      "text": "Conformance coverage does not include slider-tick, slider-tail, or spinner misses, and contains only 9 Meh judgements.",
+      "value": {
+        "Meh": 9,
+        "tick_miss": 0,
+        "tail_miss": 0,
+        "spinner_miss": 0
+      },
+      "limitation": "No universal fidelity claim, no spinner-grade, score, or pixel-exactness claim.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/fidelity_audit.md",
+          "sha256": "7604d0bbd7782f257af8181ea22524b67091d973828aca90776a55fc2b7489dd",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Original source identity; no promise of availability at this path in the public export."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "tests/data/MANIFEST.json",
+          "sha256": "72b7ab2a5f110a5eafe725862bf12b742f0f6e11f25c10521fe4fd4438c66b3c",
+          "locator": "cases[].copy -> real_totals",
+          "supports": "all retained native count records"
+        },
+        {
+          "path": "tests/paritylib.py",
+          "sha256": "9030002405740dd69edd13e8c2ae68f89e5040e7cd08a8233bc56852ee1a0636",
+          "locator": "sim2native: LargeTickMiss, IgnoreMiss, spin_miss",
+          "supports": "native key mapping for tick, tail and spinner misses"
+        },
+        {
+          "path": "docs/generated_fixture_summary.json",
+          "sha256": "f8eb2873f5e55349eaf961e12e0be14198c7333c4072ca839131b709e62509fc",
+          "locator": "native_judgement_totals; coverage_gaps",
+          "supports": "Meh sum and absent miss-count categories"
+        }
+      ]
+    },
+    {
+      "id": "REL-001",
+      "status": "verified_scope",
+      "text": "The release is assembled from an explicit file allowlist, with generated examples and generated conformance records and accepted procedural-study aggregate evidence. It contains no trained weights or community beatmaps.",
+      "value": null,
+      "limitation": "Local candidate; exact owner-held rights grants applied under LICENSE-DATA.md and LICENSE-STUDY.md. Third-party game assets remain excluded; publication is a separate instruction.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "DATA_USE_NOTICE.md",
+          "sha256": "c19a75b3ba4e16bee6b8d0800338c5f77e28036247f006ff963040fc1b4244f8",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Original source identity; no promise of availability at this path in the public export."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "evidence/release_scope_inventory.json",
+          "sha256": "ac9854f9f97a6e24ceefecd46331b7018e5de77e0eddc764ba2007e8daa32c94",
+          "locator": "paths; code_and_data; map_provenance",
+          "supports": "complete selected public payload and deterministic source of every included map"
+        },
+        {
+          "path": "tests/paritylib.py",
+          "sha256": "9030002405740dd69edd13e8c2ae68f89e5040e7cd08a8233bc56852ee1a0636",
+          "locator": "regenerate_parity_maps",
+          "supports": "generation recipe for retained conformance maps"
+        },
+        {
+          "path": "tests/test_conformance_generated.py",
+          "sha256": "9bc29044b362a84ce91f417cc548e4c9077739d414d2462ad1d59094df186aa7",
+          "locator": "test_generator_reproduces_recorded_maps; test_data_files_match_manifest",
+          "supports": "implemented generated-map reproduction and fixture integrity checks"
+        },
+        {
+          "path": "examples/generated_data_example.py",
+          "sha256": "10a4e5af8ccf13e1bf83c311bf76c56652d13cab298a8382942363c2eae3955d",
+          "locator": "main seed/level loop",
+          "supports": "generation recipe for three new examples"
+        }
+      ]
+    },
+    {
+      "id": "DATA-001",
+      "status": "verified_source",
+      "text": "Generator difficulty labels are synthetic sampling labels, not native osu! star ratings.",
+      "value": null,
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "packaging/osu_sim/examples/recipe/build_recipe_pools.py",
+          "sha256": "64a63e6afbf7abf888017c7ff9f9cdc4ddba536f945384218f3a0a0e67e2f4c0",
+          "availability": "historical_original_identity_not_a_public_evidence_path",
+          "role": "origin/context only; public readers use public_evidence",
+          "relation_to_export": "Original source identity; no promise of availability at this path in the public export."
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "examples/recipe/build_recipe_pools.py",
+          "sha256": "102bbf4440e6e01dd1e2c426e5cec011f6e414d7cad2348774138fda831d9da6",
+          "locator": "build: maps[\"stars\"] assignment; main manifest stars_note",
+          "supports": "synthetic difficulty mapping 0.5+4.5*level, not native star-rating calculation"
+        }
+      ]
+    },
+    {
+      "id": "RESULT-001",
+      "status": "verified_accepted_aggregate_result",
+      "text": "Under the preregistered classical OLS error term, the F1 primary slope is -0.757 log-failure units per 8x more procedural practice maps (95% CI [-1.183, -0.330], one-sided p=0.003); category: Exceeds the margin.",
+      "value": {
+        "b": -0.7565632314033421,
+        "ci95": [
+          -1.18266584763749,
+          -0.3304606151691942
+        ],
+        "ci90": [
+          -1.090579978823105,
+          -0.4225464839835793
+        ],
+        "p_one_sided": 0.0030169313431651717,
+        "df": 5,
+        "n": 9,
+        "n_replicates": 3,
+        "r5_category": "Exceeds the margin",
+        "delta": 0.15
+      },
+      "limitation": "One generator, recipe and budget; three replicate sets; conditional classical OLS uncertainty. Diversity and repetition are confounded. The equally spaced primary slope equals 3/8 of S1; paired S1 uncertainty includes zero. No claim about human play/community maps or an unlimited scaling law. D1 disclosed.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/EVIDENCE.md",
+          "sha256": "055cec84bfaf27cce664a5474b2195ea618c512faf80835c7595e19fa8e3bbb1",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r5.md",
+          "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_provenance.json",
+          "sha256": "19f140e5d2007f6b793394d7dd5e7141503cc846ed35b83c7a3007ca8b1fcba7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r2_extra_provenance.json",
+          "sha256": "6074cab2003436ba35b3c7a4dd8b5cb29d8639d3caedc49230d31ccd4ead480e",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_analysis.txt",
+          "sha256": "74670a8ef568a094c9f5d1783a70d64b8f6495e90b75d94ee6066c2d4e0c20b5",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/REPORT.md",
+          "sha256": "f625bb6e33c037ccc1591c10aa480d2bf0eef138601dab1eff769a8b13d9dbe7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/PROVENANCE.md",
+          "sha256": "6cd8d2cbac40c4ddda3a4342e36969236757a050d5aa64bb1af662b8789be868",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/CLEAN_DATA_AUDIT.json",
+          "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_PREREG_frozen_2026-11-01_0223.md",
+          "sha256": "048098da3e0d246b0abfdf2da92c0483fe5f0a2f75b437c329be200da55af30f",
+          "availability": "not_exported_historical_source_identity_only"
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "evidence/study/PD_analysis.json",
+          "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+          "locator": "primary; secondary; settings; complete_replicates; runs",
+          "supports": "Byte-identical accepted final aggregate values; actual F1 fields override stale planned-design labels."
+        },
+        {
+          "path": "docs/STUDY_RESULTS.md",
+          "sha256": "cb7941fec37a6e7e2c1008b81e67c8a2414152acde9c97f66f515716b3ba4626",
+          "locator": "Primary result; Secondary family; Interpretation and limits",
+          "supports": "Scoped release summary and required interpretation limits; not an original frozen report."
+        },
+        {
+          "path": "evidence/study/STUDY_PROVENANCE.json",
+          "sha256": "262abfe353864c8f04fa127d6824d30a78f3aef4e74602fd44fd062b86586d2c",
+          "locator": "public_evidence; historical_source_provenance; accepted_results",
+          "supports": "Historical source identities are separated from exported evidence; review record is publisher summary."
+        }
+      ]
+    },
+    {
+      "id": "VERIFY-001",
+      "status": "verified_historical_execution_and_retained_code_identity",
+      "text": "Candidate_v1 passed its CPU example, 107 generated conformance tests, 7 release-interface tests and 9 synthetic analysis tests, with no skips. Its retained simulation, training, procedural and test code and fixtures are byte-identical in candidate_v5; these runtime tests were not rerun for this revision.",
+      "value": {
+        "generated_conformance": 107,
+        "release_interfaces": 7,
+        "synthetic_analysis": 9,
+        "skipped": 0
+      },
+      "limitation": "Publisher execution records, not independent attestation. Historical CPU validation hid CUDA in a CUDA-capable PyTorch installation. No GPU training, full-renderer validation or final study analysis was run. The new public provenance verifier and package metadata are checked separately.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "release_work/package/osu_sim_release/VERIFICATION.json",
+          "sha256": "082c46514454767bb717900d68f3a4685e3270554e10624da7f58f76f4d33c99",
+          "availability": "byte-identical historical copy included as evidence/candidate_v1_verification.json",
+          "role": "candidate_v1 public execution summary; not a claim that the new wheel was runtime-tested"
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "VERIFICATION.json",
+          "sha256": "8bf3fb70a99a772f9f85041f57928c4511d478190153060daac5c8ee9aae862f",
+          "locator": "runtime_validation; revision_validation",
+          "supports": "separates historical runtime validation from this revision's metadata checks"
+        },
+        {
+          "path": "evidence/test_result_summary.json",
+          "sha256": "26d3cfd3eff686a1893cee190d25e0f65bb05ce553cdf7c207ae762ecc5616d8",
+          "locator": "groups[].cases; cpu_example; public_inputs",
+          "supports": "per-case publisher execution records, retained-code identity and public stdout"
+        },
+        {
+          "path": "evidence/candidate_v1_verification.json",
+          "sha256": "082c46514454767bb717900d68f3a4685e3270554e10624da7f58f76f4d33c99",
+          "locator": "tests; isolation; simulation_environment; standalone_analysis_environment",
+          "supports": "unchanged prior public verification record, explicitly historical"
+        }
+      ]
+    },
+    {
+      "id": "RESULT-002",
+      "status": "verified_accepted_aggregate_result",
+      "text": "Among six Holm-corrected secondary tests, S5 (gap slope) and S6 (tempo slope) reject; S1, S2, S3 and S7 do not.",
+      "value": [
+        {
+          "id": "S1",
+          "estimate": -2.0175019504089122,
+          "ci95": [
+            -4.346699515343357,
+            0.31169561452553296
+          ],
+          "p_one_sided": 0.0325251258183353,
+          "p_holm": 0.06655315034363574,
+          "reject_holm": false,
+          "df": 2
+        },
+        {
+          "id": "S2",
+          "estimate": -1.549909299477358,
+          "ci95": [
+            -2.6678635183608543,
+            -0.4319550805938619
+          ],
+          "p_one_sided": 0.013485915091583672,
+          "p_holm": 0.05394366036633469,
+          "reject_holm": false,
+          "df": 2
+        },
+        {
+          "id": "S3",
+          "estimate": -0.4675926509315544,
+          "ci95": [
+            -1.6792403557663003,
+            0.7440550539031914
+          ],
+          "p_one_sided": 0.11935012619665286,
+          "p_holm": 0.11935012619665286,
+          "reject_holm": false,
+          "df": 2
+        },
+        {
+          "id": "S5",
+          "estimate": -0.7462296698459595,
+          "ci95": [
+            -1.0987564536163055,
+            -0.39370288607561355
+          ],
+          "p_one_sided": 0.0014227878246234518,
+          "p_holm": 0.00853672694774071,
+          "reject_holm": true,
+          "df": 5
+        },
+        {
+          "id": "S6",
+          "estimate": -0.6438023141196559,
+          "ci95": [
+            -1.0403074858255492,
+            -0.2472971424137626
+          ],
+          "p_one_sided": 0.004353349246873001,
+          "p_holm": 0.021766746234365003,
+          "reject_holm": true,
+          "df": 5
+        },
+        {
+          "id": "S7",
+          "estimate": -0.2530664363861279,
+          "ci95": [
+            -0.4967446276425731,
+            -0.009388245129682699
+          ],
+          "p_one_sided": 0.022184383447878576,
+          "p_holm": 0.06655315034363574,
+          "reject_holm": false,
+          "df": 5
+        }
+      ],
+      "limitation": "S1–S3 use paired replicate errors; S5–S7 use classical OLS errors. S6 significance is conditional on that model. Individual 95% intervals are not multiplicity adjusted. The burst-drill advantage is not established after Holm.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/EVIDENCE.md",
+          "sha256": "055cec84bfaf27cce664a5474b2195ea618c512faf80835c7595e19fa8e3bbb1",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r5.md",
+          "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_provenance.json",
+          "sha256": "19f140e5d2007f6b793394d7dd5e7141503cc846ed35b83c7a3007ca8b1fcba7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r2_extra_provenance.json",
+          "sha256": "6074cab2003436ba35b3c7a4dd8b5cb29d8639d3caedc49230d31ccd4ead480e",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_analysis.txt",
+          "sha256": "74670a8ef568a094c9f5d1783a70d64b8f6495e90b75d94ee6066c2d4e0c20b5",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/REPORT.md",
+          "sha256": "f625bb6e33c037ccc1591c10aa480d2bf0eef138601dab1eff769a8b13d9dbe7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/PROVENANCE.md",
+          "sha256": "6cd8d2cbac40c4ddda3a4342e36969236757a050d5aa64bb1af662b8789be868",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/CLEAN_DATA_AUDIT.json",
+          "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_PREREG_frozen_2026-11-01_0223.md",
+          "sha256": "048098da3e0d246b0abfdf2da92c0483fe5f0a2f75b437c329be200da55af30f",
+          "availability": "not_exported_historical_source_identity_only"
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "evidence/study/PD_analysis.json",
+          "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+          "locator": "primary; secondary; settings; complete_replicates; runs",
+          "supports": "Byte-identical accepted final aggregate values; actual F1 fields override stale planned-design labels."
+        },
+        {
+          "path": "docs/STUDY_RESULTS.md",
+          "sha256": "cb7941fec37a6e7e2c1008b81e67c8a2414152acde9c97f66f515716b3ba4626",
+          "locator": "Primary result; Secondary family; Interpretation and limits",
+          "supports": "Scoped release summary and required interpretation limits; not an original frozen report."
+        }
+      ]
+    },
+    {
+      "id": "STUDY-001",
+      "status": "verified_accepted_design",
+      "text": "Completed F1 used nested practice pools of 16, 256 and 4096 procedural maps, three replicate sets and a 60-million-decision target per run; all nine runs were complete and none excluded.",
+      "value": {
+        "arms": [
+          16,
+          256,
+          4096
+        ],
+        "replicates": [
+          1,
+          2,
+          3
+        ],
+        "budget_decisions": 60000000.0,
+        "complete_replicates": [
+          1,
+          2,
+          3
+        ],
+        "excluded_runs": 0
+      },
+      "limitation": "Budget is the target; final updates overshoot it slightly. Actual F1 structured fields, not settings.labels planned-design prose, establish the design. No sealed pools are distributed.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/EVIDENCE.md",
+          "sha256": "055cec84bfaf27cce664a5474b2195ea618c512faf80835c7595e19fa8e3bbb1",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r5.md",
+          "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_provenance.json",
+          "sha256": "19f140e5d2007f6b793394d7dd5e7141503cc846ed35b83c7a3007ca8b1fcba7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r2_extra_provenance.json",
+          "sha256": "6074cab2003436ba35b3c7a4dd8b5cb29d8639d3caedc49230d31ccd4ead480e",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_analysis.txt",
+          "sha256": "74670a8ef568a094c9f5d1783a70d64b8f6495e90b75d94ee6066c2d4e0c20b5",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/REPORT.md",
+          "sha256": "f625bb6e33c037ccc1591c10aa480d2bf0eef138601dab1eff769a8b13d9dbe7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/PROVENANCE.md",
+          "sha256": "6cd8d2cbac40c4ddda3a4342e36969236757a050d5aa64bb1af662b8789be868",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/CLEAN_DATA_AUDIT.json",
+          "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_PREREG_frozen_2026-11-01_0223.md",
+          "sha256": "048098da3e0d246b0abfdf2da92c0483fe5f0a2f75b437c329be200da55af30f",
+          "availability": "not_exported_historical_source_identity_only"
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "evidence/study/PD_analysis.json",
+          "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+          "locator": "primary; secondary; settings; complete_replicates; runs",
+          "supports": "Byte-identical accepted final aggregate values; actual F1 fields override stale planned-design labels."
+        },
+        {
+          "path": "evidence/study/PD_supplement.json",
+          "sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+          "locator": "runs.*.decisions; sources.analysis",
+          "supports": "Records final decision counts and their analysis identity; no throughput claim promoted."
+        },
+        {
+          "path": "docs/STUDY_RESULTS.md",
+          "sha256": "cb7941fec37a6e7e2c1008b81e67c8a2414152acde9c97f66f515716b3ba4626",
+          "locator": "Primary result; Secondary family; Interpretation and limits",
+          "supports": "Scoped release summary and required interpretation limits; not an original frozen report."
+        }
+      ]
+    },
+    {
+      "id": "REVIEW-001",
+      "status": "verified_existing_review_record",
+      "text": "The study accepted r5 after an internal fifth full six-lens review with no major finding and required fixes rechecked. Review exceeded the preregistered three-round cap; the owner retrospectively approved D1 and accepted r5 as the final internally reviewed results document. The recorded final non-dry-run audit is PASS.",
+      "value": null,
+      "limitation": "Internal review, not external peer review or human certification. D1 approval is final; the original cap breach remains disclosed. A recorded audit is not independently repeated raw-data authentication.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/EVIDENCE.md",
+          "sha256": "055cec84bfaf27cce664a5474b2195ea618c512faf80835c7595e19fa8e3bbb1",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r5.md",
+          "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_provenance.json",
+          "sha256": "19f140e5d2007f6b793394d7dd5e7141503cc846ed35b83c7a3007ca8b1fcba7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r2_extra_provenance.json",
+          "sha256": "6074cab2003436ba35b3c7a4dd8b5cb29d8639d3caedc49230d31ccd4ead480e",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_analysis.txt",
+          "sha256": "74670a8ef568a094c9f5d1783a70d64b8f6495e90b75d94ee6066c2d4e0c20b5",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/REPORT.md",
+          "sha256": "f625bb6e33c037ccc1591c10aa480d2bf0eef138601dab1eff769a8b13d9dbe7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/PROVENANCE.md",
+          "sha256": "6cd8d2cbac40c4ddda3a4342e36969236757a050d5aa64bb1af662b8789be868",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/CLEAN_DATA_AUDIT.json",
+          "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_PREREG_frozen_2026-11-01_0223.md",
+          "sha256": "048098da3e0d246b0abfdf2da92c0483fe5f0a2f75b437c329be200da55af30f",
+          "availability": "not_exported_historical_source_identity_only"
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "evidence/study/STUDY_PROVENANCE.json",
+          "sha256": "262abfe353864c8f04fa127d6824d30a78f3aef4e74602fd44fd062b86586d2c",
+          "locator": "public_evidence; historical_source_provenance; accepted_results",
+          "supports": "Historical source identities are separated from exported evidence; review record is publisher summary."
+        },
+        {
+          "path": "evidence/study/PD_DEVIATIONS_2026-11-01.md",
+          "sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1",
+          "locator": "D1; Addendum Close",
+          "supports": "Unchanged dated review-cap deviation and accepted-round close."
+        },
+        {
+          "path": "evidence/study/CLEAN_DATA_AUDIT_FINAL.json",
+          "sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f",
+          "locator": "schema; t; dry_run; verdict; failed; a/b/c/d",
+          "supports": "Existing final audit recorded after package completion; no pool paths followed."
+        }
+      ]
+    },
+    {
+      "id": "FIG-001",
+      "status": "verified_original_aggregate_figure",
+      "text": "The accepted main chart shows replicate values, arm means and 95% t-intervals for unseen and own-practice outcomes, with an untrained reference.",
+      "value": {
+        "by_arm": {
+          "16": {
+            "Y_id": {
+              "ci95": [
+                -2.229405476815175,
+                -1.2960941122899898
+              ],
+              "mean": -1.7627497945525825,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -1.607082589478902,
+                "2": -1.9714076621958787,
+                "3": -1.709759131982967
+              }
+            },
+            "Y_probe": {
+              "ci95": [
+                -4.053691989359281,
+                -3.612919880660742
+              ],
+              "mean": -3.8333059350100114,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -3.906292330719161,
+                "2": -3.8590662784418974,
+                "3": -3.7345591958689757
+              }
+            }
+          },
+          "256": {
+            "Y_id": {
+              "ci95": [
+                -4.1185598235795275,
+                -2.5067583644803535
+              ],
+              "mean": -3.3126590940299407,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -3.6740116202001207,
+                "2": -3.2175150320795107,
+                "3": -3.0464506298101903
+              }
+            },
+            "Y_probe": {
+              "ci95": [
+                -4.6803386753364755,
+                -2.703281709179467
+              ],
+              "mean": -3.691810192257971,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -4.143197463616686,
+                "2": -3.5405505511364095,
+                "3": -3.391682562020817
+              }
+            }
+          },
+          "4096": {
+            "Y_id": {
+              "ci95": [
+                -5.758277276096541,
+                -1.8022262138264493
+              ],
+              "mean": -3.780251744961495,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -4.699451302978571,
+                "2": -3.3390363898465014,
+                "3": -3.3022675420594125
+              }
+            },
+            "Y_probe": {
+              "ci95": [
+                -5.939645605034974,
+                -1.782078593291088
+              ],
+              "mean": -3.860862099163031,
+              "n": 3,
+              "values_by_replicate": {
+                "1": -4.824556688424589,
+                "2": -3.3178409334371666,
+                "3": -3.440188675627339
+              }
+            }
+          }
+        },
+        "untrained_Y": 0.0
+      },
+      "limitation": "Lines join arm means, not a fitted slope. Mean intervals use three replicates. At4096 the practice probe is the first256 maps. Keep the caption, model caveat and D1 disclosure. Original chart owner-held rights use the applied CC BY4.0 scope; no embedded fonts/game assets.",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/pd_20261101/EVIDENCE.md",
+          "sha256": "055cec84bfaf27cce664a5474b2195ea618c512faf80835c7595e19fa8e3bbb1",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r5.md",
+          "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_provenance.json",
+          "sha256": "19f140e5d2007f6b793394d7dd5e7141503cc846ed35b83c7a3007ca8b1fcba7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r2_extra_provenance.json",
+          "sha256": "6074cab2003436ba35b3c7a4dd8b5cb29d8639d3caedc49230d31ccd4ead480e",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_analysis.txt",
+          "sha256": "74670a8ef568a094c9f5d1783a70d64b8f6495e90b75d94ee6066c2d4e0c20b5",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/REPORT.md",
+          "sha256": "f625bb6e33c037ccc1591c10aa480d2bf0eef138601dab1eff769a8b13d9dbe7",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/PROVENANCE.md",
+          "sha256": "6cd8d2cbac40c4ddda3a4342e36969236757a050d5aa64bb1af662b8789be868",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/CLEAN_DATA_AUDIT.json",
+          "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+          "availability": "not_exported_historical_source_identity_only"
+        },
+        {
+          "original_repository_path": "runs/development/pd_20261101/PD_PREREG_frozen_2026-11-01_0223.md",
+          "sha256": "048098da3e0d246b0abfdf2da92c0483fe5f0a2f75b437c329be200da55af30f",
+          "availability": "not_exported_historical_source_identity_only"
+        }
+      ],
+      "public_evidence": [
+        {
+          "path": "evidence/study/PD_analysis.json",
+          "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+          "locator": "primary; secondary; settings; complete_replicates; runs",
+          "supports": "Byte-identical accepted final aggregate values; actual F1 fields override stale planned-design labels."
+        },
+        {
+          "path": "evidence/study/figures/fig_pd_main.svg",
+          "sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+          "locator": "data-key/data-v annotations; subtitle",
+          "supports": "Unchanged chart with every numerical annotation checked against exported analysis."
+        },
+        {
+          "path": "docs/STUDY_RESULTS.md",
+          "sha256": "cb7941fec37a6e7e2c1008b81e67c8a2414152acde9c97f66f515716b3ba4626",
+          "locator": "Primary result; Secondary family; Interpretation and limits",
+          "supports": "Scoped release summary and required interpretation limits; not an original frozen report."
+        }
+      ]
+    },
+    {
+      "id": "DOC-001",
+      "text": "The report and one-page summary are public editorial derivatives of the current accepted handover, with the owner-confirmed author line James Liu; scientific numbers, qualifications and confirmatory/exploratory distinctions are preserved.",
+      "value": {
+        "report_pages": 13,
+        "summary_pages": 1,
+        "author": "James Liu"
+      },
+      "public_evidence": [
+        {
+          "path": "evidence/documents/DOCUMENT_PROVENANCE.json",
+          "sha256": "c3019ac9313f75e127ff7f96066987cb24ad1d287997b5af1320dce111612f13",
+          "locator": "whole record",
+          "supports": "Exported evidence identity and declared scope"
+        },
+        {
+          "path": "docs/REPORT.md",
+          "sha256": "587d56437a63c09610901b62c830252ecc58fdc6cb1ff4c5430725c1a9bb3e91",
+          "locator": "whole record",
+          "supports": "Exported evidence identity and declared scope"
+        },
+        {
+          "path": "docs/ONE_PAGE_SUMMARY.md",
+          "sha256": "e88a1b69ea488b9edc80825741c51065b2495ed595f11d5a4baf67e4fb9f96c4",
+          "locator": "whole record",
+          "supports": "Exported evidence identity and declared scope"
+        }
+      ],
+      "status": "verified_exported_record",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+          "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+          "availability": "not_exported_original_preserved_privately"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+          "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+          "availability": "not_exported_original_preserved_privately"
+        }
+      ],
+      "limitation": "Only the stated scope is cleared for local copy; preserve report caveats, internal-review/D1 disclosure and omitted-input limits. Original rights grants are applied to the exact approved scope; third-party rights and publication authorization remain separate."
+    },
+    {
+      "id": "PERF-001",
+      "text": "The recorded study trained at a median of 9,143 decisions per second on one consumer GPU (run medians 8,883 to 9,746); this is historical study throughput, not CPU quick-start performance.",
+      "value": {
+        "median_of_run_medians": 9143.1,
+        "min_run_median": 8883.1,
+        "max_run_median": 9745.9
+      },
+      "public_evidence": [
+        {
+          "path": "evidence/study/PD_supplement.json",
+          "sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+          "locator": "throughput; runs.*.wall_s/median_dps",
+          "supports": "Exact accepted throughput statistics and wall times"
+        }
+      ],
+      "status": "verified_exported_record",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+          "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+          "availability": "not_exported_original_preserved_privately"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+          "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+          "availability": "not_exported_original_preserved_privately"
+        }
+      ],
+      "limitation": "Only the stated scope is cleared for local copy; preserve report caveats, internal-review/D1 disclosure and omitted-input limits. Original rights grants are applied to the exact approved scope; third-party rights and publication authorization remain separate."
+    },
+    {
+      "id": "HIST-001",
+      "text": "Historical kit facts report foreground rendering errors of 1.23 and 1.34 levels out of 255 over 3,541 generated-map frames. The release does not repeat or independently authenticate the omitted frame comparisons.",
+      "value": {
+        "render_fg_mae_gen_a": 1.2339425535779245,
+        "render_fg_mae_gen_b": 1.34202404962102,
+        "render_frames_gen": 3541
+      },
+      "public_evidence": [
+        {
+          "path": "evidence/study/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "locator": "facts.render_fg_mae_gen_a/render_fg_mae_gen_b/render_frames_gen",
+          "supports": "Recorded historical measurements; original frame metrics and game-renderer assets omitted"
+        },
+        {
+          "path": "docs/REPORT.md",
+          "sha256": "587d56437a63c09610901b62c830252ecc58fdc6cb1ff4c5430725c1a9bb3e91",
+          "locator": "section2 Fidelity",
+          "supports": "Historical scope and missing-evidence qualification"
+        }
+      ],
+      "status": "historical_measurement_record_only",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+          "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+          "availability": "not_exported_original_preserved_privately"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+          "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+          "availability": "not_exported_original_preserved_privately"
+        }
+      ],
+      "limitation": "Only the stated scope is cleared for local copy; preserve report caveats, internal-review/D1 disclosure and omitted-input limits. Original rights grants are applied to the exact approved scope; third-party rights and publication authorization remain separate."
+    },
+    {
+      "id": "METHOD-001",
+      "text": "The report preserves recorded design, protocol, pilot and configuration facts with semantic public sources and explicitly labels omitted original inputs.",
+      "value": null,
+      "public_evidence": [
+        {
+          "path": "evidence/study/kit_facts.json",
+          "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+          "locator": "facts",
+          "supports": "Individually audited historical93-fact snapshot"
+        },
+        {
+          "path": "evidence/documents/DOCUMENT_PROVENANCE.json",
+          "sha256": "c3019ac9313f75e127ff7f96066987cb24ad1d287997b5af1320dce111612f13",
+          "locator": "semantic_claim_groups; semantic_bindings",
+          "supports": "Semantic evidence mappings, not coincidental numeric-token matches"
+        }
+      ],
+      "status": "verified_exported_record",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+          "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+          "availability": "not_exported_original_preserved_privately"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+          "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+          "availability": "not_exported_original_preserved_privately"
+        }
+      ],
+      "limitation": "Only the stated scope is cleared for local copy; preserve report caveats, internal-review/D1 disclosure and omitted-input limits. Original rights grants are applied to the exact approved scope; third-party rights and publication authorization remain separate."
+    },
+    {
+      "id": "EXPL-001",
+      "text": "Exploratory sensitivity, post hoc spinner observations and exposure counts are retained as selected historical evidence; they do not replace the preregistered model or establish a new confirmatory result.",
+      "value": null,
+      "public_evidence": [
+        {
+          "path": "evidence/study/EXPLORATORY_RECEIPT.json",
+          "sha256": "306704fffc9df7bb9c51f858bcb09099b448e88269b129991b67d717134278d4",
+          "locator": "robustness; spinner_post_hoc; exposure; ema",
+          "supports": "Selected existing evidence entries, exact excerpts and explicit omitted-log limits"
+        },
+        {
+          "path": "docs/REPORT.md",
+          "sha256": "587d56437a63c09610901b62c830252ecc58fdc6cb1ff4c5430725c1a9bb3e91",
+          "locator": "sections5–6",
+          "supports": "Exploratory and methods limitations kept with their claims"
+        }
+      ],
+      "status": "verified_exported_record",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+          "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+          "availability": "not_exported_original_preserved_privately"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+          "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+          "availability": "not_exported_original_preserved_privately"
+        }
+      ],
+      "limitation": "Only the stated scope is cleared for local copy; preserve report caveats, internal-review/D1 disclosure and omitted-input limits. Original rights grants are applied to the exact approved scope; third-party rights and publication authorization remain separate."
+    },
+    {
+      "id": "FIG-002",
+      "text": "The additional curves and shifted-distribution figures show recorded learning curves and tempo/pattern outcomes from the accepted analysis, preserving the S7 nonsignificant-after-Holm qualification.",
+      "value": {
+        "curves_numeric_annotations": 72,
+        "shift_numeric_annotations": 38
+      },
+      "public_evidence": [
+        {
+          "path": "evidence/documents/FIGURE_AUDIT.json",
+          "sha256": "69d0dffa4f91ff2a710741b959abf077d11769c8c6ca21a5450dc04f265b0948",
+          "locator": "figures",
+          "supports": "Individual image identities and exact semantic chart values"
+        },
+        {
+          "path": "evidence/study/PD_analysis.json",
+          "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+          "locator": "descriptive.learning_curves; secondary; descriptive.by_arm",
+          "supports": "Accepted chart sources"
+        }
+      ],
+      "status": "verified_exported_record",
+      "historical_source_provenance": [
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/REPORT.md",
+          "source_sha256": "3b0876029d42c5430f6796af6981bf3039488283f61c0e8f262cf4b64ffb5bad",
+          "availability": "not_exported_original_preserved_privately"
+        },
+        {
+          "original_repository_path": "runs/development/paper/submission_v2/handover/ONE_PAGE_SUMMARY.md",
+          "source_sha256": "0e8e4facd8265a43a6a54c12c036ffa2d5a5d993de156adc4d4f1eae4f2b49fe",
+          "availability": "not_exported_original_preserved_privately"
+        }
+      ],
+      "limitation": "Only the stated scope is cleared for local copy; preserve report caveats, internal-review/D1 disclosure and omitted-input limits. Original rights grants are applied to the exact approved scope; third-party rights and publication authorization remain separate."
+    },
+    {
+      "id": "PROJECT-001",
+      "status": "owner_confirmed",
+      "text": "The public project is osu-lab, by James Liu. The distribution remains osu-sim and Python import remains osu_sim. Planned destinations are jamesliuai/osu-lab, its versioned GitHub Releases and its GitHub Pages project site.",
+      "value": {
+        "author": "James Liu",
+        "public_project_name": "osu-lab",
+        "distribution_name": "osu-sim",
+        "import_name": "osu_sim",
+        "destinations": {
+          "repository": "https://github.com/jamesliuai/osu-lab",
+          "downloads": "https://github.com/jamesliuai/osu-lab/releases/tag/v0.1.0rc6",
+          "website": "https://jamesliuai.github.io/osu-lab/"
+        }
+      },
+      "historical_source_provenance": [],
+      "public_evidence": [
+        {
+          "path": "PROJECT_METADATA.json",
+          "sha256": "59acb35027672bd9b41d525023b6c6d6f756240b7f0cc59b1914e95a70dcc805",
+          "locator": "whole record",
+          "supports": "Owner-approved release metadata or applied rights notice"
+        }
+      ],
+      "limitation": "Destinations are planned and not represented as created/live. No publication occurred."
+    },
+    {
+      "id": "CONTRIB-001",
+      "status": "owner_approved_verbatim",
+      "text": "I developed and integrated a reinforcement-learning system for procedurally generated osu! maps, and designed and ran a study of how practice-map diversity affects generalization. The system adapts upstream osu! and osu-framework rules and uses established PPO and recurrent-network methods.",
+      "value": null,
+      "historical_source_provenance": [],
+      "public_evidence": [
+        {
+          "path": "PROJECT_METADATA.json",
+          "sha256": "59acb35027672bd9b41d525023b6c6d6f756240b7f0cc59b1914e95a70dcc805",
+          "locator": "contribution_statement",
+          "supports": "Exact owner-approved personal statement"
+        },
+        {
+          "path": "docs/CONTRIBUTIONS.md",
+          "sha256": "85505c8753a55efc2a149d2e0b111ab6a07c45a4123c4018efa4616683367cbd",
+          "locator": "whole record",
+          "supports": "Owner-approved release metadata or applied rights notice"
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "sha256": "a6ba5b743bb8cf67a57ed7ed580efe4ec1072d05e5a0704b3deb6dcd167304f5",
+          "locator": "upstream ports and methods",
+          "supports": "Separate attribution for adapted code and established methods"
+        }
+      ],
+      "limitation": "Approved personal contribution statement, not a claim of inventing upstream rules, PPO or recurrent-network methods."
+    },
+    {
+      "id": "LICENSE-001",
+      "status": "owner_approved_applied",
+      "text": "James Liu applies CC0-1.0 to rights he holds in the exact86 fixture/example files and6 factual/bibliographic records, and CC BY4.0 to rights he holds in the exact13 study/document/chart files approved in candidate_v4.",
+      "value": {
+        "CC0-1.0": 92,
+        "CC-BY-4.0": 13
+      },
+      "historical_source_provenance": [],
+      "public_evidence": [
+        {
+          "path": "evidence/APPROVED_V4_LICENSE_SCOPE.json",
+          "sha256": "9cf6ae185e9b0ad13927a5d97e052b3c5ba4c96cec68a5aa6efe60a9a8c40adf",
+          "locator": "approved_files",
+          "supports": "Pinned original approval scope"
+        },
+        {
+          "path": "evidence/FIXTURE_LICENSE_SCOPE.json",
+          "sha256": "6ea67d37937839333aa8011e98c8bbc0693879ff9bfdd454820322cda25e7dde",
+          "locator": "files",
+          "supports": "Exact86 unchanged applied fixtures"
+        },
+        {
+          "path": "evidence/study/LICENSE_PROPOSAL.json",
+          "sha256": "23475c8fdcf119dad9e0fe41f67ae4a289e9c3e6a46bf3a3751141768d0aad9e",
+          "locator": "files",
+          "supports": "Six factual records and13 study/document/chart files with separate approved/current hashes"
+        },
+        {
+          "path": "LICENSE-DATA.md",
+          "sha256": "812ef6827d5d547034e67dbf1a0c6a22de702fb396a78487dcca0b0872310964",
+          "locator": "whole record",
+          "supports": "Owner-approved release metadata or applied rights notice"
+        },
+        {
+          "path": "LICENSE-STUDY.md",
+          "sha256": "01c751f00402825a59b8341f98c05d8bbc9720383d7ea387b0de924c77a7f519",
+          "locator": "whole record",
+          "supports": "Owner-approved release metadata or applied rights notice"
+        }
+      ],
+      "limitation": "Only owner-held rights; no expansion to excluded assets, third-party rights or separately licensed code/fonts. Public document derivatives indicate changes."
+    }
+  ],
+  "public_project_name": "osu-lab",
+  "distribution_name": "osu-sim",
+  "date_timezone": "America/Los_Angeles"
+}

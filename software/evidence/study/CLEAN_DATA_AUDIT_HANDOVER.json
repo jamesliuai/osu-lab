@@ -1,0 +1,732 @@
+{
+ "schema": "pd_clean_data_audit_v1",
+ "t": "2026-11-01T19:38:59-08:00",
+ "dry_run": false,
+ "a": [
+  {
+   "item": "runs/sim/pools/pd_v1/pd_monitor_v1.npz",
+   "ok": true,
+   "detail": "manifest pd_monitor_v1.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "demo_manifest.json",
+    "pd_n16_r1.json",
+    "pd_n16_r2.json",
+    "pd_n16_r3.json",
+    "pd_n256_r1.json",
+    "pd_n256_r2.json",
+    "pd_n256_r3.json",
+    "pd_n4096_r1.json",
+    "pd_n4096_r2.json",
+    "pd_n4096_r3.json",
+    "pd_pilot_r0.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r0_n8192.npz",
+   "ok": true,
+   "detail": "manifest pd_r0_n8192.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_pilot_r0.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r1_n16.npz",
+   "ok": true,
+   "detail": "manifest pd_r1_n16.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json",
+    "pd_n16_r1.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r1_n256.npz",
+   "ok": true,
+   "detail": "manifest pd_r1_n256.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json",
+    "pd_n256_r1.json",
+    "pd_n4096_r1.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r1_n4096.npz",
+   "ok": true,
+   "detail": "manifest pd_r1_n4096.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_n4096_r1.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r2_n16.npz",
+   "ok": true,
+   "detail": "manifest pd_r2_n16.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json",
+    "pd_n16_r2.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r2_n256.npz",
+   "ok": true,
+   "detail": "manifest pd_r2_n256.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json",
+    "pd_n256_r2.json",
+    "pd_n4096_r2.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r2_n4096.npz",
+   "ok": true,
+   "detail": "manifest pd_r2_n4096.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_n4096_r2.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r3_n16.npz",
+   "ok": true,
+   "detail": "manifest pd_r3_n16.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json",
+    "pd_n16_r3.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r3_n256.npz",
+   "ok": true,
+   "detail": "manifest pd_r3_n256.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json",
+    "pd_n256_r3.json",
+    "pd_n4096_r3.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/pd_v1/pd_r3_n4096.npz",
+   "ok": true,
+   "detail": "manifest pd_r3_n4096.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_n4096_r3.json"
+   ]
+  },
+  {
+   "item": "runs/sim/pools/sealed_pd/pd_test_all.npz",
+   "ok": true,
+   "detail": "manifest pd_test_all.manifest.json: sha256 matches, seeds all maps, builder runs/development/pd_20261101/build_pd_pools.py",
+   "named_by": [
+    "pd_batch_summary.json"
+   ]
+  }
+ ],
+ "b": [
+  {
+   "item": "runs/sim/pd_n16_r1",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n16_r1.json --out runs/sim/pd_n16_r1 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n16_r2",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n16_r2.json --out runs/sim/pd_n16_r2 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n16_r3",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n16_r3.json --out runs/sim/pd_n16_r3 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n256_r1",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n256_r1.json --out runs/sim/pd_n256_r1 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n256_r2",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n256_r2.json --out runs/sim/pd_n256_r2 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n256_r3",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n256_r3.json --out runs/sim/pd_n256_r3 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n4096_r1",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n4096_r1.json --out runs/sim/pd_n4096_r1 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n4096_r2",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n4096_r2.json --out runs/sim/pd_n4096_r2 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_n4096_r3",
+   "ok": true,
+   "launches": [
+    [
+     "pd_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n4096_r3.json --out runs/sim/pd_n4096_r3 --max-hours 3.1"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 3.1,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_pilot_r0",
+   "ok": true,
+   "launches": [
+    [
+     "launch.txt",
+     "python -B -m osu_sim.train --config runs/sim/configs/pd_pilot_r0.json --out runs/sim/pd_pilot_r0 --max-hours 1.8"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 1.8,
+   "first_update": 1
+  },
+  {
+   "item": "runs/sim/pd_smoke_r1",
+   "ok": true,
+   "launches": [
+    [
+     "pd_smoke_queue_log.jsonl",
+     "C:\\Users\\under\\Desktop\\AI RESEARCH\\osu! RL\\.venv\\Scripts\\python.exe -B -m osu_sim.train --config runs/sim/configs/pd_n16_r1.json --out runs/sim/pd_smoke_r1 --max-decisions 1000000 --max-hours 0.3"
+    ]
+   ],
+   "bad_flags": [],
+   "bad_args": [],
+   "max_hours": 0.3,
+   "first_update": 1
+  }
+ ],
+ "c": [
+  {
+   "item": "runs/sim/configs/pd_n16_r1.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n16_r2.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n16_r3.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n256_r1.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n256_r2.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n256_r3.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n4096_r1.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n4096_r2.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_n4096_r3.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/configs/pd_pilot_r0.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_pilot_r0/launch.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n16_r1/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n16_r2/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n16_r3/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n256_r1/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n256_r2/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n256_r3/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n4096_r1/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n4096_r2/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_n4096_r3/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_pilot_r0/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_smoke_r1/config.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/sim/pd_pilot_r0/train.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_log.jsonl",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/pd_smoke_queue_log.jsonl",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n16_r1_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n16_r1_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n16_r2_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n16_r2_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n16_r3_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n16_r3_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n256_r1_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n256_r1_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n256_r2_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n256_r2_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n256_r3_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n256_r3_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n4096_r1_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n4096_r1_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n4096_r2_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n4096_r2_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n4096_r3_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_logs/pd_n4096_r3_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/pd_smoke_logs/pd_smoke_r1_attempt1.err.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/pd_smoke_logs/pd_smoke_r1_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n16_r1.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n16_r2.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n16_r3.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n256_r1.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n256_r2.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n256_r3.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n4096_r1.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n4096_r2.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_launch/pd_n4096_r3.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/pd_smoke_launch/pd_smoke_r1.txt",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/pd_batch_steps.jsonl",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/autopilot__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n16_r1__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n16_r1__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n16_r2__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n16_r2__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n16_r3__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n16_r3__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n256_r1__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n256_r1__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n256_r2__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n256_r2__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n256_r3__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n256_r3__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n4096_r1__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n4096_r1__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n4096_r2__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n4096_r2__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n4096_r3__probe_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/pd_n4096_r3__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/batch/logs/untrained_seed0__test_all_attempt1.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/QUEUE_PD.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/QUEUE_PD_SMOKE.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/QUEUE_REFUSAL_TEST.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/smoke/refusal_sealed_eval.json",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/pd_queue_runner_study.log",
+   "ok": true,
+   "problems": []
+  },
+  {
+   "item": "runs/development/pd_20261101/queue_launch_study_20261101_022718.txt",
+   "ok": true,
+   "problems": []
+  }
+ ],
+ "d": [
+  {
+   "item": "draw after both tokens",
+   "ok": true,
+   "detail": "tokens ['2026-11-01T10:23:32+00:00', '2026-11-01T10:23:33+00:00']; draw 2026-11-01T02:23:41.048000-08:00"
+  },
+  {
+   "item": "tokens after the freeze",
+   "ok": true,
+   "detail": "freeze 2026-11-01T02:23:25.010000-08:00"
+  },
+  {
+   "item": "first study launch after the freeze and the draw",
+   "ok": true,
+   "detail": "first study launch 2026-11-01T02:27:19-08:00"
+  },
+  {
+   "item": "every study launch before T_cut",
+   "ok": true,
+   "detail": "last study launch 2026-11-01T17:18:43-08:00; T_cut 2026-11-02T11:55:21.487000+00:00"
+  }
+ ],
+ "verdict": "PASS",
+ "failed": [],
+ "counts": {
+  "a": {
+   "rows": 12,
+   "ok": 12
+  },
+  "b": {
+   "rows": 11,
+   "ok": 11
+  },
+  "c": {
+   "rows": 82,
+   "ok": 82
+  },
+  "d": {
+   "rows": 4,
+   "ok": 4
+  }
+ }
+}

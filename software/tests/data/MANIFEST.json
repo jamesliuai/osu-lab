@@ -1,0 +1,959 @@
+{
+ "tool": "collect_conformance_data.py",
+ "source_dirs": [
+  "parity2",
+  "parity_spin",
+  "b3_rate1_parity2",
+  "b3_rate1_spin",
+  "b4_dt15_parity2",
+  "b4_dt15_spin"
+ ],
+ "maps": {
+  "gen0": {
+   "sha256": "1ba3f12a1a478bf805e53d0dde0c3b33f7d2307c69ff2fc2df28710ad3217c1a",
+   "found_in": [
+    "runs/sim/parity/parity2/maps/gen0.osu",
+    "runs/sim/parity/b3_rate1_parity2/maps/gen0.osu",
+    "runs/sim/parity/b4_dt15_parity2/maps/gen0.osu"
+   ]
+  },
+  "gen1": {
+   "sha256": "071d245fc063526e8740639ef3eb9d6c1b1a49d79cecd2416fe4e398ddf8b388",
+   "found_in": [
+    "runs/sim/parity/parity2/maps/gen1.osu",
+    "runs/sim/parity/b3_rate1_parity2/maps/gen1.osu",
+    "runs/sim/parity/b4_dt15_parity2/maps/gen1.osu"
+   ]
+  },
+  "gen2": {
+   "sha256": "4a3af38eb6cca4511f07cba031f07d2d483f22a14b02d3d64fc092e1380ffc10",
+   "found_in": [
+    "runs/sim/parity/parity2/maps/gen2.osu",
+    "runs/sim/parity/b3_rate1_parity2/maps/gen2.osu",
+    "runs/sim/parity/b4_dt15_parity2/maps/gen2.osu"
+   ]
+  },
+  "gen3": {
+   "sha256": "3541fe577eae9fde5e8b1ba7271ac7582a9da6f5bbc05894d4c9537ebcad0a09",
+   "found_in": [
+    "runs/sim/parity/parity2/maps/gen3.osu",
+    "runs/sim/parity/b3_rate1_parity2/maps/gen3.osu",
+    "runs/sim/parity/b4_dt15_parity2/maps/gen3.osu"
+   ]
+  },
+  "spin0": {
+   "sha256": "d4ab4e9d7d0054495c67da888621a49011193e71fa92440eff726612db08b6a9",
+   "found_in": [
+    "runs/sim/parity/parity_spin/maps/spin0.osu",
+    "runs/sim/parity/b3_rate1_spin/maps/spin0.osu",
+    "runs/sim/parity/b4_dt15_spin/maps/spin0.osu"
+   ]
+  },
+  "spin1": {
+   "sha256": "13b24231f94cb39c1827c0b9cf8726cbdf0ac002f2f05bf58fbf610ca24051fb",
+   "found_in": [
+    "runs/sim/parity/parity_spin/maps/spin1.osu",
+    "runs/sim/parity/b3_rate1_spin/maps/spin1.osu",
+    "runs/sim/parity/b4_dt15_spin/maps/spin1.osu"
+   ]
+  },
+  "spin2": {
+   "sha256": "470cca3bdb054e1547072f63b2a41fa7a2fe9f612b08d480a534c0be56447f21",
+   "found_in": [
+    "runs/sim/parity/parity_spin/maps/spin2.osu",
+    "runs/sim/parity/b3_rate1_spin/maps/spin2.osu",
+    "runs/sim/parity/b4_dt15_spin/maps/spin2.osu"
+   ]
+  },
+  "spin3": {
+   "sha256": "531b53c642d5f7a44b79959ba618fe46e1e69989bc3fea1f3571f5b0559fab07",
+   "found_in": [
+    "runs/sim/parity/parity_spin/maps/spin3.osu",
+    "runs/sim/parity/b3_rate1_spin/maps/spin3.osu",
+    "runs/sim/parity/b4_dt15_spin/maps/spin3.osu"
+   ]
+  },
+  "spin4": {
+   "sha256": "5e08656784946d45d943ed373a0b312a9748ec83d7988028824c578c71ecdb3b",
+   "found_in": [
+    "runs/sim/parity/parity_spin/maps/spin4.osu",
+    "runs/sim/parity/b3_rate1_spin/maps/spin4.osu",
+    "runs/sim/parity/b4_dt15_spin/maps/spin4.osu"
+   ]
+  },
+  "spin5": {
+   "sha256": "34ce66f00c89be9475c458045a3fc0a3d2d81dd9b023151a81c7b2c9476aa4e9",
+   "found_in": [
+    "runs/sim/parity/parity_spin/maps/spin5.osu",
+    "runs/sim/parity/b3_rate1_spin/maps/spin5.osu",
+    "runs/sim/parity/b4_dt15_spin/maps/spin5.osu"
+   ]
+  }
+ },
+ "cases": [
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen0",
+   "variant": "perfect",
+   "seed": 200,
+   "source": "runs/sim/parity/parity2/case_gen0_perfect.json",
+   "sha256": "4af23ac733ea4c3a6b0a40086a7b75a0c3c093762129c714d8f0a6bab163f4f8",
+   "copy": "cases/parity2/case_gen0_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen0",
+   "variant": "sloppy",
+   "seed": 200,
+   "source": "runs/sim/parity/parity2/case_gen0_sloppy.json",
+   "sha256": "737a819676ebda7d627e35b42842755966690a806a0ce7680b127a633612f32a",
+   "copy": "cases/parity2/case_gen0_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen0",
+   "variant": "late",
+   "seed": 200,
+   "source": "runs/sim/parity/parity2/case_gen0_late.json",
+   "sha256": "ed9b65717d64e488c038f4d38cabb72b63f185d1906098c8a1ad6503a8bb7a2f",
+   "copy": "cases/parity2/case_gen0_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen1",
+   "variant": "perfect",
+   "seed": 201,
+   "source": "runs/sim/parity/parity2/case_gen1_perfect.json",
+   "sha256": "0e13252301745294e53f463b79f943aa794d49b3cd58934bdb6de5f3aebbd36d",
+   "copy": "cases/parity2/case_gen1_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen1",
+   "variant": "sloppy",
+   "seed": 201,
+   "source": "runs/sim/parity/parity2/case_gen1_sloppy.json",
+   "sha256": "87d84bf75a7f67a6b5daf04985a4db78694c2f5675cac2fbaebdcbbe43e95b22",
+   "copy": "cases/parity2/case_gen1_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen1",
+   "variant": "late",
+   "seed": 201,
+   "source": "runs/sim/parity/parity2/case_gen1_late.json",
+   "sha256": "62787a810d16e8ef87f3d22937dff66a8bd4196cbcb36dc97d4ec46ba9e8c81d",
+   "copy": "cases/parity2/case_gen1_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen2",
+   "variant": "perfect",
+   "seed": 202,
+   "source": "runs/sim/parity/parity2/case_gen2_perfect.json",
+   "sha256": "853bc97637d1e5e3160e3f4fc7be77f5baac3987b04288b8889888aa86f5cc7a",
+   "copy": "cases/parity2/case_gen2_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen2",
+   "variant": "sloppy",
+   "seed": 202,
+   "source": "runs/sim/parity/parity2/case_gen2_sloppy.json",
+   "sha256": "549e2070bae0634f7dd736f67e2d860df8ea75168a294afc4d5aed837a4f9b01",
+   "copy": "cases/parity2/case_gen2_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen2",
+   "variant": "late",
+   "seed": 202,
+   "source": "runs/sim/parity/parity2/case_gen2_late.json",
+   "sha256": "575548176435056fb297d3f5fa163718647b2de01913cadeabe650c1fb86e14d",
+   "copy": "cases/parity2/case_gen2_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen3",
+   "variant": "perfect",
+   "seed": 203,
+   "source": "runs/sim/parity/parity2/case_gen3_perfect.json",
+   "sha256": "da498f5fe29dbb3a32326ec9101e4a4a794c2d4649c59d24c376c8dbc1c36c1f",
+   "copy": "cases/parity2/case_gen3_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen3",
+   "variant": "sloppy",
+   "seed": 203,
+   "source": "runs/sim/parity/parity2/case_gen3_sloppy.json",
+   "sha256": "42406a52a707c3ca559482f955c97eb744ae9ec7844ee46bbaa3bf16c88612b5",
+   "copy": "cases/parity2/case_gen3_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity2",
+   "rate": 1.0,
+   "map": "gen3",
+   "variant": "late",
+   "seed": 203,
+   "source": "runs/sim/parity/parity2/case_gen3_late.json",
+   "sha256": "7a9051ebc0f59095ab05f39f96f26b502d45c4c61ac9b9a92479aeeb8b388cc5",
+   "copy": "cases/parity2/case_gen3_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin0",
+   "variant": "perfect",
+   "seed": 300,
+   "source": "runs/sim/parity/parity_spin/case_spin0_perfect.json",
+   "sha256": "86e6f31caa1d59a9e638b8ee90e051a5a458261a4f31702b09952de2e3ca8a05",
+   "copy": "cases/parity_spin/case_spin0_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin0",
+   "variant": "sloppy",
+   "seed": 300,
+   "source": "runs/sim/parity/parity_spin/case_spin0_sloppy.json",
+   "sha256": "66af0b6321e7b7290f2081401cc4fd5b82e532480edae17a08625e6375c6930f",
+   "copy": "cases/parity_spin/case_spin0_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin1",
+   "variant": "perfect",
+   "seed": 301,
+   "source": "runs/sim/parity/parity_spin/case_spin1_perfect.json",
+   "sha256": "14633162c2b74097d5f606f73063fe9cfa8d71f9b4ec82b80becd487d7b41d11",
+   "copy": "cases/parity_spin/case_spin1_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin1",
+   "variant": "sloppy",
+   "seed": 301,
+   "source": "runs/sim/parity/parity_spin/case_spin1_sloppy.json",
+   "sha256": "27d9b95441026e63c437edbc590e5e1461e9038d7eaa285ec47ca9da7f16e94e",
+   "copy": "cases/parity_spin/case_spin1_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin2",
+   "variant": "perfect",
+   "seed": 302,
+   "source": "runs/sim/parity/parity_spin/case_spin2_perfect.json",
+   "sha256": "12a557828f4e7b1b5ea9ec5b8db6d26fc575f7dd6cd60a48956a1a50d466266b",
+   "copy": "cases/parity_spin/case_spin2_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin2",
+   "variant": "sloppy",
+   "seed": 302,
+   "source": "runs/sim/parity/parity_spin/case_spin2_sloppy.json",
+   "sha256": "9450204907e6e0456055711f853d5f1485088ccd38469a8866da7119154c9bc9",
+   "copy": "cases/parity_spin/case_spin2_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin3",
+   "variant": "perfect",
+   "seed": 303,
+   "source": "runs/sim/parity/parity_spin/case_spin3_perfect.json",
+   "sha256": "3fc545cc277abd40cbeb1589d7d7a035d49e07961d4c152fe79024f7dbedc413",
+   "copy": "cases/parity_spin/case_spin3_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin3",
+   "variant": "sloppy",
+   "seed": 303,
+   "source": "runs/sim/parity/parity_spin/case_spin3_sloppy.json",
+   "sha256": "164ce5c1965927d43b0e2dd7be69bd70675628519e2a112139105edf33fb2e67",
+   "copy": "cases/parity_spin/case_spin3_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin4",
+   "variant": "perfect",
+   "seed": 304,
+   "source": "runs/sim/parity/parity_spin/case_spin4_perfect.json",
+   "sha256": "7d993b9b178058b3a67943c364314c41f5ef3211010ca883a5ca087b5f009544",
+   "copy": "cases/parity_spin/case_spin4_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin4",
+   "variant": "sloppy",
+   "seed": 304,
+   "source": "runs/sim/parity/parity_spin/case_spin4_sloppy.json",
+   "sha256": "adf9d0455894d51b546f11560a9fffa471042f735f887262a5544c5e26baf819",
+   "copy": "cases/parity_spin/case_spin4_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin5",
+   "variant": "perfect",
+   "seed": 305,
+   "source": "runs/sim/parity/parity_spin/case_spin5_perfect.json",
+   "sha256": "6bd684dd7914c5a8519a2e5b066b9e4e1a6e8fcc9f6561b1c3c0f6086eff0c14",
+   "copy": "cases/parity_spin/case_spin5_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "parity_spin",
+   "rate": 1.0,
+   "map": "spin5",
+   "variant": "sloppy",
+   "seed": 305,
+   "source": "runs/sim/parity/parity_spin/case_spin5_sloppy.json",
+   "sha256": "cf423691dbfce48420bebc76ca4060c6b954943872118e6b709010740d371e95",
+   "copy": "cases/parity_spin/case_spin5_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen0",
+   "variant": "perfect",
+   "seed": 200,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen0_perfect.json",
+   "sha256": "20d085adf09cbaa02863871f273f50fab65dc4b5890e305982c91f1f19bd0296",
+   "copy": "cases/b3_rate1_parity2/case_gen0_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen0",
+   "variant": "sloppy",
+   "seed": 200,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen0_sloppy.json",
+   "sha256": "59329ac5d8d17f49126219be0ceab445c569ed86d3ed5d72b99ee77672afca58",
+   "copy": "cases/b3_rate1_parity2/case_gen0_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen0",
+   "variant": "late",
+   "seed": 200,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen0_late.json",
+   "sha256": "4308196b7f8e0f23e652ebc1c6bee11776d2e163f6131e7d1c21a3fa9bacca11",
+   "copy": "cases/b3_rate1_parity2/case_gen0_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen1",
+   "variant": "perfect",
+   "seed": 201,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen1_perfect.json",
+   "sha256": "87a0e0df2ab1a854d8d51c679ced23cb99f5d647e647a09b910a9b37973222ba",
+   "copy": "cases/b3_rate1_parity2/case_gen1_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen1",
+   "variant": "sloppy",
+   "seed": 201,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen1_sloppy.json",
+   "sha256": "b1a01427611b9f46d91fffd8479d26a01fd8633c0c4364f594bcd77b4b5fcc81",
+   "copy": "cases/b3_rate1_parity2/case_gen1_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen1",
+   "variant": "late",
+   "seed": 201,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen1_late.json",
+   "sha256": "c3a3b3b65d69fc312b7af5c0b5f195dd08b7ae97259915bcf8996b6794feffbe",
+   "copy": "cases/b3_rate1_parity2/case_gen1_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen2",
+   "variant": "perfect",
+   "seed": 202,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen2_perfect.json",
+   "sha256": "b09e3d8f68c89736429cbab9a773a7a4a4af592f17a926d218aa273796eb5068",
+   "copy": "cases/b3_rate1_parity2/case_gen2_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen2",
+   "variant": "sloppy",
+   "seed": 202,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen2_sloppy.json",
+   "sha256": "ac8b2419f84cc835637e1c6a55b010f5a9390406a42835f9193c9220615092b5",
+   "copy": "cases/b3_rate1_parity2/case_gen2_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen2",
+   "variant": "late",
+   "seed": 202,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen2_late.json",
+   "sha256": "8b9279a923988a28d585b4ec7caf48a858d9e68f48a958b6b7b2c0e61e5caab3",
+   "copy": "cases/b3_rate1_parity2/case_gen2_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen3",
+   "variant": "perfect",
+   "seed": 203,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen3_perfect.json",
+   "sha256": "8d4e9099b074225265f7693b2b49143839cb08a180ec0d7fa4914b1271f9ea54",
+   "copy": "cases/b3_rate1_parity2/case_gen3_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen3",
+   "variant": "sloppy",
+   "seed": 203,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen3_sloppy.json",
+   "sha256": "ed75a482fc3f8df90241a96c9209e773469ffc98e381c48c05fd29c1927456a2",
+   "copy": "cases/b3_rate1_parity2/case_gen3_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_parity2",
+   "rate": 1.0,
+   "map": "gen3",
+   "variant": "late",
+   "seed": 203,
+   "source": "runs/sim/parity/b3_rate1_parity2/case_gen3_late.json",
+   "sha256": "ab0def15776656c7711af6dcbc00e70b3cabdd8091052bba784209f8bc08bb37",
+   "copy": "cases/b3_rate1_parity2/case_gen3_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin0",
+   "variant": "perfect",
+   "seed": 300,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin0_perfect.json",
+   "sha256": "1aac7da8439aa57cfd3c5165dfe2c9adcc1de05c67d62cc554d849f41cdd8e3c",
+   "copy": "cases/b3_rate1_spin/case_spin0_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin0",
+   "variant": "sloppy",
+   "seed": 300,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin0_sloppy.json",
+   "sha256": "086e53f2f3d96390ae029511cd8d89f22afb2487c234a796ad0c02ec975a4b07",
+   "copy": "cases/b3_rate1_spin/case_spin0_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin1",
+   "variant": "perfect",
+   "seed": 301,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin1_perfect.json",
+   "sha256": "7a69db44bd27e7dc576920e82eb9f55de86a7c9a75d68d8a097e63ef97ced6ad",
+   "copy": "cases/b3_rate1_spin/case_spin1_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin1",
+   "variant": "sloppy",
+   "seed": 301,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin1_sloppy.json",
+   "sha256": "f8ee21d6ea3d7c562cfdc8769fc23aa92363be3e288f5d276a549cdc10893bd9",
+   "copy": "cases/b3_rate1_spin/case_spin1_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin2",
+   "variant": "perfect",
+   "seed": 302,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin2_perfect.json",
+   "sha256": "a9929300ef24402fc7e9e2b8634a644526879fbe0485200da1f647cfd34807ce",
+   "copy": "cases/b3_rate1_spin/case_spin2_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin2",
+   "variant": "sloppy",
+   "seed": 302,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin2_sloppy.json",
+   "sha256": "777c63a1571ba4f1d93d5171448e6a28e67744b6316f55f0cd3df36493740699",
+   "copy": "cases/b3_rate1_spin/case_spin2_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin3",
+   "variant": "perfect",
+   "seed": 303,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin3_perfect.json",
+   "sha256": "7dbd0e907e87b433cccf0075642a511cf2a09a7eaceb4b100c619ab9746af31d",
+   "copy": "cases/b3_rate1_spin/case_spin3_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin3",
+   "variant": "sloppy",
+   "seed": 303,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin3_sloppy.json",
+   "sha256": "2e598f1be2592cdf15a966b3d3892ae0a9d79cb67a1246d96efd497196ca16c3",
+   "copy": "cases/b3_rate1_spin/case_spin3_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin4",
+   "variant": "perfect",
+   "seed": 304,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin4_perfect.json",
+   "sha256": "7d94ec4d8191a73c4ccdb8c5b1fd2e1817184f4f19167c08aa7a2a1d7bff5c3c",
+   "copy": "cases/b3_rate1_spin/case_spin4_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin4",
+   "variant": "sloppy",
+   "seed": 304,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin4_sloppy.json",
+   "sha256": "a449292ce56d6829ec9010db156de581c17cd2fd235f5d00c08c484c8bda8ed5",
+   "copy": "cases/b3_rate1_spin/case_spin4_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin5",
+   "variant": "perfect",
+   "seed": 305,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin5_perfect.json",
+   "sha256": "6a991e3d8c37cb517a6423aeee9788c5cc1bc76ab028dcd109a2f209e55a0e8e",
+   "copy": "cases/b3_rate1_spin/case_spin5_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b3_rate1_spin",
+   "rate": 1.0,
+   "map": "spin5",
+   "variant": "sloppy",
+   "seed": 305,
+   "source": "runs/sim/parity/b3_rate1_spin/case_spin5_sloppy.json",
+   "sha256": "bf372c59ea6ed5c87243848949073ee493ae06684c164642cc83c5322af45dad",
+   "copy": "cases/b3_rate1_spin/case_spin5_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen0",
+   "variant": "perfect",
+   "seed": 200,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen0_perfect.json",
+   "sha256": "18e991cf5054a53c1072c492410a8ca9d2767581d60033ebfb793b751e100658",
+   "copy": "cases/b4_dt15_parity2/case_gen0_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen0",
+   "variant": "sloppy",
+   "seed": 200,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen0_sloppy.json",
+   "sha256": "0395af9bfe8306e44030d3fd6f8714df4476ff84b2845000fffd7c35f2f1d3b0",
+   "copy": "cases/b4_dt15_parity2/case_gen0_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen0",
+   "variant": "late",
+   "seed": 200,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen0_late.json",
+   "sha256": "ce4bfc07e615457c8fe320d46bd059e39d7ddf0968778532fc101d76f9e997fd",
+   "copy": "cases/b4_dt15_parity2/case_gen0_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen1",
+   "variant": "perfect",
+   "seed": 201,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen1_perfect.json",
+   "sha256": "5ecf85bd8d32b82ee2948a2f59c54a8c4aa21ddb460b0c58710f25391e8cd6ae",
+   "copy": "cases/b4_dt15_parity2/case_gen1_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen1",
+   "variant": "sloppy",
+   "seed": 201,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen1_sloppy.json",
+   "sha256": "ca5efe0d7cef33df83181736d3eb834886a98205de466c09d2ecf812a62d5f5e",
+   "copy": "cases/b4_dt15_parity2/case_gen1_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen1",
+   "variant": "late",
+   "seed": 201,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen1_late.json",
+   "sha256": "fcbc2936d6fa149ab298d8011ff57610152e3ca1d5ceeae3a7e8fe102330fe86",
+   "copy": "cases/b4_dt15_parity2/case_gen1_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen2",
+   "variant": "perfect",
+   "seed": 202,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen2_perfect.json",
+   "sha256": "9f29144be4377e698c27e76f7fa6058509f5473b2081895ba2add934efdaaf30",
+   "copy": "cases/b4_dt15_parity2/case_gen2_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen2",
+   "variant": "sloppy",
+   "seed": 202,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen2_sloppy.json",
+   "sha256": "e9249d623fb8ac9838b72507ce447797cd4f1fde983cd2a96be423a0ae7ba991",
+   "copy": "cases/b4_dt15_parity2/case_gen2_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen2",
+   "variant": "late",
+   "seed": 202,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen2_late.json",
+   "sha256": "388a7e6262d5e38f606c919aaed22bf8a53c005ac5720dfc11f3be3a1baa6c23",
+   "copy": "cases/b4_dt15_parity2/case_gen2_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen3",
+   "variant": "perfect",
+   "seed": 203,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen3_perfect.json",
+   "sha256": "cde3f46906a5540ef2842a72d7a0a6eff37dc9af7e2902d00a392f364ff3397e",
+   "copy": "cases/b4_dt15_parity2/case_gen3_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen3",
+   "variant": "sloppy",
+   "seed": 203,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen3_sloppy.json",
+   "sha256": "c6261ff761ee30573c2ae1094fb855ead878838fa01f8ec7fb0477d4b061d0a7",
+   "copy": "cases/b4_dt15_parity2/case_gen3_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_parity2",
+   "rate": 1.5,
+   "map": "gen3",
+   "variant": "late",
+   "seed": 203,
+   "source": "runs/sim/parity/b4_dt15_parity2/case_gen3_late.json",
+   "sha256": "4330c4d542a3889f33fbf65388cc5ea4c1436c71b686649b8a722aa195a7c416",
+   "copy": "cases/b4_dt15_parity2/case_gen3_late.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin0",
+   "variant": "perfect",
+   "seed": 300,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin0_perfect.json",
+   "sha256": "b2caa30bda6bfacdad72a71f492c38f0af4a79c2fd9fa409f94433eeb10c158e",
+   "copy": "cases/b4_dt15_spin/case_spin0_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin0",
+   "variant": "sloppy",
+   "seed": 300,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin0_sloppy.json",
+   "sha256": "f3854d9dd94fb4a1d092453f2582a2454f37f740c3599999466634daacde536f",
+   "copy": "cases/b4_dt15_spin/case_spin0_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin1",
+   "variant": "perfect",
+   "seed": 301,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin1_perfect.json",
+   "sha256": "226e4485e7e60aa0a88772572d623d1e32233616cdf1d6bf2bf011a1ae5a7875",
+   "copy": "cases/b4_dt15_spin/case_spin1_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin1",
+   "variant": "sloppy",
+   "seed": 301,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin1_sloppy.json",
+   "sha256": "cde234963a43e9cbeb1d21c3a502362d8db57dbed5909aa41d7518194a0e64bb",
+   "copy": "cases/b4_dt15_spin/case_spin1_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin2",
+   "variant": "perfect",
+   "seed": 302,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin2_perfect.json",
+   "sha256": "155a88c18a9017d965053ed23ff9f371a12e86ac83314104b4871c8c18704ad7",
+   "copy": "cases/b4_dt15_spin/case_spin2_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin2",
+   "variant": "sloppy",
+   "seed": 302,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin2_sloppy.json",
+   "sha256": "b27709ab9c4b0b7ffc65bd615b236cae886da430293e8279203f74dc7b8d4d32",
+   "copy": "cases/b4_dt15_spin/case_spin2_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin3",
+   "variant": "perfect",
+   "seed": 303,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin3_perfect.json",
+   "sha256": "ef795e507e9ffc82479d88ed1755be0a7cff5134685d666609de6fdc40c098af",
+   "copy": "cases/b4_dt15_spin/case_spin3_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin3",
+   "variant": "sloppy",
+   "seed": 303,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin3_sloppy.json",
+   "sha256": "33fd7dae2a617eb29c30afed3212287cd9743a8b7da65044e1cdc04fb6d7300a",
+   "copy": "cases/b4_dt15_spin/case_spin3_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin4",
+   "variant": "perfect",
+   "seed": 304,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin4_perfect.json",
+   "sha256": "4c39b7f7d6aa1fa7c7a9e3fe21cf96ea3f1d6edede97fe1f5e02bd158721d6ac",
+   "copy": "cases/b4_dt15_spin/case_spin4_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin4",
+   "variant": "sloppy",
+   "seed": 304,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin4_sloppy.json",
+   "sha256": "d3761de900d97aaf03347922dff343f32b76bdf121cc2136c9fdc98d73f5ce2c",
+   "copy": "cases/b4_dt15_spin/case_spin4_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin5",
+   "variant": "perfect",
+   "seed": 305,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin5_perfect.json",
+   "sha256": "39ab6c3a93a611c7fa7e930202859855338c0fddce8edf2b13155ad116e9cf6f",
+   "copy": "cases/b4_dt15_spin/case_spin5_perfect.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  },
+  {
+   "dir": "b4_dt15_spin",
+   "rate": 1.5,
+   "map": "spin5",
+   "variant": "sloppy",
+   "seed": 305,
+   "source": "runs/sim/parity/b4_dt15_spin/case_spin5_sloppy.json",
+   "sha256": "fc79b26805981d5075b8bcc9dfec50caf4126a5324adee7c8a9f15613e5d1de2",
+   "copy": "cases/b4_dt15_spin/case_spin5_sloppy.json",
+   "mismatched_steps": 0,
+   "totals_equal": true
+  }
+ ]
+}

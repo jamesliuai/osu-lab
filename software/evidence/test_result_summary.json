@@ -1,0 +1,714 @@
+{
+  "schema": "publisher_test_record_v1",
+  "execution_candidate": "candidate_v1 / 0.1.0rc2",
+  "record_type": "publisher execution record, not independent attestation",
+  "historically_tested_wheel": {
+    "filename": "osu_sim-0.1.0rc2-py3-none-any.whl",
+    "sha256": "1768e6f17be2a34b6f7784f7f584df6297d144d885437200f841aa4cf3839330",
+    "availability": "historical candidate_v1 companion download; not required to resolve the public evidence paths"
+  },
+  "runtime_tests_rerun_for_candidate_v2": false,
+  "groups": [
+    {
+      "id": "generated_conformance",
+      "cases": [
+        {
+          "name": "test_installed_package_location",
+          "status": "passed"
+        },
+        {
+          "name": "test_data_files_match_manifest",
+          "status": "passed"
+        },
+        {
+          "name": "test_generator_reproduces_recorded_maps[4-0-names0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_generator_reproduces_recorded_maps[0-6-names1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity2-gen0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity2-gen1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity2-gen2]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity2-gen3]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity_spin-spin0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity_spin-spin1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity_spin-spin2]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity_spin-spin3]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity_spin-spin4]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[parity_spin-spin5]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_parity2-gen0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_parity2-gen1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_parity2-gen2]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_parity2-gen3]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_spin-spin0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_spin-spin1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_spin-spin2]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_spin-spin3]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_spin-spin4]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b3_rate1_spin-spin5]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_parity2-gen0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_parity2-gen1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_parity2-gen2]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_parity2-gen3]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_spin-spin0]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_spin-spin1]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_spin-spin2]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_spin-spin3]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_spin-spin4]",
+          "status": "passed"
+        },
+        {
+          "name": "test_conversion_matches_native_structure[b4_dt15_spin-spin5]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen0-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen0-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen0-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen1-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen1-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen1-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen2-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen2-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen2-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen3-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen3-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity2-gen3-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin0-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin0-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin1-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin1-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin2-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin2-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin3-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin3-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin4-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin4-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin5-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[parity_spin-spin5-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen0-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen0-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen0-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen1-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen1-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen1-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen2-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen2-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen2-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen3-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen3-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_parity2-gen3-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin0-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin0-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin1-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin1-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin2-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin2-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin3-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin3-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin4-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin4-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin5-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b3_rate1_spin-spin5-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen0-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen0-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen0-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen1-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen1-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen1-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen2-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen2-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen2-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen3-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen3-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_parity2-gen3-late]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin0-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin0-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin1-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin1-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin2-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin2-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin3-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin3-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin4-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin4-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin5-perfect]",
+          "status": "passed"
+        },
+        {
+          "name": "test_judgement_parity_against_native_record[b4_dt15_spin-spin5-sloppy]",
+          "status": "passed"
+        },
+        {
+          "name": "test_zz_every_loaded_module_from_install",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "id": "release_interfaces",
+      "cases": [
+        {
+          "name": "test_generated_pool_save_load_roundtrip",
+          "status": "passed"
+        },
+        {
+          "name": "test_s1_policy_cpu_and_packaged_prior_origin",
+          "status": "passed"
+        },
+        {
+          "name": "test_missing_pool_is_refused[environment]",
+          "status": "passed"
+        },
+        {
+          "name": "test_missing_pool_is_refused[evaluator]",
+          "status": "passed"
+        },
+        {
+          "name": "test_missing_pool_is_refused[training_preflight]",
+          "status": "passed"
+        },
+        {
+          "name": "test_explicit_registry_refuses_generated_pool[path]",
+          "status": "passed"
+        },
+        {
+          "name": "test_explicit_registry_refuses_generated_pool[sha256]",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "id": "synthetic_analysis",
+      "cases": [
+        {
+          "name": "test_ols_matches_independent_design_matrix",
+          "status": "passed"
+        },
+        {
+          "name": "test_synthetic_end_to_end_and_f1_design",
+          "status": "passed"
+        },
+        {
+          "name": "test_incomplete_replicate_suppresses_inference",
+          "status": "passed"
+        },
+        {
+          "name": "test_hash_mismatch_refuses_before_output",
+          "status": "passed"
+        },
+        {
+          "name": "test_reordered_records_refuse",
+          "status": "passed"
+        },
+        {
+          "name": "test_zero_failure_and_holm_boundaries",
+          "status": "passed"
+        },
+        {
+          "name": "test_quota_prefixes_and_level_bounds",
+          "status": "passed"
+        },
+        {
+          "name": "test_portable_cli_requires_explicit_new_output_root",
+          "status": "passed"
+        },
+        {
+          "name": "test_analysis_cli_requires_explicit_input_root",
+          "status": "passed"
+        }
+      ]
+    }
+  ],
+  "cpu_example": {
+    "exit_code": 0,
+    "log": {
+      "path": "evidence/candidate_v1_cpu_example.log",
+      "sha256": "8bae3a08290b35155f9e9128d03f6dff4ec2cd0a46faeea4f96cdf60d5de04f0"
+    }
+  },
+  "public_inputs": [
+    {
+      "path": "examples/generated_data_example.py",
+      "sha256": "10a4e5af8ccf13e1bf83c311bf76c56652d13cab298a8382942363c2eae3955d",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "examples/recipe/build_recipe_pools.py",
+      "sha256": "102bbf4440e6e01dd1e2c426e5cec011f6e414d7cad2348774138fda831d9da6",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "examples/recipe/make_portable_config.py",
+      "sha256": "e25c148f3149ff8acd1feb8dd0d875a913812a7b1916fa8c64a3cca97cf37c52",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_rl/__init__.py",
+      "sha256": "77665658417a6d06a092384ef1fb6493135c208e161351d9beaff267d500b3e5",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_rl/policy/__init__.py",
+      "sha256": "034b4c8217d872ce10c87f1fe019fe6fd26e13970e49e83bde2705acbadb66ae",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_rl/policy/priors.py",
+      "sha256": "8f5fc2c0fb9d5ad050cb79335fc22e60630322207d2800ca0e06ae5af34bd1c9",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/__init__.py",
+      "sha256": "8d440c4625c4167d6c2ff18a9c37e7a22b900d2d61b970adc1e6f5095483a9b6",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/autopilot.py",
+      "sha256": "f84e01fec71ba8f7273d354c6b49c84c06447beeeab9fc40d2752d5541b8fc5f",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/beatmap.py",
+      "sha256": "f199df9df64bc5bfedf4a10c66df00a5cfbcb1cf9675682eb08f1a1e7ac41061",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/curriculum.py",
+      "sha256": "995077ac28cedd986edb2a4949626d216110ee55dd9202fa5a860eb0f7f36557",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/difficulty.py",
+      "sha256": "097b145c3b5751cb440de929222bd49297c08f34a1105abb781b3234f9028a26",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/env.py",
+      "sha256": "feb72186750acf863b4e10d5c6d3e320fd248613e8d6cc69ea04f5467a8ebf72",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/evaluate.py",
+      "sha256": "e08e55b681e3a79e3b6e0e73f2e16e36d6a43228ff9b09eeb90d299f2bf5ac41",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/generator.py",
+      "sha256": "6bd41881135b0aec0079e6254f8e4a159109e2ee66a2ac3ca55b0986781f4d5d",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/motion.py",
+      "sha256": "5eaebd361aa167182e8c5b58e6f0ad582fcb98fa053dd9740a6100bb10f8151d",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/osufile.py",
+      "sha256": "08e5fe6c2f798d8a542890ae22ab2685b135c8d9279a1df438d7069d1383d522",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/policy.py",
+      "sha256": "00679804ab652e29fe0921d2b10ec1d5785041f5ac3f1937cfffecd3779c2a52",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/pool.py",
+      "sha256": "378be16ddc838fdbbaa6d3b92211af47339afff8ebdebb53da2e5c9247c5eeec",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/ppo.py",
+      "sha256": "16a7faf0799ab12590d2281d3a08d391f221f5a54c7839fdcb2aaa42f9c24a5b",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/rate.py",
+      "sha256": "94e7a6f0f832b787bd44a5b65d28a5c104c10ddec9224c5df1cabd2c396ad014",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/rate_rules.py",
+      "sha256": "a90988c2771cd8557be5c2564d0bb1c0b1c22eeab9695963eb5e856bc2bf20ef",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/render.py",
+      "sha256": "8dcc7f687020c384d1f57c193c32f9a9114e4fa5cb35259f5afe135a6e24116f",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/render_simple.py",
+      "sha256": "a2fd99eb6ff2374e42b7b8fa36629506369ec24b483602c13efe1903bd2ba449",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/rules.py",
+      "sha256": "9b29a2d6921f0d6e08dd6cea5022c3254a9633f25166612d40291310b0a9c1c9",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "src/osu_sim/train.py",
+      "sha256": "13e92d0f3dd72637f2eef0258f405add2a594b475231733499409428355b9a44",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "fc565a632c2fd54c575c9a14212c50c03373b825c9c507b9c20b9b399f897b90",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tests/paritylib.py",
+      "sha256": "9030002405740dd69edd13e8c2ae68f89e5040e7cd08a8233bc56852ee1a0636",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tests/test_conformance_generated.py",
+      "sha256": "9bc29044b362a84ce91f417cc548e4c9077739d414d2462ad1d59094df186aa7",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tests/test_release_interfaces.py",
+      "sha256": "b01b3aad0925a7eed038417fe06afb93d2c6a2b0ccdecac106f579494c226f75",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tools/build_pd_pools.py",
+      "sha256": "173267b71141f235918b15875418c549e9a928825917c96b72ac50f780273672",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tools/pd_analysis_f1.py",
+      "sha256": "483c27b015dbcafc2619f93f5beb0cb8e1bfcd3154acc714fc1c7df891b38936",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tools/synthetic_analysis_example.py",
+      "sha256": "b6e8936d884b6989b8042bade6e66bb29a3822738b30ce835954aed9f05cbed4",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tools/test_pd_tools_synthetic.py",
+      "sha256": "5572f13f709fe51ba80805db04938a0d372c4611bbacb4366980be3f7497ad70",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "sha256": "f44bddea880079ef685cf4b70e91694dcaa5d6773f22e4f1a699c3128cf20854",
+      "role": "byte-identical retained source/test/tool from candidate_v1; new verify_claims.py is separate"
+    }
+  ],
+  "historical_source_provenance": [
+    {
+      "record_id": "final_package_tests.xml",
+      "sha256": "477533cd6be824e545705fc4af878dc840463686734e4b4ee72d847f00f3aab8",
+      "availability": "private_validation_record_not_in_public_package",
+      "relation": "New public per-test status summary derived from this preserved JUnit record; not a byte-identical export. Hostname, timing and machine paths are not copied."
+    },
+    {
+      "record_id": "synthetic_tools.xml",
+      "sha256": "b8810cf47c7beaf6cb97f75875b984bf795a1ff104daead4980c16209620e423",
+      "availability": "private_validation_record_not_in_public_package",
+      "relation": "New public per-test status summary derived from this preserved JUnit record; not a byte-identical export. Hostname, timing and machine paths are not copied."
+    }
+  ],
+  "limits": "Reports historical execution. Public readers can count statuses, verify identical source/test hashes and rerun supplied checks; this does not independently authenticate past execution or reproduce missing native per-step events."
+}

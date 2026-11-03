@@ -1,0 +1,19 @@
+example_seed11.osu: level 0.2, 16 objects (circles 16, sliders 0, spinners 0), OD 4.7, CS 2.7, AR 6.6, last object ends at 16.9 s
+example_seed12.osu: level 0.5, 49 objects (circles 46, sliders 3, spinners 0), OD 5, CS 3.3, AR 8.3, last object ends at 18.1 s
+example_seed13.osu: level 0.8, 70 objects (circles 62, sliders 8, spinners 0), OD 8.1, CS 3.7, AR 9, last object ends at 16.0 s
+
+autopilot on time:
+aux vector at the first step, slot 0: [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0] [previous cursor command x, y; one-hot held keys 0..3; 0 on the first observation else 1; 0]
+render-state fields passed to the renderer: ['cursor', 'end_t', 'gid', 'head_r', 'head_t', 'keys', 'map', 'nest_miss', 'nest_n', 'nest_t', 'press_t', 'release_t', 'spin_last', 'spin_rot', 'spin_tc', 'spin_ti', 'spin_total', 'spin_trk', 'spin_ts', 't', 'tail_r', 'trk', 'trk_t', 'trk_tp']
+  example_seed11.osu: steps 1056, Great 16 Ok 0 Meh 0 Miss 0; ticks 0/0; tails 0/0; spinners 0/0; failures (breaks + missed tails) 0; max combo 16; game reward 16.00
+  example_seed12.osu: steps 1101, Great 49 Ok 0 Meh 0 Miss 0; ticks 2/2; tails 3/3; spinners 0/0; failures (breaks + missed tails) 0; max combo 54; game reward 49.00
+  example_seed13.osu: steps 999, Great 70 Ok 0 Meh 0 Miss 0; ticks 1/1; tails 8/8; spinners 0/0; failures (breaks + missed tails) 0; max combo 79; game reward 70.00
+
+autopilot 45 ms late:
+aux vector at the first step, slot 0: [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0] [previous cursor command x, y; one-hot held keys 0..3; 0 on the first observation else 1; 0]
+render-state fields passed to the renderer: ['cursor', 'end_t', 'gid', 'head_r', 'head_t', 'keys', 'map', 'nest_miss', 'nest_n', 'nest_t', 'press_t', 'release_t', 'spin_last', 'spin_rot', 'spin_tc', 'spin_ti', 'spin_total', 'spin_trk', 'spin_ts', 't', 'tail_r', 'trk', 'trk_t', 'trk_tp']
+  example_seed11.osu: steps 1056, Great 14 Ok 2 Meh 0 Miss 0; ticks 0/0; tails 0/0; spinners 0/0; failures (breaks + missed tails) 0; max combo 16; game reward 14.67
+  example_seed12.osu: steps 1101, Great 41 Ok 8 Meh 0 Miss 0; ticks 2/2; tails 3/3; spinners 0/0; failures (breaks + missed tails) 0; max combo 54; game reward 43.67
+  example_seed13.osu: steps 999, Great 8 Ok 62 Meh 0 Miss 0; ticks 1/1; tails 8/8; spinners 0/0; failures (breaks + missed tails) 0; max combo 79; game reward 28.67
+
+.osu files written to final_generated_demo

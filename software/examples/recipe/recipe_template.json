@@ -1,0 +1,129 @@
+{
+  "seed": 1,
+  "env": {
+    "pool": "recipe_train_v1.npz",
+    "n": 1024,
+    "renderer": "full",
+    "clip": {
+      "min_objects": 8,
+      "max_objects": 32,
+      "prioritized": 0.0
+    },
+    "key_down_cost": 0.05,
+    "spin_beta": 0.0,
+    "curriculum": {
+      "start": 1.0,
+      "band": 1.0,
+      "window": 300,
+      "up_fail": 0.07,
+      "step_up": 0.15
+    },
+    "break_penalty": 0.5,
+    "tail_penalty": 1.0,
+    "mixture": {
+      "ranges": [
+        [
+          0,
+          3,
+          0.2
+        ],
+        [
+          3,
+          4.5,
+          0.34
+        ],
+        [
+          4.5,
+          5.5,
+          0.43
+        ],
+        [
+          20,
+          20.5,
+          0.03
+        ]
+      ],
+      "prioritized": 0.0,
+      "gen_cap": 0.5,
+      "init_fail": 0.03
+    },
+    "track_beta": 0.5,
+    "spin_progress": 3.0,
+    "aug_prob": 0.75,
+    "aug_sigma_max": 2.5,
+    "spin_min_r": 40.0,
+    "hit_animations": false,
+    "motion_metrics": true,
+    "exposure_counters": true
+  },
+  "agent": {
+    "encoder": "patch4",
+    "shared": true,
+    "hidden": 512,
+    "cursor_head": "s1",
+    "residual_log_std_min": -1.5,
+    "res_blocks": 4,
+    "proj_dim": 512,
+    "fp32_projection": true,
+    "trunk": 96,
+    "key_local": true
+  },
+  "ppo": {
+    "rollout_steps": 128,
+    "sequence_length": 64,
+    "sequences_per_minibatch": 32,
+    "epochs": 1,
+    "learning_rate": 0.00025,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "adaptive_lr": true,
+    "kl_adapt": 0.025,
+    "target_kl": 0.06,
+    "lr_min": 1e-05,
+    "key_entropy_coefficient": 0.003,
+    "cursor_entropy_coefficient": 0.0005,
+    "value_coefficient": 0.25,
+    "refresh_old_logp": false,
+    "lr_max": 0.00025,
+    "hold_floor_coef": 0.02,
+    "hold_floor": 0.1,
+    "kl_band": 2.0,
+    "ema_decays": [
+      0.9996,
+      0.9999
+    ],
+    "ema_warmup": true
+  },
+  "eval_at_start": false,
+  "checkpoint_every_updates": 20,
+  "max_decisions": 10000000.0,
+  "reset_lr_on_resume": false,
+  "evals": [
+    {
+      "name": "recipe_eval_ema",
+      "pool": "recipe_eval_v1.npz",
+      "renderer": "full",
+      "modes": [
+        "deterministic"
+      ],
+      "hit_animations": false,
+      "ema": 0.9999
+    },
+    {
+      "name": "recipe_eval_raw",
+      "pool": "recipe_eval_v1.npz",
+      "renderer": "full",
+      "modes": [
+        "deterministic"
+      ],
+      "hit_animations": false
+    }
+  ],
+  "compile_encoder": true,
+  "snapshot_at_eval": false,
+  "eval_at": [
+    5000000.0,
+    10000000.0
+  ],
+  "save_best": false
+}

@@ -1,0 +1,145 @@
+{
+ "schema": "pd_supplement_v1",
+ "pilot": [
+  {
+   "name": "pd_monitor_ema",
+   "decisions": 10092544,
+   "wall_s": 1160.8,
+   "mean_acc": 0.6147,
+   "fail_per_obj": 0.183389,
+   "fc_rate": 0.05
+  },
+  {
+   "name": "pd_monitor_raw",
+   "decisions": 10092544,
+   "wall_s": 1177.0,
+   "mean_acc": 0.7083,
+   "fail_per_obj": 0.162308,
+   "fc_rate": 0.05
+  },
+  {
+   "name": "pd_monitor_ema",
+   "decisions": 20054016,
+   "wall_s": 2310.2,
+   "mean_acc": 0.7747,
+   "fail_per_obj": 0.128705,
+   "fc_rate": 0.065
+  },
+  {
+   "name": "pd_monitor_raw",
+   "decisions": 20054016,
+   "wall_s": 2326.2,
+   "mean_acc": 0.7027,
+   "fail_per_obj": 0.208749,
+   "fc_rate": 0.045
+  },
+  {
+   "name": "pd_monitor_ema",
+   "decisions": 30015488,
+   "wall_s": 3459.6,
+   "mean_acc": 0.8206,
+   "fail_per_obj": 0.118719,
+   "fc_rate": 0.045
+  },
+  {
+   "name": "pd_monitor_raw",
+   "decisions": 30015488,
+   "wall_s": 3475.6,
+   "mean_acc": 0.8208,
+   "fail_per_obj": 0.130052,
+   "fc_rate": 0.045
+  },
+  {
+   "name": "pd_monitor_ema",
+   "decisions": 40108032,
+   "wall_s": 4623.6,
+   "mean_acc": 0.8446,
+   "fail_per_obj": 0.087494,
+   "fc_rate": 0.08
+  },
+  {
+   "name": "pd_monitor_raw",
+   "decisions": 40108032,
+   "wall_s": 4639.7,
+   "mean_acc": 0.8647,
+   "fail_per_obj": 0.070217,
+   "fc_rate": 0.11
+  }
+ ],
+ "runs": {
+  "pd_n16_r1": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6260.2,
+   "median_dps": 9745.9
+  },
+  "pd_n256_r1": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6438.3,
+   "median_dps": 9567.8
+  },
+  "pd_n4096_r1": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6692.9,
+   "median_dps": 9129.3
+  },
+  "pd_n16_r2": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6849.5,
+   "median_dps": 8906.2
+  },
+  "pd_n256_r2": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6722.2,
+   "median_dps": 9143.1
+  },
+  "pd_n4096_r2": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6734.2,
+   "median_dps": 9222.2
+  },
+  "pd_n16_r3": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6453.2,
+   "median_dps": 9481.2
+  },
+  "pd_n256_r3": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6781.2,
+   "median_dps": 9035.0
+  },
+  "pd_n4096_r3": {
+   "updates": 458,
+   "decisions": 60030976,
+   "wall_s": 6907.8,
+   "median_dps": 8883.1
+  }
+ },
+ "throughput": {
+  "median_of_run_medians": 9143.1,
+  "min_run_median": 8883.1,
+  "max_run_median": 9745.9
+ },
+ "queue": {
+  "first_launch": "2026-11-01T02:27:19-0800",
+  "last_launch": "2026-11-01T17:18:43-0800",
+  "n_launches": 9
+ },
+ "sources": {
+  "pilot_eval": {
+   "path": "runs/sim/pd_pilot_r0/eval.jsonl",
+   "sha256": "7b777b29c216fd7b171bdb24a5e12cfb9987ce81ee40a19689003608c37a072f"
+  },
+  "analysis": {
+   "path": "runs/development/pd_20261101/PD_analysis.json",
+   "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e"
+  }
+ }
+}

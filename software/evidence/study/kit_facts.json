@@ -1,0 +1,471 @@
+{
+ "schema": "pd_kit_facts_v1",
+ "t": "2026-11-01T20:00:26-08:00",
+ "facts": {
+  "control_hz": {
+   "value": 60,
+   "evidence": "src/osu_sim/env.py",
+   "key": "line 141: control_hz: int = 60"
+  },
+  "rules_sub_update_ms": {
+   "value": 1,
+   "evidence": "src/osu_sim/rules.py",
+   "key": "line 8: sub-updates : UPDATE(t_prev+1) ..."
+  },
+  "view_height_px": {
+   "value": 192,
+   "evidence": "src/osu_sim/render.py",
+   "key": "line 40: H_ACT, W_ACT = 192, 256"
+  },
+  "view_width_px": {
+   "value": 256,
+   "evidence": "src/osu_sim/render.py",
+   "key": "line 40: H_ACT, W_ACT = 192, 256"
+  },
+  "footprint_scale": {
+   "value": 3.75,
+   "evidence": "src/osu_sim/render.py",
+   "key": "line 10: exact 3.75 x 3.75 client-pixel footprint"
+  },
+  "client_width_px": {
+   "value": 960,
+   "evidence": "src/osu_sim/render.py",
+   "key": "view_width_px x footprint_scale"
+  },
+  "client_height_px": {
+   "value": 720,
+   "evidence": "src/osu_sim/render.py",
+   "key": "view_height_px x footprint_scale"
+  },
+  "pixel_levels_max": {
+   "value": 255,
+   "evidence": "src/osu_sim/render.py",
+   "key": "line 692: tl.store(base, (tl.minimum(tl.maximum(cr, 0.0), 1.0) * 255.0 + 0.5).to(tl.uint8))"
+  },
+  "n_envs": {
+   "value": 1024,
+   "evidence": "runs/sim/configs/pkg_recipe_r1.json",
+   "key": "env.n"
+  },
+  "rollout_steps": {
+   "value": 128,
+   "evidence": "runs/sim/configs/pkg_recipe_r1.json",
+   "key": "ppo.rollout_steps"
+  },
+  "clip_min_objects": {
+   "value": 8,
+   "evidence": "runs/sim/configs/pkg_recipe_r1.json",
+   "key": "env.clip.min_objects"
+  },
+  "clip_max_objects": {
+   "value": 32,
+   "evidence": "runs/sim/configs/pkg_recipe_r1.json",
+   "key": "env.clip.max_objects"
+  },
+  "ema_decay": {
+   "value": 0.9999,
+   "evidence": "runs/sim/configs/pkg_recipe_r1.json",
+   "key": "ppo.ema_decays[1]"
+  },
+  "lazer_release": {
+   "value": "2026.921.0",
+   "evidence": "scripts/game-sources.ps1",
+   "key": "line 8: Name='osu'; Repository='https://github.com/ppy/osu.git'; Ref='2026.921.0-lazer'"
+  },
+  "parity_traces": {
+   "value": 72,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "count of cases named gen*/spin*"
+  },
+  "parity_traces_equal": {
+   "value": 72,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "totals_equal and equal max combo and step count"
+  },
+  "parity_steps": {
+   "value": 77323,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "sum of steps_sim over gen*/spin* cases"
+  },
+  "parity_mismatched_steps": {
+   "value": 0,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "sum of mismatched_steps over gen*/spin* cases"
+  },
+  "parity_maps": {
+   "value": 10,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "distinct gen*/spin* case maps"
+  },
+  "parity_maps_general": {
+   "value": 4,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "distinct gen* maps"
+  },
+  "parity_maps_spinner": {
+   "value": 6,
+   "evidence": "runs/sim/parity/{parity2,parity_spin,b3_rate1_parity2,b3_rate1_spin,b4_dt15_parity2,b4_dt15_spin}/report.json",
+   "key": "distinct spin* maps"
+  },
+  "conformance_tests": {
+   "value": 107,
+   "evidence": "runs/development/m5_20261022/junit_conformance_*.xml",
+   "key": "testsuite tests (all 8 files: failures 0, errors 0)"
+  },
+  "render_fg_mae_gen_a": {
+   "value": 1.2339425535779245,
+   "evidence": "runs/development/sim_v1/render/verify_round0/metrics_verify.json",
+   "key": "variants.full.jobs.v_gen_a_cs46_ar94__vmixed.fg_mae"
+  },
+  "render_fg_mae_gen_b": {
+   "value": 1.34202404962102,
+   "evidence": "runs/development/sim_v1/render/verify_round0/metrics_verify.json",
+   "key": "variants.full.jobs.v_gen_b_cs27_ar60__vmixed.fg_mae"
+  },
+  "render_frames_gen": {
+   "value": 3541,
+   "evidence": "runs/development/sim_v1/render/verify_round0/metrics_verify.json",
+   "key": "sum of variants.full.jobs.{v_gen_a,v_gen_b}.frames"
+  },
+  "token_seed_bytes": {
+   "value": 8,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 305: .digest()[:8], \"big\")"
+  },
+  "test_seed0": {
+   "value": 5000000,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 61: TEST_SEED0, TEST_MOD, TEST_SPARE_J0 = 5_000_000, 4_000_000, 1000"
+  },
+  "test_seed_mod": {
+   "value": 4000000,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 61: TEST_SEED0, TEST_MOD, TEST_SPARE_J0 = 5_000_000, 4_000_000, 1000"
+  },
+  "manifest_files": {
+   "value": 100,
+   "evidence": "runs/development/pd_20261101/timestamp_manifest.json",
+   "key": "len(files)"
+  },
+  "date": {
+   "value": "2026-11-01",
+   "evidence": "runs/development/pd_20261101/timestamp_manifest.json",
+   "key": "t (UTC date)"
+  },
+  "freeze_utc": {
+   "value": "10:23:25",
+   "evidence": "runs/development/pd_20261101/timestamp_manifest.json",
+   "key": "t (UTC)"
+  },
+  "digicert_utc": {
+   "value": "10:23:32",
+   "evidence": "runs/development/pd_20261101/ledger/pd_timestamp_tokens.json",
+   "key": "tokens[tsa=digicert].gen_time"
+  },
+  "sectigo_utc": {
+   "value": "10:23:33",
+   "evidence": "runs/development/pd_20261101/ledger/pd_timestamp_tokens.json",
+   "key": "tokens[tsa=sectigo].gen_time"
+  },
+  "draw_utc": {
+   "value": "10:23:41",
+   "evidence": "runs/development/pd_20261101/ledger/pd_draw_event.json",
+   "key": "t (UTC)"
+  },
+  "first_launch_utc": {
+   "value": "10:27:19",
+   "evidence": "runs/development/pd_20261101/pd_queue_log.jsonl",
+   "key": "first launch event (pd_n16_r1) t (UTC)"
+  },
+  "pd_test_id_maps": {
+   "value": 500,
+   "evidence": "runs/development/pd_20261101/sealed_registry_pd.json",
+   "key": "entries[pd_test_id].n_maps"
+  },
+  "pd_test_tempo_maps": {
+   "value": 250,
+   "evidence": "runs/development/pd_20261101/sealed_registry_pd.json",
+   "key": "entries[pd_test_tempo].n_maps"
+  },
+  "pd_test_pattern_maps": {
+   "value": 250,
+   "evidence": "runs/development/pd_20261101/sealed_registry_pd.json",
+   "key": "entries[pd_test_pattern].n_maps"
+  },
+  "pd_test_all_maps": {
+   "value": 1000,
+   "evidence": "runs/development/pd_20261101/sealed_registry_pd.json",
+   "key": "entries[pd_test_all].n_maps"
+  },
+  "tempo_factor": {
+   "value": 1.3,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 63: TEMPO_FACTOR = 1.3"
+  },
+  "band_share_1": {
+   "value": 0.2061855670103093,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 52: MIX_W = (0.2, 0.34, 0.43) (normalised: BAND_SHARES)"
+  },
+  "band_share_2": {
+   "value": 0.3505154639175258,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 52: MIX_W = (0.2, 0.34, 0.43) (normalised: BAND_SHARES)"
+  },
+  "band_share_3": {
+   "value": 0.44329896907216493,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 52: MIX_W = (0.2, 0.34, 0.43) (normalised: BAND_SHARES)"
+  },
+  "variant_share_slider": {
+   "value": 0.25,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 57: VARIANT_SHARES = (0.25, 0.15, 0.10, 0.50)"
+  },
+  "variant_share_spinner": {
+   "value": 0.15,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 57: VARIANT_SHARES = (0.25, 0.15, 0.10, 0.50)"
+  },
+  "variant_share_streamjump": {
+   "value": 0.1,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 57: VARIANT_SHARES = (0.25, 0.15, 0.10, 0.50)"
+  },
+  "variant_share_plain": {
+   "value": 0.5,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 57: VARIANT_SHARES = (0.25, 0.15, 0.10, 0.50)"
+  },
+  "sequence_length": {
+   "value": 8192,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 58: N_SEQ = 8192"
+  },
+  "pseudo_difficulty_offset": {
+   "value": 0.5,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 227: stars=0.5 + 4.5 * lv"
+  },
+  "pseudo_difficulty_slope": {
+   "value": 4.5,
+   "evidence": "runs/development/pd_20261101/build_pd_pools.py",
+   "key": "line 227: stars=0.5 + 4.5 * lv"
+  },
+  "monitor_maps": {
+   "value": 200,
+   "evidence": "runs/sim/pools/pd_v1/pd_monitor_v1.manifest.json",
+   "key": "n_maps"
+  },
+  "pilot_seed": {
+   "value": 0,
+   "evidence": "runs/sim/configs/pd_pilot_r0.json",
+   "key": "seed"
+  },
+  "pilot_budget": {
+   "value": 40000000.0,
+   "evidence": "runs/sim/configs/pd_pilot_r0.json",
+   "key": "max_decisions"
+  },
+  "pilot_eval_at_1": {
+   "value": 10000000.0,
+   "evidence": "runs/sim/configs/pd_pilot_r0.json",
+   "key": "eval_at[0]"
+  },
+  "pilot_eval_at_2": {
+   "value": 20000000.0,
+   "evidence": "runs/sim/configs/pd_pilot_r0.json",
+   "key": "eval_at[1]"
+  },
+  "pilot_eval_at_3": {
+   "value": 30000000.0,
+   "evidence": "runs/sim/configs/pd_pilot_r0.json",
+   "key": "eval_at[2]"
+  },
+  "pilot_eval_at_4": {
+   "value": 40000000.0,
+   "evidence": "runs/sim/configs/pd_pilot_r0.json",
+   "key": "eval_at[3]"
+  },
+  "pilot_pool_maps": {
+   "value": 8192,
+   "evidence": "runs/sim/pools/pd_v1/pd_r0_n8192.manifest.json",
+   "key": "n_maps"
+  },
+  "arm_16": {
+   "value": 16,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 117: ARMS = (16, 256, 4096)"
+  },
+  "arm_256": {
+   "value": 256,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 117: ARMS = (16, 256, 4096)"
+  },
+  "arm_4096": {
+   "value": 4096,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 117: ARMS = (16, 256, 4096)"
+  },
+  "arm_ratio": {
+   "value": 16,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "ARMS[1] / ARMS[0] = ARMS[2] / ARMS[1]"
+  },
+  "k_log_base": {
+   "value": 8,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 118: # k = log8(N / 16) under fallback F1"
+  },
+  "planned_arm_16": {
+   "value": 16,
+   "evidence": "runs/development/pd_20261101/make_pd_configs.py",
+   "key": "line 28: \"main\": dict(arms=(16, 128, 1024, 8192), replicates=(1, 2, 3, 4)"
+  },
+  "planned_arm_128": {
+   "value": 128,
+   "evidence": "runs/development/pd_20261101/make_pd_configs.py",
+   "key": "line 28: \"main\": dict(arms=(16, 128, 1024, 8192), replicates=(1, 2, 3, 4)"
+  },
+  "planned_arm_1024": {
+   "value": 1024,
+   "evidence": "runs/development/pd_20261101/make_pd_configs.py",
+   "key": "line 28: \"main\": dict(arms=(16, 128, 1024, 8192), replicates=(1, 2, 3, 4)"
+  },
+  "planned_arm_8192": {
+   "value": 8192,
+   "evidence": "runs/development/pd_20261101/make_pd_configs.py",
+   "key": "line 28: \"main\": dict(arms=(16, 128, 1024, 8192), replicates=(1, 2, 3, 4)"
+  },
+  "planned_replicates": {
+   "value": 4,
+   "evidence": "runs/development/pd_20261101/make_pd_configs.py",
+   "key": "line 28: \"main\": dict(arms=(16, 128, 1024, 8192), replicates=(1, 2, 3, 4)"
+  },
+  "replicates": {
+   "value": 3,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 119: REPLICATES = (1, 2, 3)"
+  },
+  "residual_df": {
+   "value": 5,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "arms x replicates - replicate intercepts - slope"
+  },
+  "delta": {
+   "value": 0.15,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 122: DELTA = 0.15"
+  },
+  "delta_failure_rate_change": {
+   "value": 0.1392920235749422,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "1 - exp(-DELTA)"
+  },
+  "alpha": {
+   "value": 0.05,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "line 123: ALPHA = 0.05"
+  },
+  "ci_level_95": {
+   "value": 0.95,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "t(0.975, df): two-sided 95% interval"
+  },
+  "ci_level_90": {
+   "value": 0.9,
+   "evidence": "runs/development/pd_20261101/pd_analysis_f1.py",
+   "key": "t(0.95, df): two-sided 90% interval"
+  },
+  "seed_r1": {
+   "value": 1,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "seed"
+  },
+  "seed_r2": {
+   "value": 2,
+   "evidence": "runs/sim/configs/pd_n16_r2.json",
+   "key": "seed"
+  },
+  "seed_r3": {
+   "value": 3,
+   "evidence": "runs/sim/configs/pd_n16_r3.json",
+   "key": "seed"
+  },
+  "budget_D": {
+   "value": 60000000.0,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "max_decisions"
+  },
+  "budget_D_millions": {
+   "value": 60.0,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "max_decisions / 1e6 (\"60 million\")"
+  },
+  "eval_at_1": {
+   "value": 15000000.0,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "eval_at[0]"
+  },
+  "eval_at_2": {
+   "value": 30000000.0,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "eval_at[1]"
+  },
+  "eval_at_3": {
+   "value": 45000000.0,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "eval_at[2]"
+  },
+  "eval_at_4": {
+   "value": 60000000.0,
+   "evidence": "runs/sim/configs/pd_n16_r1.json",
+   "key": "eval_at[3]"
+  },
+  "probe_cap": {
+   "value": 256,
+   "evidence": "runs/development/pd_20261101/make_pd_configs.py",
+   "key": "line 66: return f\"{POOLS}/pd_r{r}_n{min(n, 256)}.npz\""
+  },
+  "g0_threshold": {
+   "value": 0.85,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 66: if A[30e6] >= 0.85: D, rule = 30e6"
+  },
+  "g0_budget_30": {
+   "value": 30000000.0,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 66: if A[30e6] >= 0.85: D, rule = 30e6"
+  },
+  "g0_budget_40": {
+   "value": 40000000.0,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 68: elif A[40e6] >= 0.85: D, rule = 40e6"
+  },
+  "g0_fallback_threshold": {
+   "value": 0.75,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 70: elif A[40e6] >= 0.75: D, rule, design = 60e6"
+  },
+  "g0_budget_f1": {
+   "value": 60000000.0,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 70: elif A[40e6] >= 0.75: D, rule, design = 60e6"
+  },
+  "max_hours_factor": {
+   "value": 1.5,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 250: max_hours=round(1.5 * hours + 0.2, 2)"
+  },
+  "max_hours_margin": {
+   "value": 0.2,
+   "evidence": "runs/development/pd_20261101/p3_freeze.py",
+   "key": "line 250: max_hours=round(1.5 * hours + 0.2, 2)"
+  },
+  "max_hours": {
+   "value": 3.1,
+   "evidence": "runs/development/pd_20261101/timestamp_manifest.json",
+   "key": "max_hours"
+  }
+ }
+}

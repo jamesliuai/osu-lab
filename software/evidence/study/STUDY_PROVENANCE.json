@@ -1,0 +1,204 @@
+{
+  "schema": "public_study_provenance_v1",
+  "basis": "Release-side mapping of the existing accepted study outputs; no new study deliverables.",
+  "public_evidence": [
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_analysis.json",
+      "source_sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+      "path": "evidence/study/PD_analysis.json",
+      "sha256": "104d0fb82415847907af0fbc6d3293ff234ae278aa29b1e9912622405f9ac64e",
+      "bytes": 44928,
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_supplement.json",
+      "source_sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+      "path": "evidence/study/PD_supplement.json",
+      "sha256": "5e9f89532df85ca1c3e3aa95e78dcac54892d6390045d7881ae9c6c5342f4c2b",
+      "bytes": 2895,
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/PD_DEVIATIONS_2026-11-01.md",
+      "sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1",
+      "bytes": 6349,
+      "original_repository_path": "runs/development/pd_20261101/PD_DEVIATIONS_2026-11-01.md",
+      "source_sha256": "a8000ea483110c187fc52e9903ba8e166b18e1fa0f478132b99f72dfcb9f49a1",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/audit/clean_data_audit_final_20261101_203152.json",
+      "source_sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f",
+      "path": "evidence/study/CLEAN_DATA_AUDIT_FINAL.json",
+      "sha256": "dae75c100c1cdde191d75272ec463fbba6c831ea554345821237908bddd8667f",
+      "bytes": 18065,
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_main.svg",
+      "sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+      "bytes": 14310,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_main.svg",
+      "source_sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/kit_facts.json",
+      "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+      "bytes": 14857,
+      "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+      "source_sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/CLEAN_DATA_AUDIT_HANDOVER.json",
+      "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+      "bytes": 18065,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/CLEAN_DATA_AUDIT.json",
+      "source_sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "docs/references.bib",
+      "sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5",
+      "bytes": 7659,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/references.bib",
+      "source_sha256": "6fc64083f8d077383a91ff83652debf7930db50cb7bef958cf064558ab4b3cd5",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_main.png",
+      "sha256": "873a316eda179368d7258bc6a766daca1d010743bb800cec4d6df8dc6c91a7dc",
+      "bytes": 95848,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_main.png",
+      "source_sha256": "873a316eda179368d7258bc6a766daca1d010743bb800cec4d6df8dc6c91a7dc",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_curves.svg",
+      "sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+      "bytes": 27556,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_curves.svg",
+      "source_sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_curves.png",
+      "sha256": "6477d060aa2429ec4a819864360d2dad7be2e9eac9d9f720595a2781aaa5f146",
+      "bytes": 163268,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_curves.png",
+      "source_sha256": "6477d060aa2429ec4a819864360d2dad7be2e9eac9d9f720595a2781aaa5f146",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_shift.svg",
+      "sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+      "bytes": 20640,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_shift.svg",
+      "source_sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    },
+    {
+      "path": "evidence/study/figures/fig_pd_shift.png",
+      "sha256": "d65636569d98e0200a7a17deea68ff5e30a7f7098f9ab80c4cae57998736cc83",
+      "bytes": 105457,
+      "original_repository_path": "runs/development/paper/submission_v2/handover/figures/fig_pd_shift.png",
+      "source_sha256": "d65636569d98e0200a7a17deea68ff5e30a7f7098f9ab80c4cae57998736cc83",
+      "byte_identical_to_source": true,
+      "availability": "exported_original_bytes"
+    }
+  ],
+  "historical_source_provenance": [
+    {
+      "original_repository_path": "runs/development/pd_20261101/EVIDENCE.md",
+      "sha256": "055cec84bfaf27cce664a5474b2195ea618c512faf80835c7595e19fa8e3bbb1",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r5.md",
+      "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_provenance.json",
+      "sha256": "19f140e5d2007f6b793394d7dd5e7141503cc846ed35b83c7a3007ca8b1fcba7",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_RESULTS_r2_extra_provenance.json",
+      "sha256": "6074cab2003436ba35b3c7a4dd8b5cb29d8639d3caedc49230d31ccd4ead480e",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_analysis.txt",
+      "sha256": "74670a8ef568a094c9f5d1783a70d64b8f6495e90b75d94ee6066c2d4e0c20b5",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/kit_facts.json",
+      "sha256": "c39295c60a72e68f9dd11592d65270798ee3f49e20c0ce852202aabf0267652b",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/paper/submission_v2/REPORT.md",
+      "sha256": "f625bb6e33c037ccc1591c10aa480d2bf0eef138601dab1eff769a8b13d9dbe7",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/paper/submission_v2/PROVENANCE.md",
+      "sha256": "6cd8d2cbac40c4ddda3a4342e36969236757a050d5aa64bb1af662b8789be868",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/paper/submission_v2/CLEAN_DATA_AUDIT.json",
+      "sha256": "c0900e8615875a1352f4d006bcb66a7f6bdae2310f2fd697347217aeb8eab994",
+      "availability": "not_exported_historical_source_identity_only"
+    },
+    {
+      "original_repository_path": "runs/development/pd_20261101/PD_PREREG_frozen_2026-11-01_0223.md",
+      "sha256": "048098da3e0d246b0abfdf2da92c0483fe5f0a2f75b437c329be200da55af30f",
+      "availability": "not_exported_historical_source_identity_only"
+    }
+  ],
+  "accepted_results": {
+    "name": "PD_RESULTS_r5.md",
+    "sha256": "155a635d5500823126398939c6f6aadaa3e058f5532c0e3b405444cf916265e9",
+    "review_round": 5,
+    "review_lenses": [
+      "numbers/provenance",
+      "statistics",
+      "preregistration claims",
+      "clean-data/protocol",
+      "readability",
+      "skeptic"
+    ],
+    "no_major_findings": true,
+    "required_fixes_rechecked": true,
+    "source": "Existing accepted results/review records and owner-approved D1 snapshot",
+    "record_type": "publisher summary of existing review evidence; not a reviewer transcript or independent certification",
+    "owner_D1_approval": "approved retrospectively; current deviation snapshot includes the authoritative owner acceptance",
+    "review_type": "internal review, not external peer review"
+  },
+  "limitations": [
+    "Historical original report/results prose, preregistration and full review log are not exported. The current report and summary are separately identified public derivatives; selected exploratory entries are a narrow evidence receipt.",
+    "Only claims in CLAIM_REGISTRY.json are cleared for promotional/application copy. Other raw evidence fields are archived context.",
+    "PD_analysis.json settings.labels contains planned-design text. Actual F1 design is settings.arms/replicates/holm_m and complete_replicates.",
+    "Input paths and source hashes inside original records identify historical inputs; omitted pools/checkpoints are not needed for the scoped checks.",
+    "This export supports checking recorded aggregate claims, not re-executing the sealed test batch or authenticating every omitted raw input.",
+    "Both recorded handover audit and later final audit are included and individually identified; neither was rerun for this release."
+  ],
+  "figure_scope": "Three original aggregate charts, each in SVG and PNG; no gameplay images. SVGs use generic viewer fonts without embedded binary assets. PDF document fonts have a separate included license notice.",
+  "rights_notice": "The owner-approved rights are applied by the exact LICENSE-DATA.md and LICENSE-STUDY.md scopes; original evidence bytes remain unchanged."
+}
