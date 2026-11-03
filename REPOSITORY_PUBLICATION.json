@@ -19,6 +19,7 @@
     "status": "verified",
     "repository_prefix": "site/",
     "base_path": "/osu-lab/",
+    "file_count": 11,
     "verification": {
       "status": "PASS",
       "candidate": "0.1.0rc6",
@@ -29,6 +30,7 @@
         "base path: every local link resolves inside /osu-lab/",
         "external links: only planned Release downloads, repository, release page, site URL and upstream projects",
         "assets: images and any video are approved assets with verbatim alt text, captions and attribution",
+        "video: approved playback attributes, muted inline autoplay, loop, controls and poster",
         "downloads: versioned Release URLs; manifest, DOWNLOAD_MANIFEST.json, documents.json and files agree",
         "identity: author, project, version, verbatim contribution statement",
         "numbers: primary, secondary, design, arm means, throughput and conformance equal the records",
@@ -40,129 +42,205 @@
       ],
       "browser": {
         "status": "PASS",
-        "engine": "Microsoft Edge (Chromium), Windows",
+        "environment": "Microsoft Edge (Chromium), Windows, fresh unauthenticated browser context per viewport/theme; Browser plugin unavailable, Playwright CLI used",
         "viewports": [
           {
-            "viewport": "1440x900",
+            "viewport": "1440x1000",
             "theme": "light",
-            "status": 200,
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
-            "bodyOverflow": false,
-            "imagesLoaded": true,
-            "correctedCaption": true,
-            "headerHiddenAtTop": true,
-            "resourcesOutsideBase": [],
-            "anchorTargets": true,
-            "navigation": {
-              "hash": "#results",
-              "headerRevealed": true
-            },
-            "headerHiddenOnReturn": true
+            "autoplayWithoutInteraction": true,
+            "firstPlayingMs": 362,
+            "duration": 33,
+            "muted": true,
+            "defaultMuted": true,
+            "loop": true,
+            "playsInline": true,
+            "controls": true,
+            "preload": "auto",
+            "width": 1920,
+            "height": 1080,
+            "sourceWithinBase": true,
+            "posterWithinBase": true,
+            "noHorizontalOverflow": true,
+            "videoWithinViewport": true,
+            "videoAspectRatio": 1.778,
+            "videoError": null,
+            "captionQualified": true,
+            "loopRestarted": true,
+            "pausePersists": true,
+            "resumeWorks": true,
+            "descriptionOpens": true,
+            "posterStatus": 200
           },
           {
-            "viewport": "1440x900",
+            "viewport": "1440x1000",
             "theme": "dark",
-            "status": 200,
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
-            "bodyOverflow": false,
-            "imagesLoaded": true,
-            "correctedCaption": true,
-            "headerHiddenAtTop": true,
-            "resourcesOutsideBase": [],
-            "anchorTargets": true,
-            "navigation": {
-              "hash": "#results",
-              "headerRevealed": true
-            },
-            "headerHiddenOnReturn": true
+            "autoplayWithoutInteraction": true,
+            "firstPlayingMs": 177,
+            "duration": 33,
+            "muted": true,
+            "defaultMuted": true,
+            "loop": true,
+            "playsInline": true,
+            "controls": true,
+            "preload": "auto",
+            "width": 1920,
+            "height": 1080,
+            "sourceWithinBase": true,
+            "posterWithinBase": true,
+            "noHorizontalOverflow": true,
+            "videoWithinViewport": true,
+            "videoAspectRatio": 1.778,
+            "videoError": null,
+            "captionQualified": true,
+            "loopRestarted": true,
+            "pausePersists": true,
+            "resumeWorks": true,
+            "descriptionOpens": true,
+            "posterStatus": 200
           },
           {
             "viewport": "768x1024",
             "theme": "light",
-            "status": 200,
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
-            "bodyOverflow": false,
-            "imagesLoaded": true,
-            "correctedCaption": true,
-            "headerHiddenAtTop": true,
-            "resourcesOutsideBase": [],
-            "anchorTargets": true,
-            "navigation": {
-              "hash": "#results",
-              "headerRevealed": true
-            },
-            "headerHiddenOnReturn": true
+            "autoplayWithoutInteraction": true,
+            "firstPlayingMs": 200,
+            "duration": 33,
+            "muted": true,
+            "defaultMuted": true,
+            "loop": true,
+            "playsInline": true,
+            "controls": true,
+            "preload": "auto",
+            "width": 1920,
+            "height": 1080,
+            "sourceWithinBase": true,
+            "posterWithinBase": true,
+            "noHorizontalOverflow": true,
+            "videoWithinViewport": true,
+            "videoAspectRatio": 1.778,
+            "videoError": null,
+            "captionQualified": true,
+            "loopRestarted": true,
+            "pausePersists": true,
+            "resumeWorks": true,
+            "descriptionOpens": true,
+            "posterStatus": 200
           },
           {
             "viewport": "768x1024",
             "theme": "dark",
-            "status": 200,
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
-            "bodyOverflow": false,
-            "imagesLoaded": true,
-            "correctedCaption": true,
-            "headerHiddenAtTop": true,
-            "resourcesOutsideBase": [],
-            "anchorTargets": true,
-            "navigation": {
-              "hash": "#results",
-              "headerRevealed": true
-            },
-            "headerHiddenOnReturn": true
+            "autoplayWithoutInteraction": true,
+            "firstPlayingMs": 195,
+            "duration": 33,
+            "muted": true,
+            "defaultMuted": true,
+            "loop": true,
+            "playsInline": true,
+            "controls": true,
+            "preload": "auto",
+            "width": 1920,
+            "height": 1080,
+            "sourceWithinBase": true,
+            "posterWithinBase": true,
+            "noHorizontalOverflow": true,
+            "videoWithinViewport": true,
+            "videoAspectRatio": 1.778,
+            "videoError": null,
+            "captionQualified": true,
+            "loopRestarted": true,
+            "pausePersists": true,
+            "resumeWorks": true,
+            "descriptionOpens": true,
+            "posterStatus": 200
           },
           {
             "viewport": "375x812",
             "theme": "light",
-            "status": 200,
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
-            "bodyOverflow": false,
-            "imagesLoaded": true,
-            "correctedCaption": true,
-            "headerHiddenAtTop": true,
-            "resourcesOutsideBase": [],
-            "anchorTargets": true,
-            "navigation": {
-              "hash": "#results",
-              "headerRevealed": true
-            },
-            "headerHiddenOnReturn": true
+            "autoplayWithoutInteraction": true,
+            "firstPlayingMs": 193,
+            "duration": 33,
+            "muted": true,
+            "defaultMuted": true,
+            "loop": true,
+            "playsInline": true,
+            "controls": true,
+            "preload": "auto",
+            "width": 1920,
+            "height": 1080,
+            "sourceWithinBase": true,
+            "posterWithinBase": true,
+            "noHorizontalOverflow": true,
+            "videoWithinViewport": true,
+            "videoAspectRatio": 1.778,
+            "videoError": null,
+            "captionQualified": true,
+            "loopRestarted": true,
+            "pausePersists": true,
+            "resumeWorks": true,
+            "descriptionOpens": true,
+            "posterStatus": 200
           },
           {
             "viewport": "375x812",
             "theme": "dark",
-            "status": 200,
             "title": "osu-lab: practice diversity in a pixel-input osu! agent",
             "meaningful": true,
-            "bodyOverflow": false,
-            "imagesLoaded": true,
-            "correctedCaption": true,
-            "headerHiddenAtTop": true,
-            "resourcesOutsideBase": [],
-            "anchorTargets": true,
-            "navigation": {
-              "hash": "#results",
-              "headerRevealed": true
-            },
-            "headerHiddenOnReturn": true
+            "autoplayWithoutInteraction": true,
+            "firstPlayingMs": 187,
+            "duration": 33,
+            "muted": true,
+            "defaultMuted": true,
+            "loop": true,
+            "playsInline": true,
+            "controls": true,
+            "preload": "auto",
+            "width": 1920,
+            "height": 1080,
+            "sourceWithinBase": true,
+            "posterWithinBase": true,
+            "noHorizontalOverflow": true,
+            "videoWithinViewport": true,
+            "videoAspectRatio": 1.778,
+            "videoError": null,
+            "captionQualified": true,
+            "loopRestarted": true,
+            "pausePersists": true,
+            "resumeWorks": true,
+            "descriptionOpens": true,
+            "posterStatus": 200
           }
         ],
-        "console_errors": [],
-        "console_warnings": [],
+        "consoleErrors": [],
         "not_tested": [
           "Real phones/tablets",
-          "Firefox and Safari",
-          "Screen-reader output",
-          "Print layout"
+          "Safari and Firefox",
+          "Battery/data-saver and user-disabled autoplay settings",
+          "Screen-reader output"
         ]
       }
     },
-    "file_count": 9,
-    "caption_change": "Keep individual runs and intervals. → The figure shows individual runs and intervals.",
+    "video": {
+      "file": "site/assets/osu-lab_video.mp4",
+      "sha256": "f0c768bf05ed814261ed9789d42a5b588252b30d56e4cdd8afd0eeb6c2d9b299",
+      "poster": "site/assets/osu-lab_video_poster.jpg",
+      "bytes_preserved_from_approved_export": true,
+      "autoplay": true,
+      "muted": true,
+      "loop": true,
+      "playsinline": true,
+      "preload": "auto",
+      "controls": true,
+      "scope": "Approved custom-skin redrawing of simulator states with adjacent limitations; separate from original agent input pixels"
+    },
     "chart_bytes_preserved": true
   },
   "deployment": {
@@ -2233,8 +2311,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "3edd68d7475cc521a55dc7fff6ccfd095b229883eefeae29d170c4058effcfb4",
-      "bytes": 4406,
+      "sha256": "9ff8f1c5ed0c8f07f464d9591c9eed754187245995c07832c8de33ca8fa5849b",
+      "bytes": 4796,
       "role": "repository usage, rights or deployment file",
       "license_scope": "CC BY4.0 release-authored documentation",
       "provenance": {
@@ -2257,8 +2335,8 @@
     },
     {
       "path": "LICENSES.md",
-      "sha256": "35dddb7e108490330606d67d2e3556243f5735d1bfbd5690a1d5a069c27a000d",
-      "bytes": 1634,
+      "sha256": "036dda230810b34bde5707122f49c8edcfd2e051aa841fe4dd3159db8d51d2a1",
+      "bytes": 2225,
       "role": "repository usage, rights or deployment file",
       "license_scope": "CC BY4.0 release-authored documentation",
       "provenance": {
@@ -2305,126 +2383,14 @@
     },
     {
       "path": "deployment/README.md",
-      "sha256": "b4a9f8de47250f47588cd5ab37b6d23778bd361b842177656b1c03b0ebd327d4",
-      "bytes": 3077,
+      "sha256": "bcfbe8c27e98db4b8f811fc0174ba51fc9737e43f3e6b5f5d086eb9c49b47667",
+      "bytes": 3079,
       "role": "repository usage, rights or deployment file",
       "license_scope": "CC BY4.0 release-authored documentation",
       "provenance": {
         "source": "release-authored publication material",
         "basis": "Owner-authorized final integration; existing scoped licenses",
         "third_party_assets_included": false
-      }
-    },
-    {
-      "path": "site/.nojekyll",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "bytes": 0,
-      "role": "verified static website file",
-      "license_scope": "No content.",
-      "provenance": {
-        "origin": "website-authored",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      }
-    },
-    {
-      "path": "site/assets/architecture.svg",
-      "sha256": "fc379ac65f90502b77729e70be5e4bf1984cc0f0b9260a97c6fd8dea41451437",
-      "bytes": 1316,
-      "role": "verified static website file",
-      "license_scope": "Existing release-authored architecture diagram under the documentation scope (CC BY4.0); attribute James Liu and osu-lab, retain any source notices and indicate changes. Generic viewer fonts only, no game media. It is outside the exact105-file data/study grant and retains its existing scope.",
-      "provenance": {
-        "origin": "approved handoff asset, byte-identical",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "fc379ac65f90502b77729e70be5e4bf1984cc0f0b9260a97c6fd8dea41451437"
-      }
-    },
-    {
-      "path": "site/assets/favicon.svg",
-      "sha256": "58a189baac8d587011c0aeecee83b4ac0a842b1fcbafb93d1ea979c1955cdb54",
-      "bytes": 300,
-      "role": "verified static website file",
-      "license_scope": "Release-authored website graphic: documentation scope, CC BY 4.0 (software/LICENSE-DOCS.md).",
-      "provenance": {
-        "origin": "website-authored",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "58a189baac8d587011c0aeecee83b4ac0a842b1fcbafb93d1ea979c1955cdb54"
-      }
-    },
-    {
-      "path": "site/assets/fig_pd_curves.svg",
-      "sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
-      "bytes": 27556,
-      "role": "verified static website file",
-      "license_scope": "CC-BY-4.0; only James Liu rights; exact chart hash unchanged",
-      "provenance": {
-        "origin": "approved handoff asset, byte-identical",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
-        "public_evidence": "software/evidence/study/figures/fig_pd_curves.svg"
-      }
-    },
-    {
-      "path": "site/assets/fig_pd_main.svg",
-      "sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
-      "bytes": 14310,
-      "role": "verified static website file",
-      "license_scope": "CC-BY-4.0; only James Liu rights; exact chart hash unchanged",
-      "provenance": {
-        "origin": "approved handoff asset, byte-identical",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
-        "public_evidence": "software/evidence/study/figures/fig_pd_main.svg"
-      }
-    },
-    {
-      "path": "site/assets/fig_pd_shift.svg",
-      "sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
-      "bytes": 20640,
-      "role": "verified static website file",
-      "license_scope": "CC-BY-4.0; only James Liu rights; exact chart hash unchanged",
-      "provenance": {
-        "origin": "approved handoff asset, byte-identical",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
-        "public_evidence": "software/evidence/study/figures/fig_pd_shift.svg"
-      }
-    },
-    {
-      "path": "site/assets/site.css",
-      "sha256": "391335a7f194fc4ebc04c04cd94d8e136c0d21d5178f979d10930797262ce0dc",
-      "bytes": 19050,
-      "role": "verified static website file",
-      "license_scope": "Release-authored website code: MIT release-utility scope (LICENSE).",
-      "provenance": {
-        "origin": "website-authored",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "391335a7f194fc4ebc04c04cd94d8e136c0d21d5178f979d10930797262ce0dc"
-      }
-    },
-    {
-      "path": "site/assets/site.js",
-      "sha256": "54a807aa31f4ba918eec18a9d472822285215a0d6eb493713458fc18943f4e37",
-      "bytes": 2875,
-      "role": "verified static website file",
-      "license_scope": "Release-authored website code: MIT release-utility scope (LICENSE).",
-      "provenance": {
-        "origin": "website-authored",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "54a807aa31f4ba918eec18a9d472822285215a0d6eb493713458fc18943f4e37"
-      }
-    },
-    {
-      "path": "site/index.html",
-      "sha256": "66dd95a2c9b5f3650b961300df3c2659db2646ea6b963c9656c4cb5131a3f4af",
-      "bytes": 56268,
-      "role": "verified static website file",
-      "license_scope": "Release-authored website text and markup: documentation scope, CC BY 4.0 (software/LICENSE-DOCS.md). Quotes James Liu's approved contribution statement verbatim. Figure 2 inside it is drawn from the three CC0-1.0 example maps.",
-      "provenance": {
-        "origin": "website-authored",
-        "relationship": "byte-identical to verified website export",
-        "approved_export_sha256": "66dd95a2c9b5f3650b961300df3c2659db2646ea6b963c9656c4cb5131a3f4af",
-        "caption_edit": "Owner-authorized descriptive sentence correction; scientific qualifications preserved"
       }
     },
     {
@@ -2459,6 +2425,145 @@
         "source": "Verified candidate_v5 download identities and owner-approved scope",
         "artifacts_rebuilt": false
       }
+    },
+    {
+      "path": "site/.nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "role": "verified website file",
+      "license_scope": "No content.",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "path": "site/assets/architecture.svg",
+      "sha256": "fc379ac65f90502b77729e70be5e4bf1984cc0f0b9260a97c6fd8dea41451437",
+      "bytes": 1316,
+      "role": "verified website file",
+      "license_scope": "Existing release-authored architecture diagram under the documentation scope (CC BY4.0); attribute James Liu and osu-lab, retain any source notices and indicate changes. Generic viewer fonts only, no game media. It is outside the exact105-file data/study grant and retains its existing scope.",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "fc379ac65f90502b77729e70be5e4bf1984cc0f0b9260a97c6fd8dea41451437"
+      }
+    },
+    {
+      "path": "site/assets/favicon.svg",
+      "sha256": "58a189baac8d587011c0aeecee83b4ac0a842b1fcbafb93d1ea979c1955cdb54",
+      "bytes": 300,
+      "role": "verified website file",
+      "license_scope": "Release-authored website graphic: documentation scope, CC BY 4.0 (software/LICENSE-DOCS.md).",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "58a189baac8d587011c0aeecee83b4ac0a842b1fcbafb93d1ea979c1955cdb54"
+      }
+    },
+    {
+      "path": "site/assets/fig_pd_curves.svg",
+      "sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+      "bytes": 27556,
+      "role": "verified website file",
+      "license_scope": "CC-BY-4.0; only James Liu rights; exact chart hash unchanged",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "c767825bc5923704e4d3cc650f295499b090fa3c0552f0a006d5d0d66fbd146b",
+        "public_evidence": "software/evidence/study/figures/fig_pd_curves.svg"
+      }
+    },
+    {
+      "path": "site/assets/fig_pd_main.svg",
+      "sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+      "bytes": 14310,
+      "role": "verified website file",
+      "license_scope": "CC-BY-4.0; only James Liu rights; exact chart hash unchanged",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "6df64d0b75eace30e13b8fabcbc543e581ef261bd12e8842893b5f7c1d2c49c4",
+        "public_evidence": "software/evidence/study/figures/fig_pd_main.svg"
+      }
+    },
+    {
+      "path": "site/assets/fig_pd_shift.svg",
+      "sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+      "bytes": 20640,
+      "role": "verified website file",
+      "license_scope": "CC-BY-4.0; only James Liu rights; exact chart hash unchanged",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "628922d98404473ba9b0b6e79db93db53366fd5809efd90c9dbeaa6a36e2e44a",
+        "public_evidence": "software/evidence/study/figures/fig_pd_shift.svg"
+      }
+    },
+    {
+      "path": "site/assets/osu-lab_video.mp4",
+      "sha256": "f0c768bf05ed814261ed9789d42a5b588252b30d56e4cdd8afd0eeb6c2d9b299",
+      "bytes": 14727309,
+      "role": "verified website file",
+      "license_scope": "CC-BY-4.0; only James Liu-held rights in the approved video/poster; existing documentation scope, outside the exact105-file study/data grant",
+      "provenance": {
+        "source": "owner-approved custom-skin video export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "f0c768bf05ed814261ed9789d42a5b588252b30d56e4cdd8afd0eeb6c2d9b299",
+        "description": "Generated maps and recorded simulator states redrawn with a custom skin; no game/community-skin artwork or font files distributed",
+        "duration_seconds": 33
+      }
+    },
+    {
+      "path": "site/assets/osu-lab_video_poster.jpg",
+      "sha256": "d97812001eb2babfdd6cfdf92e2b6dadb42b91b0d3f2969e9c1fd74acb05ff87",
+      "bytes": 98436,
+      "role": "verified website file",
+      "license_scope": "CC-BY-4.0; only James Liu-held rights in the approved video/poster; existing documentation scope, outside the exact105-file study/data grant",
+      "provenance": {
+        "source": "owner-approved custom-skin video export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "d97812001eb2babfdd6cfdf92e2b6dadb42b91b0d3f2969e9c1fd74acb05ff87",
+        "description": "Generated maps and recorded simulator states redrawn with a custom skin; no game/community-skin artwork or font files distributed",
+        "duration_seconds": null
+      }
+    },
+    {
+      "path": "site/assets/site.css",
+      "sha256": "aa623af4cac83fc78771c63bb554b97b7d02f81bb08844fb50e86eee1cf640fe",
+      "bytes": 18751,
+      "role": "verified website file",
+      "license_scope": "Release-authored website code: MIT release-utility scope (LICENSE).",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "aa623af4cac83fc78771c63bb554b97b7d02f81bb08844fb50e86eee1cf640fe"
+      }
+    },
+    {
+      "path": "site/assets/site.js",
+      "sha256": "54a807aa31f4ba918eec18a9d472822285215a0d6eb493713458fc18943f4e37",
+      "bytes": 2875,
+      "role": "verified website file",
+      "license_scope": "Release-authored website code: MIT release-utility scope (LICENSE).",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "54a807aa31f4ba918eec18a9d472822285215a0d6eb493713458fc18943f4e37"
+      }
+    },
+    {
+      "path": "site/index.html",
+      "sha256": "b5701ad873092394851da7b99da76eaee4b5a2144639880b802d257d3511bbeb",
+      "bytes": 58716,
+      "role": "verified website file",
+      "license_scope": "Release-authored website text and markup: documentation scope, CC BY 4.0 (software/LICENSE-DOCS.md). Quotes James Liu's approved contribution statement verbatim. Figure 2 inside it is drawn from the three CC0-1.0 example maps.",
+      "provenance": {
+        "source": "verified website export",
+        "relationship": "byte-identical to approved export",
+        "export_sha256": "b5701ad873092394851da7b99da76eaee4b5a2144639880b802d257d3511bbeb"
+      }
     }
   ],
   "excluded": [
@@ -2470,5 +2575,5 @@
     "uncleared game assets",
     "unverified website output"
   ],
-  "integration_revision": 6
+  "integration_revision": 7
 }

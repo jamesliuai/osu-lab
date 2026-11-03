@@ -12,7 +12,7 @@ The [Pages workflow](../.github/workflows/pages.yml) runs only through `workflow
 4. In **Actions → Publish verified osu-lab site → Run workflow**, select `main`. The equivalent CLI command is `gh workflow run pages.yml --repo jamesliuai/osu-lab --ref main`.
 5. Confirm both jobs succeed, then open the site without authentication. Check the `/osu-lab/` base path, assets, navigation, Summary/Report/Code links, desktop/mobile layout and console. Fetch all release downloads and compare their SHA-256 values with the published metadata.
 
-The website uses relative assets and versioned Release URLs. After verification, the workflow archives `site/` explicitly, including its empty `.nojekyll` marker, and uploads that tar file as the `github-pages` artifact. This preserves all nine files; the generic Pages upload action excludes dotfiles. The artifact contains no software/evidence tree, private handoff, local build tooling, preview records or download copies. Never publish the repository root as a Pages artifact.
+The website uses relative assets and versioned Release URLs. After verification, the workflow archives `site/` explicitly, including its empty `.nojekyll` marker, and uploads that tar file as the `github-pages` artifact. This preserves all eleven files; the generic Pages upload action excludes dotfiles. The artifact contains no software/evidence tree, private handoff, local build tooling, preview records or download copies. Never publish the repository root as a Pages artifact.
 
 ## Local preview
 

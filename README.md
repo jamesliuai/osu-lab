@@ -45,8 +45,10 @@ python -I -S -B software/tools/verify_claims.py
 python -I -S -B software/tools/verify_documents.py
 ```
 
-[REPOSITORY_PUBLICATION.json](REPOSITORY_PUBLICATION.json) lists every publication file with its provenance and rights scope. [REPOSITORY_SHA256SUMS](REPOSITORY_SHA256SUMS) covers that inventory and its payload. The strict checks intentionally reject extra generated files. Pages deploys only the nine files in `site/` through the guarded manual workflow.
+[REPOSITORY_PUBLICATION.json](REPOSITORY_PUBLICATION.json) lists every publication file with its provenance and rights scope. [REPOSITORY_SHA256SUMS](REPOSITORY_SHA256SUMS) covers that inventory and its payload. The strict checks intentionally reject extra generated files. Pages deploys only the eleven files in `site/` through the guarded manual workflow.
 
 ## Rights and scope
 
-Software and release utilities retain the scoped MIT license. The exact owner-approved fixture/factual files use CC0-1.0 and the exact study/document/chart files use CC BY 4.0, limited to rights James Liu holds. See [license scopes](LICENSES.md) and [upstream notices](software/THIRD_PARTY_NOTICES.md). Third-party code and font notices remain separate. Game-renderer textures/fonts, demos, community maps, checkpoints and raw sealed inputs are excluded.
+Software and release utilities retain the scoped MIT license. The exact owner-approved fixture/factual files use CC0-1.0 and the exact study/document/chart files use CC BY 4.0, limited to rights James Liu holds. See [license scopes](LICENSES.md) and [upstream notices](software/THIRD_PARTY_NOTICES.md). Third-party code and font notices remain separate. Game-renderer textures/fonts, uncleared demos, community maps, checkpoints and raw sealed inputs are excluded.
+
+The website includes an owner-approved 33-second video and poster, under the documentation CC BY 4.0 scope for James Liu-held rights. It redraws recorded simulator play with a custom skin; it is separate from the unchanged software release and its prepared downloads. See the video caption for the distinction from the agent’s original input frames and for scientific scope.

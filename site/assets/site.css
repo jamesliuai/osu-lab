@@ -175,18 +175,13 @@ code { font-size: 0.88em; }
   .actions .m { display: none; }
 }
 
-/* Media under the links: a video when one is cleared; in the local preview, a reserved frame */
+/* Approved project video beneath the document links. */
 .media { width: 100%; max-width: 54rem; margin: clamp(2rem, 5vw, 3rem) auto 0; display: grid; gap: 0.8rem; }
 .media video, .media > img { display: block; width: 100%; height: auto; border-radius: 12px; background: #0b0c0d; }
 .media figcaption { justify-self: center; text-align: left; }
-.media--slot {
-  aspect-ratio: 16 / 9; place-content: center; justify-items: center; gap: 0.55rem; padding: 1.5rem;
-  border: 1px dashed var(--rule-strong); border-radius: 12px; background: var(--surface);
-  color: var(--ink-3); text-align: center; font: 400 0.9rem/1.5 var(--sans);
-}
-.media--slot svg { width: 3.25rem; height: 3.25rem; color: var(--ink-3); }
-.media--slot strong { color: var(--ink-2); font-weight: 600; font-size: 1rem; }
-.media--slot p { max-width: 26rem; }
+.media figcaption { display: grid; gap: 0.65rem; }
+.video-description summary { cursor: pointer; text-decoration: underline; text-underline-offset: 0.2em; }
+.video-description[open] summary { margin-bottom: 0.65rem; }
 
 /* Abstract */
 .abstract { max-width: var(--measure); margin: clamp(3rem, 7vw, 4.5rem) auto 0; display: grid; gap: 1rem; }
